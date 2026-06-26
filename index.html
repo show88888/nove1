@@ -10,7 +10,7 @@
       font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
       background: #fdf6ec;
       color: #3e3232;
-      max-width: 750px;
+      max-width: 800px;
       margin: 0 auto;
       padding: 20px;
       line-height: 2;
@@ -22,101 +22,156 @@
       margin-bottom: 30px;
     }
     .header h1 {
-      font-size: 28px;
-      letter-spacing: 4px;
+      font-size: 32px;
+      letter-spacing: 6px;
       color: #5a4a3a;
     }
     .header p {
       color: #8b7a6b;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .stats {
+      text-align: center;
+      color: #8b7a6b;
+      margin-bottom: 20px;
       font-size: 14px;
-      margin-top: 6px;
+    }
+    .search-box {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .search-box input {
+      width: 70%;
+      padding: 10px 16px;
+      border: 1px solid #d4c5a9;
+      border-radius: 20px;
+      font-size: 15px;
+      outline: none;
+      background: #fffaf2;
     }
     .toc {
       background: #fffaf2;
       border: 1px solid #e5d9c5;
-      border-radius: 8px;
-      padding: 20px 24px;
+      border-radius: 10px;
+      padding: 24px;
       margin-bottom: 30px;
+      column-count: 2;
+      column-gap: 24px;
+    }
+    @media (max-width: 500px) {
+      .toc { column-count: 1; }
     }
     .toc h2 {
       font-size: 18px;
       margin-bottom: 14px;
       color: #6b5a4a;
       text-align: center;
+      column-span: all;
     }
     .toc a {
       display: block;
-      padding: 8px 0;
+      padding: 6px 0;
       color: #8b6b4a;
       text-decoration: none;
       border-bottom: 1px dashed #e0d3bf;
       transition: 0.2s;
+      break-inside: avoid;
     }
-    .toc a:hover { color: #c0392b; padding-left: 8px; }
-    .chapter {
-      margin-bottom: 40px;
+    .toc a:hover { color: #c0392b; }
+    .chapter-content {
+      max-width: 700px;
+      margin: 0 auto;
     }
-    .chapter h2 {
-      font-size: 22px;
-      color: #4a3728;
+    .chapter-content h2 {
       text-align: center;
-      margin-bottom: 18px;
-      padding-bottom: 10px;
+      font-size: 24px;
+      color: #4a3728;
+      margin: 30px 0 20px;
+      padding-bottom: 12px;
       border-bottom: 1px dotted #c9b99a;
     }
-    .chapter p {
+    .chapter-content p {
       text-indent: 2em;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nav-buttons a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.2s;
+    }
+    .nav-buttons a:hover { background: #5a4a3a; }
     .footer {
       text-align: center;
       color: #b5a48b;
       font-size: 13px;
       padding: 24px 0;
       border-top: 1px solid #e0d3bf;
-      margin-top: 20px;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
 
   <div class="header">
-    <h1>📖 我的小说</h1>
-    <p>作者：您的笔名</p>
+    <h1>📖 药屋少女的呢喃</h1>
+    <p>作者：日向夏</p>
   </div>
 
-  <!-- 目录 -->
-  <div class="toc">
+  <div class="stats">
+    📚 共 <strong>300</strong> 章 · 持续更新中
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="🔍 搜索章节标题..." oninput="filterChapters()">
+  </div>
+
+  <div class="toc" id="toc">
     <h2>📋 目 录</h2>
-    <a href="#ch1">第一章 · 故事的开始</a>
-    <a href="#ch2">第二章 · 新的旅程</a>
-    <a href="#ch3">第三章 · 未完待续</a>
-  </div>
-
-  <!-- 第一章 -->
-  <div class="chapter" id="ch1">
-    <h2>第一章 · 故事的开始</h2>
-    <p>（在这里写您的小说内容）</p>
-    <p>夜幕低垂，街灯次第亮起。林晚紧了紧外套，快步走过熟悉的巷口……</p>
-  </div>
-
-  <!-- 第二章 -->
-  <div class="chapter" id="ch2">
-    <h2>第二章 · 新的旅程</h2>
-    <p>（在这里写您的小说内容）</p>
-    <p>第二天清晨，阳光透过窗帘缝隙洒进来……</p>
-  </div>
-
-  <!-- 第三章 -->
-  <div class="chapter" id="ch3">
-    <h2>第三章 · 未完待续</h2>
-    <p>（在这里写您的小说内容）</p>
-    <p>故事还在继续……</p>
+    <!-- 目录由下方脚本自动生成 -->
   </div>
 
   <div class="footer">
     © 2025 我的小说站 · 由 GitHub Pages 驱动
   </div>
+
+  <script>
+    // 总章节数（您根据实际情况修改这个数字）
+    const totalChapters = 300;
+
+    // 自动生成目录
+    const toc = document.getElementById('toc');
+    for (let i = 1; i <= totalChapters; i++) {
+      const num = String(i).padStart(3, '0');
+      const a = document.createElement('a');
+      a.href = `chapters/chapter-${num}.html`;
+      a.textContent = `第${i}章`;
+      a.setAttribute('data-chapter', `第${i}章`);
+      toc.appendChild(a);
+    }
+
+    // 搜索过滤功能
+    function filterChapters() {
+      const keyword = document.getElementById('searchInput').value.toLowerCase();
+      const links = toc.querySelectorAll('a');
+      links.forEach(link => {
+        const text = link.getAttribute('data-chapter').toLowerCase();
+        link.style.display = text.includes(keyword) ? 'block' : 'none';
+      });
+    }
+  </script>
 
 </body>
 </html>
