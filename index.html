@@ -132,6 +132,8 @@
 
   <div class="stats">
     📚 共 <strong>285</strong> 章 · 持续更新中6月28日00.48更77章
+    <br>
+    <span style="color: #8b7a6b; font-size: 13px;">有问题找b站：这有个毛线</span>
   </div>
 
   <div class="search-box">
@@ -140,7 +142,6 @@
 
   <div class="toc" id="toc">
     <h2>📋 目 录</h2>
-    <!-- 目录由下方脚本自动生成 -->
   </div>
 
   <div class="footer">
@@ -148,10 +149,7 @@
   </div>
 
   <script>
-    // 总章节数（您根据实际情况修改这个数字）
     const totalChapters = 285;
-
-    // 自动生成目录
     const toc = document.getElementById('toc');
     for (let i = 1; i <= totalChapters; i++) {
       const num = String(i).padStart(3, '0');
@@ -162,7 +160,6 @@
       toc.appendChild(a);
     }
 
-    // 搜索过滤功能
     function filterChapters() {
       const keyword = document.getElementById('searchInput').value.toLowerCase();
       const links = toc.querySelectorAll('a');
