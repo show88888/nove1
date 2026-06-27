@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十三</h1>
+</header>
+<p>十三、纸之村　前篇</p>
+<p>坐马车半日，位于都城西南方的村子便是庸医的故乡。据说是在山脚森林里的一个地方。</p>
+<p>沿着那条将国家分为东西两半的大河溯流而上，便能抵达。河边修有水道，但田里长着些像杂草似的东西。</p>
+<p>猫猫正盯着看，话多的庸医便主动解释起来。</p>
+<p>“那是麦子。”</p>
+<p>“麦子吗。灌溉做得真到位啊。”</p>
+<p>田周围修了水渠。麦子需要那么多水吗——猫猫歪了歪头。</p>
+<p>脚边是那只名叫毛毛——这名字真让人不爽——的猫。它似乎也在笼子里待腻了，在庸医膝上咕噜咕噜打滚，又探头往窗外张望。</p>
+<p>“那是夏天种水稻用的。这一带一年种两季，稻子和麦子轮着种。”</p>
+<p>“原来如此。”</p>
+<p>“种水稻的话，在同一块地上种别的作物也不容易贫瘠。”</p>
+<p>一年种两季作物，土壤的养分自然会流失更多。但若是水田，水会带来养分，土地就不容易贫瘠。</p>
+<p>穿过田地，便能看到森林了。村子就在那附近。</p>
+<p>“这一带还真是块丰饶的土地啊。”</p>
+<p>既然这么富饶，似乎不特地造纸也能过得下去，但事情恐怕没那么简单。</p>
+<p>“我们搬来这儿的时候，田地和耕地已经是别人的了。不过也正因如此，这片森林没人要，就扔在那儿了。”</p>
+<p>据说附近山上的泉水流入这片森林，林中长满了丰富的造纸原料树木。虽然大量生产有困难，但靠走高端路线倒也成功了。运输手段方面，靠近河边也很方便。</p>
+<p>不过，有件事让猫猫在意。</p>
+<p>她与一个踩麦子的农民对上了目光。</p>
+<p>他那样用力踩麦子，大概是有什么怨气吧。看向这边的眼神异常锐利，透着阴郁。</p>
+<p>猫猫假装没注意到，继续随口附和着庸医的话。</p>
+<p>到了村里，出来迎接的是一位四十来岁的婶子。眉眼间的柔和与微微下垂的眉毛，跟庸医很像。应该是庸医的妹妹吧。</p>
+<p>她接过装着猫的笼子，眯起眼睛摸了摸毛毛。看来事先已经通过信了。</p>
+<p>“哎呀哎呀，哥哥。欢迎回来。”</p>
+<p>“我回来了。”</p>
+<p>庸医看起来还算镇定，但眼里已微微泛着泪光。十多年才回一次老家，想必如此吧。</p>
+<p>“我想去给爹妈上个坟。”</p>
+<p>大概是在庸医无法出宫的期间过世的吧。庸医吸了吸鼻子。</p>
+<p>“嗯，知道了。不过——”</p>
+<p>婶子瞥了猫猫一眼。</p>
+<p>“这位小姑娘是谁？”</p>
+<p>她歪着头问道。</p>
+<p>“哎呀哎呀，是这么回事啊，是助手？那早说一声嘛。”</p>
+<p>（助手吗——）</p>
+<p>她说庸医的妹妹——名字之前好像提过，但听着不太耳熟，老实说没记住。唔，没办法，就叫她庸医婶子吧。</p>
+<p>既然要给庸医留面子，猫猫也不否认这个说法。</p>
+<p>庸医婶子不断把菜往长桌上摆。有香草蒸河鱼、蒸笼里的包子、金灿灿的炒饭，看着就香。</p>
+<p>她还特意给毛毛准备了混了鱼肉的粥。毛毛明明是一只猫，却格外厚脸皮地狼吞虎咽。</p>
+<p>“我还以为你一个宦官，怎么带了这么年轻的老婆来呢。”</p>
+<p>“哈哈哈，那怎么可能。”</p>
+<p>“是啊。”</p>
+<p>菜摆满长桌时，庸医婶子的一家子也回来了。一个头上扎着毛巾的中年男人，和两个年轻男子。中年男人是婶子的丈夫，剩下两个是儿子吧。</p>
+<p>“大舅哥，好久不见了。”</p>
+<p>丈夫摘下头上的毛巾，恭敬地向庸医行礼。庸医笑着回了一句“好久不见啊”。接着一个年轻男子也上来打了招呼。但另一个年轻男子却无视了庸医，径自坐到椅子上，埋头扒起饭来。</p>
+<p>“喂！连个招呼都不打像什么话！”</p>
+<p>婶子瞪着儿子。</p>
+<p>“哥——”</p>
+<p>另一个年轻男子也露出尴尬的表情看着这边。这位是弟弟，那么态度恶劣的那个就是哥哥了。</p>
+<p>庸医大外甥把热乎乎的包子掰开塞进嘴里。里面是猪肉馅，猫猫看得口水都快流出来了。</p>
+<p>“说什么要尊敬舅舅，可他不就是个多少年都没回来过的宦官吗？现在把他叫回来又能怎样？”</p>
+<p>听到这话，庸医像往常一样，耷拉着眉毛露出苦笑。因为宦官的身份而被明显瞧不起，他大概早已习惯了，但被亲外甥这样对待，心里想必不好受。</p>
+<p>猫猫多少也有些恼火。</p>
+<p>她心想，绝不能便宜了这小子——于是重重坐到椅子上，说道：</p>
+<p>“凉了就不好吃了，我先开动了。”</p>
+<p>说着，把外甥正要夹的菜一股脑全抢了过来。</p>
+<p>那小子“啊啊”地瞪着猫猫，但猫猫才不管。她可是见过比这小子壮实得多的男仆和武官的。</p>
+<p>婶子显然也气得不轻，只给大儿子没配粥和汤就分发了。丈夫和小儿子则是“惹不起躲得起”的态度，视而不见。</p>
+<p>大概是气不过家人的态度，大儿子又抓了个包子，便径自出去了。</p>
+<p>他出去之后，丈夫挠着头向庸医道歉。</p>
+<p>“对不住。那小子根本不懂您为这个村子做了多少。”</p>
+<p>“没事，我无所谓。这种事我早就习惯了。”</p>
+<p>庸医一边美滋滋地喝着粥一边说道。</p>
+<p>“习惯了”这话，庸医大概只是随口一说，但庸医婶子听了却露出难受的表情。</p>
+<p>原本就是为了不让庸医婶子被卖进后宫，庸医才顶替她去当了宦官。庸医的父母按理说应该更看重儿子才对。</p>
+<p>“话说回来，你大老远叫我回来，应该不只是为了吃顿饭吧？”</p>
+<p>“……”</p>
+<p>面对庸医的话，一家子沉默了。</p>
+<p>猫猫反正只是个旁听的，没打算停下筷子。蒸鱼咸淡恰到好处，香草也提味，非常好吃。她琢磨着待会儿能不能讨教一下调味的方法。</p>
+<p>丈夫放下筷子，看向庸医。</p>
+<p>然后缓缓低下了头。</p>
+<p>“听说大舅哥是给天子接生过孩子的名医。所以，我们想请您跟天子当面说个情。”</p>
+<p>“哈！？”</p>
+<p>（接生吗——）</p>
+<p>接生的不是庸医，而是罗门。不过就庸医这号人物而言，想必是夸大其词了。猫猫这点体贴还是有的。</p>
+<p>然而——</p>
+<p>庸医的眉毛垂得更低了，也放下了筷子。</p>
+<p>“让我去说情，也太不自量力了。”</p>
+<p>“您不是还伺候过宠妃生产吗？”</p>
+<p>这也太离谱了。就连高官，能进言的机会都有限，当面说情简直是大不敬，弄不好要掉脑袋的。</p>
+<p>猫猫虽然有过几次跟皇帝说话的机会，但那都是对方允许的。</p>
+<p>而且那位妃子已经不是妃子，已经成了皇后。既然已经出了后宫，要联系也不容易。</p>
+<p>照这样下去，庸医怕是要被硬推着去干这事，猫猫于是替他开了口。</p>
+<p>“之前有位在后宫当值的医官，因为被人挑剔本不该他负责的差事，受了肉刑，被赶出了后宫。”</p>
+<p>“！？”</p>
+<p>“据传，是因为他不该知道的事知道了太多。”</p>
+<p>说的是老爹的事，但也不全是假话。</p>
+<p>庸医婶子们脸色一僵，“唔”地皱起了脸，然后肩膀垮了下来。</p>
+<p>庸医看到这情形，慌忙摆着手，探出身子。</p>
+<p>“不，跟天子说确实不太可能，但说不定能找别的能说得上话的人。你们先把事情说给我听听。”</p>
+<p>听他这么说，婶子和丈夫对视了一眼。猫猫心想自己待在这儿会不会碍事，但既然来了，不听清楚又怎么知道是为什么来的。</p>
+<p>“这位小姑娘没问题。她嘴很严的。”</p>
+<p>庸医难得地察言观色了一回。</p>
+<p>“那——”</p>
+<p>丈夫缓缓开了口。</p>
+<p>原来，这个村的土地原本是租来的。据说附近的地主因为自己不用，便便宜租给了他们，但随着居住年数增加，便逐渐走向了买断。当时的地主是个豪爽的人，村里人也一直和和气气地过活。</p>
+<p>然而，几年前那位地主去世，换成了他儿子，情况就变了。</p>
+<p>新地主跟上一代不同，非常排外。而且他瞧不起手艺人，对村里因为造纸而成为宫廷御用似乎也颇为不满。</p>
+<p>之前纸的质量下降时，他就三番五次跑来催债。</p>
+<p>虽然与前地主签的书面约定是二十年转让村里的土地和森林，金额也写清楚了，付款也从未拖欠过。</p>
+<p>“那家伙老是找茬，说什么‘你们把水弄脏了导致稻米减产’，或者‘水不够种不了稻’之类的话。”</p>
+<p>二儿子一脸厌烦地说道。</p>
+<p>“这次更过分，比以前都厉害，说什么‘快点付钱，不然就滚出这块地’。”</p>
+<p>明明还剩五年才到付款期限。再怎么说，让人一次付清五年的钱也太强人所难了。</p>
+<p>对方是地主。就像猫猫拿老鸨没办法一样，这边怕是也硬气不起来。</p>
+<p>“要是搬走的话，房子和工具都得扔下。要找新地方也不知道要花多少时间。”</p>
+<p>“那家伙盘算着，干脆拿下我们的村子，自己来造纸呢。”</p>
+<p>“为什么？术业有专攻啊。”</p>
+<p>庸医捋着胡子说道。</p>
+<p>脚边那只闲下来的猫盯着胡须，屁股一扭一扭地作势要扑上去。</p>
+<p>“问题就在这——”</p>
+<p>婶子摇了摇头。</p>
+<p>“今年谷物的税突然涨了。”</p>
+<p>“而且我们这边，从前年就开始享受低税率了，所以对方更不高兴了。”</p>
+<p>听了这些话，猫猫大致明白了这背后的意图。</p>
+<p>纸的税低，是因为朝廷想要普及纸张、提高识字率。</p>
+<p>至于谷物税，这一带实行两季轮作，产量上即便加税也不至于困窘，也算是为今后储备吧。</p>
+<p>（是为了对付蝗灾吧——）</p>
+<p>把丰饶之地产出的粮食送到受灾严重的地方，就能少饿死一些人。这显然是壬氏他们的应对措施，猫猫并不觉得有什么不对，但对被加税的人来说，确实不好受。</p>
+<p>而这股怒火，便指向了这个村子。</p>
+<p>不过，正如庸医所说，即便拿下这个村子，造纸也未必能轻易上手。正因为有独特的技术和经验，才能造出好纸来。</p>
+<p>“而且更麻烦的是，那小子。”</p>
+<p>丈夫说的“那小子”，恐怕是指刚才态度恶劣的那个大儿子。</p>
+<p>“那小子有点缘由，站在当地农民那边。”</p>
+<p>“啊，我哥他——”</p>
+<p>弟弟尴尬地笑了笑。</p>
+<p>庸医歪着头不解，但猫猫猜测多半是跟女人有关。</p>
+<p>“不瞒您说，那小子没什么学问。只要是当官的，在他眼里全是一路货。”</p>
+<p>所以他才把宦官和加税的官员混为一谈，把气撒在庸医身上吧。</p>
+<p>“所以您要拜托的事是——”</p>
+<p>希望帮忙请求减税。</p>
+<p>说起来，这个村子属于皇帝直辖的“华央”领地。所以他们一开始才会想请庸医直接面圣说情吧。</p>
+<p>不过，那恐怕也不现实。</p>
+<p>如果是恶官为了私利而加税倒也另当别论，但这次的情况也实属无奈。而且即便加了税，也不至于到揭不开锅的地步。</p>
+<p>庸医也在犯愁。</p>
+<p>是啊，这种事本来就不是庸医能解决的。庸医膝上，毛毛正用前爪拨弄着他那晃动的胡须。下巴上已经多了几道抓痕。</p>
+<p>“我不过是个宦官罢了——”</p>
+<p>庸医消极的回答让所有人都垂下了肩膀。</p>
+<p>但丈夫还是垂着头开口了。</p>
+<p>“那，至少明天有一场谈判。您能陪我们去一趟吗？”</p>
+<p>“这个倒是没问题——”</p>
+<p>（虽然去了大概也帮不上什么忙吧——）</p>
+<p>猫猫一边想着“能跟去吗”，一边把正挠着庸医的毛毛抓了过来。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-012.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-014.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

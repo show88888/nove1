@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">054</h1>
+</header>
+<p>**七、命运饼干　前篇**</p>
+<p>梨花妃之后，接下来是新成为中级妃的沙欧女子。上级妃的宫殿空着三处，但都没有使用，她便和其他中级妃一样，被分到了一栋独立的楼。位置在后宫中央偏东，看起来并无特别优待，不过因为似乎是空置了一段时间的楼，周围显得有些冷清。庭院里的树木应是刚种下不久，泥土还泛着新翻过的颜色。</p>
+<p>出来迎接的侍女们笑容可掬地将猫猫等人迎了进去。侍女大约有五人，作为中级妃来说不算多也不算少。只是，她们的动作过于规范，透着一股被刻意安排了顺从侍女的气息。</p>
+<p>“你好。”</p>
+<p>前来的新妃有着一头金发，穿着想必还不太习惯的大袖服饰。白皙如透的肌肤，天蓝色的眼眸，丰满的身材，身量也很高挑。她慵懒地斜倚在长椅上，看着侍女们准备茶水。</p>
+<p>（正中皇帝好球区啊。）</p>
+<p>不过，猫猫觉得，以他的立场，不会轻易出手。虽然主上在夜里精力充沛，但猫猫知道他是个精明之人。两个男孩正在茁壮成长，现在没必要急着增加子嗣。更何况，若是亡命目的的女子生下孩子，日后恐怕会变成外交问题的火种。</p>
+<p>（虽说现在也已经够是个火种了。）</p>
+<p>猫猫看着眼前这个曾在西方之地，堂堂正正与罗半交锋的女人。她此刻虽然乖巧地斟着茶，但肚子里在想什么，实在难以捉摸。</p>
+<p>身旁的侍女试过毒后，将茶分给众人。</p>
+<p>“您可习惯后宫的生活了？”</p>
+<p>老爹缓缓地开口搭话。爱凛虽能流利地说这边的语言，但说得慢一些，她应该更容易听懂。</p>
+<p>“是的，承蒙大家关照。”</p>
+<p>她用修长的手指端起茶杯。茶杯是带有手柄的异国风格。她那修长的指甲上，仔细地涂着蔻丹。茶香带着一股甜味，想必是西方式发酵茶。猫猫有点想尝尝，但备好的茶只有老爹和庸医那份。</p>
+<p>（水晶宫里倒是提供了的。）</p>
+<p>想必是梨花妃体恤周到吧。</p>
+<p>老爹开始问诊，并为妃子把脉。老爹与其他医官的不同之处，大概在于他会将诊察结果数值化记录下来。虽不如罗半那般，但他将数字视为衡量身体状况的重要指标。</p>
+<p>他在桌上摊开便携的文具，流畅地书写着。</p>
+<p>这时，猫猫注意到，那字迹与平时不同。</p>
+<p>（西方文字？）</p>
+<p>乍一看，是弯弯曲曲如同蚯蚓般的文字。以前，老爹曾用这种文字书写医学相关内容，猫猫拼命想要解读，所以他后来才换了写法。</p>
+<p>猫猫正想着他为何又用回这种文字，却看到有几个人正拼命地朝这边窥视。庸医完全看不懂，只是被吩咐什么就递上什么工具。一名侍女一边重新沏茶，一边不时地瞥向这边。还有一个人——</p>
+<p>燕燕正若无其事地看着。</p>
+<p>内容并不重要。猫猫多少也能读懂一些。无非是“脉搏正常，健康状况良好”之类的简单话语。</p>
+<p>“没有特别异常。”</p>
+<p>“是这样啊。”</p>
+<p>平时说话流利的爱凛，只有句尾偶尔会发出奇特的音调。她大概还记得猫猫，不时地朝这边瞥上一眼。</p>
+<p>并无特别异状，众人正准备结束工作回去时，却被爱凛叫住了。</p>
+<p>“难得来一趟，请用些点心吧。”</p>
+<p>漂亮的布包里包着烤制点心。是形状奇特的饼干，散发着香喷喷的黄油气息。只有女官们获赠了点心，庸医一脸羡慕地看着这稀罕的点心，所以回医局后得分他一些。布包似乎没能准备成一样的，唯独燕燕那个是带花纹的。</p>
+<p>---</p>
+<p>巡视完剩下的中级妃处时，已近傍晚。食量小的猫猫也饿了。她想着撺掇庸医，回医局喝杯茶应该没问题吧。</p>
+<p>“今天虽只看了中级妃，但接下来还得依次为下级妃、侍女们诊察哦。”</p>
+<p>老爹用温和的语气说道。以前，他应该只给到中级妃为止看诊。况且，由庸医问诊，搞不好也没起什么作用。</p>
+<p>老爹重新以医官身份回来，帮手女官也增加了。老爹因年龄关系，不可能一直持续看诊，所以将来大概会以女官们为主体来进行吧。到那时候，后宫可能比现在缩小，工作也更方便了。</p>
+<p>“那么，就此告辞吧。”</p>
+<p>“再多待一会儿也没关系哦。”</p>
+<p>“那可不行。还有下一项工作等着呢。”</p>
+<p>庸医一脸依依不舍地看着。大概是除了偶尔有宦官来，能一起喝茶的朋友不多吧。猫猫曾经的侍女朋友小兰也不在了，他应该是觉得寂寞了。</p>
+<p>（她现在怎么样了呢？）</p>
+<p>猫猫想起了那个在民间顺利找到工作、讨人喜欢的姑娘。改天写封信给她好了。</p>
+<p>因为庸医一直眼巴巴地望着她得到的点心，猫猫便从怀里取出想分给他一些。她拿出布包，正要拈起点心时，却忽然察觉到了什么。那奇形怪状的饼干，是中空的筒状。筒里似乎塞着什么。她用指尖拈出一看，是一张小纸条。每一块点心里都塞着纸条。</p>
+<p>（嗯？）</p>
+<p>猫猫把原本准备分给庸医的点心又放回怀里，转身离开了后宫。</p>
+<p>至于庸医那失望的表情，她就当作没看见了。</p>
+<p>---</p>
+<p>工作结束后，回到宿舍，猫猫取出了得到的点心。她铺开布，把点心放在上面。饼干共有七块。每一块里都塞着差不多大小的纸条。</p>
+<p>（……这是什么鬼。）</p>
+<p>那像蛇又像蚯蚓的文字。虽然和老爹曾随手写下的西方文字相同，但这些文字并未连成有意义的语句。和猫猫使用的语言不同，西方的文字单独一个并不构成意义。需要将几个字组合起来才能形成一个单词。</p>
+<p>然而，这些零散的文字，她无法解读。是有什么含义吗？不巧的是，就算把现有的纸条拼起来，也对不上。</p>
+<p>（她在试探我。）</p>
+<p>果然是个难缠的角色。毕竟是个有胆量孤身进入后宫的女人。</p>
+<p>知道自己被试探，固然让人恼火，但解不开谜题更让人不甘心。</p>
+<p>猫猫把点心和纸条排列开来。纸条上写的字数，从两字到三字不等。纸被剪得比较随意，并非规整的方形，有的歪斜，有的扭曲。</p>
+<p>“剪得真粗糙。”</p>
+<p>纸上沾了点心的油，有些地方洇开了。用的是好纸，没有破损。</p>
+<p>（虽是恶作剧，做得倒是挺精巧。）</p>
+<p>她到底想干什么呢？猫猫把纸对着光看。</p>
+<p>正在她歪头思索时，传来了敲门声。</p>
+<p>会是谁呢？猫猫手里拿着纸条去开门，门外站着姚和燕燕。两人也住在同一栋宿舍。当然，她们和猫猫并无往来，所以即使有她们在，对猫猫也没影响。</p>
+<p>“有什么事吗？”</p>
+<p>面对猫猫的询问，绷着脸的姚开口了。</p>
+<p>“你白天从妃子那里拿到了点心吧？把那东西交给我。”</p>
+<p>她用命令的口吻说道。真奇怪，即便是对甜食不太执着的猫猫，也觉得不想给这种人。当然，猫猫明白这个女人绝不是因为贪吃才来要的。</p>
+<p>所以，猫猫决定稍微使点坏。</p>
+<p>“很抱歉，我已经用它代替晚饭了。西式的口感有点干巴巴的呢。是因为加了麦胚芽之类的吗？”</p>
+<p>她故意装作口中还有异物感地说道。姚的脸色瞬间变得煞白，逼近猫猫。</p>
+<p>“吐出来！快吐出来！”</p>
+<p>她摇晃着猫猫。看来，她也和猫猫一样，在饼干里发现了纸条。</p>
+<p>“剩下的呢！难道你全都没注意到，就那么吃了不成！”</p>
+<p>“姚大人。”</p>
+<p>制止了使劲摇晃猫猫肩膀的姚的，是燕燕。</p>
+<p>“我觉得猫猫小姐似乎在笑，那表情像是带着几分嘲弄，她大概是在戏弄您吧。”</p>
+<p>燕燕似乎记住了猫猫的名字。顺便，她还看穿了被说是面无表情的猫猫的表情。</p>
+<p>“戏弄？你说真的吗！”</p>
+<p>（被看穿了啊。）</p>
+<p>猫猫正了正神色，看向姚。</p>
+<p>“我确实是稍微玩了玩，但失礼的似乎是您这边吧？我不知道您对我有什么怨恨，但突然想要强夺他人之物，那和强盗可没什么两样哦。”</p>
+<p>猫猫说的是正论。虽然可能被觉得狂妄，但这点不能退让。姚对此倒也无法反驳。</p>
+<p>姚深吸了一口气又呼出，直视着猫猫。</p>
+<p>“刚才的烤点心里，有没有什么异常？如果有的话，请交给我。我会付你点心钱作为补偿。”</p>
+<p>“您说的异常是指什么呢？”</p>
+<p>“就是异常。比如，里面塞了奇怪的东西之类的。”</p>
+<p>若能拿到跑腿钱倒也不坏，但猫猫同样在意那些奇怪纸条的谜底。不想就这么轻易交出去。</p>
+<p>对方的烤点心里想必也塞了什么东西吧。但她不认为对方会轻易告诉她。</p>
+<p>猫猫瞥了一眼燕燕。虽是跟随姚的女官，但她似乎还能冷静地看待猫猫。</p>
+<p>（要不试试拉拢她这边吧。）</p>
+<p>猫猫一边思考着如何推进谈话，一边开了口。</p>
+<p>“既然您问我收到的点心里有什么，那就意味着，您的点心里也发现了什么东西吧？若您愿意告知，我也愿意交换信息。”</p>
+<p>“……”</p>
+<p>姚脸上露出明显不服气的表情。燕燕则紧盯着主人的动向。</p>
+<p>猫猫拿出了手中捏着的纸条。</p>
+<p>“让我看看您那边的，我也会给您看剩下的。”</p>
+<p>纸上写的是各自不同的文字。如果真有什么含义，就必须凑齐全部。所以，给她看一两张应该无妨。</p>
+<p>“其他的呢？”</p>
+<p>“只要您愿意给我看，我自然也会给您看。”</p>
+<p>猫猫和姚是对等的。既然同样通过了考试，就没道理分什么身份高低。虽然持不同看法的人很多，但至少在此时此刻，她们是对等的。</p>
+<p>“姚大人。”</p>
+<p>“……我知道了。”</p>
+<p>听到燕燕的话，姚不情愿地点了点头。</p>
+<p>“不过，总不能在走廊上站着谈吧。”</p>
+<p>“那就去我房间吧。”</p>
+<p>“不，去我的房间。”</p>
+<p>对猫猫来说去哪都行，但若是轻易听从对方安排，恐怕会被夺走主导权。</p>
+<p>“那么，去谈话室如何？我现在就去借用一下。”</p>
+<p>果然，打破僵局的还是燕燕。宿舍里有谈话室，可以在里面讨论工作之类的事情。若是密谈，那里确实方便。</p>
+<p>“明白了。我去准备一下。”</p>
+<p>猫猫应允后，转身回了房间。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-053.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-055.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

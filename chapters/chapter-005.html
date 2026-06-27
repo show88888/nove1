@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">五</h1>
+</header>
+<p>五、火鼠皮衣</p>
+<p>壬氏离开时已是黄昏，太阳还没落山。大概是睡了一觉的缘故，他气色很好，起床后连喝了三碗粥。</p>
+<p>猫猫心想，他回去后吃不下晚饭，会不会被水莲骂呢——这或许是她多管闲事了吧。</p>
+<p>猫猫目送着戴好蒙面的壬氏所乘的马车离开。这时，她感觉到一道视线。回头一看，只见一个打扮轻浮的妓女正倚在二楼的栏杆上，抽着烟管。那是三姬之一的白铃。丰满的肢体从和服的缝隙间若隐若现。</p>
+<p>“你差不多该死心了吧？”</p>
+<p>“什么意思？”</p>
+<p>猫猫无视了那个笑嘻嘻的小姐，转身回到了药屋。</p>
+<p>---</p>
+<p>药屋在绿青馆的行灯点亮时便打烊了。大半夜做生意也等不来什么好客人，而且灯油钱也浪费。</p>
+<p>盘点完店里的销售额后，猫猫把钱寄存在鸨母那里。如果住在破房子里还揣着大笔钱，会遭强盗惦记的。不如花点钱请人妥善保管。她收拾好火种和药材，锁上了狭小的店铺。</p>
+<p>“喂，回去了哦——”</p>
+<p>“诶——，就要走啦？”</p>
+<p>猫猫揪住不情不愿的赵迂的后脖颈，往破房子走去。绿青馆正后方的这间屋子四处漏风，冷得厉害。</p>
+<p>猫猫用火种点燃灶台里的引火纸，等火势变大后再添上柴火。</p>
+<p>赵迂似乎很冷，裹着被子蜷缩在稻草铺上。</p>
+<p>猫猫一边搅动锅里的汤，一边加热。她用肉干做汤底，加入了院子里摘的蔬菜和葛根。因为天冷，又削了些生姜进去。</p>
+<p>“喂，你不吃吗？”</p>
+<p>“吃啊——”</p>
+<p>赵迂像条毛毛虫似的想要蠕动过来，猫猫给了他一记拳头，然后抢走他的被子，扔给他一件棉袄作为替代。</p>
+<p>（冬天穿的，还想要一件啊。）</p>
+<p>虽然拿到了不少工钱，但猫猫并不打算乱花。赵迂虽然嘀嘀咕咕抱怨着，但既然被托付给了猫猫，她打算对他实行“不劳动者不得食”的教育。</p>
+<p>猫猫把汤盛进缺了口的碗里，递给赵迂。赵迂坐在椅子上，曲起膝盖吸溜吸溜地喝着汤。</p>
+<p>“肉再多点——”</p>
+<p>“那你去挣钱啊。”</p>
+<p>猫猫也吸溜吸溜地喝着汤。没有粥了，改吃烧饼。她把之前囤的烧饼挂在锅边加热，然后从中间切开，夹入炖蔬菜。</p>
+<p>“雀斑——，你明明挣得不少，怎么不吃点好的啊——？”</p>
+<p>赵迂一边抱怨，一边却伸手去拿第二个烧饼。</p>
+<p>“笨——蛋，我可是从那个老太婆那里租的店面哦。你知道房租要多少钱吗？”</p>
+<p>“那就搬到别的地方去呗——”</p>
+<p>“我说啊。在别的地方做下去，也有各种门道好不好。”</p>
+<p>猫猫说着，把剩下的汤浸到烧饼里，塞进嘴里。</p>
+<p>她要是想，或许可以过得再奢侈一点。但不那么做，自然有她的理由。</p>
+<p>“……明天，我去买衣服，你跟着来。穿成这样会冷吧。”</p>
+<p>猫猫只说了这么一句，便开始收拾碗筷。</p>
+<p>赵迂大喊一声“太好啦”，大大地伸展开手脚，结果就这么从椅子上摔了下来。也许是因为半身麻痹，他没来得及做出保护动作，在地上骨碌骨碌地打滚挣扎。</p>
+<p>（……）</p>
+<p>猫猫用冰冷的目光看着这一切，把饭碗泡进了水桶里。</p>
+<p>---</p>
+<p>第二天，猫猫他们去了集市。有一条大路将都城分为东西两半，那里每天都有集市。越往北走，店铺越气派；越往南走，阶级越低。花街位于都城南端，所以集市的起点处连帐篷都没有，只是在席子上摆着商品，非常简陋。</p>
+<p>再拐进岔道，路边摊就更多了。大概是因为靠近花街，卖奇怪药品的店也不少。当然，身为药师的猫猫不会被那种东西骗到，商贩们也不把她当客人，不会招呼她。</p>
+<p>猫猫每次都揪住到处乱跑的赵迂的后脖颈，朝着都城中央走去。有道是“贪便宜买穷自己”。路边摊的棉袄确实便宜，但布料太粗糙。那种货色，坏小鬼要是跑起来，很快就会破掉吧。</p>
+<p>即使稍微贵一点，有固定店铺的商品更让人放心。因为是在当地扎根做生意的商家，更重视信誉。</p>
+<p>猫猫从一排排店铺中走进她常去的一家店。那是面向平民的服装店，也卖旧衣服。</p>
+<p>掀开遮阳帘走进店内，天花板上挂满了衣服。店主人正一边打着哈欠一边缝补衣物。旁边的火盆里传来木炭噼啪迸裂的声音。为了防止火星溅到衣物上，周围围着护罩。</p>
+<p>“诶——，是旧衣服啊——”</p>
+<p>“别挑三拣四的。”</p>
+<p>赵迂还小，往后还会不断长大。能随时更换的衣服反而更方便。</p>
+<p>猫猫正在看有没有小孩穿的棉袄时，忽然有一件衣服吸引了她的目光。</p>
+<p>“这是什么？”</p>
+<p>赵迂眼尖地凑了过来。那是挂在墙上的一件衣裳。是一件长襖裙，上下都是白色，因此显得有些乏味。它有点像异民族的服饰，散发着不可思议的气氛。袖子上绣着藤蔓一样的刺绣，很是显眼。</p>
+<p>“看着好寒碜啊。”</p>
+<p>这个诚实的小鬼头把心里想的直接说了出来。猫猫心想“店老板可听着呢”，便敲了敲他的脑袋，但传来的却是笑声。</p>
+<p>“哈哈，你觉得它寒碜吗？”</p>
+<p>“难道不是吗？要是女儿家的衣裳，不是该用更鲜艳的颜色吗？”</p>
+<p>“说得也是啊。”</p>
+<p>店老板把针插回针插上，活动着僵硬的肩膀走了过来。</p>
+<p>然后，他眯起眼睛看着那件衣裳。</p>
+<p>“这个呀，是仙女穿过的衣裳哦。”</p>
+<p>“仙女？”</p>
+<p>赵迂兴致勃勃地探出身子。可能是因为身体麻痹，一直站着很吃力吧，不知什么时候他已经坐到了衣柜上。</p>
+<p>猫猫无奈地继续在店里翻看着。这位老板就是喜欢这样跟客人搭话打发时间。不知道他说的话有几分真假。不过，猫猫记得养父罗门经常被他缠住，白白浪费半天时间。</p>
+<p>（赶紧决定，赶紧回去吧。）</p>
+<p>赵迂听得入迷正好，趁这功夫把衣服定下来吧。然而，在狭小的店里，老板的话还是不听也得听。</p>
+<p>---</p>
+<p>**〇●〇**</p>
+<p>是的是的，这件衣裳是从西方带进来的东西哦。</p>
+<p>据说在西方某个村子里，村民救助了一位迷路的姑娘。姑娘长得很美，村民便爱上了她。</p>
+<p>这姑娘很神奇，她纺出的线跟任何别的线都不一样，她用那些线织了许多件衣裳，报答了帮助她的村民。那些绣着奇妙纹样的衣裳，卖出了其他织物的好几倍价钱。</p>
+<p>姑娘总是想回家乡，但没人知道她住在哪里。村民多次向姑娘求婚，姑娘最终答应了。</p>
+<p>可是呢，时机好像不太好。正好那时，姑娘的家人来找她了。村民不想放走好不容易得到的姑娘。他们把姑娘藏了起来，全村人一起装傻充愣。</p>
+<p>姑娘的家人虽然回去了一次，但似乎仍然心存疑虑。于是，村民决定赶紧办完婚事，让姑娘成为自家媳妇。一旦结了婚，家人就不再是家人了嘛。</p>
+<p>姑娘虽然抗拒，但村民可不管这些。他们在村里的泉水边让她沐浴净身，准备赶紧举行婚礼仪式。</p>
+<p>姑娘一边哭一边沐浴。至少……她穿上了自己做的、来自故乡的花嫁衣裳。</p>
+<p>姑娘该有多么悲伤啊。即使换上了嫁衣，她的眼泪也止不住地流，湿透了全身。</p>
+<p>在周围人的祝福声中，姑娘走向祭坛，准备与村民举行誓约之仪。然而，姑娘终究还是忘不了家人。</p>
+<p>她恳求他们放她回到家人身边。</p>
+<p>如果这也不行的话——姑娘把现场的油倒在自己身上。然后，将火把的火引到了自己身上。</p>
+<p>燃烧起来的姑娘穿过惊慌失措的村民之间。然后，消失在了泉水之中。</p>
+<p>那里只留下了一块布——是姑娘头上戴着的纱质面纱。</p>
+<p>火球般的姑娘不见了，村民想，也许她是回到天上去了吧。</p>
+<p>姑娘的家人也不见了，大家便都认为，他们是和姑娘一起消失在天际了。</p>
+<p>---</p>
+<p>**〇●〇**</p>
+<p>“然后，这就是仙女织成的衣裳哦。”</p>
+<p>“诶——”</p>
+<p>赵迂佩服地说道。</p>
+<p>猫猫大概挑好了，把几件棉袄拿起来在赵迂背后比了比。</p>
+<p>“喂，雀斑。这个好厉害。超厉害的，你买下来怎么样？”</p>
+<p>赵迂两眼放光地说道。</p>
+<p>“说得是啊，小姑娘你大概和那位仙女年纪也差不多吧。看在这份缘分上，我给你便宜点。”</p>
+<p>虽然这么说，但老板拨打的算盘珠子却高了一个位数。猫猫差点没忍住笑出声来。</p>
+<p>“喂喂，你不相信仙女传说吗？真没情趣啊。”</p>
+<p>店老板摊开双手，摇着头“哎呀哎呀”。猫猫眯起眼睛，仔细看了看那件所谓的仙女织成的衣裳。</p>
+<p>“我能稍微摸一下吗？”</p>
+<p>“嗯，别弄脏了。”</p>
+<p>猫猫确认了手感，又凝视着袖子的纹样，然后，她咧嘴一笑。</p>
+<p>“老板，这件衣裳，您觉得能按这个价钱卖出去吗？”</p>
+<p>“……什、什么意思。当然能卖出去啊。”</p>
+<p>话虽如此，他却正打算把这件衣裳卖给猫猫。如果真是仙女衣裳，价钱再高一个位数也不奇怪才对。</p>
+<p>猫猫拿起自己带来的衣服。</p>
+<p>“老板，如果这件衣服卖到这个价格的十倍，您怎么说？”</p>
+<p>“十倍？哈哈，那敢情好。你手里拿的那件衣服，就白送给你了。”</p>
+<p>老板半开玩笑地说道。</p>
+<p>“嚯嚯，是吗？赵迂，你听到了吗？”</p>
+<p>“听到了是听到了，可十倍怎么可能卖得出去啊？你说什么呢，雀斑。”</p>
+<p>连赵迂都带着嘲笑的语气说道。</p>
+<p>猫猫撇了撇嘴，用铁筷子夹起火盆里的木炭。</p>
+<p>“老板，这件衣裳和这块炭，我借用一下。”</p>
+<p>“喂！你要干什么！”</p>
+<p>猫猫从怀里掏出钱袋，咚的一声放到衣柜上。那是她所有的钱，但应该够买这一件衣裳了。</p>
+<p>猫猫不顾目瞪口呆的店老板，拿着衣裳和炭走出了店外。</p>
+<p>然后，她把衣裳扔到了路上。</p>
+<p>“喂、喂！”</p>
+<p>店老板脸色一变，但猫猫才不管呢。</p>
+<p>然后，她用筷子夹着的炭，落到了那件衣裳上。</p>
+<p>---</p>
+<p>“雀斑——，好热啊——”</p>
+<p>裹了好几层棉袄的赵迂说道。因为穿得太多，他整个人圆滚滚的像个达摩。</p>
+<p>“那就脱了。”</p>
+<p>嫌拿着麻烦才全部穿在身上的正是赵迂本人。猫猫右手拿着一件新和服。</p>
+<p>虽然颜色更素净些更符合猫猫的喜好，但既然是白捡的东西，她也不打算挑剔。</p>
+<p>“喂，雀斑。为什么那件衣裳没有烧着啊？”</p>
+<p>赵迂歪着头问道。</p>
+<p>对于店老板所说的仙女的衣裳，猫猫忍不住嗤之以鼻。比起那种名字，这东西明明有个更好的称呼。</p>
+<p>——火鼠皮衣。猫猫说出口来。不过，那是猫猫在店老板耳边低语，让他说出来的就是了。</p>
+<p>那件衣裳，即使放上烧红的木炭，火也没有蔓延开来。别说蔓延了，连一点焦痕都没有。</p>
+<p>“赵迂，你知道衣服是用什么做的吗？”</p>
+<p>“说的是棉或者麻吧？大体上，我听说是从草做出来的。”</p>
+<p>“刚才那件，是用石头做的。”</p>
+<p>赵迂的表情有趣地变化着。</p>
+<p>“石头，你说的是石头吗！那种东西也能做成衣服？”</p>
+<p>“石头也有很多种形态。”</p>
+<p>纤维状的石头也可以织成布。虽然罕见，但自古以来就有，被称为火浣布。猫猫觉得这个叫法有点乏味，便借用了东方岛国所用的名称。</p>
+<p>“因为是石头，所以不会燃烧。”</p>
+<p>然而，亲眼目睹这一幕的人会作何感想呢？即使知道火浣布的存在，大部分人也应该是第一次见到。加上这份珍稀性，总会有好奇的人愿意出高价购买。</p>
+<p>就这样，猫猫白得了一件和服。</p>
+<p>“嘿，原来是这样。那，仙女的故事呢？”</p>
+<p>“那个啊——”</p>
+<p>一半是真的，一半是假的吧。</p>
+<p>那件衣裳袖口的刺绣，猫猫有印象。那是养父罗门经常写的西方文字。把那种文字草书化后，看起来确实很像藤蔓的纹样。</p>
+<p>被称作仙女的那个姑娘，推测是西方的异民族，或者旅人吧。在地方村子里，如果近亲结婚持续下去，生下的孩子会体弱，因此渴望外来的血统。不知道那姑娘是真的迷路了，还是被拐来的，总之村里人得到了这样一位姑娘，肯定不会想放手。</p>
+<p>姑娘一心想要回到父母身边，便制作了衣裳。她使用了稀有的石棉作为材料，并把村里人看不懂的文字绣成纹样，暗中向同乡的人求救。</p>
+<p>在婚礼仪式上，姑娘大概在石棉衣裳里面穿了湿透的内衣吧。头发也弄湿，用纱质面纱包裹起来以掩饰。</p>
+<p>“你知道吗，有办法让木器放在火上也不会燃烧。”</p>
+<p>在器皿里装上水。这样一来，在水完全烧干之前，木器是不会燃烧的。只要有水存在，温度就不会升到一定以上，而在那个温度下，木头是不会燃烧的。</p>
+<p>在湿透的内衣外面穿上石棉衣裳，再在外面叠穿一层易燃的衣裳。</p>
+<p>然后趁着还没烧伤，跳进湖里就行了。</p>
+<p>如果在衣裳的纹样里记下逃跑的方法，那姑娘之后就能得救吧。当然，这并没有保证一定能成功，但从店老板的叙述来看，这个计划应该是成功了。</p>
+<p>“哦哦——”</p>
+<p>赵迂仍是一副傻乎乎的表情，佩服地说道。</p>
+<p>“那，你为什么不告诉店里的伯伯啊？”</p>
+<p>“不是要保留浪漫嘛。”</p>
+<p>猫猫说没必要把一切都拆穿，赵迂便露出一副无奈的表情笑了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-004.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-006.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

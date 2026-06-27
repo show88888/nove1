@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十一</h1>
+</header>
+<p>十一、白蛇仙女　后篇</p>
+<p>猫猫一边想着这到底是怎么回事，一边回到了座位。</p>
+<p>周围响起了欢呼声。大家都带着微醺，声音十分欢快。</p>
+<p>只是，壬氏他们几人一直静静地等着猫猫回来。</p>
+<p>"喂，那到底是怎么回事？"</p>
+<p>"就算您问我是怎么回事……"</p>
+<p>兴致勃勃地发问的是马闪。</p>
+<p>"你该不会是被人塞了什么钱吧？"</p>
+<p>猫猫觉得他说的话真失礼。高顺立刻一记拳头砸下来，马闪便闭嘴了。</p>
+<p>"并没有被塞什么东西。"</p>
+<p>猫猫摊开手掌，连袖子也翻出来给他们看。</p>
+<p>"有没有被谁看到？"</p>
+<p>"没有。"</p>
+<p>坛上只有白娘娘和一个帮忙的男人。文字应该也没有被看到，至于纸条被放进了哪根筒里，因为上面盖了布，所以应该无从知晓。</p>
+<p>（难道说……）</p>
+<p>猫猫忽然看向坛上。天花板上挂着灯笼，红色的流苏在摇晃。</p>
+<p>她想过，如果有镜子的话，也许连猫猫写的字都能被看到，但并非如此。天花板上似乎很难贴上那样的东西，而且最重要的是需要与之相配的镜子。在那样雾气弥漫、视线昏暗的环境中，镜子也会起雾。就算不用铜镜，而是用进口的高级镜子，恐怕也看不到。</p>
+<p>最重要的是，那位白娘娘的眼神看起来不太好。</p>
+<p>恐怕连一尺之外都只能看到模糊的影子吧。</p>
+<p>那么她到底是怎么做到的——猫猫正想着，下一个节目已经开始了。</p>
+<p>坛上摆了一张新桌子，上面放着各种各样的器具。</p>
+<p>白娘娘从中用筷子夹起一片小小的薄金属片。另外还准备了一个盘子。</p>
+<p>帮忙的男人接过金属片和盘子，放在托盘上在剧场内巡回走动。那金属片看起来只不过是打磨过的铜片。盘中的液体很深，以防洒出。</p>
+<p>看来果然没有时间上到二楼，上面零星传来不满的声音。但这是座位价格不同的问题，只能请他们放弃了。</p>
+<p>白娘娘从回来的男人手中接过金属片和盘子。然后，金属片被放入盘中，盘子则被放到了不知何时准备好的火上。</p>
+<p>白娘娘将东西放进去后，开始念诵咒语般的言辞，并跳起了舞。在雾气弥漫的昏暗室内，她全身看起来都在发光。</p>
+<p>舞蹈结束后，白娘娘拿起筷子，取出里面的金属片给大家看。</p>
+<p>（颜色变了。）</p>
+<p>从铜的红色变成了银色。</p>
+<p>附近的人们发出了"喔喔！"的欢呼声。</p>
+<p>"铜变成银了！"</p>
+<p>"真的吗！？"</p>
+<p>远处的人看不见，但看到其他人的反应后，也开始往前挤。想要爬上舞台的人被护卫拦住，但只要能凑到那么近，应该就能看清了吧。</p>
+<p>白娘娘用液体清洗了那金属片，再用布擦干。然后，这次直接将其置于火上。</p>
+<p>欢呼声更大了。</p>
+<p>"银变成金了！"</p>
+<p>银色这次变成了闪闪发光的金色。</p>
+<p>娘娘用筷子挥动它，散热后放到盘子上。男人将那金光闪闪的板子拿给大家看，在人群中巡回。</p>
+<p>"……这个你能解释吗？"</p>
+<p>壬氏双臂交叉说道。</p>
+<p>"稍后再说。现在先好好欣赏余兴节目不好吗？"</p>
+<p>猫猫双眼放光地说道。老实说，她觉得移开目光太可惜了。</p>
+<p>因为，就算她不是仙女，那也已经是足够有价值的东西了。</p>
+<p>……</p>
+<p>……</p>
+<p>之后，白娘娘又表演了几个有趣的节目。</p>
+<p>将湿润的石头放在纸上。对它施以咒语后，过一会儿便燃起了火。</p>
+<p>不知从何处变出蝴蝶，蝴蝶飞出去后，燃烧起来化为灰烬消失。</p>
+<p>每一个都博得了观众的欢呼。然后，到了最后一个。</p>
+<p>白娘娘端来了闪闪发光的银色液体。</p>
+<p>在众人对那奇妙的液体注目之时，娘娘将其倒入小杯子中，一饮而尽。</p>
+<p>"！？"</p>
+<p>猫猫差点站了起来。</p>
+<p>然而，她在半起身时克制住了自己，继续看着。</p>
+<p>"今晚各位玩得还尽兴吗？"</p>
+<p>娘娘保持着笑容，从坛上走了下去。</p>
+<p>在热潮未退的剧场内，观众们兴高采烈地谈论着刚刚发生的事。有人眼中燃烧着兴奋的光芒，有人则带着崇敬的目光望着仙女所在之处。</p>
+<p>只是，包括猫猫在内的四个人，并没有那么兴奋。</p>
+<p>"感觉非同寻常啊。"</p>
+<p>壬氏终于伸手拿起了酒杯。</p>
+<p>"壬氏大人。"</p>
+<p>猫猫不由自主地制止了那只手。</p>
+<p>"太失礼了。"</p>
+<p>马闪不满地看过来。</p>
+<p>"试毒吗？"</p>
+<p>壬氏放下了酒杯。</p>
+<p>"是的。"</p>
+<p>猫猫拿起自己面前的酒杯。闻了闻气味，滴了一滴在皮肤上。观察反应后，再用舌尖舔了一点送入口中。</p>
+<p>"……虽然不能完全确定，但感觉兴奋作用有些强。"</p>
+<p>酒精含量很少。近似于果汁水，很容易入口，但除此之外还隐约有其他复杂的味道。应该是掺了几种东西。能感觉到里面含有少许盐分。</p>
+<p>"我想应该不是毒。"</p>
+<p>只不过，相对于酒精浓度，药效被加强了。仅此而已。</p>
+<p>再加上……。</p>
+<p>摇摇晃晃的灯笼。</p>
+<p>昏暗的室内。</p>
+<p>奇妙的雾气与梦幻的仙女。</p>
+<p>眼前发生的不可思议现象。</p>
+<p>（这可真是。）</p>
+<p>作为让人盲目相信的理由，恐怕已经足够了吧。</p>
+<p>那么，这剧场内又有几成观众变成了那样呢。</p>
+<p>猫猫一边思量着，一边小口啜饮着酒。</p>
+<p>（果然还是有点咸啊。）</p>
+<p>就在她想着"不加盐应该更好喝"的瞬间——。</p>
+<p>"！？"</p>
+<p>猫猫忽然将手指伸进酒杯里。然后，像用墨水一样，将果酒在桌面上涂抹开来。</p>
+<p>"你在干什么？"</p>
+<p>"原来如此，是这样一回事啊。"</p>
+<p>猫猫没有回答壬氏的疑问，而是环顾四周。</p>
+<p>（既然那个是这样，那这个也一定有什么机关或把戏。）</p>
+<p>她后悔如果能站在舞台上的时候多观察一下周围就好了。那里到底有什么呢。</p>
+<p>雾气比别处更浓，很热，头很疼，而且莫名地无法集中注意力。</p>
+<p>（雾……）</p>
+<p>大概，那是水蒸气吧。大概是从舞台后面排放出来的蒸汽吧。</p>
+<p>那样的话，热的原因也说得通了。</p>
+<p>那么，头疼又是为什么呢。</p>
+<p>那感觉就像蚊子嗡嗡叫一样。</p>
+<p>那到底是什么呢。</p>
+<p>（嗯？）</p>
+<p>正当她想到某种可能性时，舞台深处隐约瞥见了白娘娘的身影。</p>
+<p>猫猫将手指抵在嘴边，噘起嘴唇吹了口气。</p>
+<p>"喂，你吹什么口哨。"</p>
+<p>马闪眯起眼睛看着猫猫。</p>
+<p>声音并不大。周围嘈杂喧闹，按理说不该传到那么远的地方。</p>
+<p>然而，白娘娘却似乎肩头一颤，环顾了四周。</p>
+<p>（啊。原来如此啊。）</p>
+<p>猫猫露出狡黠的笑容，向壬氏他们提议要不要出去。</p>
+<p>……</p>
+<p>……</p>
+<p>外面很冷。如果可能的话，她想在附近的小饭馆里边坐边聊，但戴着面罩不便进去。无奈之下，只好在马车里谈话。</p>
+<p>回绿青馆之后再谈也可以，但壬氏他们三人似乎想立刻弄清楚来龙去脉。</p>
+<p>猫猫决定先解释铜变成银和金的原理。</p>
+<p>"那与所谓的黄白术非常相似。"</p>
+<p>如果说炼丹术，可能更容易理解吧。火药也是由此诞生的产物。黄白术则是其中将贱金属转变为贵金属的技术。</p>
+<p>炼丹术本是为了延年益寿的方术，但实际上大多是不可信的。古代有皇帝因过度追求长生不老，用错误的方法丧命，这在史书中有记载。</p>
+<p>确实很相似，但话说回来，与其说那像炼丹术——。</p>
+<p>"我觉得更接近西方所说的炼金术（Alchemy）。"</p>
+<p>"西方的？"</p>
+<p>"是的。"</p>
+<p>猫猫对壬氏的问题点了点头。</p>
+<p>"我只是听养父说起过，亲眼见到还是第一次。不过，养父曾亲眼见过几次，并且理解了其中的原理。那并不是真的变成了银，也不是变成了金。只是在表面镀了一层，通过用火烤制使其变成了不同的物质而已。"</p>
+<p>猫猫也想试试，但老爹不肯告诉她关键的材料。就算告诉她，恐怕也不是药屋里能凑齐的材料吧。</p>
+<p>"如果想详细了解的话，请去问罗门。顺便，如果他愿意也教给我的话，我会很高兴的。"</p>
+<p>说着，猫猫双眼闪闪发光。</p>
+<p>另外，纸自然燃烧起来，利用那个过程中产生的副产品也可以做到；蝴蝶的出现，如果那是做工精巧的纸制品的话，也说得通。</p>
+<p>在场的人都因雾气而视线不佳，而且喝了令人易醉的酒。就连没喝酒的壬氏他们都被骗了，其他人想必更不会察觉了吧。</p>
+<p>顺便一提，用纸做的蝴蝶，在东方的岛国流传的奇术中应该也有类似的东西。</p>
+<p>"那么，你被看穿心思的理由又是什么？"</p>
+<p>"关于那个也——"</p>
+<p>猫猫请高顺借给她两张怀纸和便携用的书写工具。然后，将两张纸叠在一起，用饱蘸墨汁的笔在上面写了一个"七"字。写完后，将放在下面的那张纸拿给壬氏他们看。</p>
+<p>"怎么样？"</p>
+<p>"什么怎么样，这不都透过来了吗。"</p>
+<p>上面虽然断断续续，但确实透出了"七"字。</p>
+<p>"是的，就是这样。"</p>
+<p>"就算你说是这样，如果你写的纸下面放的是能透字的东西，那也太明显了吧。"</p>
+<p>"嗯，确实如此。"</p>
+<p>猫猫写字的纸下面垫着一块黑色的垫板。那样的话，就算透过去也看不见吧。</p>
+<p>"但是，确实透过去了。"</p>
+<p>猫猫接过笔的时候，笔上蘸满了墨汁。她记得那是种莫名廉价的墨，还带着沙粒感。</p>
+<p>"如果那墨里掺了墨以外的东西的话——"</p>
+<p>比如说盐吧。如果盐被溶解在墨里，再用它写在纸上。薄而柔软的纸渗出的墨汁浸入黑色的垫板。等它干了之后会怎样呢？</p>
+<p>溶解在墨中的盐分干燥后会浮显出来。</p>
+<p>当然，说那是盐只是打个比方，但如果是这样的话，写了什么字就能看出来了吧。</p>
+<p>"那么，知道纸条被放进了哪根筒里，又是怎么回事？"</p>
+<p>"那是靠声音。"</p>
+<p>"声音？"</p>
+<p>那个剧场里，铃和铜锣的声音响彻不断。</p>
+<p>然而，在那之下还隐藏着另一个重要的声音。</p>
+<p>"我当时在场，觉得头非常疼。恐怕是有一种让人无法察觉的高频声音在响着吧。"</p>
+<p>高音会让人耳朵疼。即使没有当作声音被意识到，猫猫似乎也在无意识地感到不适。</p>
+<p>"高音？"</p>
+<p>"是的。"</p>
+<p>猫猫吹起了口哨。</p>
+<p>"这个各位都能听到吧。"</p>
+<p>"我耳朵又不差。"</p>
+<p>"那么，这个——"</p>
+<p>猫猫尽量把音调得更高。壬氏和马闪表情如常，但高顺一瞬间歪了歪头。</p>
+<p>"能听到。"</p>
+<p>"能听到。"</p>
+<p>"……也能听到。"</p>
+<p>高顺的回答慢了一拍。</p>
+<p>"那就好。因为随着年龄增长，会越来越难听到。"</p>
+<p>高顺僵住了。</p>
+<p>他自以为还年轻，但身体毕竟在逐渐老去。</p>
+<p>"人能听到的音高各不相同。"</p>
+<p>即使是同一年代也会有所不同。就像视力有好有坏一样，听力也有好有坏。</p>
+<p>另外，虽然不能断言，但视力不好的人有时听力会更好，以弥补视力的不足。</p>
+<p>"那位仙女的耳朵应该非常敏锐吧。"</p>
+<p>在远处那阵噪音中，她仍对猫猫的口哨作出了反应。</p>
+<p>恐怕她平日里就在训练自己辨别笛声吧。</p>
+<p>因此，那个剧场里的乐器中才没有笛子一类的东西吧。</p>
+<p>竖笛和横笛都是在管子上开孔，通过按住孔洞来改变音高。假设插在箱子里的那一百根管子就是代替了笛子的孔洞。如果猫猫把纸紧紧地塞进了管子里，那就等同于按住了笛子的孔。</p>
+<p>"也就是说，你能分辨出一百种声音，知道是第几根？而且，就算那个箱子能当笛子用，又要怎么吹呢？"</p>
+<p>"也有那种可能性，但还有更确定的方法。"</p>
+<p>铜锣和铃的声音。如果那作为信号，用笛子吹十次呢？因为上面盖了布，就算帮忙的男人在旁边也没问题。如果男人在箱子旁边操作送气的部位的话——。</p>
+<p>不需要记住一百种声音，只要能分辨出十个声音就够了。</p>
+<p>"至于怎么吹的，用那雾就能解释了。"</p>
+<p>假设雾是水蒸气，是从某处烧水产生的。</p>
+<p>如果让那蒸汽从桌子下面进来会怎样呢？大家都只注意桌面上，没有人会去看桌下的构造。</p>
+<p>"这样能理解了吗？"</p>
+<p>"嗯。"</p>
+<p>壬氏他们点了点头。</p>
+<p>只有高顺，一边搓着自己的耳朵，一边出神地望着远方。</p>
+<p>"最后……"</p>
+<p>猫猫开始解释白娘娘最后喝下的银色液体。</p>
+<p>"那是剧毒。能否请各位高官安排一个机会，告诫大家千万不要模仿？"</p>
+<p>猫猫用认真的目光对壬氏说道。</p>
+<p>……</p>
+<p>……</p>
+<p>壬氏的能力，即使不说十句，也能做到二三成。</p>
+<p>即便如此，对方似乎还是高了几招。</p>
+<p>白娘娘的舞台，在几天后便消失得无影无踪了。</p>
+<p>取而代之留下的，是都城商人中发生的神秘食物中毒死亡事件。</p>
+<p>她到底想做什么呢。</p>
+<p>那位如同白蛇一般的仙女。</p>
+<p>她留下了这个谜团，便消失了。</p>
+<p>……</p>
+<p>……</p>
+<p>古往今来，当权者们都争相寻求长生不老之药。那时，他们曾将一种既是金属又是液体的、如水般的银，作为仙药服用。</p>
+<p>结果，他们却不曾想到这会缩短自己的寿命。</p>
+<p>那种如水般的银，就被称为水银。</p>
+<p>猫猫心想，那时直接将水银喝下的白娘娘后来怎样了呢。水银如果以那种液体的状态直接排出体外，就不会成为剧毒。但如果变成蒸气被吸入，或者与其他物质结合改变形态，就会变成重毒。</p>
+<p>有时它也会被用作药物。毒与药，皆在用法。</p>
+<p>猫猫看着丹砂那鲜艳的朱红色，轻轻将其收进了药架。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-010.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-012.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

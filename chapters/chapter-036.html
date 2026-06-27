@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">036</h1>
+</header>
+<p>**九、起舞的水精 前篇**</p>
+<p>“麻子脸，还没弄完吗？”</p>
+<p>赵迂坐在树桩上，晃着腿说道。</p>
+<p>（所以我才不想带他来啊。）</p>
+<p>小鬼头没耐心。带他来倒是带来了，但会变成累赘是明摆着的事。老妈子让猫猫带上赵迂，肯定是因为想把这个碍手碍脚、打扰男人们干活的臭小鬼打发走。什么怕他寂寞，骗鬼呢。</p>
+<p>猫猫无视赵迂的牢骚，继续割着树根下长的草。虽然想只取嫩芽部分，但筛选是之后的事。</p>
+<p>“喂——麻子脸——”</p>
+<p>“吵死了。是你自己要跟来的吧。”</p>
+<p>猫猫一边把药草塞进麻袋，一边说道。</p>
+<p>赵迂双手放在两腿之间，不满地看着猫猫。</p>
+<p>“可是我好累啊。”</p>
+<p>虽然没走多远，但草丛和落叶让路很不好走。对身体还留有麻痹症状的赵迂来说，容易疲劳这点猫猫是理解的。这大概也没办法。但即便如此，猫猫也不会惯着他。</p>
+<p>“那你就在那儿等着。我还要往里面去。”</p>
+<p>“诶——”</p>
+<p>赵迂张大了嘴，一副想对猫猫说什么的表情。</p>
+<p>“你要丢下我走吗！”</p>
+<p>“你不是累了吗？等着吧。”</p>
+<p>赵迂“唔唔唔”地扭曲着脸，从树桩上站了起来。就像老妈子说的，他确实有怕寂寞的一面。在花街的时候，他也大多待在男人们或女童们身边。</p>
+<p>“我去！我去就是了，别丢下我！”</p>
+<p>赵迂拖着笨拙的步子，跟在了猫猫身后。猫猫用冷淡的眼神瞥了他一眼，朝林子深处走去。</p>
+<p>---</p>
+<p>林子里长着各种各样的树木。阔叶林居多，到了秋天应该会有很多果实。如果有针叶林倒是适合做木材，但在这种国家，那样的森林或林子大概大多在北部一带。</p>
+<p>途中，猫猫发现树莓便送入口中。赵迂也跟着学，吃倒是可以，但嘴巴变得又红又黏糊。</p>
+<p>“这个好酸啊。”</p>
+<p>“因为才刚开始结果嘛。”</p>
+<p>猫猫虽然这么说着，却还是不停地摘树莓吃。</p>
+<p>“麻子脸！这个蘑菇能吃吗？”</p>
+<p>赵迂发现枯木上长着小蘑菇，问道。</p>
+<p>（真少见。）</p>
+<p>猫猫本以为这是更靠南边才有的蘑菇，没想到会长到这儿来。她捏起那小蘑菇。</p>
+<p>“能吃吗？”</p>
+<p>“可惜，不好吃。而且也没毒。”</p>
+<p>也就是说，对猫猫来说是没兴趣的东西。</p>
+<p>赵迂失望地耷拉下肩膀。</p>
+<p>途中发现了灵芝，猫猫正高兴地前进着，眼前出现了一片湖。据说这片林子原本是环绕湖泊的大森林，但后来因为开垦农田，森林被分割成许多小块，变小了。</p>
+<p>被分割后剩下的森林与不同的村子相邻。不如说，可能是建村子的时候故意分隔开的。</p>
+<p>有些植物只长在水边，于是猫猫朝湖边走去。湖心可以看到一座小岛。林子和湖的边界处，像围栏一样拉着一圈注连绳。自古以来，水边就被称为异界的入口。湖心那座小岛上也因此建了座小祠堂吧。猫猫曾听说，湖的主人就在那里，是巨蟒的化身。不能杀蛇的说法大概就源于此。</p>
+<p>而为了管理这个地方，湖边有一间小屋。</p>
+<p>猫猫向那间小屋走去。</p>
+<p>小屋是吊脚楼式的。据说下大雨时，湖水水位会上涨到这座小屋的高度，所以才建成这样。小屋的柱子上留着水位曾上涨到哪里的痕迹。</p>
+<p>赵迂似乎觉得很有趣，正用手指戳着那些水痕看。猫猫走上台阶，朝小屋里张望。</p>
+<p>似乎是注意到了猫猫的视线，一个毛发蓬乱的老爷爷从里面走了出来。</p>
+<p>“这几年都没见你来，我还以为你嫁人了呢。”</p>
+<p>“可惜，是个嫁不出去的老姑娘。”</p>
+<p>“可你身边带着个不小的孩子啊。”</p>
+<p>猫猫心想，这老头还是一样嘴臭。他好像是养父罗门的旧识，以前在都城当过医生。据说医术很好，但性格乖僻、厌恶人类，所以现在隐居在这种偏僻的地方。</p>
+<p>他现在靠采药草勉强维生。虽然是祠堂的管理人，但据说实际上也不做什么大不了的事。湖上也没有船，他好像也从来不去祠堂。</p>
+<p>“喏，有用的东西就拿走吧。”</p>
+<p>老头把挂在墙上晾干的药草摆在一张粗糙的长桌上。这个季节没有的药草、稀有的药草，从这老头这里买最方便快捷。</p>
+<p>猫猫走进小屋，开始估价那些药草。</p>
+<p>老头“哎哟喂”一声坐到椅子上，弓着背。他比罗门大了十多岁，随时都可能咽气。三年不见，他似乎又老了许多。</p>
+<p>不过，药草倒是晒得精细，品质也不差。而且，以他这老迈之躯，能收集到这么多，也算不错了。</p>
+<p>“看你还没老糊涂，我就放心了。不过你居然能收集到这么多啊。”</p>
+<p>“嫁不出去的老姑娘果然嘴臭。”</p>
+<p>听到这话发笑的是赵迂。猫猫半睁着眼瞪了赵迂一下，把需要的药草放到布包上。</p>
+<p>“哪里。最近有人来帮忙了。”</p>
+<p>“帮忙？村里的孩子吗？干得挺不错啊。”</p>
+<p>猫猫故意做作地看向赵迂。赵迂则撅起嘴，一副“干嘛”的表情。</p>
+<p>“不，是前阵子在都城捡来的。那小子还挺能干的。你看，说曹操曹操就到——”</p>
+<p>话音刚落，就传来了上楼梯的脚步声。</p>
+<p>“爷爷——我把你要的东西采回来了——咦？有客人？”</p>
+<p>那是个有些耳熟的、没心没肺的开朗声音。</p>
+<p>提着一个大布袋出现的，是一个用布巾遮着眼罩的青年。</p>
+<p>（难怪觉得耳熟。）</p>
+<p>站在那里的人，正是那个本应在都城找工作的克用——脸上留着天花疤痕的男人。</p>
+<p>---</p>
+<p>“哎呀，然后呢——人家说，像你这种脸长得这么瘆人的医生，我们可不要——”</p>
+<p>克用这个男人，再次用完全听不出他有任何自怨自艾的声音，讲述了自己的遭遇。</p>
+<p>这个话多的男人，一看到猫猫就开始叽里呱啦地说个不停。老头问他“你认识？”，赵迂则感叹道“你这个怪哥哥认识的人还真多啊”。</p>
+<p>简单来说，这个男人想在都城开医馆，于是走访了好几家诊所。然后每次都被问起眼罩的原因，他就傻乎乎地让人看那些疤痕。那些没见识的医生怕他传染疾病，把他赶了出来，说再也不准来。即便是有见识的医生，虽然知道他已经不会再传染了，但医生终究也是做生意的。没有理由轻易雇用一个戴着怪异眼罩的男人。就在这种情况下，这个老头——拖着老迈的身体去送订好的药草时，正巧撞见他被诊所赶出来，于是就把他捡了回来。</p>
+<p>这老头虽然厌恶人类，但医术确实高明。他年纪大了，四处走动也很吃力，正好想要个帮手。试着问了他一些医药知识，发现比他想象的要靠谱得多，所以他就在这里住下了。这种偏僻的地方不像都城那么在意戴眼罩的男人，而且据说也已经跟村长说明过情况了。</p>
+<p>“哈哈哈。这世道真是艰难啊。不过总归有口饭吃，也算不错啦——”</p>
+<p>克用就是这么个调调，而老头也找到了个好使唤的跑腿，总之两边似乎都没什么不满。</p>
+<p>（早知道这样，把他叫到这边来就好了。）</p>
+<p>猫猫觉得有点可惜，但事已至此也没办法。就算把他带回来，估计也会被老妈子当成罗门那样使唤，所以这边或许对克用来说更好。</p>
+<p>克用把新采来的药草摆开。</p>
+<p>“刚采的，新鲜着呢——”</p>
+<p>看着笑眯眯的青年，赵迂从下方仰头看着他。他把那张像呆松鼠一样的脸凑向克用，伸出了手。</p>
+<p>“大哥，你眼罩下面长什么样啊？”</p>
+<p>“啊，你要看吗？”</p>
+<p>克用先说了句“可能会有点恶心哦”，然后摘下了眼罩。赵迂“哇”地发出一声非常失礼的惊叹，然后啪啪地拍了拍克用的肩膀。</p>
+<p>“大哥，真可惜啊。本来长得挺好的，这样一来就没法做服务业了嘛。”</p>
+<p>“是吧——我觉得自己态度还挺好的啊——”</p>
+<p>猫猫无视这两个悠哉的家伙，开始给药草估价。她看到一片从没见过的大叶子，眯起了眼睛。</p>
+<p>“这是什么？”</p>
+<p>“是香烟的叶子。”</p>
+<p>克用一边和赵迂嬉闹一边说道。</p>
+<p>香烟——烟管是老鸨和妓女们爱用的东西，但意外地在老百姓之间并不普及。之前猫猫还曾修好一根损坏的烟管，想送还给原主，可见那是相当贵重的东西。</p>
+<p>烟叶是嗜好品。小气的老鸨会吸它，是因为它有依赖性。妓女们大概也只有老鸨吸的时候才能跟着吸吧。养父罗门也说过，吸太多对身体不好。</p>
+<p>据猫猫所知，烟叶大多使用舶来品。她只见过干燥碾碎后的样子，所以没见过完整的叶片。</p>
+<p>“栽培本身倒不算太难。”</p>
+<p>从旁边插话的是老头。</p>
+<p>“是吗？”</p>
+<p>猫猫饶有兴趣地观察着叶子。她想，如果能在院子里种这个，说不定能做成好买卖。不过，对方应该不会那么轻易就给她种子吧。顶多能分到点叶子就不错了，但低价进货，让妓女们更加养成吸食烟管的习惯，这也有点说不过去。</p>
+<p>不过，姑且先问问看。</p>
+<p>“这个，卖多少钱？”</p>
+<p>“这个是非卖品。”</p>
+<p>老头拿起香烟叶子，扎成几束挂到了屋檐下。</p>
+<p>（自用的吗？）</p>
+<p>但是，这家里没看到类似吸烟工具的东西，也没见过他抽烟。</p>
+<p>仿佛在回答猫猫的疑问，老头提起放在地上的壶，放到了长桌上。打开盖子，一股独特的气味飘散出来。</p>
+<p>“爷爷，这个好臭！”</p>
+<p>赵迂故意捏住鼻子。一边捏着一边往里看。</p>
+<p>“该不会是喝的吧？”</p>
+<p>里面是褐色的液体。</p>
+<p>“千万别喝。喝了会死的。是用香烟叶子泡的。”</p>
+<p>“呃呃——那为什么要泡这种东西啊？”</p>
+<p>赵迂坐到放在地上的木箱上问道。</p>
+<p>“用来驱蛇。”</p>
+<p>猫猫啪地拍了一下手。她知道烟草叶吃了有毒，也知道那种毒对虫子也有效。但对蛇也有效，这还是头一次知道。虫子暂且不说，蛇她之前只想到去抓，从来没想过要驱赶。</p>
+<p>“因为有什么不能杀蛇的荒唐说法。我这边是为了避免出大事，才不得不小心着点啊。”</p>
+<p>老头像吐口水般说道，克用则笑眯眯地准备茶水。看到他从柜子里拿出馒头，赵迂的眼睛顿时亮了起来。</p>
+<p>“明明这几十年来，我都没管过什么祠堂的事了。事到如今，就算说什么蛇神的使者出现了，我也很为难啊。”</p>
+<p>“啊哈哈。诅咒师什么的，最糟糕了呢——”</p>
+<p>克用大概也带着私人恩怨，用开朗的声音附和道。</p>
+<p>猫猫倒是有个小小的疑问。就算是前任村长的遗言，村民们真的会那么忌讳杀蛇吗？或许是因为他们原本就信仰蛇神吧。</p>
+<p>“那个诅咒师，就那么有说服力吗？”</p>
+<p>猫猫随口问了一句，老头露出嗤之以鼻的表情。</p>
+<p>“哈，说到这个。那些迷信的家伙们，就好像是被什么东西迷惑了一样。”</p>
+<p>“被迷惑了？”</p>
+<p>狐狸倒也罢了，被蛇迷惑的话——</p>
+<p>（被狐狸迷惑就已经够了吧。）</p>
+<p>猫猫正歪着头，克用打开了小屋的窗户。可以看到湖和祠堂。</p>
+<p>老头看向外面，捋了捋乱蓬蓬的胡须。</p>
+<p>“老夫倒是没亲眼见过。不过据说是这样的——那个诅咒师……”</p>
+<p>浮在湖面上，一边起舞一边向祠堂走去。</p>
+<p>“他说自己是湖主大人的使者。”</p>
+<p>据说是这样。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-035.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-037.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

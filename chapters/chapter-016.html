@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十六</h1>
+</header>
+<p>**十六、堆积如山的问题**</p>
+<p>夜空中，月亮孤零零地浮着。虽然不再下雪，但无云的夜晚格外寒冷。房间里摆着火盆，侍女水莲还端来了姜汤，说是能暖身。</p>
+<p>壬氏坐在床上，喝了一口已经有些温了的姜汤。</p>
+<p>到底要把他当成孩子到什么时候啊。</p>
+<p>姜汤里加足了蜂蜜。明明他七岁时最后一次因为嫌姜辣而闹脾气，之后再也没有过了。</p>
+<p>说实话，他想要的是提神的饮品，但他明白，水莲端这碗汤来本身就是无声的压力。想必是他最近几乎没有好好睡觉的事被看穿了。从小看着他长大的乳母，对壬氏的谎言可是一清二楚。</p>
+<p>然而，既然有必须完成的事，眼下也只能继续工作。</p>
+<p>“真是件麻烦事。”</p>
+<p>身居上位者，必须以其权力为代价承担责任。</p>
+<p>索性舍弃那些麻烦事，堕入愚钝的生物之列，反倒轻松吧。</p>
+<p>想吃就吃，想睡就睡，想做就做。</p>
+<p>如果还能有值得珍爱之物，那就更好了。</p>
+<p>他这么想着，却又叹了口气——那大概是不可能实现的。</p>
+<p>世间之事，尽不如人意。</p>
+<p>一边想着变得愚钝就能轻松，一边却又有着拒绝变得愚钝的自己。</p>
+<p>壬氏在摇曳的灯光中，从带锁的抽屉里取出一张纸。他展开那张折叠着、布满褶皱的纸。</p>
+<p>那是楼兰——子一族的族长之女——所留下的东西。</p>
+<p>“死过一次的人，就放过我吧”，是吗。</p>
+<p>她曾与壬氏如此约定。作为谢礼，她将此物交给了他。</p>
+<p>这究竟是她在多大程度上认真写下的呢？又或者，楼兰即便在消失之后，也仍想继续戏弄壬氏等人？</p>
+<p>内容令人不禁如此生疑。</p>
+<p>“蝗灾吗。”</p>
+<p>这是有时足以倾覆国家的自然灾害。楼兰曾协助过相关研究。不巧的是，进行那项研究的男人，如今已形同废人——因为“苏生之药”的副作用。</p>
+<p>纸上描绘的是一张地图，上面画着箭头。那是从西方流动而来的风的动向。</p>
+<p>已成废人的前医官，曾是一名有留学西方经验的男人。正因为他熟悉那边的地理，其构想才超出了壬氏所能想到的范畴，显得颇为奇特。</p>
+<p>蝗灾，在许多情况下，始于飞蝗乘着从西方吹来的风而到来。飞蝗从数百里、有时甚至千里之外的地方飞来。这些飞蝗在这个国家的土地上繁殖，首先引发小规模的蝗灾。若放任不管，来年便会造成更大的灾害。</p>
+<p>这与药屋少女——猫猫向壬氏指出的内容一致。针对此事，他已经采取了行动：今年在蝗灾可能较轻的地区增税、暂时禁止捕雀，以及向农村传授农药制法等措施。</p>
+<p>虽然不确定蝗灾是否会发生，但即便不发生，作为增加作物收成的手段也不算坏——他是这么下定决心的。</p>
+<p>猫猫似乎也并未想到更多可做的事，壬氏自己也认为这并非昏招。</p>
+<p>然而，楼兰的记述中还有另一件令人头疼的事。</p>
+<p>那就是蝗虫可能来自其他地区——不，是来自他国的情况。</p>
+<p>这个国家之外也存在蝗灾。</p>
+<p>而且，历史上，因国中饥荒而引发战争的事并非没有。</p>
+<p>壬氏又取出一张纸。那是去年画下的、描绘了过度繁殖的飞蝗模样的图。</p>
+<p>他将它与楼兰的图对照。</p>
+<p>地图旁边画着几种飞蝗的图样。</p>
+<p>那表示的是不同地区各有哪些种类的飞蝗较多。</p>
+<p>“……”</p>
+<p>他不禁抓了抓头发。</p>
+<p>令人不快的可能性越来越高。</p>
+<p>若这一切只是误会，那该多让人高兴啊。</p>
+<p>若前医官的研究不够成熟，这一切终究只是纸上谈兵，那该多好啊。</p>
+<p>去年大量发生的飞蝗，与哪个地区的飞蝗最为相似呢——那就是“茘之国”西北方的国家。拥有广阔粮仓地带和森林资源的那个国家，壬氏等人称之为“北亚连”。</p>
+<p>异民族屡屡骚扰这个国家的原因，就在于这个北亚连。</p>
+<p>两国之间的关系，实在说不上有多好。</p>
+<p>这个国家与对方上一次发生大规模战争，是在先先帝的时代。那场战争之后，先先帝倒下，随后先帝即位。</p>
+<p>而在战争开始的那一年，记录显示，我国和北亚连都发生了蝗灾。</p>
+<p>一旦变穷，就只能去抢夺他人。这又导致了更深的饥饿，产生了数万饿死者。当然，这只是记录上的数字，据说实际数目可能是其数倍之多。这还与当时饿死者与战死者数目不清、政治远比现在腐败有关。</p>
+<p>如今这个时代，人们用“女帝”来称呼前皇太后，把她当作恶女的代名词。然而，对于她辅佐之后即位的先帝、大刀阔斧地切除腐败脓疮的手腕，人们只能叹服。</p>
+<p>真是荒唐。</p>
+<p>如今主上之所以被视为贤明之君，不过是因为利用了女帝留下的遗产，并且有着“子昌”这个恶役存在而已——想到这一点，便可知自己究竟被玩弄于股掌之间多少。</p>
+<p>真是了不得的遗留物啊。</p>
+<p>壬氏祈祷着这只是杞人忧天，关上抽屉并锁好。</p>
+<p>但愿什么事都没有。没有事就好。</p>
+<p>但是，也不能因乐观而导致最坏的局面。</p>
+<p>他并非好战之人，但有些事也不得不做。</p>
+<p>“那也是遗留物啊。”</p>
+<p>他不禁脱口而出。</p>
+<p>壬氏回想起子一族曾作为据点的要塞。虽然那座要塞被雪崩掩埋于雪下，但其下沉睡着大量火药和“飞发”。经过多次改良的飞发，性能比军部所拥有的更为优秀。不巧设计图已被烧毁，但既然实物还在，就可以重新誊写。</p>
+<p>计划是直接利用那座要塞来制造火药。不过，之前的制造工序中火药着火的危险性很高，这点正在考虑对策。</p>
+<p>至于飞发本体的制造，则转移了地点。原本期待利用子北州的森林资源，但既然无法使用，就需要另想办法。炼铁不仅需要原料，还需要燃料。</p>
+<p>令人头疼。</p>
+<p>还有其他事要做。</p>
+<p>他必须过目明日早朝将会提出的议题。</p>
+<p>子一族事件后一度老实下来的高官们，终究还是难以说所有脓疮都已清除干净。虽说不至于说是蜥蜴断尾，但那次事件中被切除的基本上只有子一族，与之有勾结的其他高官想必还有很多。</p>
+<p>他们究竟会老实到何时？若是一直安静下去，反倒是帮了大忙。</p>
+<p>反过来，那些开始大声喧哗的人，要么是与子一族毫无关系的人，要么就是胆子极大。</p>
+<p>其中有一个令人在意的人物。</p>
+<p>从立场上看，他给人的印象是——将子昌显得如同小人物一般的家伙。然而，当那个“上位替代品”消失后，这个人一下子增加了存在感。</p>
+<p>虽然他已不再是宦官，但其工作几乎仍由壬氏承担着。</p>
+<p>如今，后宫中有一位上级妃：梨花妃。她是今上与壬氏的远亲，刚刚生下第二个孩子。孩子是男孩，但由于已是宠妃的玉叶被立为皇后，且其男儿已成为东宫，只要玉叶后不发生什么不幸，梨花妃之子成为正室的可能性很低，今上也是这个打算。</p>
+<p>罗门——如今作为医官回归——曾说过，血缘过近会导致孩子体弱。壬氏对此也早已有所了解。</p>
+<p>同时。</p>
+<p>玉叶后出身于西方——戌西州。今后若与邻国发生争执，这片土地将变得至关重要。</p>
+<p>壬氏原以为后位的选定还为时过早，但被如此解释后，也只能接受。</p>
+<p>梨花妃很聪慧。她也充分理解并接受了这些。</p>
+<p>然而，另一位妃子呢？</p>
+<p>里树妃，今年虚岁十六，已到了可以当作成人对待的年纪……。</p>
+<p>壬氏呼出一口气。</p>
+<p>他知道今上对女性的喜好。今上喜欢的是极富女人味的丰腴型女子。至于这是因为了解先帝的癖好后产生的厌恶感，还是原本的喜好，他不得而知。</p>
+<p>但是，他希望今上能想起——妃子既是职务，同时也承担着政治平衡的调节作用。</p>
+<p>即便只是形式上的“过往”，若能有些什么联系就好了——这么想，大概是因为身为男人，才说得出这种毫无细腻可言的话吧。</p>
+<p>今上方面，不喜欢她也有其他理由。</p>
+<p>前上级妃——阿多——曾像女儿般疼爱里树妃。今上在东宫时代，似乎也曾几次与里树妃和阿多三人一起举办茶会。</p>
+<p>他们曾构建过一种模拟的家庭关系。</p>
+<p>说喜欢丰腴的女性吗。</p>
+<p>那听起来也像是一种辩解。</p>
+<p>因为阿多在无法生育之前，也是身材纤细的。</p>
+<p>然而，今上在东宫时代，除了阿多之外并未试图迎娶其他妃子。</p>
+<p>那意味着什么。</p>
+<p>壬氏也是在最近几年才注意到这一点，而高顺则在很早以前就察觉了。</p>
+<p>正因为壬氏没有察觉，才落得成为宦官“壬氏”的下场。他为了不想让自己身处“下一任皇帝”的地位，主动担起了为兄长安排妻子的角色。</p>
+<p>如今想来，那是多么残酷的事啊。</p>
+<p>他呼出一口气，合上了早朝用的资料。</p>
+<p>他躺上床，熄了灯。想着最近荒废了睡前的锻炼，但还是决定就此入眠。</p>
+<p>明天，就把那件事禀报今上吧。</p>
+<p>哪怕只是形式上展现一下“临幸”，或许也能让现在逐渐抬头的那位官员有所收敛。也可能适得其反——但若如此，那也无可奈何。</p>
+<p>子昌的“下位互换”的那个男人——正是里树妃的父亲，卯柳。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-015.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-017.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

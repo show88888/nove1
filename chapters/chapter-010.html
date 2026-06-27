@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十</h1>
+</header>
+<p>十、白蛇仙女　前篇</p>
+<p>那是由一位客人的话开始的。</p>
+<p>“难怪最近客人这么少。”</p>
+<p>梅梅小姐慵懒地横躺着，一边在棋盘上摆着棋子。看着这一幕，小姐身边的小丫鬟一边发愁一边落子。她们在玩死活题。</p>
+<p>“那些大官大人们啊，就喜欢稀罕玩意儿。”</p>
+<p>女华小姐吐着烟圈说道。</p>
+<p>猫猫受小姐们所托，正在准备艾灸。因为两人都有妇科方面的困扰，所以会时不时这样刺激穴位来缓解。</p>
+<p>据梅梅说，是昨天跟她下棋的那位客人告诉她的。说有个比绿青馆三姬还稀罕的、像仙女一样的姑娘。</p>
+<p>“反正我们已经是讨人嫌的年纪了嘛——以前明明像宝贝一样捧着我们的。”</p>
+<p>女华像唾弃般说道。猫猫一边“是是是”地应着，一边让女华趴下，在她皮肤上放上艾绒点着了火。“哈啊~”一声娇媚的声音传来，脚趾绷得紧紧的，那模样让人真想对她说：您还很有魅力呢。</p>
+<p>“听说啊，她长着一头雪白的头发。光是这样还能说是普通白发。”</p>
+<p>“听说眼睛也是通红的。”梅梅补充道。</p>
+<p>（白发红眼）</p>
+<p>那确实稀罕——猫猫点了点头。她准备完女华的，又开始准备梅梅的艾灸。</p>
+<p>梅梅从衣摆下伸出修长的腿。猫猫小心地卷起衣摆以免烫焦，放上艾绒点着了火。</p>
+<p>“头发不说，连眼睛也是红的？那不就是白子吗？”</p>
+<p>“大概是吧。”</p>
+<p>小姐们嗯嗯地应着。拿着棋子的丫鬟完全没明白，扯了扯猫猫的袖子。就是前几天看到壬氏吃蝗虫时尖叫的那个姑娘。名字好像是叫梓琳。</p>
+<p>猫猫嫌麻烦地眯起眼，但看到梓琳吓得一哆嗦的样子，只好无奈地开口。</p>
+<p>“人虽然罕见，但偶尔会生下天生没有色素的孩子。那些人头发和皮肤都是白的，眼睛因为眼底的血管透出来而呈现红色。那种人就叫做白子。”</p>
+<p>动物也有。白蛇或白狐被视为祥瑞、当作神明来崇拜，可换作人呢？据说在遥远的异国，有人相信白皮肤的孩子是万能药，有吃掉他们的习俗。不过这种说法也未必可信。头发皮肤都是白的，只是缺少了颜色，内里并没有什么不同——这是猫猫从老爹罗门那里学来的。</p>
+<p>白色的个体，猫猫也曾抓到过一次蛇，那真是不可思议的生物。</p>
+<p>这次这位似乎是作为稀罕物被当作仙女崇拜。</p>
+<p>“那些大人们迟早也会腻的吧。”</p>
+<p>“可是啊——”</p>
+<p>梅梅伸出另一条腿说道。</p>
+<p>“据说她真的会仙术呢。”</p>
+<p>听到这话，猫猫的眉毛微微一动。</p>
+<p>据说那位仙女拥有的能力是读取人心、点石成金。</p>
+<p>这故事虽然让人想吐唾沫表示不屑，但好事之徒们却很买账。起初只是在小小的杂耍棚里表演，现在据说已经租下了都城的剧场。</p>
+<p>据说只在夜间举行一次的表演，吸引了众多富豪聚集，花街的妓女们发牢骚也是情有可原的。好不容易来一趟客人，却都在夸赞那仙女超凡脱俗的容貌和本事，实在让人不痛快。</p>
+<p>比平时少了二成收入，连老鸨也气狠狠地把烟管往桌上磕。中级妓女的客源没什么变化，但绿青馆是高级妓院。上等客人来不来，营业额差别很大。</p>
+<p>“那种表演，看一次就够了吧。”</p>
+<p>“也不尽然。”</p>
+<p>回应猫猫自言自语的是男仆头目右叫。年近四十的这位男子，最近因为照顾赵迂和左膳也是够呛。好像是在夜市灯笼点起来之前才好不容易喘口气。正大口吃着肉包子。</p>
+<p>猫猫给他倒了杯剩茶，右叫道了声“谢啦”接过茶杯一饮而尽。</p>
+<p>“你知道炼丹术吧。”</p>
+<p>“事到如今说这个干吗。”</p>
+<p>炼丹术——一种试图炼制让人长生不老的仙药的技术。老爹跟她说起这个的时候，猫猫不可能不两眼放光。然后她记得紧接着就被泼了冷水。</p>
+<p>“你可别去模仿啊。”</p>
+<p>罗门这样说道。</p>
+<p>也就是说，那是相当可疑的方术。</p>
+<p>“是想沾沾长生不老的力量吧。”</p>
+<p>“是啊。不光稀罕的容貌，还能看透人心呢。”</p>
+<p>“哦哦。”</p>
+<p>那些原本半信半疑地前来的大人们，一旦自己的心思被看穿，会作何感想呢？或许之前轻慢的心态会被颠覆，最终变成一种信仰。然后，他们或许也会相信长生不老药是真实存在的。</p>
+<p>（那种蠢事怎么可能）</p>
+<p>猫猫知道有人研究不死药、最终造出了起死回生之药。那人作为医官本该很优秀，如今却因为那药的副作用，已面目全非。</p>
+<p>猫猫紧紧握住了手。她也知道，后悔也无济于事——如果有他的知识，明明可以制定出更好的蝗灾对策。</p>
+<p>灾害还在进行中。从现在开始去做，或许还能有所改变。</p>
+<p>壬氏他们正在为今后可能发生的灾害对策绞尽脑汁，而其他大官们却太过悠闲，让人直叹气。</p>
+<p>不过，猫猫对那门方术有些在意。</p>
+<p>“也就是说？那位仙女，是拿长生不老药作诱饵来招揽客人的吗？”</p>
+<p>“那我就不知道了。我只是碰巧听到那些当官随从的话而已。”</p>
+<p>说完，右叫把包子塞进嘴里，用剩下的茶冲了下去。</p>
+<p>到了点亮行灯的时间了。</p>
+<p>“你要是好奇，去看看不就得了？”</p>
+<p>“我可付不起那么贵的观赏费。”</p>
+<p>“那去求求人家不就好了。”</p>
+<p>说着，右叫只灵活地眨了眨右眼，便径自走了。</p>
+<p>（去求谁啊）</p>
+<p>猫猫唾弃般地啐了一口，但脑海里还是浮现出那一张面孔。</p>
+<p>要是他直接说太忙了去不了，倒也轻松了。</p>
+<p>可只是随口提了一句，他就异常来劲。不光如此，似乎壬氏那边也早就听说了这件事，本来就在意着。</p>
+<p>他让她马上准备出发。</p>
+<p>猫猫边想着边披上了外套。那是从裁缝铺白拿的，质量上等的棉衣。颜色是有点花哨，但白给的东西不要可惜，不用也可惜。</p>
+<p>穿暖和了出门一看，马车已经在等着了。</p>
+<p>外面天已黑了，空中飘着鹅毛大雪。要是告诉赵迂，他肯定会啰啰嗦嗦要带这个带那个，所以让右叫给她吃了晚饭。</p>
+<p>“出发吧。”</p>
+<p>高顺说着，猫猫一上车，里面坐着已经摘下蒙面布的壬氏。</p>
+<p>猫猫缓缓低下头，收到就座的示意后在马车的椅子上坐下。</p>
+<p>“壬氏大人，您不戴蒙面布去吗？”</p>
+<p>“就这样吧。”</p>
+<p>猫猫露出疑惑的表情。</p>
+<p>壬氏对此神色泰然。</p>
+<p>“无妨，不会有事。”</p>
+<p>说着，马车启动了。</p>
+<p>那位仙女所在的剧场，在都城中央略偏东的位置。商铺林立、是都城最繁华的地段，高级住宅区也在附近。</p>
+<p>这里平时以戏剧演出为主，如今却在此举办仙女的独演会，倒也是件稀奇事。</p>
+<p>（真是俗气的仙女啊）</p>
+<p>这位仙女因其容貌，被称作“白娘娘”。</p>
+<p>下了马车，已经排了很长的队伍。入口处的男子收了钱，不停地把人往里引。</p>
+<p>（原来如此啊）</p>
+<p>“不会有事。”</p>
+<p>即便隔着蒙面布，也能看出壬氏那副得意的神情。周围的客人中，半数也戴着蒙面布或纱巾。高顺从不知哪儿拿来一块纱巾，也盖在了猫猫头上。</p>
+<p>富商或大官们居然拿这种东西当有趣来看，怕是会被人说有点过头了吧？还是说，这也算是节日的一种助兴？猫猫几乎要被这诡异的气氛吞噬。</p>
+<p>剧场深处是舞台，前面摆了几十张桌子。二楼也能观看，天花板是挑空的。一次能容纳一百人以上。后宫的建筑物更大、容纳更多，但这里的设计显然是为了让所有人都能看到戏剧。正因如此，柱子和梁上雕刻的花纹精细而华美。</p>
+<p>天花板上垂着巨大的行灯，借其微光在昏暗中行走。</p>
+<p>壬氏入座的位置，是舞台前方第二排的左侧座位。正中央最前排，坐着一个身材魁梧的男人，身边簇拥着年轻女子。</p>
+<p>“抱歉。没能抢到中央的座位。”</p>
+<p>不知何时汇合的一个年轻男子懊恼地说道。即便戴着蒙面布，从声音也能听出是马闪。</p>
+<p>桌子是四人用的，加上高顺正好坐满。</p>
+<p>“不，其实再靠后一点也无妨。”</p>
+<p>高顺这样说道。确实，就算戴着蒙面布，如果占了太好的座位，对方也容易揣测出你的权力或财富程度。</p>
+<p>看上去，中央座位那个男人，不过是个钱多到没处花的暴发户。说起来，最近在花街颐指气使的那个大商人，好像就是那样的男人。</p>
+<p>刚坐下，带着笑容的女侍们就端来了酒杯。</p>
+<p>猫猫凑过去闻了闻。</p>
+<p>“是酒，不喝吗？”</p>
+<p>猫猫是喜欢酒的。但想保持清醒好好看看那位“白娘娘”。</p>
+<p>“稍后再喝。还是要我试毒？”</p>
+<p>“不用。”</p>
+<p>壬氏也效仿着把酒杯放回桌上。这么一来，高顺和马闪也只能放了回去。看了看周围，那杯酒似乎相当美味——猫猫心想他们真可怜，喝了也没什么嘛——一边把目光投向舞台。</p>
+<p>昏暗的室内弥漫起白色的雾气。随着铜锣声响，舞台的主角从深处现身，仿佛散发着光芒。</p>
+<p>那是个身穿白衣、皮肤雪白、白发未束、任其垂落身后的姑娘。在那纯白的色彩中，唯有染红的嘴唇和一双眸子格外醒目。</p>
+<p>铜锣声鸣响之中，白娘娘立于舞台中央。那里摆着一张精美的桌子。</p>
+<p>姑娘站到桌前，展示桌上事先备好的一张纸。纸上画着当下舞台和桌子的布局。</p>
+<p>接着，一个身穿白衣的男子走上台来。他头发是黑的，但除此之外装束与白娘娘一致，看得出是她的随从。</p>
+<p>男子从姑娘手中接过那张布局图，贴在台上的墙上。然后朝那图投出了什么。</p>
+<p>大概是某种投掷武器吧。细长的它贯穿纸张，钉入墙壁。墙壁是事先准备好的道具，很容易刺穿。</p>
+<p>“那么，坐这个座位的客人——”</p>
+<p>纸上出现了一个洞。</p>
+<p>正好是左侧、前排第二个座位。</p>
+<p>“就是这里吧。”</p>
+<p>“是的。”</p>
+<p>也就是说，正是猫猫他们坐的座位。</p>
+<p>“怎么办？”</p>
+<p>“您问怎么办……”</p>
+<p>壬氏似乎不想太引人注目。</p>
+<p>高顺也不是会为这种事兴奋的年纪。</p>
+<p>至于马闪——倒是有点跃跃欲试。脸上写着“想去看看，但自己开口也不太好吧”。大概是因为太过一板正经，才会在这种事上不够坦率吧。</p>
+<p>可这样下去没人会去，那也没办法。</p>
+<p>“那，我——”</p>
+<p>“你去。”</p>
+<p>壬氏指着的，是猫猫。</p>
+<p>“能近距离看，机会难得嘛。”</p>
+<p>“……”</p>
+<p>旁边刚要起身的马闪显得有些为难。猫猫其实也想把这个机会顺势推给他，但可惜她也不是那种性格。</p>
+<p>“那我去了。”</p>
+<p>她瞥了一眼垂头丧气的马闪，登上了台。</p>
+<p>在摇曳的行灯光芒下，白娘娘愈发显得光彩夺目。那过于白皙的皮肤，隐约透出血管的纹路。显然不是单纯涂白的效果。</p>
+<p>“请您从一到十，写一个自己喜欢的数字。”</p>
+<p>传来纤细、几若消失的声音。旁边的男子以洪亮的声音重复同样的话作为补充。</p>
+<p>“请写的时候不让我看见，然后折成小折，不让任何人看到。”</p>
+<p>白娘娘和男子都转过身去。猫猫趁此用递来的笔迅速写下了数字。笔尖已预先蘸饱了墨，因此反而有点不好写。笔触也不太好，可能不是太好的墨。桌上垫了垫板以免戳破。</p>
+<p>写完数字，猫猫把它折得小小的。</p>
+<p>“写好了。”</p>
+<p>听到这句话，白娘娘和男子回过身来。男子这次推来一辆奇怪的推车。刚才的桌子被撤到了后台。</p>
+<p>那车上有个箱子，底部插着许多奇怪的筒。纵十横十排列，共一百根。</p>
+<p>“请您把那张纸塞进其中任意一个筒里。”</p>
+<p>说完，白娘娘和男子又转过身去。</p>
+<p>其实就算不转身，观众和舞台也都看不到吧。</p>
+<p>猫猫把纸再揉小了些，塞进其中一个筒里。纸虽然软，但筒口很窄，费了些功夫。</p>
+<p>塞好后，从上面盖上一层薄纱遮住。</p>
+<p>然后男子又把那个箱子移动起来。把插满筒的箱子放到舞台边缘的另一张桌子上。纱很薄很轻，轻轻飘动着。</p>
+<p>“好了。”</p>
+<p>话音刚落——“咣——”一声铜锣巨响。猫猫吓了一跳，瞪大了眼睛，但心想还好戴着纱巾。</p>
+<p>不过，壬氏不知为何还是注意到了她的反应，从远处能看到他在那里肩膀抖动。</p>
+<p>实在令人恼火。</p>
+<p>白娘娘微微一笑，伸出了手。</p>
+<p>猫猫依言伸出手，一只冰冷苍白的手握住了她的手腕。</p>
+<p>“哗啷哗啷”——这回响起了铃声。</p>
+<p>白娘娘凝视着猫猫。</p>
+<p>（啊，这个人——）</p>
+<p>猫猫心想，她视力不好吧。有时候眼神会露出异常的动作。</p>
+<p>说起来，因为没有色素，她的眼睛大概也多有不便吧。</p>
+<p>正这么想着——</p>
+<p>“您写的数字是七，对吧。”</p>
+<p>“！？”</p>
+<p>“猜中了。”</p>
+<p>红色的嘴唇歪出一个笑容。配上那双红眼睛，猫猫想起了从前抓到的那条白蛇。</p>
+<p>她曾想把那条红眼白皮的蛇做成蒲烧，却被老爹骂了一顿。他说那是神的使者，不行——但猫猫知道，其实根本不是那么回事。老爹自己跟神明无关、却有着白皮肤，却时不时搬出这种道德观来，真是叫人头疼。</p>
+<p>正当要被那双圆圆的红眼睛吸进去时，铜锣和铃声再次响起。</p>
+<p>可能是因为周围雾气缭绕，莫名觉得燥热，莫名地头疼。</p>
+<p>耳边仿佛有蚊虫飞舞，一阵烦躁涌上来，白娘娘又开口了。</p>
+<p>“从上数第三排，从左数第二个。”</p>
+<p>“……”</p>
+<p>“怎么样？”</p>
+<p>男子掀开纱巾，让观众能看到箱子里的内容。然后取出其中从上数第三排、从左数第二根的筒，把一根细棒插了进去。</p>
+<p>于是——</p>
+<p>里面掉出了一张纸。男子展开那张折得小小的纸，上面清楚地写着“七”字。</p>
+<p>不用说，正是猫猫写的那张。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-009.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-011.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">044</h1>
+</header>
+<p>**十七、变质的馅饼**</p>
+<p>被带到的地点，是位于京城中央的住宅区。京城基本上越是往北治安越好，那一带排列着中产阶级的房屋。</p>
+<p>其中，有一栋破旧的房子。原本算是相当气派的宅邸，但屋顶的瓦片有缺损且色泽黯淡，土墙也处处碎裂，露出里面的竹骨架。</p>
+<p>大门前站着一个猫猫见过几次的男人。那是负责监视赵迂的人，表面装做与猫猫素不相识。</p>
+<p>猫猫走进了这栋荒废的房子。</p>
+<p>（哦哦！？）</p>
+<p>房子外面虽然破败不堪，但里面却出乎意料地整洁。不过，令人惊讶的并非于此。</p>
+<p>墙壁被涂成了白色。在抹得坚固的灰泥之上，绘有图画。</p>
+<p>一整面墙壁上展现着桃园景象。然而，啃食那桃子的并非三位武人，而是一位美丽的姑娘。那宛如蜜桃般的轮廓，漆黑如黑檀的秀发，露出洁白牙齿的嘴唇像樱桃般水润。</p>
+<p>那里描绘的，正是桃源乡的仙女。</p>
+<p>猫猫曾听闻此人擅长美人画，却没想到能画出如此精妙的画作。</p>
+<p>猫猫凝视着墙壁。涂有颜料表面泛着独特的光泽。与她熟知的绘画在种类上略有不同。</p>
+<p>正当她想仔细观赏时，一阵急促的脚步声传来。</p>
+<p>“喂，麻子脸！你在干什么！快来看啊！”</p>
+<p>脸色铁青的赵迂跑了过来。</p>
+<p>（不好不好）</p>
+<p>一旦对某事产生兴趣，注意力就会转移过去，这是猫猫的坏习惯。猫猫被赵迂拉着，走进了房屋深处。那里看起来像是客厅，但周围散落着看似颜料的各色粉末，不知为何还有蛋壳，以及像是灰泥的白色粉末和用来搅拌它的抹子，到处都是。</p>
+<p>房间中央摆着一张长椅，上面躺着一个男人。旁边还有另一个男人，正担忧地看着。躺着的男人留着邋遢的胡须，身材消瘦，脸色惨白得发青。只有指尖沾染着颜料之类的东西。站在他身旁的男人穿着整洁，但双手却和躺着的男人一样黯淡脏污。</p>
+<p>“快看看老师！”</p>
+<p>虽然被称为“老师”，但此人还很年轻，想必就是那位崭露头角的画家吧。长椅旁放着一个桶，里面装着呕吐物。</p>
+<p>猫猫看着男人。他的手脚在痉挛。猫猫扒开他的眼睛观察瞳孔，又为他诊脉。</p>
+<p>从表面看，应该是食物中毒之类的情况。</p>
+<p>“症状呢？”</p>
+<p>“一直在吐，还拉肚子。”</p>
+<p>“然后一直很痛苦的样子，又说觉得冷，就让他躺下了。”</p>
+<p>站在一旁的男人补充了赵迂的话。</p>
+<p>“这位是？”</p>
+<p>“是老师的工作伙伴！比起这个，你快点儿，快点儿！”</p>
+<p>就算被催着快点，猫猫能做也的事情有限。如果不知道是什么毒素，就不知道该开什么药。</p>
+<p>不过，既然这个男人反复腹泻和呕吐，那必然有缺乏的东西。</p>
+<p>“赵迂。去拿水、盐和糖来。这家里要是没有，就去别处要。”</p>
+<p>猫猫从怀里掏出钱袋扔给赵迂。赵迂说了声“知道了”，便跑出了家门。</p>
+<p>“厨房借用一下。”</p>
+<p>猫猫走向屋内深处。</p>
+<p>她查看水缸，确认水有没有变质。按理说最好煮沸，但恐怕没有那个时间。</p>
+<p>“这是生水吗？”</p>
+<p>“昨天从水贩那里买的，应该没问题。”</p>
+<p>既然是买的水，应该没问题。因为喝了生水而闹肚子的可能性不大。当然，前提是那确实是好水，但猫猫舀起尝了一点，并没有奇怪的气味或味道。</p>
+<p>虽然房子外表破烂不堪，但似乎尚有余裕买水，还算富裕。</p>
+<p>猫猫看向那个自称同行者的男人。</p>
+<p>“你能说明一下，这大概是什么原因导致的吗？”</p>
+<p>“嗯。”</p>
+<p>男人虽然慌张，但还是给猫猫端来了椅子。</p>
+<p>然后，他开始断断续续地说起来。</p>
+<p>“这家伙有个坏毛病，就是会若无其事地吃变质的东西。大概，就是这个原因吧。”</p>
+<p>果然如猫猫所料，似乎是食物中毒。</p>
+<p>“之前有点心（馅饼），他就吃了。因为看起来已经坏了，我们都没吃，可这家伙说烤一下就能吃，就给吃了。”</p>
+<p>当然，那馅饼确实是坏的。</p>
+<p>陈旧的食物并不会因为烤过就恢复原状。因为食物腐败而产生的毒素，有时会原样残留。</p>
+<p>“真是的，这可怎么办啊。就算现在开始做，作品也赶不上了啊。”</p>
+<p>男人触摸着挂在墙上的一块大板子。</p>
+<p>板子被涂成白色，上面隐约描画着女子的画像。接下来想必会层层叠叠地涂上色彩吧。随着色彩变得鲜明，女子的画像一定会像是活过来一样。</p>
+<p>“明明还说什么十天后要完成……”</p>
+<p>（十天后？）</p>
+<p>是有什么截止日期吗？</p>
+<p>“我回来了！”</p>
+<p>赵迂回来了。</p>
+<p>猫猫接过赵迂带来的盐和糖。</p>
+<p>她将盐和糖放入准备好的水中，搅拌均匀，然后从行李中取出脱脂棉浸湿。</p>
+<p>让男人含着湿润的棉花吸吮，反复多次，为其补充水分。</p>
+<p>猫猫犹豫着，是该给身体保暖，还是该让热量散发出去。总之，他那一身几乎算是原样穿着、脏兮兮的衣服无法吸汗。猫猫准备了能吸汗的棉质衣服，给他换上了。</p>
+<p>让他一直躺在长椅上也不是办法，猫猫又准备了正式的床铺，还备好了腹痛药。</p>
+<p>这期间，他又吐了两次，但已经没什么可吐的了，房间里只弥漫着胃液的酸臭味。</p>
+<p>大概是因为猫猫一边为他擦汗，一边反复让他补充水分吧，到了晚上他的情况稳定下来，痉挛也停止了。</p>
+<p>那时，猫猫、赵迂，还有那个同行男人都已筋疲力尽。这栋房子除了画材以外什么都没有，仅仅是想整理出一张像样的床铺，就得借助邻居的帮助。</p>
+<p>疲惫的猫猫和赵迂靠在从别的房间搬来的椅子上。虽然这家的主人之前躺着的长椅空着，但老实说，那个状态不仔细清洗根本没法用。</p>
+<p>“麻子脸——。他能得救吗？”</p>
+<p>“大概吧。”</p>
+<p>猫猫无法断言。想必他很快就会恢复意识。只是，之后一段时间他必须静养，吃些容易消化的食物。就算想做稀粥，这里连米都没有像样的，必须去弄些来。也没有像样的锅。</p>
+<p>“我去拿米和砂锅，从我那儿取来。”</p>
+<p>那个男人很识趣地走出了家门。明明自己也很累了，真是不容易。他和这家的主人关系有那么好吗？</p>
+<p>“这家的主人，平时都吃些什么啊？”</p>
+<p>猫猫自言自语道，赵迂回答了。</p>
+<p>“老师总是在路边摊买吃的，或者从邻居那里得到一些。今天那个是馅饼（点心）啊。”</p>
+<p>“嗯——，那么，今天吃的东西也是那种吗？”</p>
+<p>猫猫一问，赵迂的脸色明显扭曲了。</p>
+<p>“怎么了？”</p>
+<p>“没什么，我想起今天吃的事了。我和那个大叔也跟老师一起吃了馅饼。因为太难吃，马上就吐出来了。不过，从一开始就觉得不对劲。”</p>
+<p>问到有什么不对劲，据说那位老师看着放在桌上的馅饼说：“这种东西，我们家有吗？”
+确实，这一点首先就很可疑，但他还是把馅饼分给了当时在家的那个男人和赵迂。</p>
+<p>“虽说有什么东西分着吃是挺开心的，但很多都让人拿不准到底能不能吃啊。”</p>
+<p>赵迂也很无语。听说艺术家多怪人，看来果真如此。</p>
+<p>猫猫将手肘撑在扶手上，托着腮。</p>
+<p>“那种东西你也真敢往嘴里放啊。”</p>
+<p>“因为大叔也说吃，而且看起来很好吃嘛。”</p>
+<p>赵迂嘴馋，只要是能吃的东西都会往嘴里塞。</p>
+<p>“但是，馅儿好像坏了，超级苦的。”</p>
+<p>“……苦的？”</p>
+<p>“嗯，太难吃了，我直接‘呕’地吐出来了。大叔也吐了。”</p>
+<p>（苦的，而且看起来很好吃？）</p>
+<p>猫猫双臂环抱，歪着头。</p>
+<p>“喂，是苦的吗？不是酸的？”</p>
+<p>“是苦的啊。没觉得酸。”</p>
+<p>“那，那个馅儿有没有奇怪的气味什么的？”</p>
+<p>“要是有的话，我大概就不会吃了。”</p>
+<p>赵迂脱了鞋，晃着脚。虽然开着窗户通风，但屋里还是有些闷热。外面也暗了下来，他便给掉落在附近的油灯点上火。从颜料到这位老师，他似乎喜欢舶来品。这在当地是少见的照明器具，但用的燃料是鱼油，所以气味倒是闻惯了。最近毛毛（猫）总爱舔油，真让人头疼。</p>
+<p>“里面的馅儿有没有拉丝啊，或者黏糊糊的？”</p>
+<p>“黏糊糊？说起来……”</p>
+<p>赵迂似乎想起了什么。</p>
+<p>“可能感觉有点滑溜溜的。因为太苦马上就吐了，不太清楚。大叔说那是坏了，让我赶紧吐出来。之后马上漱了口，没吞下去。”</p>
+<p>猫猫歪着头，觉得奇怪。</p>
+<p>“那，你吃剩的怎么处理了？”</p>
+<p>“扔掉了。外面有个垃圾桶，扔那儿了。老师还因为我浪费生气了。”</p>
+<p>猫猫一听这话，便提着油灯走出屋子。然后看向外面放置的木箱。</p>
+<p>散发着难闻气味的箱子里，还装着厨余垃圾。最上面放着两块缺了口的馅饼。幸好还没被收走去当猪饲料。</p>
+<p>“哇！你干什么呢！好脏啊！”</p>
+<p>赵迂看着翻找垃圾的猫猫说道。猫猫毫不在意，光着手拿起脏兮兮的馅饼，掰开里面。是压碎的猪肉掺了几种蔬菜的馅料。然后她拨开馅料，检查里面有什么。</p>
+<p>“……麻子脸。别一边翻垃圾一边笑啊。好吓人啊。”</p>
+<p>猫猫这才发现自己似乎笑了。</p>
+<p>猫猫会笑，也就是说——事情就是这样。</p>
+<p>“这个，那位老师是烤过之后吃的吗？”</p>
+<p>“嗯，他绝对是个味痴。这么苦的东西，怎么可能烤一下就消失，他还一个劲儿地说好吃好吃。”</p>
+<p>猫猫更加确信了。</p>
+<p>“喂，你说的那个大叔，今天来这儿是干什么的？”</p>
+<p>“……大概，是来阻止老师的吧。老师说过，做完下一份工作马上就要去旅行。”</p>
+<p>赵迂有些遗憾地低下了头。</p>
+<p>“旅行？”</p>
+<p>“听说他以前在西方学过画画。那时看到的美人让他难以忘怀，所以现在也一直在画女人的画像。”</p>
+<p>（西方？）</p>
+<p>确实，无论是油灯还是颜料，能让人感受到异国气息的东西很多。</p>
+<p>“大叔说，二十年前见过的人现在怎么可能还在，可老师就是无论如何都想见那人一面。”</p>
+<p>二十年的岁月是漫长的，无论多么美丽的女子都无法阻止衰老。若不是如此，那对方不是仙女就是妖怪了。</p>
+<p>“你、你在做什么！”</p>
+<p>说曹操曹操就到，那个拿着米和锅的男人回来了。</p>
+<p>在黑暗中，浑身沾满垃圾的猫猫显得异常。而且，半张脸上还挂着笑容。</p>
+<p>猫猫就那样双手捧着垃圾，朝那个男人笑了笑。</p>
+<p>然后看向赵迂。</p>
+<p>“赵迂，你可以回去了。差不多该有男众来接你了。”</p>
+<p>猫猫猜想到，处处操心的右叫应该会在天黑后来接人。如果右叫有事，也会托付给其他人吧。</p>
+<p>“干嘛突然赶我走。”</p>
+<p>“你也累了吧。在有人来接之前，先睡会儿吧。”</p>
+<p>“……麻子脸你才该去洗手。”</p>
+<p>他没有反驳。也就是说，他确实困了。</p>
+<p>他打着哈欠走进了屋里。</p>
+<p>“你在干什么呢？”</p>
+<p>那个有些退缩的男人看着猫猫。不，是看着她双手捧着的垃圾。</p>
+<p>“能让我先洗个手，然后稍微聊几句吗？”</p>
+<p>猫猫放下垃圾，朝水井走去。</p>
+<p>猫猫和那个男人坐在厨房的椅子上。</p>
+<p>隔壁房间里，赵迂和老师正在睡觉。</p>
+<p>“想聊的是什么事？”</p>
+<p>“您对毒蘑菇了解吗？”</p>
+<p>“……怎么突然问这个。”</p>
+<p>男人的视线从猫猫身上移开了。</p>
+<p>猫猫觉得有几处不对劲。</p>
+<p>说到“腐败”，通常人们会联想到酸味。确实，腐败的东西有时也可能产生苦味，但仅凭苦味就能断定是“腐败”吗？</p>
+<p>那种苦到让人吐出来的东西，为什么老师却能若无其事地吃下去？</p>
+<p>还有，那个馅饼究竟是从哪里来的？</p>
+<p>“您知道吗？有些蘑菇生吃有苦味，但加热后苦味就会消失。而且，那是有毒的蘑菇，在这个季节常常引起食物中毒。”</p>
+<p>这是一种常被误认为可食用蘑菇的蘑菇。表面有点滑溜溜的。这与赵迂的证词吻合，实际上，猫猫也在馅饼里发现了疑似那种蘑菇的成分。</p>
+<p>如果是路边摊买的，那种东西在街上早就引发骚动了。</p>
+<p>如果是邻居给的，那也该听说有人腹痛倒下的消息才对。如果真有那种事，应该也会通知这家人吧。</p>
+<p>这样一来——</p>
+<p>“是谁把馅饼带来的呢？”</p>
+<p>猫猫看向四处绘有壁画的墙壁。画中都是如同仙女般的美女。想必每幅都以某个人为模特吧，每一幅都带着各自独特的个性。</p>
+<p>现在正在着手的工作，截止日期临近了。老师说过，做完这份工作就要去西方旅行。而这个男人，曾试图阻止他。</p>
+<p>虽然被称为同行者，但这个男人身上却几乎感受不到所谓艺术家的气息。</p>
+<p>“你想说什么？这不过是食物中毒吧。”</p>
+<p>“是的，是食物中毒。因为蘑菇引起的。”</p>
+<p>馅饼并没有变质。只是，从一开始就被下了毒而已。</p>
+<p>“……没想到毒性比预想的强啊。”</p>
+<p>男人性格倒是直率。这算是承认了猫猫的推测。</p>
+<p>猫猫因此稍微松了口气。要是他因此暴跳如雷，还真不知道该怎么办。不过话说回来，如果猫猫真出了什么事，想必负责监视赵迂的某人会采取行动的。</p>
+<p>“这儿的画，每一幅都很出色呢。”</p>
+<p>猫猫眯眼看着壁画。她不由得冒出个不相关的念头：要是那位某丽人在这里，想必也能毫无违和感地融入其中吧。</p>
+<p>“既然有商人想收拢这些画，等这幅委托的画完成后，想必能赚到不少钱吧。”</p>
+<p>“要是没能完成，在那之前他也不会卖给别家的。”</p>
+<p>“既然要去西方旅行，本钱固然重要，但更重要的是可信赖的同行者吧。”</p>
+<p>“嗯，半年前就谈好了。错过这次机会，就不知道要再等几个月了。”</p>
+<p>这个男人想做的，是让老师食物中毒。借此延误交货期。</p>
+<p>让西方的旅行，化为泡影。</p>
+<p>“啊啊，真是糟透了。我真以为他会死掉啊。”</p>
+<p>男人抱着头，嘴里说着“可别死啊”。</p>
+<p>“难道就没有更温和一点的毒药吗？”</p>
+<p>虽说“温和的毒药”这种说法本身就很奇怪，但猫猫是这么想的。</p>
+<p>“那家伙的肚子比铁还硬啊。”</p>
+<p>看来“不管什么烤了就能吃”的想法，造就了一个钢铁般的胃。</p>
+<p>因此，为了伪装成食物中毒，他才特意利用了赵迂。让第三方认为馅饼变质了，那么之后再闹肚子，别人只会以为是单纯的食物中毒吧。</p>
+<p>猫猫觉得很无语。</p>
+<p>“既然如此，跟他好好说不就行了吗？”</p>
+<p>“好好说？那种话，我已经说过无数次了。”</p>
+<p>虽说这男人被称作画家，但实际上，他似乎不过是帮老师打杂的。调配颜料、采购画材，以及寻找购买画作的商人。</p>
+<p>“我不过是像个随从一样。要是没了他，我什么也做不了。”</p>
+<p>“是这样吗？”</p>
+<p>确实，老师是位有才华的画家，但作为一个人，他缺少了某些东西。那种人独自一人，迟早会潦倒而死。</p>
+<p>像这样辅助他的人才，才是重要的。</p>
+<p>“只是，因为我经常和商人打交道，所以了解到不少情况。”</p>
+<p>西方有些异常的动向——虽然现在还只是预兆阶段。但如果这是真的，那现在最好还是老实待着。</p>
+<p>“然后，他就说什么，既然如此现在不去就麻烦了。”</p>
+<p>老师想去西方的心情没有改变，并且有条不紊地做着准备。明明是个连像样的饭都做不好的人，男人感叹道。</p>
+<p>男人缓缓从椅子上站起来。然后，走向隔壁房间。猫猫跟了上去。</p>
+<p>昏暗的房间里，有一块大板子，上面盖着一块白布。</p>
+<p>“他说这次一定要完成这幅画。”</p>
+<p>男人揭开了布。</p>
+<p>“……这是？”</p>
+<p>“据说是他在西方见过的仙女。”</p>
+<p>（在这里来这一手吗？）</p>
+<p>猫猫冷汗直流。</p>
+<p>她本想将此事当作已经结束的过去，但没想到实际上事情似乎是互相关联的。</p>
+<p>“他说是在沙鸥见过的巫女吧。”</p>
+<p>那里描绘的，是一位白发红瞳的美女。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-043.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-045.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

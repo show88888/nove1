@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十四</h1>
+</header>
+<p>十四、纸村　中篇</p>
+<p>商量决定在那位大家所在的村子里的饭店进行。距离纸村不算太远，走路不到一个小时。那家冷清的饭店建得还算挺大。本来大概不是面向本地人，而是接待经过官道的旅人吧，似乎也兼作客栈。</p>
+<p>我们这边是庸医的义弟和他的两个儿子，再加上村里三个壮年男子。还有庸医和猫猫这两个添头，总共八个人。</p>
+<p>对面则是十多个壮硕的大叔，其中一位胡子拉碴、派头十足的中年男人大马金刀地坐在那里。</p>
+<p>饭店的老板和老板娘一脸嫌麻烦地看着这群人。</p>
+<p>大概是料到对方会提出蛮横无理的要求，可能会发生斗殴，所以才选了这么个地方吧。真是给人添麻烦。</p>
+<p>庸医在瑟瑟发抖。除了偷看店老板娘之外，女人就只有猫猫一个，显得格外突兀。不过，好在大家对这副鸡骨架似的小姑娘都没什么兴趣，有人歪着头问"怎么会有这种人在？"，也有人嗤之以鼻。</p>
+<p>跟过来可费了一番周折。</p>
+<p>因为庸医的婶娘拦住了她。说是好歹这副模样也是待嫁之身，要是遇到什么危险就麻烦了。况且也太格格不入了。</p>
+<p>话虽如此，可一边是庸医那可怜巴巴望着猫猫的眼神，猫猫自己也对那所谓的契约很在意。</p>
+<p>没办法，她只好随口编了个理由。</p>
+<p>"我有个远亲精通这方面的事，我把情况告诉他，转达一下这里发生的事，不行吗？"</p>
+<p>听她这么说，婶娘大概是以为她认识司法官之类的人，才勉强同意了。</p>
+<p>可惜猫猫并不认识什么司法官。倒是认识一个做着类似事情的准宦官，但那又另当别论。猫猫所说的远亲，是个擅长打算盘的小个子男人。要是找那家伙商量，他肯定知道一大堆不触犯法律的赚钱法子。</p>
+<p>于是乎，猫猫坐在稍远的座位上，向店老板娘要了杯茶。这里大概也兼营酒馆，酒气扑鼻而来，她差点就想点酒了，但还是忍住了。</p>
+<p>那酒似乎是浊酒，厨房那边有个大酒桶，能看到里面白色的酒液。在都城，人们更偏好清酒和蒸馏酒，所以这给人的印象就是典型的乡下酒。</p>
+<p>在猫猫被酒吸引注意力的当口，那边已经开始了谈判。她姑且还是竖起耳朵听着。</p>
+<p>"钱准备好了吗？"</p>
+<p>说出这种三流戏子演反派般的台词的，果然还是那个派头十足地坐着的胡子中年男人。地主男人周围全是些佃农、但看上去分不清是保镖还是什么的彪形大汉。</p>
+<p>猫猫心想，这边的几位大叔体格虽也不错，但从人数上看怎么都是劣势。</p>
+<p>"期限应该还没到吧。能不能再宽限一些时日？"</p>
+<p>那位当家一脸严肃地说道。地主和当家之间放着一张纸。那应该就是契约书吧。</p>
+<p>"可没空给你考虑。我们也不是光凭善心做事的。要是还不起，那就只能请你们搬走了。"</p>
+<p>对方毫无商量余地。看这情形，大概已经被这样说过很多次了吧。</p>
+<p>"我们也不是不想给你们行个方便。所以才说等到今年冬天嘛。只不过，这段时间里想向你们请教请教罢了。"</p>
+<p>（简直是胡来。）</p>
+<p>要么现在就走，要么年底之前走。就算给了宽限期，那也变成了向对方传授自己技术的时间。</p>
+<p>下一处住处也不可能定下来，就算选了后者，技术也必然会外流。恐怕是想把"宫廷御用"的招牌也一并抢走，只把人换掉吧。</p>
+<p>虽然令人愤慨，但这不可能就这么行得通。</p>
+<p>况且证据就在桌上。</p>
+<p>不过，猫猫觉得有些奇怪。与其特意让农民学会了手艺再赶走他们，不如以债务为要挟让他们当廉价劳力不是更好吗。难道就那么排斥外人吗？</p>
+<p>猫猫蹑手蹑脚地站到了当家身后。旁边是庸医，胡子颤抖着。</p>
+<p>那份契约书明明是十多年前写的，纸质却很好。若是粗劣的纸，几年就会破烂不堪了。</p>
+<p>上面写着二十年还清款项，以及每月的还款金额。最后还端正地按着作为签名替代的花押印。</p>
+<p>明明有这么确凿的东西，对方凭什么那么趾高气扬。猫猫正歪着头纳闷，下面那个小儿子偷偷告诉了她。虽然大概是说给庸医听的，但声音猫猫也听得见。</p>
+<p>"他们说契约书无效。"</p>
+<p>而且，还说里面的文字是代书人写的。</p>
+<p>"明明有花押？"</p>
+<p>"那是真的没错。"</p>
+<p>据说前任地主不识字。</p>
+<p>"他不识字吗？"</p>
+<p>猫猫问道。</p>
+<p>猫猫歪着头，觉得这不太对劲。既然是地主，应该会过目文件才对，而且首先他应该受过那样的教育。</p>
+<p>"因为他是个上门女婿。"</p>
+<p>（啊。）</p>
+<p>她明白了。既然是入赘女婿，那就说得通了。他大概原本是个干活勤快的佃农吧。那样的话，当然不可能有学问，入赘之后想学也不是那么容易的事。</p>
+<p>"以前不是代书人，是夫人替他写的。"</p>
+<p>据说是在夫人去世后才签的这份契约。</p>
+<p>（嗯——。）</p>
+<p>猫猫愿意相信这份契约书是真的。既然他们说花押印是真的，那在先代地主面前签约这件事应该是真的。</p>
+<p>"当时没有代书人和在场的见证人吗？"</p>
+<p>"那两个人都已经过世了。"</p>
+<p>据说是十五年前的契约，两人当时年事已高。</p>
+<p>（真是乱来。）</p>
+<p>在猫猫挠头的时候，地主正把两个没有选择余地的选项摆在当家面前。周围的农民们露出猥琐的笑容，纸匠们只能缩着身子。只有那个长子，神色复杂地咬着嘴唇。</p>
+<p>"要是不马上搬走的话，那就没办法了。从明天起，我把我家的小子们派到你们那边去。说是帮忙，你们就在年底前教会他们干活吧。"</p>
+<p>纸匠们攥紧了拳头。庸医虽然跟来了，但果然是个废物，根本派不上用场。</p>
+<p>只有猫猫冷静地观察着周围的情况。</p>
+<p>果然，她还是在意那酒。</p>
+<p>虽然想待会儿来上一杯，但在这场合这么做也太不识趣了。</p>
+<p>然而地主那边倒是兴致高昂，已经开始高高兴兴地点酒了。</p>
+<p>"喂，也给这些家伙上酒。"</p>
+<p>跟着地主大手笔而来的农民们闹作一团，反观这边则像在办丧事一样。</p>
+<p>店老板娘不情不愿地端着托盘，上面放着酒和杯子走了过来。</p>
+<p>猫猫抽了抽鼻子嗅了嗅。</p>
+<p>（咦？）</p>
+<p>她看向农民们手里的酒杯。不是浊酒，是透明的酒。地主男人喝的是另一种琥珀色的液体，看得出是蒸馏酒。他似乎相当能喝。</p>
+<p>地主嘛，喝自己喜欢的酒是理所当然的。但连佃农都给清酒喝，这也太阔绰了。这家饭店里明明还有大量更次一等的浊酒。</p>
+<p>（……）</p>
+<p>猫猫虽然觉得有点对不起那位搬酒搬得不耐烦的老板娘，还是举手叫住了她。</p>
+<p>"怎么了？"</p>
+<p>"也给我一杯。就那种酒。"</p>
+<p>"真是没办法啊。"老板娘端来了酒。</p>
+<p>"小姑娘，这种时候……"</p>
+<p>不止庸医，连纸匠当家们也以目瞪口呆的眼神看着她。</p>
+<p>猫猫一口气喝干了酒。</p>
+<p>入口甘甜，味道不错。虽然不如都城的酒那般精致，但也别有风味。只是，酒精浓度相比其柔和的口感，要浓烈得多。</p>
+<p>如果这酒味道极其恶劣的话，倒还能找到理由。</p>
+<p>猫猫舔了舔嘴唇。</p>
+<p>不得不好好接待麻烦客人的饭店，那里放着的大量浊酒。还有那个蛮横的地主，却给农民们喝不同的酒。</p>
+<p>（哼——，原来如此啊。）</p>
+<p>猫猫看向一脸愕然的当家。</p>
+<p>"请问，这附近有酿酒的地方吗？"</p>
+<p>"……没有，好像没听说过有那样的地方。"</p>
+<p>"果然呢。"</p>
+<p>猫猫嘴角一咧，露出狡黠的笑容，端着盛酒的杯子，站到了吵吵闹闹的地主们面前。她把酒杯"咚"地一声放在桌上，浮现出犹如猛禽般的笑容。</p>
+<p>"怎么啦，小姑娘？是要来给我们斟酒吗？"</p>
+<p>地主露出嘲弄般的笑容，引来一阵哄堂大笑。</p>
+<p>"小、小姑娘！"</p>
+<p>庸医抓住猫猫想把她拉开，让她赶快离开这里。但猫猫无视了他，笑着对地主说道：</p>
+<p>"我们来比比酒量如何？"</p>
+<p>说着，猫猫拍了拍自己的身子。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-013.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-015.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

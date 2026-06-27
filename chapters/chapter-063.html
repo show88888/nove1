@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">063</h1>
+</header>
+<p>十六、点心</p>
+<p>盛夏时节，距离秋意尚有些时日。都城已满是祭典的气氛。异国之人纷至沓来，经济也随之运转起来。结果，各类活动自然增多，最终演变成了庆典。</p>
+<p>猫猫并不讨厌祭典。毕竟周遭会变得热闹起来。这种变化在宫廷内也显而易见。</p>
+<p>要说怎么个明显法——</p>
+<p>“操劳过度了。”</p>
+<p>一位脸色铁青的文官被面无表情的医官送进来时，只得了这么一句话。他眼下带着黑眼圈，目光涣散呆滞。</p>
+<p>“必须好好睡觉。字面意思，会死的。”</p>
+<p>睡眠很重要。年轻时叫嚣着一两天不睡也没事的人，上了年纪后突然暴毙的事并不少见。有一阵子，壬氏也危险到几乎没怎么睡。</p>
+<p>要在都城开店，需要官员的许可。虽然擅自摆摊的人也不少，但若要正式大规模开店，就涉及到税收问题，手续必不可少。一旦被发现，轻则罚款，重则入狱。</p>
+<p>每逢庆典前夕，人流便会聚集。由于异国人士到来，交易品比以往更多，瞄准这点而定居都城的人也不在少数。</p>
+<p>文官们因此日以继夜地整理文书。</p>
+<p>武官那边同样不得闲。不过，最近那位怪人军师来的次数减少了，倒要谢天谢地。</p>
+<p>人流量增加，治安也会恶化。维持治安是武官的职责。与文官不同，武官只要把训练时间挪给工作就行，而且大多是些肌肉脑，没人会因为这种程度就累倒。</p>
+<p>不过，伤员倒是增多了。</p>
+<p>“疼疼疼！你就不能轻点吗！”</p>
+<p>姚正在给一名武官上药。他手臂上有一道长约三寸的红色割伤。</p>
+<p>（不过是皮外伤罢了。）</p>
+<p>似乎是有人擅自摆摊，还在卖可疑的药。前去取缔时，对方恼羞成怒，掏出了刀具。</p>
+<p>“抱歉。”</p>
+<p>姚语气依旧平淡，但嘴唇微微撅起。与其说是生气，倒更像是忍住不哭的样子。</p>
+<p>燕燕悄悄上前帮衬自己的主子。她递上一杯凉透的茶，说是“镇痛剂”，但那明明只是普通的冷泡番茶吧。</p>
+<p>医官让宫女们独自处理患者的情况还很少见，但燕燕这种细心的照顾似乎颇受好评。近来针对医局的投诉似乎也减少了。</p>
+<p>那么，猫猫在做什么呢？</p>
+<p>她在咔嚓咔嚓地捣药。</p>
+<p>她被交代做些简单的药膏。只要能抑制住想做些更稀奇古怪药物的冲动，倒也不错。猫猫不善待客，容貌也不及其他两人，干这活正好。</p>
+<p>“猫猫，药膏。”</p>
+<p>自从那件事之后，燕燕说话明显随意了许多。不过，每当燕燕对猫猫态度如此时，姚就会微微鼓起嘴。猫猫有时觉得，燕燕或许是故意在逗弄这位主子孩子气的反应。</p>
+<p>“药膏是吧。”</p>
+<p>猫猫正要把药膏递过去，瞥了一眼伤员——就是刚才大呼小叫的那个武官。明明伤得不重，却吵得要命。</p>
+<p>“……”</p>
+<p>猫猫悄悄从怀里掏出另一盒药膏，替换掉了原本要递出去的那一盒。</p>
+<p>（正好。）</p>
+<p>反正他那么精神，拿他当新药膏的试验品应该没问题吧。</p>
+<p>“喂，你在干什么？”</p>
+<p>身后突然有人喊她，猫猫吓了一跳。回头一看，医官正眯着眼盯着她。</p>
+<p>“刚才你是不是把药换了？”</p>
+<p>“您在说什么？”</p>
+<p>猫猫装傻充愣，但正要递给医官的药却被一把夺了过去。医官眯着眼，用指尖确认药膏的质地。</p>
+<p>“喂，你掺了什么别的东西吧。这个。”</p>
+<p>“您在说什么呀？”</p>
+<p>猫猫继续装傻，脑袋上却挨了一记拳头。</p>
+<p>“罗门可是叮嘱过我要严厉管教的。”</p>
+<p>既然是老爷子的熟人，那就不太好耍赖了。</p>
+<p>“你放了什么？”</p>
+<p>“一点点青蛙。”</p>
+<p>猫猫听说蛙油有效，便试着做了一下。实际上，青蛙身上几乎提取不出什么油，好不容易才做出手里这一小盒。</p>
+<p>“我听说在异国，蛙油可以用作药材。”</p>
+<p>“先说明，我可没听说过。”</p>
+<p>是啊，猫猫也没听说过。只是想着说不定有什么功效，才试了试。她特意挑选了无毒青蛙，还先在自己身上确认过没有异常反应。她还不至于丧心病狂到拿不明毒性的东西来做实验。</p>
+<p>“总之，没收了。”</p>
+<p>“啊——！”</p>
+<p>被拿走了。明明是自己好不容易休息日跑到田里去找来的。</p>
+<p>“那个，青蛙……”</p>
+<p>姚脸色发白地看着猫猫，表情难以置信。</p>
+<p>“你把那种东西放进药里，简直疯了！”</p>
+<p>猫猫掏着一边耳朵，充耳不闻。大概是态度太差，被燕燕用胳膊肘捅了一下。</p>
+<p>“虽然这对姚小姐来说可能难以接受，但平民百姓可是很平常地拿来吃的。”</p>
+<p>姚又是一副难以置信的表情，转而看向燕燕，像是在征求她的意见。</p>
+<p>“是的。确实很常见。偶尔还有人拿蛇肉冒充鱼肉卖呢。”</p>
+<p>听到“蛇”字，姚的脸变得更白了。</p>
+<p>“请您放心。姚小姐吃的东西里，绝不会混入任何不靠谱的食材。”</p>
+<p>“蛇也可以吃的哦。”</p>
+<p>虽然小刺多比较麻烦，但炸透了就没问题。怕腥的话，加些香草或佐料掩盖掉就好了。</p>
+<p>正好有点饿了，猫猫便从怀里掏出了蛇肉干当作零食。她递过去问要不要吃，姚却晃了晃身子靠在墙上，无力地拒绝了。</p>
+<p>猫猫只好无奈地把肉干收回怀里。</p>
+<p>“喂，你们几个，别偷懒！”</p>
+<p>被医官一斥，猫猫她们只好停下闲聊，继续干活。</p>
+<p>猫猫她们的午餐在食堂吃。虽然供饭，但分量不多，所以很多人会自带加餐。</p>
+<p>官员和宫女的用餐场所是分开的。平时对猫猫冷淡的姚，只有在这个时候会稍稍靠近些。</p>
+<p>原因在于周围的气氛。</p>
+<p>无论是在后宫还是在花街，猫猫都深有体会——女人只有到了全是女人的环境里，才会露出本性。在没有男人目光的食堂一角，各种庸俗的八卦漫天飞舞。</p>
+<p>“哎，武官果然不行。忙得要死，薪水也就那样。吃得又多，伙食费也不是小数目，连顿饭都请不起。”</p>
+<p>“哇，好差劲。不过文官也不见得都好。上次倒是有人约我，结果坐窗边。一看就是个只会整理发霉文书、升迁无望的家伙。倒是送了簪子，可款式过时得让人无语。”</p>
+<p>“有的送就不错了。反正你也是拿去当铺吧？”</p>
+<p>宫女大多出身良家小姐。但并非所有人都是教养与品性兼备。</p>
+<p>从真正的大小姐们来看，这大概是个难以接受的现实。猫猫在食堂角落坐下时，姚总会悄悄跟过来。</p>
+<p>原因在于，只要猫猫在，那些找茬的——特别是敌视新部门“医官助手”宫女的人——就不会靠过来。</p>
+<p>（不过是提醒了几句而已。）</p>
+<p>结果就都不靠近了。</p>
+<p>事情是这样的：曾有个宫女想给这些初出茅庐的医官助手一个下马威，带着一帮跟班来了，那架势简直跟当初的姚如出一辙。不同的是，她与其说是来工作的，不如说是来钓男人的——一副“我每周换一个男伴”的样子，甚至以此为傲。</p>
+<p>猫猫注意到那名宫女嘴角周围起了疹子。</p>
+<p>“恕我冒昧，您似乎有多个性伴侣，您了解疾病方面的情况吗？”</p>
+<p>她确认道。</p>
+<p>“我可不会跟有病的男人来往！”</p>
+<p>对方断然否认，但猫猫跟她讲了潜伏期的事。此外，即便对方本身没病，若对方的性伴侣有病，那病原体也很可能已经传了过来。毕竟自己并非唯一一个有多个伴侣的人。</p>
+<p>猫猫还说明，性传播疾病不止一种，常常会同时感染多种。</p>
+<p>“最近有没有觉得身体疲倦？或者阴部有溃烂、硬块，甚至出血等症状？”</p>
+<p>猫猫一番问诊下来，对方脸色煞白地跑开了，从此再也不敢靠近。</p>
+<p>猫猫可是相当认真的，姚却脸涨得通红。燕燕似乎对性传播疾病一无所知，还认真地做了笔记。</p>
+<p>好了，回到正题。今天的午餐是粥、羹汤，以及一道素菜。蔬菜有好几种，可以选自己喜欢的，但去晚了就卖完了，没得选。</p>
+<p>虽说分量少，但普通人家一天只吃早晚两顿。午餐这顿饭，其实是替代了点心时间的茶点。</p>
+<p>猫猫选了凉拌蒸鸡作为配菜。肉类很受欢迎，不早点去很快就没了。姚和燕燕也选了同样的菜。</p>
+<p>“我可不是在学你哦。”</p>
+<p>（嗯，我没说。）</p>
+<p>某种意义上，这反应还挺可爱的。</p>
+<p>看看其他菜，还有鱼和凉拌醋物。切好的鱼块从某个角度看，也不是不像蛇。她们避开鱼，大概是因为这个原因吧。</p>
+<p>既然如此，猫猫这个别扭的人，就忍不住想使点坏了。</p>
+<p>她坐到食堂角落，平时只是默默吃饭，但今天——</p>
+<p>“说起来，听说他国的大人物要来呢。”</p>
+<p>最近的话题总绕不开这个。</p>
+<p>“据说在沙漠地区，蛇和蜥蜴是宝贵的营养来源，所以确实有人食用。到时候他们的料理会怎么安排呢？”</p>
+<p>去过西方就知道，饮食文化不同。上次被带去西方时，她就深有体会。虽然没能好好观光，但路边摊上确实有不少稀奇古怪的东西。</p>
+<p>“猫猫。”</p>
+<p>燕燕投来略带责备的目光。姚则握着勺子一动不动。</p>
+<p>“……我没胃口了。”</p>
+<p>她轻轻放下了勺子。</p>
+<p>“姚小姐，您得好好吃饭才行。”</p>
+<p>“点心的话还能吃得下。”</p>
+<p>她略带赌气地对燕燕说道。燕燕一脸为难，取出一个布包。里面是一个竹筒水壶。正在长身体的姚，光靠食堂的饭不够，总是自带点心的。</p>
+<p>“吃完正餐再吃的话倒也行……”</p>
+<p>燕燕瞥了姚一眼。姚“唔”地皱着脸，还是拿起了粥勺。</p>
+<p>（真会哄人啊。）</p>
+<p>那么，竹筒里装的到底是什么呢？燕燕取出碗，倒入里面的东西。一股甜香飘散开来，半透明的、颤颤巍巍的东西露了出来。</p>
+<p>“这是……”</p>
+<p>果然是有钱人。这是高级点心，最适合夏天的甜品。有滋养强身、美肌之效，偶尔也会作为夜宵端给玉叶皇后。</p>
+<p>“是姚小姐最爱吃的。”</p>
+<p>燕燕轻轻将食指贴在唇上。她大概以为猫猫知道这甜品是什么吧。</p>
+<p>（说什么“不确切的食材绝不会混进去”……）</p>
+<p>做的事还真是残酷啊。</p>
+<p>“啊——，虽然有点温了，但还是很好吃。”</p>
+<p>姚心满意足地吃着那颤颤巍巍的点心。</p>
+<p>那点心的名字，叫做“雪蛤”。</p>
+<p>其材料是青蛙的卵巢——这件事，还是不要告诉姚为好，对她来说才是善意的。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-062.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-064.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

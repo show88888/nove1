@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">046</h1>
+</header>
+<p>**十九、里树妃的转折 后篇**</p>
+<p>叮铃铃——铃铛发出声响。</p>
+<p>马闪觉得这声音很刺耳。</p>
+<p>表面上，这是作为神事进行的，所以在出京城之前，都要一边奏着这种奇怪的乐声一边行进。</p>
+<p>然而，最近频繁出入花街的马闪，无论如何都会把这铃声与烟花巷联系起来。</p>
+<p>难道没有别的乐器吗？</p>
+<p>那些嘴损的人，会不会把这事儿和花街联系起来，借此辱骂里树妃呢？</p>
+<p>会不会有人揶揄她回不了后宫，从而散布无聊的流言呢？</p>
+<p>马闪骑在马上，就这样沉思着。</p>
+<p>队伍中央安排的那辆马车里，坐着里树妃。</p>
+<p>在她后面，是侍女们和装载行李的马车。</p>
+<p>马闪的位置在妃子马车的斜前方，后面则是最近被月君重用的一个叫李白的男人。</p>
+<p>那是个随性的男人，跟马闪搭过几次话，但说实话，这次他实在没有那样的闲情逸致。</p>
+<p>按理说，不应有这么多护卫随行。</p>
+<p>马闪本人以这样的身份担任护卫也很奇怪。他可是月君的部下。</p>
+<p>然而，他却这样加入了妃子的队伍。虽然只是临时性的，队伍是由另一个人率领的。从身份上说，马闪更高，但事已至此也没办法。</p>
+<p>马闪对于这支护送里树妃的队伍，总觉得有种违和感。</p>
+<p>要说证据是什么——大概就是自己带着那个本认为不会受伤、无需用到的药铺姑娘给的包裹吧。</p>
+<p>他知道月君隐瞒了什么事。</p>
+<p>马闪也不至于不明事理到去追根究底。</p>
+<p>他想，月君一定有自己的考量。</p>
+<p>因此，在不知会发生什么的情况下，如何行动，这才是关键。</p>
+<p>到离宫大约需要两天的马车行程。</p>
+<p>天气不算差，反倒是日照过强更成问题。</p>
+<p>队伍以妃子为中心，途中让马匹休息以免累倒，缓慢地前行着。</p>
+<p>“据说今晚要在那里投宿。”</p>
+<p>搭话的是李白。</p>
+<p>与马闪不同，李白是步行的。他体格健壮，身材高大，马闪骑在马上也无需俯视他。</p>
+<p>“难道没有别的村子了吗？”</p>
+<p>马闪不由自主脱口而出，是因为看不到任何适合妃子下榻的住宿设施，只有一派典型的乡下村落。简陋得如同临时搭建的棚屋般的房屋鳞次栉比。</p>
+<p>这也太寒酸了吧。</p>
+<p>“到了中间地点，似乎就只有农村了。话说回来，这条件可真够呛。”</p>
+<p>马闪心想，要是走稍微好些的路就好了。这样简直跟露宿没什么两样。</p>
+<p>“就在马车里过夜吧。”</p>
+<p>“……没问题吗？”</p>
+<p>确实，马车很大，里面的空间大概有一间小房间那么大。</p>
+<p>“听说跟西行之旅用的是同样的东西，应该没问题。”</p>
+<p>李白露出白牙，咧嘴一笑。</p>
+<p>所谓豪杰，大概就是指这样的男人吧。李白比马闪高约七寸（约21厘米）。晒得黝黑的皮肤，结实的体格。腰间佩着剑，但听说他擅长的武器是六角棒。</p>
+<p>想必身手不错吧。</p>
+<p>说起来还没跟他比试过。马闪考虑着，是不是该找个机会跟他切磋一下。</p>
+<p>不过，既然妃子连宿处都没有，那马闪他们就得露营了。</p>
+<p>一晚上的话，倒也没什么问题。只是得生火，防止野狗之类靠近。</p>
+<p>“野外的话，这个季节虫子很多啊。”</p>
+<p>李白皱起了眉头。</p>
+<p>“这附近有没有能当蚊香的东西啊……”</p>
+<p>“蚊子吗。”</p>
+<p>确实，那很讨厌。</p>
+<p>就算生了火，也不可能完全不被叮咬。</p>
+<p>正好耳边传来讨厌的嗡嗡声，马闪一巴掌拍下去。手掌上粘着一只黑白条纹的瘦弱蚊子。</p>
+<p>环顾四周，这里是水田地带，想必有大量孑孓滋生吧。</p>
+<p>马闪只能皱起眉头。</p>
+<p>到达村子后，他们简单地向村民们打了招呼。一个皮肤黝黑的老人出来迎接了他们。</p>
+<p>身为临时人员的马闪只是简单致意。</p>
+<p>因为第二天要早起，晚上便早早睡下了。</p>
+<p>他们借用村里的灶台生火，享用了晚餐。用餐不能太讲究。能有热粥和烤好的肉，已经算是奢侈了。只是，伺候里树妃的那些侍女们明显在抱怨。</p>
+<p>真是没教养。</p>
+<p>既然身为上级妃子的侍从，理应学过礼仪，她们却毫不客气地抱怨。而且，她们动辄就缩回马车里。</p>
+<p>马闪看着回到马车的侍女们，心生疑惑。</p>
+<p>“很奇怪吧。”</p>
+<p>叼着勺子走过来的是李白。他把烤肉随意地放在盛粥的碗上。</p>
+<p>“本该伺候妃子的女人们，为什么全都缩在另一辆马车里呢？”</p>
+<p>听起来像是在提问，但马闪知道这纯粹是嘲讽。</p>
+<p>“真是不像话。”</p>
+<p>里树妃因为出身背景，似乎并不受侍女们的敬重。她既是先帝的妃子，又进入了当今陛下的后宫。侍女们对此感到不满。</p>
+<p>“真可怜。那些侍女就不想着扶持自己的主子，谋求晋升吗？”</p>
+<p>马闪明白李白这话并无恶意。然而，他只是一口将碗里的粥扒进嘴里，咬下一块烤肉。</p>
+<p>“哦，已经吃完了吗？汤不喝吗？”</p>
+<p>“嗯。没什么食欲。你要喝的话给你。”</p>
+<p>马闪收拾好碗，去看马匹。</p>
+<p>已经给马喂过草料了。马闪梳理着马的鬃毛。</p>
+<p>“那态度算怎么回事。”</p>
+<p>马闪曾听说过关于里树妃的传闻。他也调查过这位可能成为自己主君——月君之妻的人。</p>
+<p>然而，那些传闻并不太好。</p>
+<p>说她是个试图侍奉两位皇帝的狡猾女人。</p>
+<p>说她比不上其他上级妃子。</p>
+<p>说到底不过是个暴发户的女儿。</p>
+<p>马闪回忆起曾见过一面的里树妃的面容。</p>
+<p>那是个在暴徒面前瑟瑟发抖的、柔弱少女。</p>
+<p>身体纤小得仿佛一碰就会折断。</p>
+<p>后宫被称为花园。这话没错。只是，既有娇艳可怜的花朵，也有带毒的花朵。</p>
+<p>里树妃又是怎样的一朵花呢？</p>
+<p>正抚摸着马背，马闪看见一名侍女从妃子的马车里出来。</p>
+<p>“只有那个侍女还算尽职。”</p>
+<p>就连马闪也看得出来，在妃子身边认真工作的侍女只有那一个。其他侍女难道就不想至少做做样子吗？</p>
+<p>马闪也明白月君为此烦恼的原因。当年月君还在后宫中以宦官壬氏的身份行事时，马闪偶尔会和他说上话。平时那张美丽的脸上从不显露忧愁，但在马闪面前，他偶尔会露出松懈的表情。</p>
+<p>即便离开了后宫，似乎依然麻烦不断。</p>
+<p>从马车出来的侍女正收拾餐具。即使从远处看，也能看出盘子里剩下了食物。大概是吃不惯吧，几乎没怎么动过。</p>
+<p>“也难怪啊。”</p>
+<p>她背负着不贞的嫌疑，就这样被送往离宫软禁。想必她没有那么粗的神经，能把这些饭菜都吃完吧。</p>
+<p>马闪听到耳边讨厌的蚊声，挥手驱赶。</p>
+<p>蚊香准备好了吗？他正环顾四周，只见一名侍女从另一辆马车里出来了。</p>
+<p>她手里拿着一个壶，正冒着烟。</p>
+<p>是蚊香吧。</p>
+<p>她将那壶烟送往里树妃的马车。</p>
+<p>看来，除了刚才送饭的侍女外，其他人姑且也会做一些像样的工作。虽然只是拿个蚊香过来罢了。</p>
+<p>马闪抽了抽鼻子。比起蚊香，这更像是熏香。有一股独特的气味。</p>
+<p>马闪放下梳理好鬃毛的马，决定回到其他护卫所在的地方。</p>
+<p>咕咕——传来了斑鸠的叫声。</p>
+<p>醒来时大约是在丑时三刻（凌晨两点左右）吧。</p>
+<p>守夜的人怎么了？</p>
+<p>马闪环顾四周。</p>
+<p>“！？”</p>
+<p>所有人都睡在临时帐篷里，但没有一个人是醒着的。</p>
+<p>篝火的烟异常浓重，熏得人眼泪直流。</p>
+<p>“喂。”</p>
+<p>他摇了摇附近帐篷里睡着的一个卫兵，但对方完全没有醒来。</p>
+<p>这是怎么回事。</p>
+<p>马闪在腰间佩好剑，从帐篷的缝隙中窥视外面的情况。</p>
+<p>村民的家中没有灯火。</p>
+<p>只有篝火在摇曳，飞虫靠近便被烧落。</p>
+<p>一道长长的影子在移动。</p>
+<p>影子是从马车方向延伸过来的。</p>
+<p>有什么事情正在发生。</p>
+<p>而且，根据现状，马闪应该做的是保护妃子。</p>
+<p>马闪悄无声息地离开帐篷。他移动着，以免影子被篝火照亮。</p>
+<p>马车周围有几个男人，但他们并不在里树妃的马车旁，而是在侍女们和装载行李的马车那边。那些男人似乎在和其中一个侍女说着什么。</p>
+<p>怎么看都很可疑。</p>
+<p>男人们走进了行李马车那边。</p>
+<p>那里面到底有什么。</p>
+<p>马闪正蜷缩着身体潜伏着，忽然感觉到某种气息。</p>
+<p>他条件反射地拔出怀剑，向后刺去。</p>
+<p>“呃，哈哈。请冷静一点。”</p>
+<p>举起双手表示投降的是李白。剑尖抵在他的脖子上，在只差一层薄皮的地方停住了。</p>
+<p>“幸好就我一个人。”</p>
+<p>李白压低声音说着，用手指拭去脖子上渗出的红色血丝。</p>
+<p>“这是怎么回事？”</p>
+<p>“就算你问怎么回事，你从一开始也觉得这次妃子的祭事有点不对劲吧。”</p>
+<p>马闪对李白的话点了点头。仔细看去，李白的手背上沾着暗红色的污渍。</p>
+<p>“晚餐里好像被下了药。你看，到现在脑袋还昏沉沉的。”</p>
+<p>李白亮出手背。看来那些暗红色污渍是他为了驱散睡意而自己划伤的。</p>
+<p>“大人您没事，是因为您喝的是汤菜类的吧？”</p>
+<p>“原来如此。”</p>
+<p>马闪没喝汤，这偶然之举似乎起了作用。</p>
+<p>李白连汤都喝得干干净净，但他之所以能醒过来，想必是早有预料吧。</p>
+<p>“是壬氏大人的命令吗？”</p>
+<p>“正是。”</p>
+<p>李白一边揉着手，一边说道。</p>
+<p>听到这话，马闪觉得心脏像被紧紧攥住了一样。从职责上来说，有些事马闪确实无需知晓。因此，他也明白月君对自己隐瞒是有道理的，但为此感到不甘，或许还是因为自己不够成熟吧。</p>
+<p>马闪瞥了一眼行李马车。</p>
+<p>本该只放行李的马车，为何会有那么多人聚集过去？</p>
+<p>他们的目标不是里树妃吗？</p>
+<p>“也就是说，真正的目标在别处。”</p>
+<p>“明察秋毫。”</p>
+<p>带着妃子的旅行只是伪装，真正的目标在行李马车里。</p>
+<p>“我接到的命令是保护那辆行李马车。本来还有另一个人跟我一起的……啊啊，真可怜。”</p>
+<p>他看向倒在马车旁的一道影子。看起来像个女仆，但一动不动。在这样的黑暗中，分不清是死是活。</p>
+<p>“那辆行李马车里有什么？”</p>
+<p>“那就是我的工作了，大人。”</p>
+<p>李白舔着手背说道。</p>
+<p>“对方人可不少啊。”</p>
+<p>“如果是那两倍的人数就有点吃力了，但这些人的话没问题。”</p>
+<p>他说得轻描淡写。</p>
+<p>然后，李白看向马闪。</p>
+<p>“您的工作又是什么呢？”</p>
+<p>“……”</p>
+<p>马闪的工作是保护里树妃。</p>
+<p>如果连被交代的任务都完成不了，那也就谈不上什么信任了。</p>
+<p>马闪紧紧握拳。然后，看向正在舔舐伤口的李白。</p>
+<p>“用这个。”</p>
+<p>他从怀里取出布包，扔过去，里面是止血药和绷带。他没想到这么快就能派上用场。</p>
+<p>“谢谢您。”</p>
+<p>豪杰咧嘴一笑，将绷带缠绕在手上。</p>
+<p>马闪将布包的剩余部分放回怀里，走向里树妃所在的马车。</p>
+<p>“都是你的错。”</p>
+<p>靠近马车时，传来了女人的声音。</p>
+<p>从被篝火照亮的身影来看，是里树妃的侍女之一。</p>
+<p>“你本不该占据这与你身份不符的上级妃子之位。我一直为此感到极度不快。”</p>
+<p>看不见妃子的身影。</p>
+<p>但既然她在说话，是妃子还没睡呢，还是侍女在自言自语呢？</p>
+<p>唯一清楚的是，里树妃被侍女背叛了，而那些男人正是通过她的指引进入的。</p>
+<p>怎么会这样。</p>
+<p>这样一来，里树妃在街上遭暴徒袭击的原因也说得通了。因为内部有知晓妃子动向的人。</p>
+<p>马闪凝视着摇曳的影子。除了侍女，还有另一个影子。</p>
+<p>在香和篝火的烟雾弥漫之中，他捕捉到了一股独特的铁锈味。</p>
+<p>里面情况如何？</p>
+<p>妃子是否平安？</p>
+<p>马闪看向佩在腰间的剑。他拔出剑，轻轻将其藏在马车车轮后面。</p>
+<p>他手持怀剑，又捡起几颗石子。将剑上的玉饰塞进腰带。</p>
+<p>深深吸一口气，再缓缓吐出。</p>
+<p>无声无息，只是冷静地。</p>
+<p>最优先事项是保护妃子。</p>
+<p>马闪站到了从马车入口看去的死角位置。</p>
+<p>他朝着马车内掷出石子。</p>
+<p>咔嗒，骨碌骨碌——</p>
+<p>石子滚落在马车地板上的声音响起。</p>
+<p>“谁！”</p>
+<p>一个男人的声音，接着是地板剧烈吱嘎作响。</p>
+<p>侍女吓得一哆嗦，发出轻微的摩擦声。</p>
+<p>似乎是被男人的声音吓到，传来一声压抑的“嘶”的吸气声，以及身体重心移动的声音。</p>
+<p>在短短一瞬间，马闪分辨出了所有这些声音。</p>
+<p>伴随着脚步声，一个高大的影子出现在马闪面前。那是个比马闪高三寸左右的男人，穿着深色衣服，大概是为了融入夜色。</p>
+<p>然而，他的行动太过拙劣。</p>
+<p>马闪一掌击向男人的下巴。男人的唾液飞溅开来，但他的眼睛依然死死盯着马闪。</p>
+<p>打浅了吗？</p>
+<p>短刀从眼前横劈而过。</p>
+<p>就在头发飘然落下的同时，马闪向前踏出一步。</p>
+<p>紧接着，他瞄准了对方的太阳穴。</p>
+<p>嗡的一声，承受了两记掌击的男人翻起白眼，倒了下去。下巴和太阳穴，都是能有效震动脑部的位置。第一击是因为对对方的身高差和马车台阶的位置判断失误。</p>
+<p>确认男人失去意识后，马闪登上了马车。</p>
+<p>正如所料，里面是里树妃和侍女长，以及那个正在恶语相向的背叛者侍女。</p>
+<p>马闪捂住背叛者的嘴，反剪她的双手。</p>
+<p>“别乱动，我不想用粗鲁的手段。”</p>
+<p>他压低声音，在她耳边低语。</p>
+<p>颤抖的女人顺从地点了点头。</p>
+<p>老实说，她要是挣扎起来会很麻烦。马闪不擅长对女人动手，但也不能就这样放任不管。</p>
+<p>他用带过来的装饰绳捆住了女人的双手。因为不自觉间绑得太紧，侍女轻呼了一声。抱歉，但他实在没有余力顾及那些。</p>
+<p>他瞥了一眼妃子。</p>
+<p>妃子颤抖着，似乎想开口说些什么。</p>
+<p>有没有受伤，害不害怕。</p>
+<p>如果是月君，想必能理所当然地应对，但马闪做不到。</p>
+<p>他只能尽力排除一切可能危及妃子的因素。</p>
+<p>将侍女绑好后，又把昏过去的男人也捆起来，马闪走向妃子。</p>
+<p>他只需专注于排除妃子身边的危险就好。</p>
+<p>妃子颤抖着，从怀里取出一样东西。</p>
+<p>看起来像是一条手巾。她虽然害怕，却还是把它递向了马闪。</p>
+<p>被害怕也是没办法的事。即便救了她，他终究是个会这样捆绑女人的男人，哪怕对方是背叛者。</p>
+<p>看着递过来的手巾，马闪心想她这是要做什么，但正好缺东西堵住那侍女的嘴。</p>
+<p>难道她是为此才递过来的？</p>
+<p>“多谢，长度正好……”</p>
+<p>正伸手去接，手巾却碰到了马闪的脸颊。</p>
+<p>“……？”</p>
+<p>“血、流血了……”</p>
+<p>那微弱得几乎消失的声音，差点被误认为是蚊鸣。</p>
+<p>听到“血”这个字，马闪伸手摸了摸脸颊。有温热的红色液体流下。被划破了一层薄皮。似乎是刚才闪避时没完全躲开。</p>
+<p>这是马闪的坏毛病。他对疼痛很迟钝，尤其是在这种时候，完全感觉不到。</p>
+<p>“……啊，谢谢您……”</p>
+<p>里树妃颤抖着，挤出声音。</p>
+<p>马闪感到身体像是被紧紧勒住一般，不由自主地紧张起来。</p>
+<p>现在不是想这种事的时候。</p>
+<p>可他的脉搏却越来越快。</p>
+<p>“呃！”</p>
+<p>似乎是不自觉间捂住嘴的力气太大了。那个侍女脸色惨白。</p>
+<p>“这、这个……”</p>
+<p>善解人意地拿来另一条手巾的，是跟在里树妃身边的另一个侍女。</p>
+<p>马闪用手巾堵住了背叛者的嘴。</p>
+<p>另一个男人也必须绑起来。</p>
+<p>但马闪的心脏依然狂跳不止，以至于他用力过猛，把男人的胳膊勒得都淤血了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-045.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-047.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

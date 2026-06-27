@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">039</h1>
+</header>
+<p>十二、罗家一族</p>
+<p>那些无可救药的麻烦事，总是说来就来。</p>
+<p>（麻烦事已经饱和了啊。）</p>
+<p>话虽如此，也不可能拒绝接收。猫猫眯起眼睛看向那个人。</p>
+<p>年约三十、长相温和的俊美男子，此刻却全无平日那份沉稳，显得筋疲力尽。</p>
+<p>他的衣服沾满泥污，到处破口，还渗着血迹。</p>
+<p>这样一个人骑来的马，已经力竭倒下了。</p>
+<p>身为这个国家军师的副官，竟露出这副模样，只能说极不正常。想必是赶得太急，后头南门的守卫们也朝这边追来了。他一路直奔绿青馆，大概是直接冲穿过来的吧。</p>
+<p>“怎么回事？”</p>
+<p>猫猫只是外面吵嚷才出来看看。但在这花街里，能和这个男人扯上关系的，也就只有猫猫了。也就是说，他似乎是冲着这个目的来的。</p>
+<p>气喘吁吁的俊美男子——陆孙，像是松了一口气似的露出瞬间的笑容，从怀里取出一封信。</p>
+<p>然后，就那么晕了过去。</p>
+<p>猫猫接过信，眯起眼睛。</p>
+<p>“怎么了？”</p>
+<p>精明婆皱着眉走了过来——她像是刚吃完饭，嘴里还叼着牙签。</p>
+<p>猫猫也露出和婆一模一样的表情。</p>
+<p>“喂，你能不能把那些当官的巧妙打发走？”</p>
+<p>“那得看钱给多少。”</p>
+<p>“这位大哥应该有钱吧。”</p>
+<p>猫猫不负责任地说道，婆便上下打量陆孙。虽然脏兮兮的，但确认衣服是上等货，又看了看脸和指尖。她稍微歪了歪头，观察了一会儿后似乎有了结论，说了声“好”，便朝那些官员走去，像是要去说服他们。</p>
+<p>“好像又惹上什么麻烦事了啊。”</p>
+<p>猫猫正要抱起倒下的陆孙，右叫凑过来搭话。他替猫猫抱起陆孙，搬进了药店。</p>
+<p>---</p>
+<p>让右叫把人放在地板上后，猫猫开始剥陆孙的衣服。脱下外衣，正要解开裤裙的腰带时，右叫拦住了她。</p>
+<p>“猫猫，下面就算了吧，怪可怜的。”</p>
+<p>“他都晕过去了又不知道。再说了，就算没有伤口，也可能有内伤淤青啊。”</p>
+<p>看起来，陆孙的伤是箭伤。全都是擦过的痕迹，没有深深刺入的。皮肤也没有变色，中毒的可能性应该很低，但不能放着不管。</p>
+<p>猫猫淡定地处理着陆孙的伤口，右叫则按着额头。</p>
+<p>“知道了知道了。那下面我来确认。很快就完事，你先出去一下。”</p>
+<p>“你以为他是哪家的大小姐啊？”</p>
+<p>难不成看到肌肤就要咬舌自尽吗？</p>
+<p>“这家伙是狐大人的部下吧？我知道。以后要是因为这事被人找茬，那他才可怜呢。再说了，你不如先把那封信的内容好好看看？”</p>
+<p>猫猫无奈，只好拿着陆孙交给她的信，走出了药店。</p>
+<p>她坐到李白平时和秃头小丫头们喝茶的那张椅子上，仔细看信里的内容。</p>
+<p>信上写的，果然又是一堆麻烦事。</p>
+<p>身为武官的陆孙，为什么会遍体鳞伤地跑到花街来呢？明明应该有更该求助的人才对。</p>
+<p>信里写得清清楚楚，很容易理解。</p>
+<p>大概是觉得一路找到这里已经很可疑，就算到了也没法立刻说明情况，所以事先写了信吧。</p>
+<p>而写这封信的人，不难看出是罗半。那家伙真是个精于算计的人。</p>
+<p>字的形态据说也有某种理想的规格，那个拨算盘的男人字写得很漂亮。字虽然漂亮，却没有个性，反而因为像字帖般整齐排列而成了他的特征。</p>
+<p>陆孙加上罗半，那自然还会想到另一个人——猫猫想到这儿，脸上毫不掩饰地露出嫌弃的表情。</p>
+<p>来概括一下信的内容吧。</p>
+<p>陆孙、罗半，还有另一个戴单片眼镜的大叔，去了某处宅邸。然后，他们被那家的主人袭击，抓住了。只有陆孙勉强逃了出来，于是这样来搬救兵……。</p>
+<p>问题就在于那个“家主”。</p>
+<p>对罗半来说是父亲和祖父，对那位大叔来说是弟弟和父亲。</p>
+<p>也就是说，对方是被逐出罗家的前代家主们。</p>
+<p>难怪不向宫廷求助，偏偏特意跑到花街来。</p>
+<p>---</p>
+<p>伤口处理完后，陆孙醒来已是两个时辰后的事。</p>
+<p>药店太窄，不方便让人躺着，所以借了绿青馆一间空房。事后肯定会被收房费吧。</p>
+<p>“要是事情棘手，就赶紧把他们赶走哦。”</p>
+<p>婆说完，留右叫当监视，自己走了。</p>
+<p>“！？”</p>
+<p>陆孙刚微微睁开眼，便猛地坐起身来。大概是箭伤疼了，他皱着眉，揉了揉缠着绷带的手臂。</p>
+<p>猫猫递过一杯温茶。陆孙用与平日温和形象截然不同的动作接过杯子，一饮而尽。</p>
+<p>等他缓过气来，猫猫开口了。</p>
+<p>“信我看过了。”</p>
+<p>听到这句话，陆孙垂下头，紧紧攥住了拳头。</p>
+<p>“……非常抱歉。都怪我无能。”</p>
+<p>不，在此之前，那些连护卫都不带就大摇大摆跑出去的蠢货们才有问题。</p>
+<p>“比起这个，您想做什么？现在那才是重点吧。”</p>
+<p>之所以跑到绿青馆来，恐怕是因为这是亲族之间的纠纷。说实话，那一家人在宫廷里是出了名的“不想与之为敌”。同时，大家也想着“不想与之为友”。</p>
+<p>所以，就算在这里大张旗鼓地求救，也不知道会不会有人出手相助，甚至可能大多数人会觉得“正好趁此机会”。</p>
+<p>真是毫无人望的一族。</p>
+<p>不，或许应该说，所有人望都被养父罗门吸走了，剩下的连残渣都不剩。不过罗门的那点人望，似乎又被他自己的不幸体质给抵消了。</p>
+<p>罗门现在住在宫廷医局里，所以排除法下来，他们才跑到猫猫这里，但这根本找错了对象。</p>
+<p>作为下属，陆孙能这样来求救，猫猫觉得非但不算无能，反而已经够尽职了。换作猫猫，早就丢下不管了，肯定会装作不知情，远远观望以免被卷进去。</p>
+<p>“那两人被囚禁了，但我什么也做不了啊。到底发生了什么？”</p>
+<p>信上没写到那个程度。</p>
+<p>据说罗半的祖父和父亲被赶出当主之位后，离开了都城，悄悄搬到地方的宅邸去了。似乎家里还是给了他们一定程度的生活保障，但没想到他们会做出这种事。</p>
+<p>猫猫嘴上说着“无能为力”，但事情究竟是怎么发展到这一步的，她还是有兴趣的。她盯着陆孙，摆出倾听详细经过的姿态。</p>
+<p>旁边是靠在墙上的右叫。这个过度保护的男众头目，每当猫猫想掺和进麻烦事时，常常会这样守着。</p>
+<p>陆孙似乎不太想在右叫面前多说，但见男众头目纹丝不动，便像是死心了一般开了口。</p>
+<p>“……最初是那边主动提出想见面的。”</p>
+<p>罗半的祖父们说，时隔十几年想见见罗半他们。内容是：过去的就让它过去，大家好好相处吧。</p>
+<p>（怎么可能。）</p>
+<p>那种话肯定是场面话。他们应该不至于蠢到看不出来吧。</p>
+<p>“毕竟罗半大人那边，是亲生父亲啊。”</p>
+<p>那个算盘男也会有什么亲情吗？猫猫歪了歪头，但仔细想想，他小时候被从亲生父母身边带走，硬是过继给了别人。按理说，罗半应该怨恨的对象，应该是那位单片眼镜军师才对。只是因为看到他适应得太过平常，猫猫都忘了这回事。</p>
+<p>如果罗半多少还对亲生父母留有些感情，他说不定会愿意去听听那番话。</p>
+<p>而那两个没戒心的眼镜男，带去的随从居然只有这个俊美男人一个。</p>
+<p>“……这不是加班吗？您完全可以拒绝啊？”</p>
+<p>“拒绝的话又会惹来别的麻烦。等回过神来，其他人早就退席了。虽然也可以另外加派护卫，但那位大人就是那种性格。”</p>
+<p>可怜这个净抽中下下签的男人，就这样落得一身伤。</p>
+<p>猫猫心想，稍微考虑一下带个护卫去也好啊。以他们的立场，什么时候被暗杀都不奇怪。</p>
+<p>但是，抓住那两个眼镜男又有什么用呢？事到如今，就算夺回当主之位又能怎样。那个怪人单片眼镜好歹也是军部排名前三的高官，但那位置又不会连同当主之位一起继承。就算万一真有什么变动，单片眼镜的能力已经构建起了一种生态系统，周围的人只会趁此机会对罗家落井下石。</p>
+<p>罗半的祖父和父亲，难道蠢到连这都不懂吗？</p>
+<p>“喂喂，你们忘了一件重要的事。”</p>
+<p>插话的是作为局外人的右叫。</p>
+<p>“忘了什么？”</p>
+<p>猫猫歪着头，右叫无奈地叹了口气。</p>
+<p>“只要拉拢大靠山不就行了。一个大靠山。”</p>
+<p>“……”</p>
+<p>猫猫沉默着，陆孙替她开了口。</p>
+<p>“那边似乎想收你为养女。说是想和皇弟建立联系。”</p>
+<p>不知道是从哪里听说了壬氏干的事。猫猫狠狠皱起脸，右叫拍了拍她的额头说“喂，别想了”。</p>
+<p>“靠那种事来打如意算盘，也未免太天真了吧。”</p>
+<p>“话是这么说，但人被逼到绝境是什么都干得出来的。”</p>
+<p>确实有这种人。但希望他们别在自己身边冒出来。</p>
+<p>“说到底，不带护卫去不就是错吗？”</p>
+<p>“这一点我无话可说。不过，就算带了护卫，也不知道能不能应付得了。”</p>
+<p>“别说得那么拐弯抹角，直截了当说清楚不好吗？”</p>
+<p>右叫替猫猫说出了她想说的话。</p>
+<p>“不知为何，周围围着一群不配身份的人。就算是雇佣兵，他们也不该有那么多闲钱。”</p>
+<p>而且，只有这个俊美男人能顺利逃出来这一点也有些蹊跷。甚至可以怀疑，是对方故意放他逃跑的。射出的箭也是故意射偏的。</p>
+<p>如果对方是预料到他会这样跑到猫猫这里来而故意放走他的话……。</p>
+<p>猫猫瞥了一眼窗外。</p>
+<p>傍晚的花街，人影渐渐多了起来。就算有什么可疑的影子混在其中也不奇怪。</p>
+<p>猫猫挠了挠后颈，从房间里探出头。</p>
+<p>“喂——赵迂。”</p>
+<p>猫猫叫住那个满身泥巴回来的孩子。</p>
+<p>“干嘛——？”</p>
+<p>赵迂手里拿着右叫给他做的钓竿和一个旧水桶，桶里几只蝲蛄正在蠕动。今天看来要大饱口福了。</p>
+<p>“今晚你住这儿。梅梅小姐那边是茶贩，应该能让你睡一觉。”</p>
+<p>“为什么啊？突然的。”</p>
+<p>“我得熬一晚上的药。你闻着苦汁味儿能睡着吗？”</p>
+<p>听她这么说，赵迂似乎接受了。</p>
+<p>“哎呀——我今天也休息呢。”</p>
+<p>旁边的白铃凑过来，用脸颊蹭了蹭赵迂。她还是老样子，丰腴的肢体从衣服里若隐若现。</p>
+<p>“白铃小姐不行。这小子还不到吃的时候。”</p>
+<p>“吃是什么意思？”</p>
+<p>赵迂还没明白。大概是注意到被白铃黏上了，不知何时梓琳也跑了过来，拽着白铃的袖子让她离远点。这丫头似乎明白“被吃”是什么意思。</p>
+<p>“喂，吃是什么意思啊？”</p>
+<p>“总之你先去梅梅小姐那里蹭一晚。”</p>
+<p>“我呢——？”</p>
+<p>无视白铃小姐，猫猫悄悄看了右叫一眼。右叫轻轻点了点头。</p>
+<p>他这么机灵，真是帮了大忙。</p>
+<p>---</p>
+<p>那天夜里，一群不速之客闯进了花街的破屋。</p>
+<p>猫猫老老实实地投降，然后就这么被带走了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-038.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-040.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

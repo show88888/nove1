@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">038</h1>
+</header>
+<p>十一、幕间</p>
+<p>马闪正走在回廊上。虽然正值闷热的季节，但这栋楼紧邻中庭，通风很好。沙沙流淌的柳树，其存在本身就酝酿出一份清凉。</p>
+<p>回廊从途中开始由石板地面变为木地板。马闪行走时，本不会发出脚步声。只是，稍一松懈，地板就会响起吱嘎声。原本贵人通行的场所不该有这种瑕疵。</p>
+<p>这是故意做成会发出这种响声的结构。这声音被设计成能在里面的办公室中清晰回响。</p>
+<p>马闪知道这一点，因此刻意收敛了脚步声。从某种意义来说，这也是一种锻炼。要是随意弄出声响，事后父亲高顺的拳头就会落下来。父亲是文武双全的人物，自马闪幼时起便与他分开生活。那是因为父亲要护卫马闪的乳兄弟——那位绝不能直呼其名的皇弟殿下。不知从何时起，马闪就一直想着要成为父亲那样的人。</p>
+<p>如今，马闪代替父亲，负责护卫皇弟。马闪有姐姐和哥哥，但被选中的不是哥哥而是自己，这让他既感困惑，同时也带着干劲投入工作。</p>
+<p>而他现在正前往的，正是那工作的地方。</p>
+<p>在回廊拐角处，他看到了一群如同小麻雀般的人影。是年轻的姑娘们，在宫廷中工作的宫女。那群叽叽喳喳的姑娘们，正在马闪的主君所在的办公室前鬼鬼祟祟地张望。</p>
+<p>她们的目的显而易见。是想透过窗子的缝隙，哪怕只看一眼皇弟也好。</p>
+<p>可惜了，马闪心想。</p>
+<p>即便窗子有缝隙，里面也仔细贴了封纸。这是为了不让声音和声响泄露到外面而下的功夫。虽然通风变差，空气很快就会沉闷，但那种时候可以打开靠近天花的窗户。</p>
+<p>那群叽叽喳喳的麻雀姑娘们似乎没有注意到马闪。她们脑子里大概只装着墙壁对面那位地位、权力、乃至容貌都无比卓越的殿下吧。</p>
+<p>这样一来，为难的就是马闪了。</p>
+<p>马闪不擅长应付这类女人。</p>
+<p>与其说不擅长，不如说是不想靠近。</p>
+<p>然而，前方还有他的事要做。</p>
+<p>马闪无可奈何地站到那群叽叽喳喳的宫女身后，故意清了清嗓子。姑娘们无视了他。他又一次，这次更大声地清了清嗓子。</p>
+<p>贴在窗上的姑娘们猛地一颤，回过头来。他看到了一张张扭曲得厉害的脸。但那只是一瞬间的事，姑娘们立刻换上了仿佛要飞散出花朵般的笑容。</p>
+<p>「马闪大人。贵安」</p>
+<p>「啊、啊啊……」</p>
+<p>要是能质问她们在这里做什么就好了，但马闪还不习惯处理这类事。</p>
+<p>「那我们就先告退了」</p>
+<p>宫女们匆匆微笑着离去了。</p>
+<p>「……」</p>
+<p>他伸手想叫住她们，但已经迟了。</p>
+<p>尽管年近二十，马闪依然不擅长应对女性。尤其是像刚才那群女人那样，活脱脱一副“女人”模样的生物，他尤其不擅长。</p>
+<p>说起来，还是主君中意的那位药铺姑娘更好。那个人，无论好坏都不像个女人。虽然按性别分类大概算是女性，但她并不把那当作武器，反而更倾向于将其视为类似于动物的雄雌区分。</p>
+<p>所以，没关系。</p>
+<p>他怕的是那种将“女人”当作武器来运用的女人。</p>
+<p>至于为什么会变成这样，无非是因为他的家人中就有这样的人。</p>
+<p>也就是说，他是看着母亲和姐姐长大，才变得不擅长的。</p>
+<p>马闪打起精神，绷紧面容，走进了办公室。</p>
+<p>行礼后进入办公室，只见一幅奇异的景象。</p>
+<p>被堆积如山的书册包围的主君。其中大部分应该是工作资料，但唯独他现在读的那本不一样。</p>
+<p>近来京城里开始流行起小说。据说原本是后宫中兴起了读小说的风潮，后来流传到了民间。似乎是在后宫中识了字的女官们服役期满回到民间，将这股风潮传播开来。</p>
+<p>原本，小说被认为是不入流的虚构之作，但即便如此，偷偷读的人也不在少数。</p>
+<p>主君也是其中之一吗——马闪感到些许冲击。</p>
+<p>而且，读的还是所谓的恋爱小说一类。</p>
+<p>不，这不可能，唯独这位大人不可能如此。</p>
+<p>马闪摇了摇头。</p>
+<p>即便脸上留下了伤痕，这国内也不存在比主君更俊美的男子。据说即便面对后宫的佳丽们，他的光辉也绝不会黯淡。</p>
+<p>而且，马闪认为他不可能在工作时间读这种东西。</p>
+<p>原本，推广小说就是为了提高识字率，由主君以后宫为中心推动的。现在他手上的书大概也是为此而参考的读物吧。内容一看就是宫女们会喜欢的那种。</p>
+<p>明明已经过劳了，还在考虑后宫的事吗——马闪紧握了拳头。</p>
+<p>「我回来了，壬氏大人」</p>
+<p>马闪认为，这个本名本不该再使用了。然而，他无法直呼皇弟的名讳，而主君本人似乎也很喜欢这个名字，因此亲近的人都这么叫他。</p>
+<p>主君壬氏缓缓抬起头。那里，有着和父亲高顺一样的眉间皱纹。</p>
+<p>马闪从怀中取出带来的文书递上。那是寄给马闪的书信，寄件人是住在花街的药铺姑娘。</p>
+<p>通常，紧急信件会送到高顺那里。但既然知道是寄给壬氏的，就没有理由拖延。</p>
+<p>壬氏接过信。信里夹着某种小小的东西。看起来像是某种种子，但据说并无危险，他便直接呈上。</p>
+<p>壬氏读完信，又观察了那颗种子。</p>
+<p>「上面写了什么？」</p>
+<p>马闪忍不住问道。大体上，那个药铺姑娘做的事总是些胡闹的勾当。这次大概也不例外吧。</p>
+<p>「说是香烟的种子。可惜没有写栽培方法」</p>
+<p>「说到香烟，现在市面上只有舶来品呢」</p>
+<p>种子只有几粒，不知能否顺利栽培。药铺姑娘很可能就是料到了这一点才送来的。她这是在报告搞到了种子，但栽培就是另外的价钱了——一副这个意思。</p>
+<p>无论是那个药铺姑娘，还是妓馆里的老鸨，花街里尽是些守财奴——马闪心想。</p>
+<p>「如果香烟能栽培成功，就能比现在更便宜地买到烟草了，但问题在于？」</p>
+<p>如果在国内便宜地制造出来，就能作为嗜好品课以重税，她的目的就是那个吗。</p>
+<p>「听说对驱除害虫很有效」</p>
+<p>「那可是！」</p>
+<p>「但就算现在开始种，也来不及了」</p>
+<p>所以信才会送到高顺那里，而是送到马闪这里吗。</p>
+<p>「听说也可以把香烟的灰烬掺入杀虫剂材料中」</p>
+<p>那大概只是微量的效果吧。但总比没有好。</p>
+<p>而且，就算今年不发生蝗灾，明年、后年，灾害随时可能来临。</p>
+<p>为此，提前知晓香烟的用法应该更好——她就是基于这种考量吧。</p>
+<p>「真是无孔不入」</p>
+<p>壬氏嘴上说着坏话，嘴角却柔和地弯了起来。</p>
+<p>将信和种子收入文箱后，壬氏的表情恢复了原状。</p>
+<p>那表情极为严肃，但桌上摆着的却是恋爱小说。</p>
+<p>壬氏将视线落在那上面，浮现出复杂的表情。</p>
+<p>「马闪，我想问你一件事」</p>
+<p>「什么事？」</p>
+<p>主君这样向马闪询问，实属罕见。这是怎么了呢。</p>
+<p>「有没有那种——唯独不想输给这个人、这样想着的对手？」</p>
+<p>这是个相当含糊的问题。被这么一问，要说有也有，要说没有也没有。</p>
+<p>从小在训练中一直被教导的，是严于律己。因此，一直以来被教导的对手是过去的自己。壬氏应该也一样，从高顺那里学过体术。然而，事到如今他却说出这种话来。</p>
+<p>高顺曾说过，壬氏比马闪更优秀。这一点马闪也十分清楚。马闪明白自己尚不成熟，也因此犯过错误。</p>
+<p>如果是自己倒还好，但壬氏若是如此的话，那对手该是多么不可忽视的人物呢。</p>
+<p>马闪咽了一口唾沫。</p>
+<p>「壬氏大人。那位对手是如此的武艺高强吗？」</p>
+<p>「说是高强也算高强吧。如同柳枝一般，又仿佛对着门帘挥拳，无论怎样撞击都毫无受挫的样子」</p>
+<p>马闪和壬氏，综合能力暂且不论，单从技术层面来看，壬氏要高明得多。能避开这样壬氏的攻击的对手，会是怎样的武人呢。</p>
+<p>至少，现在的宫廷内存在这样的人吗。</p>
+<p>也许只是马闪不知道，但确实有某位高手在。</p>
+<p>马闪紧握了拳头。</p>
+<p>他一直以为彼此是乳兄弟。即便身份有别，即便有主从关系，除高顺之外，与壬氏最亲近的部下就是自己了。</p>
+<p>马闪对于壬氏有这样一位对手、对于自己竟不知晓对方的存在，感到极为愤慨。</p>
+<p>他为自己没能察觉而感到羞愧。</p>
+<p>「……恕我僭越，难道我作为修练的对手，还不够格吗？」</p>
+<p>听到马闪的提议，壬氏睁大了眼睛。</p>
+<p>「那是……恐怕你做不到吧」</p>
+<p>壬氏有些尴尬地别过脸去，马闪则感到全身瞬间燥热起来。</p>
+<p>「的确，我认为自己不如父亲那样受壬氏大人信赖。但是，从一开始就如此断定地说我靠不住，我就那么不值得信任吗？」</p>
+<p>「马闪……你都说到这个份上了」</p>
+<p>壬氏缓缓站起身，站到马闪面前。马闪比壬氏矮了大约三寸。不是马闪矮，而是壬氏高。以这副身量尚且常被误认为女子，其容貌的精致程度只能说是上天的造物了。</p>
+<p>「能稍微弯下腰吗」</p>
+<p>「这样吗？」</p>
+<p>马闪依言半蹲下来。如此一来，身高差就接近一尺了。</p>
+<p>「好，就这样抬起头来」</p>
+<p>这姿势颇为难受，但马闪还是照做抬起了头。</p>
+<p>然后，壬氏的脸缓缓靠近过来。</p>
+<p>那张过于完美的脸俯下来，马闪险些看得入神，随即猛然回过神来。</p>
+<p>他不由自主地伸出双手，挡住了那张凑近的脸。</p>
+<p>「你这是什么意思？」</p>
+<p>「这话该我说才对。您到底要做什么？」</p>
+<p>他陷入混乱，能做的只有这样回应。</p>
+<p>然而，壬氏却露出一副莫名了然的表情。</p>
+<p>「果然，你会做出这种反应。不愧是」</p>
+<p>「请、请问。您到底在说什么？」</p>
+<p>半蹲的姿势下肩膀被紧紧抓住，马闪只能慌乱不已。这难道是马闪所不知的某种擒拿手法吗？不，即便如此，脸为何要凑得这么近？</p>
+<p>「这说不定意外地有用呢」</p>
+<p>「呃，您到底在说什么啊？」</p>
+<p>马闪完全摸不着头脑，而壬氏却摆出一副要施展奇妙擒拿的架势，马闪只能以难受的姿势不断闪避。由于使不上力，他完全处于被动防守。</p>
+<p>而等他回过神来，已被逼到了墙边。</p>
+<p>「这下你逃不掉了。不过，即便如此那家伙也能钻过去」</p>
+<p>「……咦。呃，壬氏大人，壬氏大人——！」</p>
+<p>下巴被轻轻抬起，马闪只能满脸通红。</p>
+<p>他不知道该如何回应，只能一脸慌乱，而就在这时，仿佛看准了那个瞬间，办公室的入口被打开了。</p>
+<p>能不发出声响在走廊上行走的人屈指可数，而来者自然是马闪熟识的那一位。</p>
+<p>「……我什么都没看到。」</p>
+<p>说完，高顺便啪嗒一声关上了门。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-037.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-039.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">028</h1>
+</header>
+<p>**一、归途**</p>
+<p>此后过了两天，猫猫一行人终于要回京了。</p>
+<p>他们先送走了卯柳，但不知为何，他看起来比初次见面时少了些锐气。</p>
+<p>这跟猫猫无关，所以之后她也没在意，只管在街上逛了逛。她用从罗半那里敲来的零花钱，买了不少只有当地才能弄到的东西。</p>
+<p>猫猫正发愁回去又得坐马车颠簸，但似乎回程要换条路走。他们走的跟来时不是同一条道。然后，他们来到了一条河边。</p>
+<p>“回去我想坐船。”</p>
+<p>据罗半说，这个季节上游正值雨季，水量增加，所以能行驶比平时更大的船。不过，到了旱季，据说有时反而会断流。</p>
+<p>虽然路程比骑马要绕远，但因为是顺流而下，不像骑马那样需要换乘或休息，可以一直不停地移动。再加上季风，似乎还能跑出相当快的速度。反之，来的时候路程远，又得逆流而上，风向也是逆风，所以坐马车反而更快。</p>
+<p>（船啊……）</p>
+<p>罗半付了船钱，登上了船。船上乘客大多是些看起来有点凶悍的大叔，不过毕竟是以体力活为主，这也理所当然。这边也有护卫跟着，希望他们不至于蛮横到扒光衣服把人沉到河底吧。</p>
+<p>旁边的陆孙看着猫猫的表情，笑了。</p>
+<p>“这艘船是罗半大人生意伙伴的。”</p>
+<p>（……）</p>
+<p>也就是说，可以放心坐，不会有危险是吧。</p>
+<p>猫猫无奈之下，只得上了船。</p>
+<p>---</p>
+<p>“喂，你有没有晕船药？”</p>
+<p>抱着木桶、脸色发青的是罗半。</p>
+<p>稍微隔开些距离，同样脸色发青的陆孙也在那儿。</p>
+<p>他们所在的地方，是一间小小的船舱。这艘船只有两间船舱，其他的搭客们也各自脸色发青。</p>
+<p>“刚才给你的你已经吐掉了。”</p>
+<p>好不容易才给的药，他却已经吐了。药效还没来得及发挥。</p>
+<p>考虑到要坐马车，猫猫事先准备了晕船药，没想到会在这儿派上用场。</p>
+<p>虽然说了能一直移动所以到得快，但这也意味着要一直被摇晃。</p>
+<p>明明坐马车没事，坐船却不行。</p>
+<p>（也不是不能理解。）</p>
+<p>猫猫随着船的摇晃，身体也跟着歪向一边。</p>
+<p>在水量急剧增加的河流中，山洪暴发也时有发生。也就是说，水流很急。</p>
+<p>“呜哇哇哇哇——”</p>
+<p>这次，猫猫又把身体歪向另一边。说实话，船舱里弥漫着呕吐物的臭味，让人很不舒服。她想出去，但被告知擅自出去的话，在甲板上被摇晃可能会掉进河里。确实有这种危险。</p>
+<p>“为什么你就不晕呢？”</p>
+<p>罗半满是怨恨地说道。</p>
+<p>“大概是因为我喝酒也不醉吧？”</p>
+<p>罗半不甘心地瞪着面不改色的猫猫。说起来，这个男人酒量并不算好。</p>
+<p>船顺流而下，到了河面变宽的地方，他们又换乘了更大一级的船。就这样一路前行，最终汇入大河。在回到目的地之前，这个过程要重复好几次。</p>
+<p>“我再也不坐船了！”罗半虽然一脸虚脱地说道，但途中也没能找到合适的马车，结果还是不得不换乘船只。</p>
+<p>就这样，当他们正要换乘第三艘船的时候。</p>
+<p>“咚”的一声，传来一声巨响。</p>
+<p>正想着发生了什么事，只见码头上倒着一个人。</p>
+<p>船员疑惑地扶起倒下的人。那是一个穿着破旧外套的男人，浑身无力。</p>
+<p>“喂，小哥，你没事吧？”</p>
+<p>船员让他仰面躺下，随即发出“呃”的一声低吟。</p>
+<p>那男人原本应该长得很英俊吧。高挺的鼻梁、柳叶般的眉毛都可见一斑。但是，他半张脸布满了麻子。如果把轮廓比作圆，那麻子和光滑的皮肤正好构成了一个阴阳鱼。</p>
+<p>船员像扔开什么似的放开了那男人。</p>
+<p>男人摇摇晃晃地站了起来。</p>
+<p>“不好意思——能让我搭个船吗？”</p>
+<p>男人丑陋的脸上挤出笑容。他伸出的手里，能看见一个装满钱的袋子。他还很年轻，大约二十三四岁的样子。</p>
+<p>“喂、喂！你该不会有什么怪病吧？”</p>
+<p>扶起他的船员做出擦去碰过男人部位的动作。</p>
+<p>男人依旧笑着，摸了摸自己那张丑陋的脸。</p>
+<p>“啊——”</p>
+<p>他像是明白了什么，点了点头，蹲下身去。大概是摔倒时掉的吧，脚边落着一条方巾。男人捡起它，对折成三角形，用它遮住了半边脸。乍一看，就像戴着眼罩。</p>
+<p>“我知道！那是天花吧！一定是！”</p>
+<p>天花，一种会在全身长出脓疱的可怕疾病。据说这种传染病甚至能毁灭一个国家。其传染性极强，通过病人的咳嗽和喷嚏就能传播。</p>
+<p>男人露出嬉皮笑脸的表情，挠了挠脸。</p>
+<p>“哈哈，没事的啦——这是疤。我以前得过，但现在你看，不是活蹦乱跳的吗，你看你看！”</p>
+<p>“胡说八道！你刚才明明还倒在地上！别靠近我！”</p>
+<p>船员话音刚落，周围的人也纷纷与男人拉开距离。</p>
+<p>猫猫眯起了眼睛。</p>
+<p>“发生什么事了？”</p>
+<p>先上船的陆孙走过来问道。他似乎刚才在搬运行李。真是勤快。就偷偷叫他高顺二号吧。</p>
+<p>“那个戴眼罩的男人想上船，但船员说有病的不能上，正在拒绝他。”</p>
+<p>猫猫简短地回答后，陆孙“嗯——”了一声看向那个青年。只要遮住麻子，他确实算是个相当英俊的男子。还有，语气相当轻浮。</p>
+<p>“有什么问题吗？他是要逃票吗？”</p>
+<p>“他似乎有钱，但脸上有麻子，船员怀疑他是不是有病。”</p>
+<p>陆孙眯起了眼睛。</p>
+<p>“真的是病吗？”</p>
+<p>“嗯——”</p>
+<p>从远处看不太清楚。不过，虽然能看到麻子，但上面并没有脓。青年说的多半是真的。即使得过病，也似乎是很久以前的事了。</p>
+<p>那么，为什么不告诉船员呢？那是因为——</p>
+<p>（扯上关系会很麻烦。）</p>
+<p>仅此而已。</p>
+<p>不过，那男人丝毫没有放弃上船的打算，还在缠着船员。</p>
+<p>“求你了嘛——让我上去嘛——太过分了啦——”</p>
+<p>“放开！住手，你的麻子会传染的！”</p>
+<p>“太过分了，这是歧视！你看我明明这么活蹦乱跳的！”</p>
+<p>一般来说，脸上有伤痕的美男子都会有几分深沉，但这家伙似乎完全不符合。他缠着船员粗壮的腿，死活不松开。</p>
+<p>周围的船员虽然想帮同伴，但又怕染上怪病，只得远远围观。</p>
+<p>这样下去，船就没法开了。</p>
+<p>大概是看出了猫猫的表情，陆孙微微一笑。</p>
+<p>“真希望船能早点开啊。”</p>
+<p>（……）</p>
+<p>看向甲板，罗半正望着蓝天，扛着木桶等在那儿。看来在这个码头也没能找到马。</p>
+<p>猫猫一脸麻烦地下了船，站到了那个流着鼻涕死缠烂打的眼罩男和一脸厌烦的船员面前。</p>
+<p>“失礼了。”</p>
+<p>“嗯？”</p>
+<p>猫猫听到一个算不上肯定的回答后，扯下了男人的方巾。</p>
+<p>那丑陋的麻子，一看就知道是很多年前留下的。猫猫看向有麻子的那只眼睛，发现它似乎对不上焦。两只眼睛的瞳孔大小也不同。说不定他一只眼睛已经失明了。</p>
+<p>“这个人没有病。那些痕迹虽然还在，但应该不会传染给别人。”</p>
+<p>至少天花是不会的。</p>
+<p>至于他有没有别的病，那就不知道了。</p>
+<p>（……）</p>
+<p>船员一脸发自内心的厌恶，用指尖捏起男人掉落的钱袋。他把袋子倒过来，铜钱哗啦啦地掉了下来。</p>
+<p>“你要去哪儿？”</p>
+<p>“我想去都城！都城、都城！”</p>
+<p>一副十足的乡巴佬进城的架势，他双手握拳，使劲挥舞着。</p>
+<p>“然后我要做各种各样的药！”</p>
+<p>“药？”</p>
+<p>对男人的话产生反应的是猫猫。</p>
+<p>“是啊，我虽然看起来这样，可是很厉害的哦！”</p>
+<p>说着，他从脏兮兮的外套里掏出一个大袋子。打开袋口，一股独特的气味飘散开来。</p>
+<p>猫猫从袋子里取出一个陶器。打开盖子，里面是药膏。</p>
+<p>药效如何不得而知，但制作方法非常精细。药草被均匀地研磨，软硬程度也恰到好处。药物的配比自不必说，这种精细的制作方法本身就意味着品质稳定。</p>
+<p>猫猫重新打量起这个男人。</p>
+<p>男人嬉皮笑脸地向眼前的船员推销：“这药怎么样——？对晕船很有效的哦——”船员当然不会买这种东西。</p>
+<p>“小气——买一下又有什么关系嘛。”</p>
+<p>男人把钱递给船员后，似乎终于能上船了。</p>
+<p>然后，他对着猫猫咧嘴一笑。</p>
+<p>“谢谢你，帮了大忙了，帮了大忙了？这个晕船药就送给你当谢礼啦——”</p>
+<p>他的说话方式非常孩子气，让人感觉内容和外表很不搭调。</p>
+<p>“不用了，我不晕船。”</p>
+<p>“是吗——那真可惜。”</p>
+<p>男人正要把药收起来，身后传来一声大喊：“且慢！！”</p>
+<p>然后，罗半以惊人的速度从船上冲了过来。</p>
+<p>“晕船药……给、给我。”</p>
+<p>罗半气喘吁吁地说道。</p>
+<p>（耳朵真灵啊。）</p>
+<p>猫猫这样想着，转身回了船上。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-027.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-029.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

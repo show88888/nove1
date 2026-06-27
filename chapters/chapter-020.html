@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">二十</h1>
+</header>
+<p>**二十、相遇　后篇**</p>
+<p>（脚真快啊。）</p>
+<p>猫猫由衷地这么想。</p>
+<p>不过，他并非在直线距离上跑得快。而是在狭窄的小巷、废弃木桶等障碍物密布的环境中，速度丝毫不减。</p>
+<p>（喂喂，别了吧。）</p>
+<p>猫猫放下手中的器皿追了上去。</p>
+<p>虽然弯弯绕绕，但基本上只有一条路，算是万幸。即便是在都城里土生土长的猫猫，也并非认识所有道路。</p>
+<p>（其实不太想往这边走啊。）</p>
+<p>人烟稀少的地方，总有老鼠似的人盘踞。那些家伙不好好干活，或者干不了活，但地盘意识却出奇地强。</p>
+<p>马闪听到的声响，会不会就是那些家伙在争地盘呢。</p>
+<p>（没必要插手的啊。）</p>
+<p>猫猫觉得他未免有些过于冲动。</p>
+<p>就在这时，她听到了火花般的金属碰撞声和叫喊声。</p>
+<p>猫猫看向分岔的两条路，左右看了看，朝着有声音的那边拐去。向左转，继续前行。</p>
+<p>（！？）</p>
+<p>拐过去的前方是一个空地。深处有一座仓库，前方隐约有人影。</p>
+<p>一个、两个、三个……</p>
+<p>（七个人啊。）</p>
+<p>一群流氓正在袭击两个男人。原本应该是二对四的局面，但马闪也掺和了进去。</p>
+<p>那两个男人的打扮，像是体面的镇民，看起来正遭遇抢劫。</p>
+<p>然而，他们手中所持的刀具，对于防身来说未免过于粗犷。他们像是在守护着什么，与流氓对峙着。</p>
+<p>而那四个流氓，虽然衣着脏污，手上的武器却用得相当熟练，连刃口都没有缺损。</p>
+<p>也许是瞬间判断了局势，马闪似乎已经决定要如何行动。</p>
+<p>（喂喂。）</p>
+<p>脑子里也好、手掌也好，都是空手的，他想干什么啊。</p>
+<p>猫猫躲在墙影里想着。</p>
+<p>然而——</p>
+<p>首先倒下的，却是那些流氓。</p>
+<p>（！？）</p>
+<p>马闪不见了。正想着不见了，他的身影却已出现在流氓的正后方。</p>
+<p>不知道他做了什么，只是回过神来，又一个流氓倒下了。</p>
+<p>虽然不太清楚，但倒下的两个人大概都是马闪干掉的吧。</p>
+<p>一个翻着白眼，另一个捂着膝盖颤抖着。</p>
+<p>（被废了？）</p>
+<p>那人的腿弯向了诡异的方向。不是折断，而是被卸掉了。在刚才那一瞬间的间隙里完成，未免也太利落了。</p>
+<p>而在猫猫观察这些的时候，剩下的两人似乎也被收拾掉了。</p>
+<p>不知道他是怎么做到的，但剩下的流氓浮在了半空中。与此同时，马闪的手以一种绝妙的角度拧住了流氓的手臂，传来一声令人不快的声音。</p>
+<p>（这不是废了吗？）</p>
+<p>滚倒在地上的四个流氓，全都被卸掉了关节。</p>
+<p>确实，面对持刀的强盗没必要手下留情，但以这种临时出手相助的方式来说，未免有些过火。</p>
+<p>然而，被救的两人并没有向马闪道谢，只是跪在了地上。</p>
+<p>（咦？）</p>
+<p>“未免也太疏忽了吧。”</p>
+<p>“非常抱歉。”</p>
+<p>其中一个男人对马闪的话低下了头。另一个人则从怀里掏出绳子，把倒在地上的流氓们绑了起来。</p>
+<p>看来他们是认识的。</p>
+<p>“马闪大人。”</p>
+<p>猫猫歪着头走了出来。</p>
+<p>马闪无视了她，径直朝着深处的仓库走去。</p>
+<p>“在里头吗？”</p>
+<p>“是、是的。”</p>
+<p>猫猫看到那男人不由自主地捂住了嘴。马闪大步流星地走着，脸上写满了“这也太马虎了吧”。</p>
+<p>（……）</p>
+<p>猫猫也快步追上马闪。</p>
+<p>马闪粗暴地推开仓库的门，只见里面蜷缩着一个人影。</p>
+<p>“……”</p>
+<p>“……”</p>
+<p>那里有一位可爱的镇上的姑娘。不，说是镇上的姑娘未免太过出众——这姑娘的品相好得过分，是人贩子拿来当招牌推销的姑娘都完全没法比的等级。</p>
+<p>当然，她不可能是普通的姑娘。</p>
+<p>（说起来，她平时确实相当漂亮啊。）</p>
+<p>在后宫的时候总会忘记。那是绚烂豪华的花园，再美丽的花，被更大的花簇拥着，多少都会显得黯淡些。</p>
+<p>在那里的是——里树妃。</p>
+<p>她明白了。外面的男人们是妃子的护卫，大概是武官之类的人吧。马闪想必也和他们相识。</p>
+<p>而且，正如猫猫所担心的那样。妃子的外出究竟是走漏了风声，还是偶然遭遇了强盗——恐怕是前者吧。</p>
+<p>无论是武器的保养，还是被逼到小巷死胡同里，都不像是临时起意的犯罪。</p>
+<p>里树妃脱下了平时那身绚烂豪华的衣裳，但仍穿着大商家小姐般的服饰。大概是在狭窄的仓库里一直发抖的缘故，开门时扑来一阵香气。</p>
+<p>妆容比平时淡些的眼角，泪意比平时更浓。嘴唇歪着，全身在微微颤抖。</p>
+<p>她的眼中满是恐惧。</p>
+<p>在里树妃的眼里，映着逆光中的马闪。</p>
+<p>马闪明明说点什么就好了，却只是呆呆站着。这样下去，胆小怕事的里树妃恐怕会因为恐惧，变得鼻涕眼泪一把，甚至失禁。</p>
+<p>猫猫实在看不下去，从马闪身后探出头来。</p>
+<p>“您没受伤吧？”</p>
+<p>她自然地露出笑容，试图缓解妃子的紧张。</p>
+<p>然而，里树妃却像炸了毛一样后退了一步。甚至无意间发出了“咿”的一声。</p>
+<p>不是吧，她比看到马闪时反应还大——猫猫这么想着，姑且蹲下来，自顾自地查看她有没有受伤。衣服到处都脏了，但似乎没有外伤。</p>
+<p>里树妃的脸终于渐渐放松下来，大概是稍微平静了些。</p>
+<p>只是，她的脸泛着红。也许是紧张缓解后一下子涌上了疲惫，表情有些恍惚。</p>
+<p>“马闪大人。”</p>
+<p>猫猫看向马闪。</p>
+<p>逆光中看不清他的表情，但看得出他的紧张还未消除。</p>
+<p>“这边暂时交给你了。我去帮那边处理。”</p>
+<p>马闪留下这句生硬的话，便向护卫们走去。</p>
+<p>猫猫觉得，自己对马闪似乎有些误解。</p>
+<p>她一直以为，他能成为壬氏的侧近，只是因为他是高顺的儿子，是壬氏的乳兄弟。她一直以为，他本质正直、感情用事，但也正因为年轻，还需要成长。</p>
+<p>（原来并非如此啊。）</p>
+<p>说实话，猫猫一直觉得马闪并不那么能干。倒不如说，她觉得他是个容易相处的单纯的人。</p>
+<p>她决定修正这个看法。</p>
+<p>确实，在文书方面他看起来要侍奉壬氏还稍有不足。当然，与同龄的文官相比，他算是相当优秀的。但光靠那些还不够。</p>
+<p>遗憾的是，他的才能似乎在武的方面更为出色。空手打倒四个流氓，绝非轻易能做到的事。但马闪却像呼吸一般自然而然就做到了。</p>
+<p>即使是完全不懂武术的猫猫也明白这一点。</p>
+<p>说起来，当初前往镇压子一族的时候，跟随壬氏的并非高顺，而是马闪。壬氏带着脸上的伤回来，马闪则被高顺打得脸都肿了。</p>
+<p>不过，高顺也不可能因为疼爱儿子就让壬氏不带护卫。马闪被打，也许正是因为他辜负了那份信任。</p>
+<p>（稍微少捉弄他一些吧。）</p>
+<p>虽然看起来不像会对女人动手的人，但这姑且算是表示“我重新看待你了”的意思。</p>
+<p>话说回来——猫猫看向里树妃。</p>
+<p>“您没事吧？”</p>
+<p>“咦？啊、嗯。”</p>
+<p>里树妃嘴上说着“没、没事”，脸却比刚才更红了。</p>
+<p>而那张通红的脸，正望着站在空地上给护卫们下达指示的马闪。</p>
+<p>“……”</p>
+<p>她有种不祥的预感。</p>
+<p>而这种预感，十有八九都会命中。</p>
+<p>“……大人。”</p>
+<p>妃子小声说着什么。</p>
+<p>但没听清。虽说不能当作没听到……</p>
+<p>“是叫马闪大人吗……”</p>
+<p>妃子湿润的眼眸中，映着一个被美化了三成的马闪。</p>
+<p>（……还是算了吧。）</p>
+<p>里树妃的脸，已然是一副极其麻烦的少女模样了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-019.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-021.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

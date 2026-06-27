@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">067</h1>
+</header>
+<p>二十、初次接触</p>
+<p>宫廷旁边，阿多所住的离宫附近，还有一座大型离宫。这里主要是用来接待异国宾客的场所。这次，砂欧的巫女一行似乎就暂时住在这座离宫里。</p>
+<p>猫猫和姚，还有罗门以及几名护卫，为了给巫女问诊而来到这里。看到护卫的面孔，猫猫觉得有些眼熟。那是以前在后宫打过照面的宦官。因为对方是巫女，这座离宫也基本上是半禁止男性进入的状态。</p>
+<p>「真是有点特别的地方呢。」</p>
+<p>虽然离宫廷很近，但与猫猫和姚所住的宿舍方向相反。没什么机会仔细打量。猫猫去阿多那里时曾路过几次，但仔细一看，确实建得很特别。</p>
+<p>该说是异国风情吗。整体氛围与其说是砂欧，不如说更让人联想到西方的建筑。猫猫虽然没见过实物，但很像是以前看过的租书插图里的样子。使用了木材，各处还用了砖块，窗户的上部呈半圆形。各处镶嵌的玻璃，可以说是真正的奢华。庭院里有用蔷薇搭成的绿门拱门，盛开时想必十分壮观。</p>
+<p>下人们的服装也有点不同，但人种都是茘人常见的黑发黑眼。</p>
+<p>（毕竟是住着异国要人的地方，不能雇佣异国人啊。）</p>
+<p>万一有间谍混进来，就不是小事了。就连那边满身泥巴打理庭院的大婶，大概也是身份明确的人吧。</p>
+<p>进入建筑内部，一位长相明显是异国人的女性出来迎接。她身材高挑，头发是浅茶色的。眼睛的颜色是介于暗绿色和黄色之间的、近似橄榄的颜色。</p>
+<p>「恭候多时了。」</p>
+<p>看来这位的口音也很独特。</p>
+<p>「请往里面走。」</p>
+<p>猫猫她们听从指引，向里走去。</p>
+<p>内部比外观更加精雕细琢。脚下铺着石板，石柱上各处都有雕刻。看起来像是舶来品的摆件对称地摆放着。猫猫一边用余光扫视着这些，一边想：要是摔坏一个，大概够老百姓花一辈子的银钱就这么打了水漂吧。</p>
+<p>越往深处走，光线渐渐暗了下来。窗户上挂着帘幕，遮挡了外面的光。</p>
+<p>（说起来，是白化病来着。）</p>
+<p>白色的头发、白色的皮肤和红色的眼睛。据说其中也有蓝眼睛的，或者头发里混着金色的，但不管怎样都对阳光很弱。从老爹那里听说，白化病人缺少人本该有的色素，正因为缺少，才会完全承受阳光的刺激。</p>
+<p>遮挡了窗外光线之后，脚下便放置了光源。蜡烛大白天就点着，为了照亮走廊，等间隔地摆放着。材料是蜂蜡，飘来甜甜的气味，猫猫心想真是奢侈。</p>
+<p>「这边请。很抱歉，男性能否在此等候呢？」</p>
+<p>「明白了。」</p>
+<p>老爹——罗门和护卫在入口前停了下来。</p>
+<p>猫猫她们走进房间。里面光线昏暗，弥漫着熏香的气味。橙色的光源摇曳着，带顶盖的卧床深处能看到人影。</p>
+<p>「我带她们过来了。」</p>
+<p>卧床旁边有一位像是贴身侍女的女性。皮肤略黑。猫猫觉得那张脸有些眼熟，正歪头想着，姚先有了反应。</p>
+<p>「啊。」</p>
+<p>一声冒失的声音响起。</p>
+<p>猫猫捅了捅姚的侧腹。就在捅的时候，她想起了为什么觉得眼熟。那是前几天带着名叫“杰兹古尔”的异国少女的那个异国女子。虽然从她作为带迷路孩子的谢礼而收到的刺绣布料，猫猫就预料到她是有钱人，但万万没想到会是巫女的随从。</p>
+<p>（巫女也吃青蛙啊。）</p>
+<p>猫猫本来以为，巫女大概因为不可杀生之类的原因，不会吃肉和鱼。听说巫女生病时，她还考虑过可能是因为不食肉而导致的营养不良，但看来并非如此。</p>
+<p>那位肤色略黑的女子似乎也想起来了，虽然一瞬间露出惊讶的表情，但马上就恢复了原本认真的神情。没错，在这种场合双方都是因公而来，必须公私分明。</p>
+<p>「请。」</p>
+<p>这位比起那位随从女子，口音更加浓重。帘幕被掀开，露出脸来的正是一位有着白化病容貌的美女。听说她四十多岁，果然年纪相符，有法令纹。因为是躺着所以不太明显，但个子应该相当高。看起来偏向丰满，但因为手长，并不显得肥胖。</p>
+<p>（如果更年轻更瘦一些的话……）</p>
+<p>就跟那个专画美女的画师所画的异国女子一模一样了。而且——</p>
+<p>（要说像的话，确实像。）</p>
+<p>像谁呢——像白娘娘。</p>
+<p>猫猫身负罗半托付的秘密使命。</p>
+<p>（这位巫女，到底是真的有巫女资格，还是说……）</p>
+<p>早已没有巫女资格，而是生下了白娘娘那个孩子呢。</p>
+<p>她就是为了确认这一点而来的。</p>
+<p>（要判断是不是经产妇的话……）</p>
+<p>最快捷的办法是窥看下体，但这显然不现实。就算要做，也得先走流程，如果能怀疑有妇科病的话，或许还有可能。</p>
+<p>（如果做不到的话，还有另一个办法。）</p>
+<p>怀孕时，腹部会在十个月内急剧变大。肚子会胀得像要裂开一样，分娩后再缩回去。这时产生的肉纹叫做妊娠纹。之所以会产生，是因为皮肤的伸展跟不上腹部的膨胀，导致皮肤纤维断裂。</p>
+<p>（玉叶后和梨花妃都没有长过，不过……）</p>
+<p>正常分娩的话，长出来的概率反而更高。当然，也有不长的可能，但可以作为确认的一项参考。</p>
+<p>（能不能让她至少给我看看肚子呢？）</p>
+<p>猫猫缓缓低下头，靠近卧床。她已经和姚商量好了分工。姚负责记录，猫猫负责触诊。姚本来也想亲自好好进行触诊，但在其他医官在场的情况下，猫猫的脉诊手法更准确，所以姚放弃了。</p>
+<p>猫猫也理解了燕燕为什么在各种意义上疼爱姚。姚太过于耿直，对于心思扭曲的人来说，有时令人烦躁，有时又令人目眩。</p>
+<p>就像燕燕能被任命为壬氏的侍女一样，姚面对猫猫时，只要清楚地看出实力，也会坦然接受评价。</p>
+<p>之前她们已经看过一份书面记录，上面写着身体哪里不适、采用了什么治疗手段。猫猫和老爹商量过，锁定了几种可能的疾病。</p>
+<p>「首先，能让我为您把一下脉吗？」</p>
+<p>猫猫刻意放慢语速，说得清晰易懂。</p>
+<p>「好。」</p>
+<p>猫猫触摸巫女伸出的手。触感柔软。因为皮肤白，血管位置一目了然，泛着青色。</p>
+<p>三根手指搭在手腕上。咚、咚，脉搏声传了过来。她数着在固定时间内跳了多少次。猫猫用手指向姚示意次数，姚用便携的书写工具刷刷地记录下来。</p>
+<p>「您有点紧张吗？ 脉搏似乎稍微快了一些。」</p>
+<p>巫女似乎有听不懂的词，歪了歪头。旁边的女子用异国语言翻译后，她微笑着回答。</p>
+<p>「是的，有一点。」</p>
+<p>并不是异常值，所以应该没有问题。</p>
+<p>「可以触碰您的脸吗？我想检查一下眼睛和舌头。」</p>
+<p>「请。」</p>
+<p>猫猫用双手触碰她的脸颊。虽然有法令纹，但除此之外皮肤非常富有弹性，也很漂亮。</p>
+<p>她翻开下眼睑检查眼睛，又请巫女张开嘴伸出舌头。</p>
+<p>（从某种意义上说，算是幸运了。）</p>
+<p>猫猫这样想着前几天遇到那个叫杰兹古尔的少女的事。</p>
+<p>（石榴，还有雪蛤。）</p>
+<p>那时候，她们买的东西里有很多是可以用作药材的食材。然而，交到猫猫手上的文书里却完全没有提到这些。</p>
+<p>猫猫瞥了一眼站在卧床旁的随从。刚才还一脸惊讶的随从，现在若无其事。</p>
+<p>（她并不是作为药物开给巫女的？ 只是偶然？）</p>
+<p>药物如果服用过量，有时反而会对身体造成伤害。</p>
+<p>「不好意思，能请您详细记录一下平时喜欢吃什么之类的吗？」</p>
+<p>「明白了。」</p>
+<p>回答的是那位随从。</p>
+<p>她刷刷地写着，但问题是那是异国语言。有些地方有看不懂的词汇，需要之后边翻译边思考。不管怎样，最终做出诊断的是老爹，所以只能指望他了。</p>
+<p>「那么，能请您解开上衣吗？」</p>
+<p>猫猫原本担心对方会不会答应，但看来是杞人忧天。</p>
+<p>「……好。」</p>
+<p>巫女缓缓地解开上衣。因为知道是来体检，所以穿的是前开式的睡衣。双乳露了出来，肚脐也可见。</p>
+<p>「……可以触碰一下吗？」</p>
+<p>「请便。」</p>
+<p>猫猫直接触碰，一边体会着声音的差异，一边观察腹部。</p>
+<p>（没有妊娠纹。）</p>
+<p>腹部是丰满的，所以有可能是原本就不容易长妊娠纹的体质，也有可能是根本没生过孩子。也可能从一开始前提就错了。</p>
+<p>（不，可是……）</p>
+<p>画师画的画里，她可苗条多了。越是瘦，皮肤被拉伸得越多，痕迹就越容易留下。</p>
+<p>而且最重要的是，也许从一开始就根本没什么异常。</p>
+<p>为什么这么想呢——</p>
+<p>（以她的肉感来说，胸太小了。）</p>
+<p>如果初潮不来，有可能是半阴阳的性别。既是男性，也是女性，又或两者都不是。乳房小可能是这个原因，但也有可能是天生平胸。</p>
+<p>到底是不是经产妇，完全无法判断。疾病种类也会因是否有月经而不同。</p>
+<p>猫猫一边挑动着眉毛，一边继续诊察。</p>
+<p>虽然继续诊察，但依然不明白，虽然不明白，不知为何心中却涌起一阵说不清的烦闷。</p>
+<p>（是我遗漏了什么吗？）</p>
+<p>有一种违和感，但没能察觉那是什么，诊察就结束了。</p>
+<p>（干脆，如果能让她给我看到下面的话……）</p>
+<p>不，还是算了。初诊就能让她露出上半身，已经足够了。就连后宫的妃子中，也有人讨厌在他人面前裸露肌肤而拒绝。</p>
+<p>「可以穿上衣服了。」</p>
+<p>世界没有那么美好，不可能一次就解决所有事。再这么硬来也没用，优先向老爹报告诊察内容才是正事。</p>
+<p>「我们会先根据刚才听到和检查到的内容，去和医官讨论一下。」</p>
+<p>「明白了。」</p>
+<p>随从给巫女披上上衣。</p>
+<p>猫猫她们行礼后便退出了房间。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-066.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-068.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

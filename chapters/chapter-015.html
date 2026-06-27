@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">十五</h1>
+</header>
+<p>十五、纸村 后篇</p>
+<p>“比完酒量，胆子倒是不小嘛。”</p>
+<p>地主对着眼前这个傲慢的丫头说道。农民们发出愚蠢的笑声。</p>
+<p>“喂，你是认真的吗？”</p>
+<p>造纸工匠的老板们担心地看着猫猫。阿武太过震惊，当场瘫倒在地。就在他脑袋快要撞到地板的前一刻，下面的外甥接住了他。</p>
+<p>“没问题。不过我先问一下，还剩下多少债务？”</p>
+<p>“……一年一千两银子，今年已经付了一半，所以还剩四千五百两。”</p>
+<p>嗯，就算是去找钱庄借，恐怕也不容易借到。虽说算是御用商，但这行不适合大量生产，钱也不是那么容易就能弄到手的。</p>
+<p>“是吗。”</p>
+<p>猫猫大咧咧地坐到了椅子上。</p>
+<p>“不如我们来打个赌吧？”</p>
+<p>“打赌？口气倒是不小啊。”</p>
+<p>地主似乎对自己的酒量相当自信，完全是在嘲笑她。</p>
+<p>“你拿得出什么赌注吗？”</p>
+<p>“当然，我刚才不就在说这个吗。”</p>
+<p>猫猫拍了拍自己的胸口。</p>
+<p>“把我卖给人贩子的话，能卖三百两哦。”</p>
+<p>噗——，一群男人喷出了酒。</p>
+<p>“哈哈哈哈！三百两？口气可真大啊。小丫头，你懂行情吗？”</p>
+<p>正是因为懂才这么说的。她见过多少个被卖掉的姑娘了。</p>
+<p>“就算是上等货色也卖不到一百两，结果你、你……”</p>
+<p>大概是醉意上来了，那人唾沫横飞地笑着。酒劲上来了正好。</p>
+<p>看着那帮人，猫猫“噗”地一声笑了出来。那明显是嘲笑，醉醺醺的男人中有一半瞪向猫猫。</p>
+<p>“因为，沾着泥土的大根（萝卜）直接交过去，肯定连五十两银子都卖不到嘛。连这种常识都不知道吗？”</p>
+<p>猫猫的身体猛地晃了一下。她被人揪住了后领，踮起了脚尖。</p>
+<p>看来“大根”这个比喻足够传达到位了——这是在揶揄她们是乡下丫头。</p>
+<p>“喂，你有种再说一遍！”</p>
+<p>一个脸涨得通红的农民——一号——抓住了猫猫。他扬起的拳头沾满泥土、布满老茧，要是挨上一拳恐怕吃不消。</p>
+<p>（被揍也是活该吧。）</p>
+<p>但这里不能退缩。</p>
+<p>阿武倒在地上，造纸工匠的男人们也只是脸色发僵。</p>
+<p>“读写都不怎么会吧。呵呵，那样的话，一辈子都用不上纸这种东西吧。”</p>
+<p>就在那拳头要挥下来的时候——那只手最终没有打到猫猫身上。</p>
+<p>“住手。要是弄出伤来，价钱会跌的吧。”</p>
+<p>被大地主这么一说，农民一号放下了猫猫。</p>
+<p>地主说的是“价值会跌”。</p>
+<p>也就是说，他表明了自己接受了猫猫的赌约。</p>
+<p>“那么，从谁开始呢？”</p>
+<p>愕然的造纸工匠们茫然地看着猫猫。</p>
+<p>饭店的老板和老板娘一脸担忧。</p>
+<p>阿武还躺在地上。</p>
+<p>然后——</p>
+<p>“老子第一个来跟你比！”</p>
+<p>那个刚才抓住猫猫的男人说道。</p>
+<p>真是太巧了。</p>
+<p>空酒瓶在地上滚了好几瓶。</p>
+<p>而地上已经躺倒了四个大老爷们儿，现在第五个也倒了。</p>
+<p>“……开什么玩笑？”</p>
+<p>发出这声呆愣的是正在照料阿武的那个阿武的外甥。</p>
+<p>“哎呀，已经结束了？”</p>
+<p>猫猫仰头喝干了杯中残酒。那是烧喉咙的蒸馏酒。这种乡下饭店里摆着这种东西未免太高级了。不过，对喝惯了更烈酒的猫猫来说，根本不算什么。</p>
+<p>这帮人想速战速决干掉猫猫，便拿出了高酒精度的蒸馏酒——这从一开始就失策了。那些男人喝不惯高度酒，越醉越厉害。虽然瘫倒在地，但不至于死。最重要的是，猫猫可不想被卖去当妓女，所以根本不打算手下留情。</p>
+<p>“一百五十两。”</p>
+<p>据说这就是猫猫的价值。</p>
+<p>她原本狮子大开口喊了三百两，所以觉得这样也够了。</p>
+<p>顺便一提，压价收购的人贩子有时会用二十两银子左右的价钱买下村姑。</p>
+<p>以此为赌本，第一局赢了。接着第二个人站出来。大概心想“这家伙一开始就醉了吧”而掉以轻心，一口气灌下烈酒后便倒了。</p>
+<p>第三、第四个也这么来挑战。因为还留着前面喝下去的酒，对猫猫来说是不利的——这是常理，但可惜猫猫的酒量远远超出他们的预料。</p>
+<p>（这是第五个了。）</p>
+<p>第一个人一百五十两，第二个人三百两，第三个人六百两。五个人加起来，猫猫的份儿就是两千四百两银子。</p>
+<p>不知道这帮人有没有理解这一点，他们红着脸瞪着猫猫。</p>
+<p>对方还剩一半人手，不过对猫猫来说，只要再赢一局就没问题了。因为剩下的债务应该是四千五百两。</p>
+<p>幸好对方都醉了。猫猫让他们信口胡诌，写下了简单的字据和手印。一共五张。反正这帮人大概觉得那字据不过是废纸一张吧——从上面那个大地主打算赖账就看得出来。</p>
+<p>正当众人龇牙咧嘴、脸色扭曲之时，终于，正主拿起了酒瓶。</p>
+<p>“我来陪你玩玩如何？”</p>
+<p>满脸胡须的地主在笑，但目光锐利。</p>
+<p>猫猫摸了摸肚子。</p>
+<p>（还行吗？）</p>
+<p>毕竟连战五人，肚子多少有些撑了。</p>
+<p>地主平时就喝蒸馏酒，看起来酒量不错。他一边看着略显难受的猫猫发笑，一边扫了一眼字据。</p>
+<p>“别把我和这帮家伙相提并论。”</p>
+<p>他签下潦草的署名，啪地把字据拍在桌上。</p>
+<p>“我明天就叫人贩子过来。”</p>
+<p>“这我明白。”</p>
+<p>猫猫无奈地从怀里掏出一个小瓶子。</p>
+<p>“喂！那是什么！”</p>
+<p>地主的随从上前质问。</p>
+<p>“我只是喝腻了这个酒的味道，想换换口味而已。”</p>
+<p>说着，猫猫将小瓶里的东西咕嘟咕嘟倒进飘着琥珀色液体的酒杯里。</p>
+<p>看到这一幕，地主动了一下。</p>
+<p>“等等。那你那份也帮我倒上吧。”</p>
+<p>听他这么说，猫猫把小瓶递给地主。地主盯着小瓶看了一会儿，然后把剩下的全部倒进了自己的杯子里。</p>
+<p>“不是什么能让人不容易醉的药吧？”</p>
+<p>面对嘿嘿笑着的男人，猫猫面无表情地一饮而尽。</p>
+<p>地主确认猫猫喝完之后脸色如常，便嘿嘿一笑，也仰头喝干了杯子。咕咚咕咚地喝完——然后。</p>
+<p>倒了。</p>
+<p>随从赶紧跑过去扶起地主，但他已经瘫软了。</p>
+<p>“喂！你下了什么药！”</p>
+<p>“下药？我也喝了同样的东西啊。”</p>
+<p>瘫倒的原因，无非就是酒。</p>
+<p>“赌局是我赢了吧。”</p>
+<p>在一片哑然之中，猫猫站起身拿起了字据。她步履稳健地走到造纸工匠老板面前把字据递过去，然后站在了饭店老板娘面前。</p>
+<p>“茅房在哪儿？”</p>
+<p>“从这儿出去右拐。”</p>
+<p>“谢谢。”</p>
+<p>猫猫小跑着去了茅房。</p>
+<p>毕竟空了好几瓶酒，总该有点尿意了。</p>
+<p>猫猫也一样，在人前尿出来这种丢人的事她可做不出来。</p>
+<p>“我说你啊，到底动了什么手脚？”</p>
+<p>造纸工匠老板一边仔细折叠字据一边问道。</p>
+<p>“没什么，我只是想换个酒味，加了点酒精而已。”</p>
+<p>猫猫经常把草药和医疗器具放在和服衣领里。消毒用的酒精也在里面。</p>
+<p>因为是消毒用的，浓度跟普通酒可不一样。普通人喝一口就会倒下去，结果地主却倒了满满一杯。</p>
+<p>“……我能问你一个问题吗？”</p>
+<p>“什么？”</p>
+<p>“你也把那什么酒精掺进酒里喝了吧？”</p>
+<p>老板有些表情僵硬地说道。</p>
+<p>“是啊，因为我知道那种程度还没问题。不过嘛，我只是想着早点结束就好了。”</p>
+<p>猫猫想着，如果自己做出那种可疑举动，对方应该会中招。所幸他们果然上钩了。</p>
+<p>就算正常比，她大概也能赢，但说实话她没把握能憋住尿撑到那时候。</p>
+<p>“能赶上茅房真是太好了。”</p>
+<p>“……那就好。不过，就算再有自信，拿自己当赌注也太不像话了。更何况是为了我们。”</p>
+<p>“您是不是误会了什么？”</p>
+<p>猫猫从老板手里接过折叠好的字据。</p>
+<p>“这是我的份儿。”</p>
+<p>猫猫微微一笑。</p>
+<p>“等、等一下，姑娘！”</p>
+<p>代替愕然的老板，终于阿武醒了过来。</p>
+<p>“别这么狠心嘛。”</p>
+<p>“您这么说也没用，我跟您可没那么多交情。而且，事情还没完全结束呢。”</p>
+<p>猫猫目光一移，只见地主正按着昏沉沉的脑袋，借着手下的搀扶站了起来。地上到处是呕吐物，估计是吐了酒后硬撑着清醒过来的。老板满脸嫌弃。</p>
+<p>“您再多躺一会儿比较好吧？”</p>
+<p>“刚才的赌约无效！”</p>
+<p>哎呀，果然不出所料。</p>
+<p>“那不过是酒席上的助兴罢了。本来就不是认真的。”</p>
+<p>“可是，字据在这里哦。手印、亲笔签名，您不会要说自己也不识字吧？”</p>
+<p>“谁知道那种东西！作废！作废！”</p>
+<p>猫猫抱臂而立，无奈地走到店里放着的酒桶前。</p>
+<p>“那就没办法了。”</p>
+<p>她砰砰地拍了拍酒桶。</p>
+<p>“只能去举报您向官员偷税了。”</p>
+<p>猫猫这一句话，让所有人都安静下来。</p>
+<p>地主张大了嘴，还醒着的农民们明显慌了神。</p>
+<p>饭店的老板和老板娘虽然有些不安，但同时也露出了松了口气的表情。</p>
+<p>造纸工匠们面面相觑，然后看向猫猫。</p>
+<p>阿武只是歪着头。</p>
+<p>“偷税是怎么回事？”</p>
+<p>最先开口的是那个叛逆的长子。</p>
+<p>“酿酒需要国家的许可。自己喝倒无所谓，但批发给店里的话，显然是要缴酒税的。”</p>
+<p>做生意总要交税，而税率这种东西，越是嗜好品越高。饭店比酒店税率高，青楼就更上一层楼。老鸨总在抱怨。</p>
+<p>猫猫之前就纳闷，为什么这家店会把场地借给地主谈判。她想过也许因为他们是佃户，但更引起她注意的是这些大量的酒。</p>
+<p>如果能以便宜的价格进到还不错的好酒，对店家来说自然求之不得。就算有些麻烦，也不能怠慢。</p>
+<p>地主点酒时没有拿出这种浊酒，猫猫认为原因就在这里。他们大概是让农民帮忙酿酒。既然已经喝腻了的酒，没道理又在这里特意点它。</p>
+<p>“说不定连酿酒的原料也克扣了吧？”</p>
+<p>酿酒需要大量的米和麦。这酒看来是用米酿的。</p>
+<p>她忽然想起地主找茬的那番话。</p>
+<p>“你们弄脏了水，导致米产量下降。水不够，种不了米。”</p>
+<p>猫猫反复琢磨。</p>
+<p>“这是假的吧？反倒应该说，米收成比以前更好了吧？”</p>
+<p>种稻时，从上流流下来的腐烂树叶和泥土养分融入水中，土壤就不会贫瘠。只要不是排毒水，造纸排进水里的是以米为原料的浆糊和纸的木屑，这些东西反而能当肥料。猫猫是这么想的。</p>
+<p>前任地主之所以不签租赁合同、而是直接卖地，说不定就是因为这个原因。</p>
+<p>虽然对方可能不太清楚具体原因，但米的收成确实增加了。因此判断把这块地长期留着会有用处。</p>
+<p>而后来，增加的收成被悄悄藏起来，拿去酿酒什么的——她做出了这个擅自的推测。双重逃税可是相当严重的问题。</p>
+<p>她本来不想说这么多——毕竟违背了老爹的教诲——但从地主和农民们的表情来看，这猜测应该八九不离十。</p>
+<p>“证、证据呢？”</p>
+<p>一个农民开口问道。</p>
+<p>“对！证据呢！”</p>
+<p>其他人也跟着附和。</p>
+<p>“没关系。如果是清白的，官员去家里搜查也查不出什么吧。”</p>
+<p>猫猫故意堆起笑容说道。</p>
+<p>刚才还气势汹汹的农民们沉默了。真是被说中了。</p>
+<p>“口气倒是不小啊，小姑娘。”</p>
+<p>地主按住还晕乎乎的脑袋说道。</p>
+<p>“你以为做了那种事能白得了好吗？”</p>
+<p>“这话我原样奉还。至少，请您看看现在的局面吧。”</p>
+<p>猫猫站在了俯视地主的位置。</p>
+<p>随从里有一半醉倒了动弹不得，地主本人也一样。剩下的人虽然没倒，但也喝了不少，绝对算不上清醒。</p>
+<p>而这边，有六个清醒且体格健壮的男人。阿武不算战力，从一开始就没算进去。</p>
+<p>饭店老板他们似乎想尽量保持中立。应该也巴不得酒的事没被揭穿吧。</p>
+<p>猫猫没打算用暴力解决问题，但如果对方来硬的，她这边也会那么做。</p>
+<p>造纸工匠们一直被找茬，大概也憋着火吧。</p>
+<p>猫猫露出极其猥琐的笑容，啪啦啪啦地拿着字据拍打地主的脸颊。</p>
+<p>“您尽管叫人帮忙哦——。不过，我们这边也会派人快马加鞭去喊官员来的。”</p>
+<p>猫猫心情大好地哼唱般说道。</p>
+<p>“姑娘，你咋跟平时不太一样啊？”</p>
+<p>阿武小声嘀咕道。</p>
+<p>就在这时，饭馆的门被砰地一声大力推开了。</p>
+<p>怎么回事——一看，门口站着一个穿着整洁和服的姑娘。她看到屋里的情形后，脸色煞白。跑过来到倒在地上的地主面前，跪下来低下了头。</p>
+<p>“我知道父亲又提了过分的要求。但请您们不要做过分的事。”</p>
+<p>她深深低下了头。</p>
+<p>不是朝向猫猫，而是朝向造纸工匠们。</p>
+<p>“不，不是我们……”</p>
+<p>二儿子摇了摇头，但那姑娘依然低着头。额头贴着地面，连头发乱了也不在意。</p>
+<p>“对不起，请原谅我。请原谅我愚蠢的父亲。”</p>
+<p>她完全听不进周围的声音，只是一个劲地道歉。这时，动起来的是那个叛逆的长子。</p>
+<p>“我们不会那么干。对你爹。”</p>
+<p>他缓缓搂住姑娘的肩膀，让她平静下来，把她的头抬起来。姑娘泪流满面，看着长子的脸，轻轻点了点头。</p>
+<p>看到这一幕，地主勃然大怒。</p>
+<p>“喂！哪来的野种，敢碰我女儿！”</p>
+<p>他叫着试图站起来，但腿还在打晃，又摔在了地上。</p>
+<p>“爹！”</p>
+<p>“岳父！”</p>
+<p>“谁是你岳父！”</p>
+<p>这气氛怎么回事。</p>
+<p>二儿子无奈地看着哥哥们。</p>
+<p>“这该不会是——”</p>
+<p>“大概跟你猜的一样。”</p>
+<p>猫猫明白了长子之所以偏向农民、地主之所以格外讨厌外人、想把他们赶走，这两个理由。</p>
+<p>虽然明白了，但她觉得还不如不知道。</p>
+<p>眼前上演的简直像是蠢兮兮的喜剧里的对白，说实话她连描写都懒得描。</p>
+<p>“哥他，太死心眼了。”</p>
+<p>“要是因为这个把一个村子都搞垮了，那可真受不了。”</p>
+<p>猫猫替其他造纸工匠们道出了心声。众人纷纷点头。说起来，把长子带到这场谈判来的时候就已经是错误了——但仔细一想，她忘了那是阿武的亲戚。</p>
+<p>既然是阿武的亲戚，那也没办法。缺根筋也是理所当然的。</p>
+<p>猫猫觉得无聊，一屁股坐回椅子上。</p>
+<p>“给我酒。”</p>
+<p>她举手叫老板娘。</p>
+<p>“还要喝啊？”</p>
+<p>“还能喝。”</p>
+<p>这句话引得众人投来无奈的目光，但她毫不在意。</p>
+<p>也许，她其实已经有些醉了。</p>
+<p>发现自己比平时话多，是在酒醒之后。</p>
+<p>“你可真是个大恶人啊。”</p>
+<p>阿武反复说了好多遍。</p>
+<p>结果，那四千八百两银子并没有落到猫猫手里。当然，就算拿到了也不过是意外之财，而且那种莫名的隔阂反而更大吧。</p>
+<p>作为替代，她换来了未来十年间、每年一百五十石米免费送到绿青馆的约定。绿青馆一年的米消费量，两个人也就三石左右。这比实际人数多得多，但米可以当钱用，所以没问题。</p>
+<p>这是给老鸨的人情。药铺的房租要是不免个五十年，可不划算。</p>
+<p>至于和造纸工匠们的契约，则跟以前一样不变。因为私自酿酒的事暴露，影响很大。农民们怕官员，所以不敢再乱说话。顺便，之后猫猫告诉他们阿武是宫廷官员。</p>
+<p>总之，阿武的面子算是保住了。</p>
+<p>至于今后他们是否还偷税，那就跟猫猫无关了。</p>
+<p>至于造纸工匠的长子和地主女儿后来怎么样了，她不知道。要是早点分手，明明还能跟农民们建立更顺畅的关系。她甚至动过坏心思，想撺掇他们去一趟花街。</p>
+<p>就这样，猫猫终于回到了花街，但是——</p>
+<p>“喵——嗷。”</p>
+<p>为什么自己会在这儿呢。</p>
+<p>去的时候明明那么不安分，在马车上到处乱窜。</p>
+<p>装着作为特产收到的最高级纸张的行李箱——她竟然钻到了那里面。最上面的纸被抓得稀烂。</p>
+<p>“哦，毛毛（猫猫）！”</p>
+<p>眼尖的赵迂跑过来，立刻晃着腰带上的绳子逗猫玩。</p>
+<p>阿武已经直接回了后宫，猫猫本想再送一次毛毛（猫）回去，但房间里堆满了开药方的委托。</p>
+<p>猫猫叹了口气，开始从架子上翻找开药方所需的草药。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-014.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-016.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

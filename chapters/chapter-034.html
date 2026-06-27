@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">034</h1>
+</header>
+<p>**七、交易与猫的用途**</p>
+<p>白娘娘果然没有轻易消失。</p>
+<p>猫猫一直把她当作艺人看待，但在某些人眼中，她似乎并非如此。</p>
+<p>是崇拜——即所谓的宗教。</p>
+<p>而部分容易走极端的人就会深陷其中。</p>
+<p>卯柳的女儿，名字似乎叫夜光，她似乎也是如此。</p>
+<p>她被白娘娘的舞台表演所感动，试图与娘娘接触。结果，娘娘似乎为夜光占卜了一卦。</p>
+<p>“您身边有招致灾祸之物。是在近处，还是血脉之中呢？嗯，想必是血脉吧。您心里有数吗？”</p>
+<p>如此含糊其辞的说法，大概是在观察对方的脸色吧。给予几个选项，再根据对方的反应选择话语推进话题。这是骗子常用的手段。</p>
+<p>夜光大概对前妾所生的孩子也有所介怀吧。她在家里对异母妹妹很粗鲁。万一里树妃怀上皇帝的孩子，她害怕会怎样。</p>
+<p>被害妄想会不断扩散。而白娘娘又加剧了这种妄想。这是常有的事。</p>
+<p>然后，据说夜光提到自己妹妹时，说了这样的话：</p>
+<p>“啊，要是她消失了就好了。”</p>
+<p>白娘娘对着喃喃自语的夜光微微一笑，然后回答：“明白了。”据说，她递过来的，是一个纸人偶。</p>
+<p>（真是微妙啊……）</p>
+<p>既然相信占卜，也就会相信诅咒吧。在那之后，得知里树妃遇袭，她想必会认为是自己的诅咒应验了。</p>
+<p>然后，如果壬氏开始怀疑自己呢？如果被认为是——即便只是异母妹妹，也企图对妃子下手的话——。</p>
+<p>（蠢货吗？）</p>
+<p>白娘娘虽然不再现身，但据说若有事情仍能传话。然后，夜光将自己被怀疑一事清楚地告知了白娘娘，接着便收到了回信。</p>
+<p>那封信详细写明了如何脱身的方法。</p>
+<p>据说信上还写着，扮成哭丧妇出去之后的事情，会有人替她善后。</p>
+<p>听完事情详细经过后，最显得无精打采的，是夜光的哥哥。</p>
+<p>“……你，难道不是自己雇了那些歹徒吗？”</p>
+<p>哥哥以为妹妹袭击里树妃一事不仅会连累妹妹，还会给全家带来惩罚，于是按照妹妹说的给予了协助。安排哭丧妇的也是哥哥。</p>
+<p>至于卯柳，则始终一言不发。如果相信夜光和她哥哥的说法，共犯在他们家只有这两人，但把完全不同的尸体误认为是自己的女儿，究竟是单纯的错误，还是他早已察觉到了什么呢。</p>
+<p>猫猫在伤口处理完毕后，又躲到房间角落，避开卯柳他们的视线。夜光时不时地瞥向她，但她并不在意。</p>
+<p>话说回来，如果诅咒能作为罪名的话，夜光的确是重罪，但这还是要看裁决者一方。偏偏陛下和壬氏都不怎么相信诅咒之类的东西。不过，从中能读出恶意，但要以“实行”来定罪却很难。</p>
+<p>如果说有问题的话，那便是——</p>
+<p>“把妃子的事全抖落出去了吗？”</p>
+<p>包括保密义务的问题，以及至今仍与白娘娘有联系这一点吧。</p>
+<p>在壬氏就此发问之前，先开口的是卯柳。</p>
+<p>“你是怎样和她联系的？”</p>
+<p>父亲向女儿问道。他被打断了牙齿，发音有些含糊不清。</p>
+<p>“那、那是……她说不准告诉任何人。”</p>
+<p>“那样的话，我们大家就都会被处死了。”</p>
+<p>听到“处死”二字，夜光浑身颤抖起来。</p>
+<p>“可是，仙女大人说绝对不能说……”</p>
+<p>“你忘了子一族的教训吗？”</p>
+<p>夜光吓得倒吸一口凉气。她的哥哥也脸色发青。</p>
+<p>壬氏面露难色。他的斜后方站着一名与马闪不同的随从，面无表情地立在那里。马闪过后大概又会被高顺狠狠训斥一顿吧。</p>
+<p>话说回来，听说卯柳这个男人长于经商，而此时正可谓发挥了他的本领。</p>
+<p>卯柳抚摸着自己歪斜的脸颊。</p>
+<p>他提起子一族的名号，是想干什么呢。</p>
+<p>“关于那个叫白娘娘的人物，似乎还有很多不明确的信息呢。”</p>
+<p>壬氏虽然一脸淡然地说“那又如何”，但内心大概是想苦笑的吧。</p>
+<p>“夜光。你能说吧？”</p>
+<p>“可、可是，父亲大人。”</p>
+<p>“能说吧。”</p>
+<p>面对父亲不容置疑的口吻，夜光只得点了点头。</p>
+<p>壬氏将手收入袖中，以略带高压的眼神看向卯柳。</p>
+<p>“仅凭那女人的情报，可不能当作什么都没发生过。”</p>
+<p>也就是说，他似乎提出了所谓的司法交易。</p>
+<p>卯柳歪斜的脸上浮现出深不可测的笑容。那更像是商人的面孔，而非官员。</p>
+<p>“是的，我明白。只是，有一件事想确认一下。”</p>
+<p>“什么？”</p>
+<p>“我听说去年梨花妃的侍女长离开了后宫，不知是何理由？”</p>
+<p>他戳到了痛处。那件事虽是秘密处理的，但眼尖的人果然还是会揣测发生了什么。因为靠梨花妃的请求，本该重罪之人仅以罢免了事。</p>
+<p>如果里树妃要求惩罚异母姐姐倒另当别论，但以她的性格来看，不太可能如此。</p>
+<p>壬氏的眼神倏地冷了下来。</p>
+<p>“这与此事有何关系？”</p>
+<p>“不，非常抱歉。是我多嘴了。”</p>
+<p>卯柳轻轻退下，他的儿子女儿则因壬氏冰冷的表情而心惊胆战。</p>
+<p>不管怎样，宫廷内虽有关于卯柳的种种说法，但他似乎也确实具备与之相符的难缠之处。</p>
+<p>“关于那个白女人的事，要毫无隐瞒地说出来。若有任何隐瞒，可别怪我不客气。”</p>
+<p>“遵命。”</p>
+<p>卯柳行礼。他的孩子们颤抖着模仿父亲，退出了房间。</p>
+<p>“你们也出去。”</p>
+<p>壬氏对剩下的随从说道，随从们面带难色地走了出去。</p>
+<p>“喂，出来吧。”</p>
+<p>等到房间里空无一人，猫猫终于被叫了出来。她窸窸窣窣地从房间角落里走出来。</p>
+<p>“说是猫，倒更像是老鼠。”</p>
+<p>“既不是猫也不是老鼠。”</p>
+<p>壬氏露出疲惫的表情，趴在了桌上。双腿伸开，一副懒散的姿态。</p>
+<p>“这副样子可不成体统，我只好去请高顺大人来了。”</p>
+<p>“高顺的话，过会儿就会来揍马闪的。”</p>
+<p>壬氏说着，指了指桌对面的椅子，示意猫猫坐下。猫猫依言坐下。与刚才不同，空气中弥漫着一种松弛的气氛。虽然觉得周围没人，但说话声还是压低了。</p>
+<p>“虽然对高顺大人过意不去，但这次不是帮了大忙吗？”</p>
+<p>说到什么帮了大忙，自然是指卯一族的事。光看马闪那样冲动行事，只能说是愚蠢之举。但就此次事件的利害调整而言，似乎正好合适。</p>
+<p>毕竟不管怎样，壬氏对卯一族作出的判决都会是从轻发落。</p>
+<p>“陛下原本就不希望加以惩罚。况且，母后也不会允许的。”</p>
+<p>猫猫觉得自己好像是第一次听到壬氏提到“母后”。她应该是指皇太后，但总觉得有些奇怪。</p>
+<p>“子一族的事让她很痛心。直到最后，她都在向陛下请求减刑。”</p>
+<p>即便是皇太后之言，那也实在是不切实际。若施以不当的仁慈，可能会在别处引发火种，扩大受害范围。</p>
+<p>不过，火种这种东西，本就不是想防就能防住的。</p>
+<p>卯一族表面上应该不会受到大的处分。只是，既然葬礼办得那么盛大，事到如今总不能说女儿还活着。</p>
+<p>（会怎样处理呢……）</p>
+<p>与里树妃不同，那女儿似乎是在溺爱中长大的，今后会怎样生活就不得而知了。</p>
+<p>（虽然是自作自受。）</p>
+<p>是在宅邸中被藏匿一辈子，还是在遥远的地方悄然生活——这些都跟猫猫无关。</p>
+<p>在松弛的气氛中，猫猫差点打了个哈欠。外面天气晴朗，在庭院里睡午觉一定很舒服。于是她想赶紧离开房间，但壬氏趴在桌上不动，她也没法走。</p>
+<p>（难道睡着了？）</p>
+<p>她正想戳戳他确认一下，壬氏的脸突然抬了起来。</p>
+<p>“刚才，你是不是想戳我？”</p>
+<p>“您在说什么呢？话说回来，我可以回去了吗？”</p>
+<p>对于猫猫的提问，壬氏半睁着眼睛回答。</p>
+<p>“再待一会儿也无妨。”</p>
+<p>“也没什么特别要说的。”</p>
+<p>（为什么要用那种眼神看我？）</p>
+<p>壬氏露出像麻烦小鬼一样的表情。</p>
+<p>“没什么可说的吗？”</p>
+<p>“具体来说，我该说些什么才好呢？”</p>
+<p>如果要她讲有趣的故事这种无理要求，还请饶了她吧。每次讲花街段子都会冷场的猫猫，这难度实在太高了。</p>
+<p>“总有的吧，比如聊聊天气，或者最近在做什么之类的。”</p>
+<p>“今天的天气是晴天。空气也很干燥，应该很适合晾晒衣物。最近在做的事，是补充外出期间短缺的药材原料和调配，还有管教赵迂。赵迂的恶作剧太过分了，希望能增加抚养费。如果可以的话，希望不要经由绿青馆，而是直接给我。若有可能，比起钱，更希望能给些舶来的药材之类的。”</p>
+<p>“这不都是工作联络吗。还有，关于抚养费，高顺说你可是漫天要价啊。”</p>
+<p>（是吗？）</p>
+<p>反正钱在到她手上之前，大半都被精明的老妈子搜刮走了，所以她也不知道具体收到了多少。她本以为大概是平时分给自己的三倍左右，但似乎比那还多。真是个贪心的老太婆。</p>
+<p>“……”</p>
+<p>壬氏趴着，时不时地瞥向猫猫。</p>
+<p>“为什么你就能这么正常地对待我呢？”</p>
+<p>“就算您问我为什么……”</p>
+<p>说起来，跟壬氏正经谈话，感觉已经是很久以前的事了。刚才虽然因为卯一族的纠纷，听了一些相关说明。</p>
+<p>自从西行前在药铺里聊过之后，就没再这样谈过了。</p>
+<p>那时候发生了什么来着——</p>
+<p>“我并没有放在心上，壬氏大人也不必在意。”</p>
+<p>“……放在心上？”</p>
+<p>壬氏的眼神变得浑浊。</p>
+<p>“不，这里不该是……有点什么反应吗？”</p>
+<p>“没什么。啊，对了。谢谢您的鹿茸。”</p>
+<p>猫猫像是想起来似的，临场补了一句道谢。</p>
+<p>“我已经切了，马上就拿来调配了。不愧是被称为灵药的东西，药效真是惊人啊。我只给几位上等客人各分了一小包，结果消息似乎传开了，卖得很好。虽然我把价钱定得相当高，但想恢复活力的老爷们还是很多，甚至有人表示多少钱都愿意付。如果可以的话，能否告诉我入手鹿茸的渠道呢？”</p>
+<p>“不，这算什么药效啊。话说回来，你比刚才能说多了啊！”</p>
+<p>对方连药效都不知道，只是因为稀罕就弄来了吗。既然如此，那原本留给壬氏的那份，应该也不需要了吧，猫猫决定把它卖掉。</p>
+<p>“不，我不是说这个！”</p>
+<p>壬氏抬起了头，耳朵微微发红。</p>
+<p>“你……在跟吻过的对象面对面时，难道就不会害羞吗？”</p>
+<p>壬氏稍微结巴地说道。</p>
+<p>“就算您这么说，要是每件事都在意的话，就没法工作了。”</p>
+<p>这在花街是司空见惯的光景。那里本来就是比起昆虫交尾，人类的交合更为频繁的场所。</p>
+<p>“工作……”</p>
+<p>“要是对梨花妃也害羞的话，就没法工作了吧。”</p>
+<p>“为什么梨花妃会扯上关系？”</p>
+<p>壬氏露出一副真心不解的表情看着她。</p>
+<p>“梨花妃那时候不是病得连饭都吃不下吗？”</p>
+<p>而且，她自己也不肯主动进食。对那样的她，只能采取强硬手段了。</p>
+<p>壬氏大概想象到了她用了什么方法，“砰”地拍了一下桌子。</p>
+<p>“喂、喂！梨花妃可是女人啊！”</p>
+<p>“她是妃子嘛。如果是男人的话，那倒有问题了。”</p>
+<p>“不，不是那个意思！”</p>
+<p>猫猫明白他想说什么，但那时候她也拼尽全力了。如果梨花妃去世的话，猫猫自己也性命难保。在周围侍女们的尖叫声中，哪怕要踢开碍事的人把他们赶出房间，也必须让她吃下东西。</p>
+<p>“多亏如此，她好转了，真是太好了。”</p>
+<p>“……”</p>
+<p>梨花妃又怀上了新的皇子。从当时的情况来看，谁能想象得到呢。</p>
+<p>猫猫相信自己做的事没有错。</p>
+<p>壬氏又把脸耷拉了下去。他就那样低着头，向猫猫招手，示意她过来。</p>
+<p>“要接吻吗？”</p>
+<p>“完全没有那种心情！”</p>
+<p>壬氏虽然这么说，却轻轻将猫猫的身体拉近。什么也没做，只是拥抱着她而已。</p>
+<p>偶尔，像那些烦人的小鬼撒娇时的样子。虽然他并不会恢复过去的记忆，但似乎明白自己失去了什么重要的东西。最近，他经常抱着那只叫毛毛的令人不快的大毛团睡觉，大概是在借此排遣吧。那东西似乎多少也有点用处。</p>
+<p>壬氏是不是也像十岁的孩子一样，想向什么撒娇呢？</p>
+<p>“很快就结束吗？”</p>
+<p>“再等一百下。”</p>
+<p>（还挺久的。）</p>
+<p>虽然身体微微被压着，姿势有些难受，但还是忍耐一下吧。</p>
+<p>“一、二、三……”</p>
+<p>“不许数。”</p>
+<p>（真是麻烦啊。）</p>
+<p>猫猫一边想着能不能把那只大毛团塞给壬氏，一边静静地等待着。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-033.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-035.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
