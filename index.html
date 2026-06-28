@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>薬屋のひとりごと</title>
+  <title>药屋少女的呢喃</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -37,6 +37,12 @@
       margin-bottom: 20px;
       font-size: 14px;
     }
+    .stats a {
+      color: #c0392b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .stats a:hover { text-decoration: underline; }
     .search-box {
       text-align: center;
       margin-bottom: 24px;
@@ -131,9 +137,11 @@
   </div>
 
   <div class="stats">
-    📚 共 <strong>285</strong> 章 · 持续更新中6月28日00.48更77章
+    📚 共 <strong>285</strong> 章 · 持续更新中 6月28日 00:48 更77章
     <br>
     <span style="color: #8b7a6b; font-size: 13px;">有问题找b站：这有个毛线</span>
+    <br>
+    <a href="chapters/chapter-000.html">📊 查看访问统计</a>
   </div>
 
   <div class="search-box">
@@ -147,6 +155,12 @@
   <div class="footer">
     © 2026 我的小说站 · 由 GitHub Pages 驱动 喜欢就支持一下吧
   </div>
+
+  <!-- 隐藏的首页浏览量计数器 -->
+  <span id="busuanzi_value_page_pv" style="display:none;"></span>
+
+  <!-- 不蒜子统计脚本 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   <script>
     const totalChapters = 285;
