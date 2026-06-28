@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>chapter-000</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">chapter-000</h1>
+</header>
+<p>&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html lang="zh-CN"&gt;</p>
+<p>&lt;head&gt;</p>
+<p>&lt;meta charset="UTF-8"&gt;</p>
+<p>&lt;meta name="viewport" content="width=device-width,
+initial-scale=1.0"&gt;</p>
+<p>&lt;title&gt;访问统计 - 药屋少女的呢喃&lt;/title&gt;</p>
+<p>&lt;style&gt;</p>
+<p>* { margin: 0; padding: 0; box-sizing: border-box; }</p>
+<p>body {</p>
+<p>font-family: "PingFang SC", "Microsoft YaHei", sans-serif;</p>
+<p>background: #fdf6ec;</p>
+<p>color: #3e3232;</p>
+<p>max-width: 700px;</p>
+<p>margin: 0 auto;</p>
+<p>padding: 40px 20px;</p>
+<p>text-align: center;</p>
+<p>line-height: 2;</p>
+<p>}</p>
+<p>.card {</p>
+<p>background: #fffaf2;</p>
+<p>border: 1px solid #e5d9c5;</p>
+<p>border-radius: 16px;</p>
+<p>padding: 40px 20px;</p>
+<p>margin: 20px 0;</p>
+<p>box-shadow: 0 4px 12px rgba(0,0,0,0.05);</p>
+<p>}</p>
+<p>h1 {</p>
+<p>font-size: 28px;</p>
+<p>color: #5a4a3a;</p>
+<p>margin-bottom: 30px;</p>
+<p>}</p>
+<p>.stat-item {</p>
+<p>margin-bottom: 24px;</p>
+<p>}</p>
+<p>.stat-label {</p>
+<p>font-size: 16px;</p>
+<p>color: #8b7a6b;</p>
+<p>margin-bottom: 8px;</p>
+<p>}</p>
+<p>.stat-number {</p>
+<p>font-size: 48px;</p>
+<p>font-weight: bold;</p>
+<p>color: #c0392b;</p>
+<p>}</p>
+<p>.home-link {</p>
+<p>display: inline-block;</p>
+<p>margin-top: 30px;</p>
+<p>background: #8b6b4a;</p>
+<p>color: white;</p>
+<p>padding: 10px 30px;</p>
+<p>border-radius: 25px;</p>
+<p>text-decoration: none;</p>
+<p>font-size: 16px;</p>
+<p>transition: 0.2s;</p>
+<p>}</p>
+<p>.home-link:hover { background: #5a4a3a; }</p>
+<p>.note {</p>
+<p>font-size: 13px;</p>
+<p>color: #b5a48b;</p>
+<p>margin-top: 30px;</p>
+<p>}</p>
+<p>&lt;/style&gt;</p>
+<p>&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt;h1&gt;📊 本站访问统计&lt;/h1&gt;</p>
+<p>&lt;p style="color: #8b7a6b; margin-bottom:
+20px;"&gt;https://show88888.github.io/nove1/&lt;/p&gt;</p>
+<p>&lt;div class="card"&gt;</p>
+<p>&lt;!-- 全站总浏览量 --&gt;</p>
+<p>&lt;div class="stat-item"&gt;</p>
+<p>&lt;div class="stat-label"&gt;👀 全站总浏览量（PV）&lt;/div&gt;</p>
+<p>&lt;div class="stat-number"&gt;</p>
+<p>&lt;span id="busuanzi_value_site_pv"&gt;...&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- 全站总访客数 --&gt;</p>
+<p>&lt;div class="stat-item"&gt;</p>
+<p>&lt;div class="stat-label"&gt;🧑 全站总访客数（UV）&lt;/div&gt;</p>
+<p>&lt;div class="stat-number"&gt;</p>
+<p>&lt;span id="busuanzi_value_site_uv"&gt;...&lt;/span&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- 首页单独浏览量（从 iframe 读取） --&gt;</p>
+<p>&lt;div class="stat-item"&gt;</p>
+<p>&lt;div class="stat-label"&gt;🏠 首页浏览量&lt;/div&gt;</p>
+<p>&lt;div class="stat-number" id="home_pv_display"&gt;</p>
+<p>加载中...</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;a href="../index.html" class="home-link"&gt;←
+返回目录&lt;/a&gt;</p>
+<p>&lt;div class="note"&gt;</p>
+<p>统计数据由不蒜子提供，首页数据延迟约几秒更新。</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;!-- 隐藏的 iframe，用于获取首页的页面浏览量 --&gt;</p>
+<p>&lt;iframe id="homeFrame" src="../index.html"
+style="width:0;height:0;border:none;display:none;"&gt;&lt;/iframe&gt;</p>
+<p>&lt;!-- 不蒜子核心脚本 --&gt;</p>
+<p>&lt;script async
+src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"&gt;&lt;/script&gt;</p>
+<p>&lt;script&gt;</p>
+<p>// 每隔 2 秒尝试从 iframe 中读取首页的页面浏览量</p>
+<p>function updateHomePV() {</p>
+<p>try {</p>
+<p>var iframe = document.getElementById('homeFrame');</p>
+<p>var iframeDoc = iframe.contentDocument ||
+iframe.contentWindow.document;</p>
+<p>var span = iframeDoc.getElementById('busuanzi_value_page_pv');</p>
+<p>if (span &amp;&amp; span.innerText &amp;&amp; span.innerText.trim()
+!== '') {</p>
+<p>document.getElementById('home_pv_display').innerText =
+span.innerText;</p>
+<p>}</p>
+<p>} catch (e) {</p>
+<p>// 跨域或未加载完成时忽略</p>
+<p>}</p>
+<p>}</p>
+<p>// iframe 加载完成后开始定时读取</p>
+<p>document.getElementById('homeFrame').onload = function() {</p>
+<p>updateHomePV();</p>
+<p>setInterval(updateHomePV, 2000);</p>
+<p>};</p>
+<p>&lt;/script&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>&lt;/html&gt;</p>
+</body>
+</html>
