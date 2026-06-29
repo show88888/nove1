@@ -1,0 +1,592 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-086</h1>
+</header>
+<p>九、雷 后篇</p>
+<p>翌日，老爹决定听取那三胞胎的说法。</p>
+<p>虽然觉得事情进展得未免太快，但既然是老爹的请求，那个单片眼镜的怪人军师断然不会拒绝。</p>
+<p>“猫猫，你跟我一起来，把谈话内容整理成文书，好吗？”</p>
+<p>“……会有怪人来吧。”</p>
+<p>既然怪人军师也要列席，猫猫摇了摇头。</p>
+<p>“罗汉不会来，放心好了。”</p>
+<p>“那倒是可以。不过，姚她们怎么办？”</p>
+<p>猫猫瞥了一眼。</p>
+<p>“我跟姚说了，她不会速记，所以不行。”</p>
+<p>（我也不会啊……）</p>
+<p>话到嘴边又咽了回去。</p>
+<p>要是多嘴，姚肯定会嚷着“我来做”而不肯罢休。而燕燕绝对不允许那样，到头来只会陷入僵局。</p>
+<p>姚这人，只要明白自己实力不足，虽然不甘心但也能够接受，所以还是闭嘴不说为好。</p>
+<p>刚才开始，姚就一直躲在柱子后面，不甘心地望着猫猫。在她身后，燕燕挥着白手巾，像是在说“快走快走”。</p>
+<p>“知道了，走吧。”</p>
+<p>猫猫心想，早点结束早点回去。</p>
+<p>---</p>
+<p>准备好的地方是军部的会议室。不大不小，与其说是会议室，不如说更像审讯室的大小。</p>
+<p>“哦，来了啊。”</p>
+<p>在房间前迎接他们的，是一只眼熟的大型犬——不，是李白。</p>
+<p>“有劳了。”</p>
+<p>老爹郑重地鞠了一躬。</p>
+<p>“嗯，有什么问题随时叫我。里面已经安排了另一位书记官，不过毕竟是文官嘛。”</p>
+<p>李白拍了拍自己厚实的胸膛。还是一如既往的爽快性格。</p>
+<p>“为什么李白大人会在这里？”</p>
+<p>猫猫歪着头问道。</p>
+<p>“上头命令啊。对方是那种人，万一恼羞成怒就麻烦了。需要有个能打的护卫。而且我跟三胞胎还有牧都认识，最重要的是，他们知道你是怎样的人，所以就选了我。”</p>
+<p>“原来如此。”</p>
+<p>合情合理。</p>
+<p>“偶尔做做这种工作，也算不错的调剂。”</p>
+<p>这位豪爽汉子咧嘴一笑，腰间系着的流苏已与从前不同，显然升了官。</p>
+<p>“看来您仕途颇为顺利呢。”</p>
+<p>“是啊。托你的福，最近案头工作多了不少。”</p>
+<p>猫猫本想问问收入涨了多少，但觉得太俗气便作罢了。也不知再过多久，李白才能为他心爱的绿青馆白铃赎身。</p>
+<p>“在你们谈话前，我能问几个问题吗？”</p>
+<p>老爹看向李白。</p>
+<p>“啊，抱歉。请说。”</p>
+<p>“你刚才说跟三胞胎有交情，那你知道他们三人分别是什么性格吗？”</p>
+<p>老爹的问题让李白手托下巴，歪了歪头。</p>
+<p>“要说性格……该怎么说呢。总之三人都是狡猾奸诈的家伙。脸长得一样，声音也很像。性格嘛，大概也差不多吧。我没跟他们相处到能分辨出来的程度。”</p>
+<p>“哦。”</p>
+<p>老爹点了点头。</p>
+<p>“他们三人关系好吗？”</p>
+<p>“不，我觉得不算好。”</p>
+<p>李白断然否定。</p>
+<p>“以前出过工作纰漏，追查是谁的责任时，他们可没互相包庇。反而是摆出‘别把祸水引到我身上’的态度。”</p>
+<p>“那次纰漏，他们就没想过三人一起瞒天过海？”</p>
+<p>“您觉得能瞒得了吗？在那位罗……不，在那位单片眼镜的老爷子面前耍花招？”</p>
+<p>李白还记得猫猫之前说过的话，倒是个守信的人。</p>
+<p>那个怪人军师，基本上就是个人类缺点的大集合体，唯独在围棋、将棋以及看人眼光上出类拔萃。</p>
+<p>“那次可真是有趣。啊，对了，我想起来一件事。”</p>
+<p>“什么事？”</p>
+<p>“三胞胎里，有两个应该会老实交代。他们仗着父亲的权威为所欲为，但自己可不想受罚。所以，他们不会为自己的过错找借口遮掩，只要心中无愧，就不会撒谎。”</p>
+<p>“能信得过吗？”</p>
+<p>老爹眯起眼确认道。</p>
+<p>“要说信不信，那也没有百分之百的保证吧？总之，就当是这么个倾向——他们不会为了包庇别人而撒对自己不利的谎。”</p>
+<p>“你是个很诚实的人呢。”</p>
+<p>“是、是吗？”</p>
+<p>“谢谢。那么，有事的话我会立刻叫你。”</p>
+<p>老爹说完便走进了房间。</p>
+<p>猫猫也跟了上去。</p>
+<p>---</p>
+<p>房间里已经有一个文官模样的男人。应该就是李白说的书记官了。</p>
+<p>书记官看到猫猫他们，从椅子上站起来行了一礼。</p>
+<p>“他们应该很快就到。请这边坐。”</p>
+<p>“有劳了。”</p>
+<p>老爹坐下。桌上放着一份文书。</p>
+<p>（下马威吗？）</p>
+<p>上面写着三胞胎的官职及其亲属关系。意思大概是：我是奉怪人军师之命才来的，但你还没资格处罚我。</p>
+<p>“好了，怎么办好呢。”</p>
+<p>三胞胎将分别单独接受问话。</p>
+<p>总之，第一个人已经到了，得开始谈正事。</p>
+<p>猫猫把笔尖蘸满墨汁，尽量准备记录清楚。</p>
+<p>---</p>
+<p>○●○</p>
+<p>“看来您有点误会，我跟牧的妹妹那事可没关系。”</p>
+<p>“对十四岁的小丫头出手，这种事想都没想过。凭什么怀疑到我头上？”</p>
+<p>“嗯？前天在哪儿？”</p>
+<p>“那当然是工作结束后在街上闲逛啊。喝一杯什么的，谁都会吧。”</p>
+<p>“前天想喝点便宜酒，就往南边去了。”</p>
+<p>“没去花街。那地方不是喝酒的地方。”</p>
+<p>“雷？”</p>
+<p>“哦，是说那声大雷吧。”</p>
+<p>“好像落在附近了。天空一闪光，过了一会儿才传来巨响。吓了一跳。”</p>
+<p>“具体什么时候？”</p>
+<p>“傍晚钟响的时候。紧接着就打雷了。”</p>
+<p>“所以，跟我没关系。”</p>
+<p>“要干也是两个弟弟干的，随你们便。”</p>
+<p>“不过，要是毫无根据地随便指认我们中的谁，后果您应该清楚吧？”</p>
+<p>---</p>
+<p>○●○</p>
+<p>第一个是长子。</p>
+<p>语气完全是一副“怎么可能知道谁是犯人”的样子。</p>
+<p>猫猫一边烦躁一边还是记了下来。</p>
+<p>老爹摸着下巴“唔——”地沉思着。</p>
+<p>就算猫猫和书记官不记录，老爹肯定也能一字不差地记在脑子里。他就是这么有能耐的人。</p>
+<p>长子出去后，换了一张一模一样的脸进来。看了文书，这次是次子。看来是简单明了地从老大开始依次来。</p>
+<p>---</p>
+<p>○●○</p>
+<p>“真是无妄之灾。正忙着呢被叫来审问，要不是我的话，你们打算怎么办？”</p>
+<p>“反正我肯定是清白的，赶紧把话说完就放我回去。”</p>
+<p>“前天在哪儿？正好轮休，就去骑马跑了一会儿。第二天要上班，当天就回来了，傍晚到的。”</p>
+<p>“累了就回家直接睡了。我家在哪你们知道吧？只要知道我是谁老爹就该清楚。”</p>
+<p>“有没有人能作证？”</p>
+<p>“问了也白问，我家佣人说的话你们肯定不会信吧。”</p>
+<p>“就是这样。”</p>
+<p>“我房间在别院，没人注意到我也正常。”</p>
+<p>“傍晚钟响的时候在干什么？”</p>
+<p>“哦，那个啊，是打雷的时候吧？”</p>
+<p>“吓了一跳。钟声一响，天上一闪，然后就是雷鸣。”</p>
+<p>“敲钟的人估计也吓一跳吧。站在那么高的地方，被雷劈了也不奇怪。”</p>
+<p>“不过好像没那么倒霉就是了。”</p>
+<p>“可以了吗？”</p>
+<p>“我回去工作了。”</p>
+<p>“到底是哥哥还是弟弟干的，好好查清楚啊。”</p>
+<p>“当然，查错了可不行，所以建议您慎重考虑。”</p>
+<p>---</p>
+<p>○●○</p>
+<p>这话也是挑衅味十足。</p>
+<p>猫猫半眯着眼，还是记了下来。</p>
+<p>老爹又摸着下巴点头。</p>
+<p>真想快点结束这场闹剧。</p>
+<p>第三个人，最小的也开始了问话。</p>
+<p>不用说，脸都一样，已经开始有点腻了，但忍忍吧。</p>
+<p>---</p>
+<p>○●○</p>
+<p>“搞什么啊，我最后一个。”</p>
+<p>“要是哥哥们老实招了，我也不用受这罪。”</p>
+<p>“啊，能不能快点完事？”</p>
+<p>“今天下班了都。”</p>
+<p>“前天在哪儿？干了一整天活啊。”</p>
+<p>“是，本来该下班了，结果被塞了件麻烦事。”</p>
+<p>“说什么去书库拿书，叫文官去不就行了。啊，真是，那个怪人军师……呃，没什么。总之我就去了，正好碰上个不错的宫女，就聊得开心了呗。”</p>
+<p>“哪个书库？”</p>
+<p>“西边的书库。武官根本不会去那种地方。不过，就当是场新邂逅吧。”</p>
+<p>“就这么折腾着，就过了下班时间。”</p>
+<p>“嗯，傍晚钟响的时候应该在书库吧。”</p>
+<p>“钟声没听见，不过大概就那会儿。”</p>
+<p>“雷声倒是听见了。”</p>
+<p>“两手都拿着书简，突然一闪光，吓得我全掉地上了。”</p>
+<p>“正弯腰去捡，又是一阵地动山摇的响声。那动静可真大。”</p>
+<p>“弯腰花了多久？”</p>
+<p>“稍微愣了一会儿，顶多四五秒吧。”</p>
+<p>“想早点回去，这样行了吧？”</p>
+<p>“好，那我走了。”</p>
+<p>---</p>
+<p>○●○</p>
+<p>三个人都无可救药。</p>
+<p>猫猫只管记完，累得够呛。</p>
+<p>只有老爹一脸满意地点头。</p>
+<p>书记官似乎还有活干，已经开始誊抄刚写的记录了。</p>
+<p>猫猫凑到老爹耳边，压低声音不让书记官听见。</p>
+<p>“老爹，你弄明白了？”</p>
+<p>“算是吧。材料大致齐了？”</p>
+<p>语气倒是轻松得很。</p>
+<p>猫猫脸上浮现出问号。</p>
+<p>她以为自己从老爹那儿学了不少东西，但不知道的还多着呢。</p>
+<p>这个老宦官的脑子里到底装了些什么。</p>
+<p>“好了，回去整理一下信息吧。”</p>
+<p>老爹用手杖撑着摇摇晃晃的身体，从椅子上站了起来。</p>
+<p>门外，李白带着一脸“没轮到我出场啊”的些许遗憾表情。</p>
+<p>---</p>
+<p>一回到医局，老爹就要都城及其周边地图。</p>
+<p>猫猫正想着是不是得去书库借，幸好刘医官拿了出来。</p>
+<p>“别弄脏了。”</p>
+<p>本来打算往上写字的老爹，悄悄把笔藏了起来。</p>
+<p>他环顾四周，找别的替代品，最后拿来了几只用来压药包纸的小彩陶。</p>
+<p>“您要干什么？”</p>
+<p>姚和燕燕走了过来。</p>
+<p>今天两人都到下班时间了。刘医官也没说什么。</p>
+<p>“想整理一下信息。你们俩在的话帮大忙了。”</p>
+<p>老爹这话带了点期待的语气，姚微微脸红，别过头去，像是在说“那是当然”。</p>
+<p>燕燕则把大小姐这副模样深深刻进了心灵画布上。</p>
+<p>“首先，这里放一个。”</p>
+<p>老爹把红色的陶件放在都城中央。</p>
+<p>“那是？”</p>
+<p>“傍晚的钟不就是在那里敲的吗？”</p>
+<p>“确实是那里。为了能让全城听到，特意设在高处。”</p>
+<p>正如三胞胎次子所说，钟设在类似瞭望台的地方。</p>
+<p>老爹接着又放了三个深蓝色的陶件。</p>
+<p>“这是长子说他在的地方，这是次子说的自家位置，还有三男说的西边书库就在这里。”</p>
+<p>“也就是说，事发时他们各自在不同地方。”</p>
+<p>“对。牧的说法是，他妹妹大概在这一带。”</p>
+<p>老爹指向红色陶件的位置。那一带正好是商铺林立的地方。</p>
+<p>“要是有目击者就好了，不过三人都不提这个。您能看出谁在撒谎吗？”</p>
+<p>猫猫这次尽量让自己语气恭敬一点，免得又被老爹训。</p>
+<p>“嗯。不过在那之前，再收集一点信息吧。”</p>
+<p>老爹看着猫猫她们三人。</p>
+<p>“前天那声雷，你们都还记得吧？”</p>
+<p>“嗯，声音很大。”</p>
+<p>“宿舍离得近嘛。”</p>
+<p>位于都城西北的宿舍，离西北那片森林不算太远。</p>
+<p>“大概在这一带吧。”</p>
+<p>老爹把一个蓝色陶件放在地图上。</p>
+<p>“然后，雷落下的位置——”</p>
+<p>放了一个黄色陶件。</p>
+<p>---</p>
+<p>插图（By みてみん）</p>
+<p>https://5130.mitemin.net/i323827/</p>
+<p>---</p>
+<p>猫猫她们眨了眨眼睛。还没明白老爹想干什么。</p>
+<p>“再问一个问题好吗？”</p>
+<p>“请讲。”</p>
+<p>“雷的光、雷声，还有傍晚的钟声——顺序是怎样的，你们还记得吗？”</p>
+<p>猛地举手的是燕燕。</p>
+<p>“先是天空闪光。然后大约三秒后响起雷声。傍晚的钟声也几乎同时。伴随着地面的余震，钟声也响了。”</p>
+<p>“记得真清楚啊。”</p>
+<p>老爹赞叹道。</p>
+<p>猫猫心想，燕燕的记忆力之所以这么好，大概是因为姚抱住她的触感也被一起刻进了脑海吧。</p>
+<p>除此之外没别的解释。</p>
+<p>（老爹为什么要问这个？）</p>
+<p>猫猫看着地图，确认陶件的位置。</p>
+<p>（⁉）</p>
+<p>她又确认了一下刚才记下的内容。</p>
+<p>长子、次子、三男各自的证词。</p>
+<p>“猫猫，怎么了？”</p>
+<p>“你看看这个，觉得有什么不对劲？”</p>
+<p>猫猫把记录递给姚看，主要是关于雷的部分。</p>
+<p>“……嗯？是不是有点奇怪？”</p>
+<p>姚盯着长子的记录仔细看。</p>
+<p>“燕燕，你也看看。不觉得奇怪吗？这个顺序不对啊。”</p>
+<p>长子记录的要点是：“天空闪光后，傍晚钟声响起，然后才是雷声。”</p>
+<p>“啊，这个也是。”</p>
+<p>次子的记录是：“天空闪光的同时钟声响起，然后才是猛烈的雷声。”</p>
+<p>“这个倒是能对上。不过，不知道傍晚的钟是何时敲响的。”</p>
+<p>三男的记录是：“天空闪光后，大约四五秒才传来地动般的雷声。”</p>
+<p>“长子跟次子在撒谎吗？”</p>
+<p>“不，不对。”</p>
+<p>猫猫否定了姚的话。</p>
+<p>（原来如此，是这样啊。）</p>
+<p>猫猫看向老爹。</p>
+<p>老爹依然神色柔和，仿佛在看她们三人能否得出答案。</p>
+<p>“至少两个人没有撒谎。”</p>
+<p>如果相信李白的话。那只大型犬虽然没轮到他出场，但却告诉了他们相当有趣的信息。</p>
+<p>三胞胎不会互相包庇。</p>
+<p>如此一来，除了那个对牧的妹妹出手的人之外，其他两人只要没有亏心事，就没有理由撒谎。</p>
+<p>那么——</p>
+<p>“猫猫，请说明一下是怎么回事。”</p>
+<p>燕燕问道。</p>
+<p>猫猫悄悄看了一眼老爹。老爹微笑着，像是在说“你来解释看看”。</p>
+<p>既然这么说了，猫猫可不想答错。她深深吐了口气，在脑中整理着该从哪里说起才最容易懂。</p>
+<p>“姚和燕燕，你们知道怎么判断雷的远近吗？”</p>
+<p>“那还不简单，光闪过后声音很快就传来……”</p>
+<p>姚本质上也是个聪明的孩子。只要点拨一下，就能想到答案。</p>
+<p>“也就是说，声音来得越快的，就离雷越近？”</p>
+<p>老爹轻轻点了点头。</p>
+<p>“同时，声音越大也说明越近。”</p>
+<p>对比三人的记录。</p>
+<p>姚皱起了眉头。</p>
+<p>“时间顺序理不清。雷声先不说，钟声的时差对不上。”</p>
+<p>她的困惑不难理解。</p>
+<p>但猫猫是这样想的：</p>
+<p>“雷声会因为距离远近而有时间差，那钟声不也同样会有差别吗？”</p>
+<p>这样一来，雷声和钟声先后顺序不一的原因也就说得通了。</p>
+<p>而按照这个逻辑，只有一个人的记录会出现矛盾。</p>
+<p>“是次子吧。如果前天打雷时他确实在家的话，那就矛盾了。”</p>
+<p>燕燕用手指确认着黄色、红色和深蓝色陶件的位置。</p>
+<p>“虽然只是大概距离，但如果他真的在家，他听到钟声的时间就不可能几乎和雷光同步。”</p>
+<p>钟的位置离次子所说的家很远。大概跟猫猫他们的宿舍距离差不多，所以应该会晚几秒才听到。</p>
+<p>然而他却说几乎是同时听到的——</p>
+<p>“那次子实际所在的位置——”</p>
+<p>离红色陶件的位置不远。</p>
+<p>关于雷声的供述倒是具体且不像假话。正是这一点害了他。</p>
+<p>也就是说，那里就是牧的妹妹被三胞胎中某人搭话的地方。</p>
+<p>‘……’</p>
+<p>猫猫、姚、燕燕三人看向老爹。</p>
+<p>老爹一开始就是冲着这个目的问话的吗？</p>
+<p>（谁会靠声音来判断对方的位置啊。）</p>
+<p>简直难以置信。</p>
+<p>对方也没想到他们会用这种方法，所以老实地回答了关于雷声的问题。</p>
+<p>“好了，加上书记官的记录，我这就拿着这些去找牧。当然，他可能还是会胡搅蛮缠就是了。”</p>
+<p>老爹说着“哟——咻”，慢悠悠站起身。</p>
+<p>“……为什么那么厉害的人会是宦官呢？”</p>
+<p>姚不经意冒出的一句话，猫猫深有同感，同时伸手扶住了腿脚不便的老爹。</p>
+<p>她默默祈祷，对于那些让老医官摔倒的不肖之徒——不只是次子，而是三个人都能受到应有的惩罚。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-085.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-087.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

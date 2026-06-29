@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-084</h1>
+</header>
+<p>七、葡萄酒、点心与围棋</p>
+<p>壬氏觉得，白天确实变得短了许多。能在日落前回宫，实在令人轻松不少。</p>
+<p>“那么，我就先告退了。”</p>
+<p>马闪回了自己家。夜间的警护交给了其他人。之前他还气势汹汹地说要彻夜戒备，但说实话，被他一整天都盯着，壬氏也累得慌，还是免了吧。</p>
+<p>一回到宫中，水莲便迎了上来。</p>
+<p>“首先，请您用膳吧。”</p>
+<p>“不，先沐浴……”</p>
+<p>壬氏本想纠正，但宫中的气氛与平时不同。平日焚的都是壬氏喜欢的香料，今天却比往常多了一丝甜腻的气味。</p>
+<p>里面的护卫也有些生面孔。</p>
+<p>“有客人吗？”</p>
+<p>“是的。”</p>
+<p>而会来壬氏宫中做客的人，也就那么几位。</p>
+<p>走廊上的护卫们纷纷低头行礼，壬氏朝客厅走去。</p>
+<p>心中所想的那位人物，正悠闲地坐在客厅里。</p>
+<p>“今天不用去后宮吗？”</p>
+<p>壬氏低头行礼，向主上进言。</p>
+<p>“最近的管理官，净是推举些新妃子来。”</p>
+<p>那位美髯的伟丈夫，正一边举杯一边看书。面前摆着一张棋盘。看来这里也有一位赶时髦的人。</p>
+<p>“净把那些自以为合朕口味的女子硬塞过来。”</p>
+<p>大概就是指巨乳吧，不过壬氏心里清楚。这位一国之君，并不会仅凭那样就选妃。</p>
+<p>若真有合口味的妃子，但在政治上不合适的话就麻烦了。主上所说的“麻烦”，就是指这个意思。</p>
+<p>但理由还不止如此。</p>
+<p>他已经有了从妃子升为皇后——也就是正妻的玉叶皇后。而她的父亲玉袁，目前正住在都城。</p>
+<p>“您是在意岳父的目光吧？”</p>
+<p>这里毕竟是壬氏的宫殿，说话可以稍许随意些。</p>
+<p>“无论哪个时代，戴冠者都不得不看他人脸色行事。”</p>
+<p>主上啪地落下一子，用空着的手示意壬氏坐下。</p>
+<p>壬氏见状微微一笑，坐到了棋盘对面的椅子上。放在那里的棋罐里装着黑子。</p>
+<p>主上放下了书。不用说，正是那位怪人军师的著作。</p>
+<p>水莲也给壬氏端来了酒杯。杯中盛着血一般鲜红的液体。</p>
+<p>透明的玻璃映着酒液，壬氏轻轻晃动杯身，欣赏那流转的色泽。</p>
+<p>“这里的葡萄酒酸味很重啊。”</p>
+<p>主上的手边也已放了一杯。</p>
+<p>“因为是按我的口味准备的。”</p>
+<p>“朕倒也不讨厌，不过听说最近流行甜口的酒。”</p>
+<p>说到甜口的酒，壬氏脑海中忽然浮现出猫猫嫌恶的表情。</p>
+<p>“怎么了？”</p>
+<p>“不，没什么。”</p>
+<p>他险些笑出来，连忙掩饰过去。</p>
+<p>主上露出不解的神情，晃了晃手中的杯子。</p>
+<p>“说起来，围棋虽正流行，可据说市井间舶来品也颇受欢迎。”</p>
+<p>“是啊。”</p>
+<p>壬氏也知道。前些日子西边的巫女前来，随之大量异国物品涌入市场。或许也与一时降低关税有关。</p>
+<p>“那你知道其中最受欢迎的货物是什么吗？”</p>
+<p>“是什么？”</p>
+<p>皇帝露出狡黠的笑容。平日里公务上紧绷着神经，在壬氏面前露出戏谑的表情倒也并不罕见。</p>
+<p>“说是葡萄酒。”</p>
+<p>“葡萄酒？”</p>
+<p>壬氏歪了歪头。</p>
+<p>“不是西方产的那种吗？”</p>
+<p>玉叶皇后的故乡西都周边盛产葡萄。此刻手中的葡萄酒也是西都产的。</p>
+<p>“西都产的有那种独特的酸味吧？但据说舶来品甜味更重，更好喝。”</p>
+<p>“品质有那么好吗？”</p>
+<p>壬氏含了一口葡萄酒。西都产虽有酸味，但原本的味道并不差。只是，他记得猫猫好像说过，原本不该这么酸的。</p>
+<p>那是什么时候的事呢。</p>
+<p>大概是去年，猫猫离开后宮后，开始到他这里来做事的时候吧。</p>
+<p>壬氏忽然晃动起酒杯。</p>
+<p>“那东西，真的是舶来品吗？”</p>
+<p>“……味道不同吧？朕虽还未尝过，但大臣们都说好喝来着？”</p>
+<p>“您或许还是不喝为好。”</p>
+<p>壬氏向水莲使了个眼色。水莲走近后，他低声耳语了几句。</p>
+<p>水莲出去一趟，带回了一个布包。</p>
+<p>“那是？”</p>
+<p>壬氏对着抚摸胡须的皇帝，打开了布包。里面是一只金属酒杯。</p>
+<p>“是以前收到的。大概是去年吧。”</p>
+<p>壬氏忽然回想起去年早春时节。</p>
+<p>---</p>
+<p>“那葡萄酒，您还是别喝为好。”</p>
+<p>那位不假辞色的药屋姑娘一边收拾餐具，一边说道。壬氏正要在饭后往酒杯里倒葡萄酒，准备喝上一杯。</p>
+<p>“为何？刚才不是试过毒了吗？”</p>
+<p>壬氏歪着头，轻轻晃动酒杯。</p>
+<p>这位药屋姑娘前些日子刚离开后宮，回到花街。壬氏以高薪为饵，雇她来做自己的侍女兼试毒人。</p>
+<p>“我试过毒了。葡萄酒里应该没有什么毒物。硬要说的话，就是酸味太重了。”</p>
+<p>壬氏偏好酸味重、而非甜腻的酒。大概是水莲按他的口味准备的。是西都产的那一批。</p>
+<p>“那不就……”</p>
+<p>“只是，酒杯有问题。”</p>
+<p>“酒杯？”</p>
+<p>壬氏看着手中的金属酒杯。</p>
+<p>“杯上涂了毒吗？”</p>
+<p>“不。”</p>
+<p>“那又是为何？”</p>
+<p>药屋姑娘轻轻从他手中取过酒杯。</p>
+<p>“失礼了。”</p>
+<p>她将筷子伸入杯中的葡萄酒，蘸了一滴入口。慢慢品味之后，便悄然走出房间。想必是去吐掉口中的酒液，用水漱口吧。</p>
+<p>她很快回来，手里拿着装葡萄酒的瓶子。</p>
+<p>“这已经成毒了。”</p>
+<p>“成毒了？”</p>
+<p>药屋姑娘说出意味深长的话来。</p>
+<p>“比我刚才喝的，要甜上一些。再继续用下去，恐怕会更甜。喝起来会觉得甘甜美味，但成分却是毒。”</p>
+<p>“我听得不太明白，但能说说我的看法吗？”</p>
+<p>“请便。”</p>
+<p>药屋面不改色地点了点头。</p>
+<p>“单品不是毒。但两者结合，就成毒了——是这个意思吗？”</p>
+<p>听了壬氏的见解，药屋微微扬起嘴角。看来猜对了。</p>
+<p>“金属有溶于强酸的性质。这只杯子大概是铅制的。铅与酸味的葡萄酒混合后，铅会溶出，产生的物质据说会变甜。我曾听说，在西方有人往葡萄酒里加铅来增甜。”</p>
+<p>而饮用那酒的人，中毒发病的比例相当高。</p>
+<p>“这只是养父的看法，但他说那些中毒病例很可能就是这个原因。”</p>
+<p>她的养父似乎是位相当优秀的医者。据药屋说，是个闻一知十的人物。</p>
+<p>“……”</p>
+<p>壬氏轻轻放下了铅杯。</p>
+<p>“喝一两次或许不会立刻出现急性中毒症状，但长期饮用恐怕很危险。”</p>
+<p>她不把话说死。不愿仅凭猜测就下论断，是这位药屋姑娘的特点。</p>
+<p>“假设这是毒，你认为会有什么症状？”</p>
+<p>听到壬氏的提问，药屋略作思考。</p>
+<p>“……您还记得后宮的毒白粉吗？”</p>
+<p>“嗯，怎会忘记。”</p>
+<p>“我听说那东西是用铅加醋制成的。”</p>
+<p>也就是说，会引发与白粉中毒相似的症状。</p>
+<p>壬氏恍然大悟。</p>
+<p>“至于那位教您喝葡萄酒的人，您最好查查他自己是怎么喝的。”</p>
+<p>如果那人自己也用铅杯喝，那就是出于善意而非恶意才教壬氏的。否则，便可能是心怀歹意。</p>
+<p>壬氏曾多次被暗算过。对方出于何种意图，做了什么，都有必要查清。</p>
+<p>“还有一点，可以请问吗？”</p>
+<p>“什么？”</p>
+<p>药屋看着那瓶还未倒出的葡萄酒。</p>
+<p>“壬氏大人大概以为这葡萄酒酸是因为产地问题。”</p>
+<p>她晃了晃酒瓶。</p>
+<p>“我觉得不过是因为长途运输，酒液都快变成醋了而已。”</p>
+<p>“……”</p>
+<p>也就是说，她是在说壬氏喜欢喝的味道，其实是劣等品的味道。</p>
+<p>“原本应该是好东西。只是，若能改善运输方式，酒就不会变质了。”</p>
+<p>西都路途遥远，而且天热。</p>
+<p>“可我喝着觉得挺好啊。”</p>
+<p>壬氏歪着头，猫猫眯起眼睛。</p>
+<p>“人疲劳时味觉会变迟钝，就尝不出酸味了，所以……”</p>
+<p>“……”</p>
+<p>“另外，我个人更喜欢更干烈的酒。”</p>
+<p>试毒的那一方倒先提起了要求。</p>
+<p>不巧的是，壬氏本想说自己本来就喜欢酸味。至少他是想这么认为的。</p>
+<p>“我暂时还是喝葡萄酒。”</p>
+<p>“明白了，少爷。”</p>
+<p>水莲爽快地答应，反倒让药屋姑娘露出了不悦的表情。</p>
+<p>---</p>
+<p>“竟有这等事。”</p>
+<p>皇帝将杯中酒一饮而尽。不知何时，水莲已在一旁备好了点心。</p>
+<p>壬氏杯中减少的酒液也被重新斟满。</p>
+<p>“嗯……那现在市面上的那些酒……”</p>
+<p>“是劣等品、或者假货的可能性很高。”</p>
+<p>说是从异国运来的葡萄酒。必定比西都的酒花了更长的时间运输。这样一来，品质难以保持恒定，既然能在市面上大量流通，劣等品自然也会增多。</p>
+<p>即便如此仍能称甜，那就必须经过加甜处理。如此一来，市面上流通的恐怕就成了毒葡萄酒。</p>
+<p>再者，若有人假冒舶来品自制葡萄酒，那便是欺诈。舶来品本身就要课税。即便降低了税率，加上运输成本和稀缺价值，价格也会比西都产的高出一倍以上。</p>
+<p>也许碰巧真有品质优良的舶来葡萄酒流通，但可能性很低。</p>
+<p>“看来有必要稍作调查。”</p>
+<p>壬氏拈起一块点心。蓬松奇特的面团里揉进了干果。隐约可闻到一丝酒香。咬下一口，松软甜美，在口中化开。</p>
+<p>大概是知道皇帝会来吧。水莲虽为壬氏的乳母，同时也是皇帝的乳母。她似乎是想准备些有趣的点心来讨主上欢心。</p>
+<p>皇帝立刻大口吃了起来。看来很合口味，吃完一块后，又用新斟的葡萄酒送下。</p>
+<p>“好久没下一局了吧？”</p>
+<p>皇帝抚着胡须拍掉点心碎屑，用空闲的手拈起一枚黑子。</p>
+<p>“上一次对弈，还是你入后宮之前的事了吧。”</p>
+<p>主上怀念地将棋子放回棋罐。</p>
+<p>壬氏十三岁时，先帝驾崩。在成为太子的那一年，壬氏曾向主上邀约对弈。</p>
+<p>“打赌下棋这种事，从那之后我一直觉得不该做。”</p>
+<p>“……事到如今也无法推翻了吧。”</p>
+<p>壬氏执黑子，赢了主上。然后，他讨要了奖赏。</p>
+<p>“若你说想要帝位，过些时候我自会让给你。”</p>
+<p>“我不要。”</p>
+<p>壬氏耍赖说不想当太子。</p>
+<p>然而，那时皇帝并无子嗣。早已去世，先帝的其他子嗣一个都没有。</p>
+<p>结果，决定另立一位替身。</p>
+<p>作为宦官壬氏入后宮，然后为皇帝寻找妃子。</p>
+<p>“再没有比那次输棋更让我后悔的事了。”</p>
+<p>“您说笑了。”</p>
+<p>当今圣上疼爱玉叶皇后所生的太子，也宠爱铃丽公主。事到如今，再把壬氏立回太子之位毫无意义。若真那样做，只会埋下祸根。</p>
+<p>自己的存在绝不能成为战乱的种子。</p>
+<p>与此同时，也必须避开那飞溅的火花。</p>
+<p>“……主上，我有一个请求。”</p>
+<p>“又在打什么坏主意？可不会再跟你赌了。”</p>
+<p>“不是什么大事。”</p>
+<p>壬氏伸手去拿黑棋罐。不过主上似乎也不想执黑。</p>
+<p>“能否暂且借我一位围棋指导官。”</p>
+<p>听到壬氏的请求，主上露出疑惑的神情，却还是松开了盛黑子的棋罐。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-083.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-085.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

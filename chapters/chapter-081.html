@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-081</h1>
+</header>
+<p>四、虫患</p>
+<p>马良，高顺之子，马闪之兄。</p>
+<p>出身于世代培养众多武人的马氏一族，但他本人却更擅长文事——说得直白些，就是在武艺方面没什么天赋。</p>
+<p>因此，担任壬氏近侍的是其弟马闪。</p>
+<p>至于马良，暂且让他作为壬氏的副官在办公处所领了差事，而壬氏则趁此期间决定外出巡视。</p>
+<p>“马良没问题吗？”</p>
+<p>“是，我想应该没问题。”</p>
+<p>马车摇摇晃晃地走了一天半。为了尽快结束行程，每到一镇便更换马匹，车夫也安排了轮替。即便如此，连同护卫在内还是带了大约十名随从。</p>
+<p>以壬氏的立场而言，这次巡行人数稍嫌单薄，但若大张旗鼓又要耗费时日。他想尽早确认现场情况，所以强求了此安排。</p>
+<p>因此，在用人方面也稍微任性了一些。此刻坐在身边的并非马闪，而是高顺。马闪正骑马担任护卫。</p>
+<p>虽说对马闪有些过意不去，但高顺毕竟是更能干地辅佐壬氏的人。这是从主上那里借来的人。</p>
+<p>其中也包含对主上借高顺来偷懒的回敬之意。</p>
+<p>“那小子自幼体弱，听说因病在家疗养来着——”</p>
+<p>即便如此，强行把他带来的人正是壬氏，若是再搞坏身体，心里也过意不去。</p>
+<p>“说是生病，其实是他老毛病了。”</p>
+<p>“老毛病？”</p>
+<p>“是。这次似乎是和同部门的上司合不来，胃里都穿孔了。据说是大量吐血吐在上司的桌上，直接被送进医务室后辞了职。大概三个月前的事吧。”</p>
+<p>这哪里叫没问题。壬氏想起此人向来不善人际交往，一遇到合不来的人就会闹肚子。</p>
+<p>大概是读懂了壬氏不安的表情，高顺补充道：</p>
+<p>“给他配了个副手——我女儿。孩子已经大了不少，她说想回来工作。”</p>
+<p>“那……应该没问题吧？”</p>
+<p>高顺的女儿，是马闪和马良的姐姐。已是两个孩子的母亲，长得像高顺的妻子，是个性格泼辣的女人。壬氏不禁反而担心马良的心理压力会不会更大。</p>
+<p>“能看见了。”</p>
+<p>高顺从马车窗口向外望去。</p>
+<p>壬氏也朝外眺望，宁静的田园风光中，一座村落孤零零地映入眼帘。在朴素的民居之中，深处有一座大宅。</p>
+<p>“就是那里吗？”</p>
+<p>“是。直接去村长家，可以吗？”</p>
+<p>“不，在那之前。能把李白叫过来吗？”</p>
+<p>李白，是个气质有些像狗的武官。即便见到壬氏也不会慌张，而且性格爽快，很受重用。这次也被点名担任护卫。</p>
+<p>“明白了。”</p>
+<p>高顺从窗口唤李白过来。壬氏直接喊当然更快，但最好不要过多露脸。在外面他打算戴上面罩。</p>
+<p>虽然显得极其可疑，但只要报出高顺的名字，村长应该也不会深究。</p>
+<p>“壬氏大人，有何吩咐？”</p>
+<p>李白轻巧地跳进行驶中的马车。</p>
+<p>这个男人认识还是宦官时的壬氏，他不会拐弯抹角地叫什么“月君”，而是直呼“壬氏”。</p>
+<p>“你是地方出身吧。你看这个村子怎么样？”</p>
+<p>“您问我觉得怎么样……”</p>
+<p>“作为一个农村，房子建得还挺结实。在上位者看来虽然简朴，但其实挺像样的。只是，蝗灾似乎相当严重。”</p>
+<p>之所以看起来简朴，是因为柱子异常破旧。</p>
+<p>“我听老爷子说过，蝗虫不光吃庄稼，连房柱和衣服都啃。”</p>
+<p>怪不得看着到处破破烂烂的。</p>
+<p>“根据报告，剩下的谷物都是收割后储存在仓库里的那些。”</p>
+<p>“真是令人头疼的事啊。”</p>
+<p>李白皱起脸。</p>
+<p>“不过，幸好是这个时节吧。”</p>
+<p>若是麦收时节，损失应该更大。又或者再往南去就是水稻产区，那会更危险。</p>
+<p>“从这里看不太清楚，但地面上到处是虫尸。因为事先做了驱除的准备，所以这已经算是损失小的了。”</p>
+<p>李白无可奈何地摇着头叹了口气。态度虽稍显不敬，但他毕竟是个懂得分寸的人，壬氏也就睁一只眼闭一只眼了。况且，壬氏自己也觉得这样更轻松。高顺似乎也体察到了壬氏的心情，什么都没说。换作马闪的话恐怕早就咬上来了。</p>
+<p>“那么，我先出去了。不然要被马闪大人瞪了。”</p>
+<p>话音刚落，马车便停了下来。似乎到了村长家。</p>
+<p>马闪似乎对壬氏重用李白一事很不满。那个像狗一样的男人快步下了马车。</p>
+<p>壬氏也戴上覆面，走出马车。</p>
+<p>村长家的柱子、屋顶似乎多少被啃咬过，但看起来仍十分气派。从李白调侃的表情就能看出来。</p>
+<p>“与其说是房子，不如说是宅邸啊。”</p>
+<p>他故意这么说。</p>
+<p>宅邸周围有水渠，庭院中央修了水池。看着倒是雅致，但缺少绿意，显得寂寥。</p>
+<p>看着像是水田的蓄水池，又像是风雅的造景，不过这点就暂且不提了。</p>
+<p>壬氏站在高顺身后。</p>
+<p>搓着手的村长一边向高顺低头行礼，一边时不时偷瞄戴着覆面的可疑男子壬氏。</p>
+<p>屋里对于村长来说也算足够气派了吧。壬氏在覆面下听着李白的小声嘀咕，一边暗自猜测。李白看似单纯，实则很会察言观色。</p>
+<p>“请这边走。”</p>
+<p>被带到了一间备好了宴席的房间。对于吃腻了宫廷菜肴的壬氏来说，这饭菜可以说简朴，但在乡间农村已经是极为丰盛的了。</p>
+<p>“……”</p>
+<p>高顺连瞥都没瞥壬氏一眼，但想必明白主上想说什么。</p>
+<p>“我不是来赴宴的。立刻告诉我村子的情况。”</p>
+<p>“是、是。”</p>
+<p>平日里听惯了高顺彬彬有礼的措辞，这种从上压下来的说话方式反倒觉得新鲜。</p>
+<p>村长慌忙让下人撤走饭菜，腾出一张长桌。看来他对都城官员的突然到访相当紧张。房间打扫得一尘不染，窗外可见庭院。或许是他引以为傲的庭院，但各处散落着虫尸。</p>
+<p>村长拿来了村子的地图。</p>
+<p>“客套话就免了。简明扼要、且详细地说。”</p>
+<p>“是，那是半月前的事了——”</p>
+<p>村长开始讲述。</p>
+<p>半月前，西北方的天空出现了黑云。</p>
+<p>明明不是雨季却看到雨云——正这么观察时，一阵刺耳的声音渐渐逼近。那地平线上空黑云的真面目，竟是蝗虫的巨群。</p>
+<p>蝗群一扑向村子，就开始啃食尚未收割的稻子。村民们手持火把和网子奋力反击，但无论杀死多少、捕捉多少，蝗虫都不见减少。不仅如此，它们不满足于稻谷，连村民的衣物、鞋子、头发、甚至皮肤都开始啃咬。</p>
+<p>男人们捉住蝗虫就烧，捉住就杀。</p>
+<p>女人孩子躲进屋内。女人杀死从缝隙钻进来的虫子，孩子则在屋角瑟瑟发抖。</p>
+<p>蝗灾持续了三天三夜。</p>
+<p>“这就是当时穿的衣服。”</p>
+<p>村长轻轻递出一件衣服。结实的麻布衣服到处是破洞。染料并未褪色，可见并非经年老化所致。</p>
+<p>“虽然也制了杀虫药，但在那样的大群面前，不过是杯水车薪。”</p>
+<p>果然用药还是不够啊——壬氏咬着嘴唇。</p>
+<p>“接下来，请看这边。”</p>
+<p>村长走到庭院，抚摸着一根朴素的树干。</p>
+<p>“原本郁郁葱葱的叶子，全被啃光了。”</p>
+<p>村长深深叹了口气。</p>
+<p>“虫子呢……”</p>
+<p>“能杀的都杀了，能烧的都烧了，虫尸都集中堆在村子后面。您要去看吗？”</p>
+<p>那想必不是令人愉快的景象，但壬氏只能去看。</p>
+<p>在村长带领下，向宅邸后方走去。越靠近，虫尸越多，脚下不断发出“嘎吱、嘎吱”的踩碎声。</p>
+<p>“……”</p>
+<p>详细的描写就免了吧。只能说，那里挖了一个大坑，黑色的山丘从坑里鼓了出来。</p>
+<p>护卫中似乎有人怕虫子，捂着嘴强忍恶心。</p>
+<p>“这些就是全部了吗？”</p>
+<p>高顺向村长确认。</p>
+<p>“这是能处理掉的部分。”</p>
+<p>“能看出逃走了多少吗？”</p>
+<p>“完全无法估计。”</p>
+<p>高顺抚着下巴。</p>
+<p>“马闪。”</p>
+<p>“在。”</p>
+<p>被父亲叫到，马闪利落地出列。</p>
+<p>“去周边村子调查详细损失情况。快马加鞭的话，一炷香工夫就能往返吧。”</p>
+<p>“明白。”</p>
+<p>马闪立刻去向村民打听周边村子的事。</p>
+<p>壬氏在覆面下挑起了眉毛。</p>
+<p>“怎么了？”</p>
+<p>高顺轻声问道。</p>
+<p>“不——”</p>
+<p>在这里，壬氏该做的是处理已经发生的事。然而，除此之外，他应该还有更要紧的事要做。</p>
+<p>如果，那位药屋的姑娘在这里，她会怎么做呢。</p>
+<p>壬氏忽然蹲下身来。</p>
+<p>死去的蝗虫腹部鼓胀。记得以前读过，群居型的蝗虫体色变深，腿变短。确实是朴素的颜色。</p>
+<p>壬氏从怀里取出一把小刀。</p>
+<p>“……”</p>
+<p>他猛地将刀刃刺入蝗虫的躯干。这并不令人愉快。但若猫猫在这里，她一定会这么做。</p>
+<p>一只、又一只，壬氏将蝗虫逐一解剖。</p>
+<p>村民们投来狐疑的目光，但他们应该没工夫在意才对。</p>
+<p>壬氏将拆开的虫体排列开来。</p>
+<p>“这是……”</p>
+<p>高顺似乎察觉到了壬氏的意图。</p>
+<p>壬氏并非精通虫类生态。但里面有什么，他大致能猜到。</p>
+<p>鼓胀的腹部里，塞满了细长的黄色管状物。</p>
+<p>季节是秋天，秋去便是冬。虫子无法度过寒冬，只能将希望托付给下一代。</p>
+<p>“是卵吗？”</p>
+<p>听到高顺的声音，壬氏低下头。</p>
+<p>腹部鼓胀的蝗虫接下来会如何行动。</p>
+<p>“蝗灾还没结束。”</p>
+<p>壬氏在覆面下轻声说道。</p>
+<p>“烧地。”</p>
+<p>必须将残存的虫卵烧杀殆尽。</p>
+<p>待到春天麦子收获时，孵化的幼虫们便会得到一片饵场。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-080.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-082.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

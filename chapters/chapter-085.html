@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-085</h1>
+</header>
+<p>八、雷 前篇</p>
+<p>“听说有往酒里掺假货的商人被查获了。”</p>
+<p>在食堂吃午饭时，猫猫她们聊起了时下的话题。</p>
+<p>为了避免打扰武官们用餐，她们占了边上的位置。外面下着大雨，人比平时更多。这是秋天少见的天气，昨天还劈下了巨大的雷。雷声太大了，在宿舍里姚吓得抱住燕燕，闹得不可开交。</p>
+<p>猫猫记得那正好是傍晚的钟声敲响的时候。</p>
+<p>据听到的说法，雷落在了都城西北方向的森林里。是附近闲聊的宫女们说的。</p>
+<p>“往酒里掺东西？是兑水了吗？”</p>
+<p>“不，好像是往酸味很重的葡萄酒里加了药物让它变甜。”</p>
+<p>燕燕回答道。姚似乎本来想自己解释，露出一丝遗憾的表情，吃起了醋腌菜。今天的主菜是加了肉酱的面食。微微的辣味很可口。</p>
+<p>“变甜……是加了铅之类的东西吗？”</p>
+<p>猫猫感到无语。放那种毒进去，酒鬼们都要铅中毒了。</p>
+<p>“而且听说还冒充是舶来品。实际上是低价收购劣质葡萄酒加工而成的。”</p>
+<p>姚一副“这一点我可不能让步”的样子说道。</p>
+<p>“劣质葡萄酒啊。那要么是西都周边产的，要么是北部用山葡萄酿的吧。”</p>
+<p>猫猫想着真想试试看是什么味道，但壬氏没提起这事，大概是已经解决了吧。</p>
+<p>“你对葡萄酒很了解呢？”</p>
+<p>姚饶有兴趣地问。</p>
+<p>“因为试喝过好多次。”</p>
+<p>猫猫受绿青馆那家妓楼照顾。那家高级妓院会根据客人提供不同的酒，猫猫也常被叫去试味。猫猫的鼻子和舌头都相当灵敏，老鸨也认可这一点。</p>
+<p>“葡萄酒啊……”</p>
+<p>“小姐……”</p>
+<p>燕燕落寞地看着姚。</p>
+<p>姚因为试毒的关系肝脏不好。盐分和酒都需要控制。</p>
+<p>“不知道原本的酒精度有多高，但只是试喝的话应该没问题吧？只要不喝到醉就行。要不找找酒精低的葡萄酒？”</p>
+<p>“……有那种东西吗？”</p>
+<p>姚眼睛一亮。虽然外表成熟，但她毕竟才十五岁。似乎对酒也有些兴趣。</p>
+<p>“葡萄酒去掉酒精的话，不就是果汁嘛。”</p>
+<p>“那是只有猫猫你才这么想。”</p>
+<p>燕燕干脆地说。</p>
+<p>“小姐，您喝的时候我也会陪着，请千万不要喝得伤身体。”</p>
+<p>过度保护的燕燕用眼神向猫猫示意“别让她太乱来”。猫猫自认也明白分寸，只是默默吃着菜。</p>
+<p>正要张大嘴吃下最后一口的时候——</p>
+<p>“少胡说八道！”</p>
+<p>男人的声音响了起来。</p>
+<p>猫猫她们朝声音的方向看去。</p>
+<p>食堂对面，武官们聚集的地方似乎发生了骚动。</p>
+<p>“怎么回事？”</p>
+<p>大家都装作若无其事，却竖起了耳朵。</p>
+<p>“你们当中的谁，碰了我妹妹！”</p>
+<p>猫猫心想这也不是大白天在食堂该说的话，但还是瞥了一眼。</p>
+<p>一个大个子男人站在三个男人面前，青筋暴起。光是这样的话倒也不会太在意——但。</p>
+<p>“那几张脸……是一样的？”</p>
+<p>姚歪着头。</p>
+<p>“……是啊。”</p>
+<p>猫猫也抬头看了过去。</p>
+<p>被吼的三个男人，虽然服装不同，但脸都一样。眉眼端正清秀，正因为是同样的三张脸排在一起，反而显得像人偶一样。</p>
+<p>三个人各自面无表情地看着吼叫的男人。</p>
+<p>“是三胞胎。又在闹了。”</p>
+<p>旁边的宫女一副了然于胸的样子告诉她们。是个三十岁左右、有种独特威严感的宫女。</p>
+<p>“三胞胎？您说‘又’是？”</p>
+<p>“那三兄弟啊，都是美男子对吧？三个人都好女色，经常对女人下手。不管是要出嫁的姑娘还是人妻，毫无节操。所以时不时就会像那样被人找上门来骂——”</p>
+<p>真是一群麻烦的人，猫猫看着三胞胎。</p>
+<p>姚板着脸，轻蔑这些恶劣的男人。至于燕燕，则一副要是敢靠近小姐绝不善罢甘休的样子，抓住了一个能当钝器的餐具。</p>
+<p>“好像因为没有证据，每次都让他们逃脱了。”</p>
+<p>“证据？”</p>
+<p>“是啊。三胞胎中的某个人对女人下手。但结果，不知道到底是谁干的。那些蠢货的父亲是个大人物，放话说‘到底是谁干的给我查清楚。要是告错了人，可别怪我不客气’。”</p>
+<p>儿子是那种儿子，父亲也是那种父亲。</p>
+<p>“你们也最好别靠近，免得吃亏。”</p>
+<p>“谢谢您。”</p>
+<p>向那位不知哪来的消息灵通的小姐道了谢，收拾好餐具。</p>
+<p>虽然有些在意，但毕竟是别人的事。猫猫她们不该插手。</p>
+<p>姚似乎相当在意，但燕燕一副绝不会让她靠近坏虫子的铁壁姿态。</p>
+<p>就在猫猫正想着赶紧回去干下午的活时——</p>
+<p>“既然不知道她跟谁在一起，那我这边不也没证据吗？”</p>
+<p>三胞胎之一，戴着青色流苏饰品的男人，以挑衅的态度看着大个子。正像刚才那位消息灵通的宫女说的那样。</p>
+<p>“说得对啊。再说了，你妹连人脸都分不清吗？”</p>
+<p>系着红色头巾的男人说道。</p>
+<p>“有意见的话，就正式去告状啊。”</p>
+<p>系着黄色腰带的男人说道。</p>
+<p>三个人嘲笑着大个子走开了。大概是走得太趾高气扬，没看清眼前的路。</p>
+<p>他们撞上了一个步履蹒跚的老官员。老官员打翻了还没动过的午饭，摔倒在地。</p>
+<p>“抱歉啊。别走得那么摇摇晃晃的。”</p>
+<p>连道歉都不说就走了的三胞胎。</p>
+<p>“……猫猫。”</p>
+<p>姚凑过来看猫猫的脸。</p>
+<p>“不行哦。不能掺和进去。”</p>
+<p>燕燕轻轻按住猫猫的手。她似乎注意到猫猫正要拿起旁边的药罐去追那些男人。</p>
+<p>“我知道。”</p>
+<p>猫猫只好放下药罐，朝摔倒在地的老官员走去。</p>
+<p>“老爷子，没事吧？”</p>
+<p>伸手拉他起来，看到了一张可怜巴巴的脸——正是老爷子罗门。</p>
+<p>“哈哈哈。全洒了。”</p>
+<p>地上是打翻的午饭。燕燕立刻开始收拾。姚看着燕燕，一边慌张一边也开始帮忙打扫。</p>
+<p>“抱歉，大爷。”</p>
+<p>刚才的大个子跑了过来。</p>
+<p>“那些是什么人啊。”</p>
+<p>猫猫带着点迁怒的语气说道。虽然对大个子不好意思，但大白天在人这么多的地方不该吵架。</p>
+<p>“那些家伙，真是没辙。”</p>
+<p>大个子像吃了苦虫一样，唾弃道。</p>
+<p>“……你妹妹是自愿的吗？”</p>
+<p>老爷子战战兢兢地问。大概是路过时听到了谈话。</p>
+<p>“……自愿不自愿的，我妹妹才十四。还是不懂事的年纪，就跟人走了。”</p>
+<p>“……死了算了。”</p>
+<p>燕燕轻描淡写地说着，悄悄贴到姚身后做出保护的姿态。姚也才十五岁，外表暂且不论，内里还残留着稚气。</p>
+<p>“我明白你的心情，但你选错了地方。这样一来，为你妹妹着想，也不是个好做法。”</p>
+<p>老爷子一边像劝导般说着，一边站起来。粥黏糊糊地沾在衣服上，光用湿布擦似乎弄不掉。</p>
+<p>“……这、这我知道……”</p>
+<p>但实在忍无可忍了吧。</p>
+<p>老爷子垂下了眉毛。</p>
+<p>看到陷入困境的人就放不下——这是这位前宦官的坏毛病。</p>
+<p>“只要知道三个当中是谁干的就行了吗？”</p>
+<p>“你、你能知道吗？”</p>
+<p>老爷子的话让大个子有了反应。他看起来像是武官，气质上有点像李白，但稍微沉不住气。</p>
+<p>“能帮到什么程度还不清楚就是了。”</p>
+<p>老爷子撑住桌子，拖着脚走了出去。</p>
+<p>借了医局的一间屋子，老爷子和大个子面对面坐着。桌上准备了让人安神的茶。</p>
+<p>“我要是没轻信她说‘去买点东西’就好了。那丫头怕打雷，昨天打雷把她吓坏了。旁边的一个三胞胎就趁机跟她搭话了。”</p>
+<p>大个子名叫牧。正如外表所见，是武官。</p>
+<p>午间的工作早就开始了，本来牧也该赶紧回自己的岗位。但老爷子好心把牧带了过来。</p>
+<p>“到底打算怎么办？”</p>
+<p>姚从柱子后面探出半边脸往里看。</p>
+<p>“那些混账东西必须教训一顿。”</p>
+<p>燕燕气势汹汹。</p>
+<p>“你俩的头好重……”</p>
+<p>个子最矮的猫猫自然被两人压在下面。探头看的可不止姚一个。</p>
+<p>“我倒想问问，你们是不打算好好干，还是打算怎么办？”</p>
+<p>身后传来夹杂着怒气的声音。战战兢兢地回头一看，刘医官站在那里。</p>
+<p>“对、对不起！”</p>
+<p>三人慌忙四散。</p>
+<p>大约一炷香的时间，谈话结束了。</p>
+<p>“怎么样了？”</p>
+<p>压抑不住好奇心的姚问老爷子。当然，是躲着刘医官问的。</p>
+<p>“我安排了人去详细询问三胞胎。那三个人好像都是武官。”</p>
+<p>“……老爷子。”</p>
+<p>猫猫大概猜到老爷子打算干什么。大概会以命令的形式把武官叫出来吧。至于要依靠谁，不言自明。</p>
+<p>最近出现频率虽然少了些，但那位让人头疼的大人还在。</p>
+<p>“我觉得还是别用那些奇怪的渠道叫人比较好。”</p>
+<p>“没办法吧。那孩子太可怜了。而且，在这里用那种语气说话可不行吧？”</p>
+<p>老爷子温和地安抚道。</p>
+<p>猫猫虽然心里不快，但想着事态会如何发展。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-084.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-086.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

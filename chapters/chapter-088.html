@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-088</h1>
+</header>
+<p>十一、麻美的一天</p>
+<p>“好了，这样就结束了。”</p>
+<p>麻美伸了个懒腰，算是完成了一项工作。堆积如山的文书被她分别分派给了本该处理它们的人，月之君的执务室比之前清爽整洁了许多。</p>
+<p>现在房间里只有麻美和另一个人。那是在房间一角隔出的空间里待着的弟弟——马良。</p>
+<p>“良，快弄完了吗？”</p>
+<p>因为只有两人，她说话的语气很随意。</p>
+<p>“今天之内能弄完。”</p>
+<p>因为没有别人，马良的语气也很随意。他探头出来时，那轮廓简直像个青葫芦。不过，这个弟弟若非亲近之人，别说声音了，连脸都不会露一下。</p>
+<p>“有份东西混进来了。”</p>
+<p>“哪份？”</p>
+<p>马良轻轻递过一份文书。</p>
+<p>“这不是汉太尉的案子吗？”</p>
+<p>“汉……？”</p>
+<p>“就是罗家的人。”</p>
+<p>“啊，那个怪人军师。”</p>
+<p>虽然这个弟弟讨厌与人交往，但他对谁属于哪个部门、叫什么名字都记得清清楚楚。虽然是自己家人偏心，但他的脑子确实好使。要是能把另一个弟弟那多余的结实分一半过来匀一匀就好了。</p>
+<p>“如果不急的话，我待会儿送过去。”</p>
+<p>“可以吗？”</p>
+<p>“反正送过去也是白费功夫。”</p>
+<p>麻美轻轻从怀里取出一张纸。纸上印着“围棋大会”的概要。</p>
+<p>“啊——原来有这种东西啊。”</p>
+<p>“主办方那边的人，肯定没在干活吧？”</p>
+<p>“……没问题吗？”</p>
+<p>他又躲回隔间里，只传出担心的声音。纸张翻动的声音传来，看来并没有打算偷懒。</p>
+<p>“这不是自作自受吗？”</p>
+<p>怪人军师——汉罗汉，据说和月之君关系不和。大概正因如此，把最多工作推给月之君的正是罗汉。把这些分拣好的堆积如山的文书塞回去，是麻美最近的工作。</p>
+<p>听说之前月之君也去抗议过几次，但每次都被巧妙搪塞过去。据说是因为有个很难缠的部下，总是被他说得哑口无言。</p>
+<p>现在那个部下似乎被别的大人物挖走了。多亏如此，麻美才能顺利把文书送还回去。</p>
+<p>月之君大概也因此相当生气吧。前几天，他对麻美说：“能不能设法让他彻底干活？”而且还不问手段。</p>
+<p>既然说不问手段，麻美有的是办法。</p>
+<p>最简单的做法是利用月之君的名号，借助周围宫女的力量，但她没有这么做。毕竟不能利用主子。</p>
+<p>所以她采取了利用罗汉弱点的办法。</p>
+<p>主要是利用罗汉的叔父——汉罗门。那位老医官一脸歉意地去训诫了偷懒的外甥。不仅如此，还加上了“偷懒就罚吃人参粥”的惩罚，这才让他老实了不少。</p>
+<p>当然，光靠这个不可能一直奏效，没过几天罗汉又开始肆意妄为，所以她又用了别的办法。</p>
+<p>就是今天要举行的围棋大会。最初罗汉想擅自把宫廷当作会场，月之君叫停了此事。作为替代，另准备了别的会场，但问题在于在街中举办，预计来的人比想象中要多。</p>
+<p>于是罗汉又说想用会场附近的广场，但这需要朝廷的许可。而盖章的是月之君，再加上大会前几天时间紧迫。</p>
+<p>大概是因为确实想让自己的大会成功吧，罗汉终于老实了。毕竟要是积压工作，就不可能批准许可。</p>
+<p>因此这几天他像是被枪指着一样认真地工作，军部一度因此哗然。</p>
+<p>多亏如此，月之君能提早下班，而今天和明天更是难得地——不知隔了多少个月——休息了。</p>
+<p>“不过说来也怪。”</p>
+<p>“什么奇怪，良？”</p>
+<p>麻美朝隔板那边问道。</p>
+<p>“我在想，为什么会是围棋大会。我以为太尉更喜欢将棋，也更擅长呢。”</p>
+<p>“……围棋不也很强吗？”</p>
+<p>“很强。据说能赢他的只有棋圣。但是……”</p>
+<p>马良稍微停顿了一下，似乎在思考。</p>
+<p>“将棋的话，根本没有能赢他的人。简直就是怪物。”</p>
+<p>“怪物？”</p>
+<p>仿佛活在不同的世界里一样。</p>
+<p>“太尉一定看到了和我们不同的世界吧。复杂、奇异、有趣。所以周围人的构造对他来说太简单了，反而分辨不清吧。”</p>
+<p>“你倒说得像很懂似的。”</p>
+<p>麻美探头看向隔板那边的弟弟。</p>
+<p>被文书包围的马良手不停歇，飞快地处理着文件。</p>
+<p>“科举里啊，那种人比比皆是。我这种在那里面都算凡人了。”</p>
+<p>“你要是凡人，那我算什么？”</p>
+<p>“姐姐是姐姐，是妻子，也是母亲啊。”</p>
+<p>“那不就很普通吗？”</p>
+<p>现在她在工作，但家里还有孩子。孩子们跟乳母很亲，也已经断奶了，所以没什么问题。</p>
+<p>丈夫是武官，现在是在工作呢，还是去观摩围棋大会了，不得而知。麻美能继续工作也是他允许的，算是个好男人，这点就不追究了。</p>
+<p>“普通才最难啊……真让人羡慕。”</p>
+<p>马良呼出一口气，从抽屉里拿出装有茶的竹筒喝了一口。用茶碗的话，洒了就麻烦了。</p>
+<p>“所以我才不明白。”</p>
+<p>麻美正要问“什么”，又忍住了。</p>
+<p>“不是人的家伙，为什么会执着于大会这种追求他人的东西？”</p>
+<p>马良一副真心想不通的表情，又继续工作，麻美悄悄从隔板处探出头来。</p>
+<p>“我现在要去办别的事，就你一个人了，没问题吧？有什么事就跟外面的卫兵说。”</p>
+<p>“……我知道的，姐姐。”</p>
+<p>虽然有点不安，麻美还是离开了执务室。</p>
+<p>工作虽然可以说到此为止，但还有一个任务等着她。</p>
+<p>她前往月之君的宫殿。因为靠近内廷，她穿过几道门，出示通行证。</p>
+<p>这座清爽的宫殿，作为皇弟的居所乍看有些朴素。但使用的材料全是特级品。要是有官员嘲笑它简朴，那无异于公开宣称自己眼瞎、爱慕虚荣。</p>
+<p>她让宫殿的守卫看到自己的脸，被放了进去。</p>
+<p>一进门，就飘来香甜诱人的好闻气味。循着气味走向厨房，一个初老的女人正在用四角形的模具做烤点心。</p>
+<p>“欢迎。”</p>
+<p>初老的女人——水莲和蔼地笑道。</p>
+<p>“打扰了。”</p>
+<p>麻美规规矩矩地行礼，看着烤点心。</p>
+<p>“这个看起来真好吃。”</p>
+<p>“嗯。做得不错，我已经又做了几块在晾凉了。几天前做的也有，正好比比哪个最好吃。”</p>
+<p>“那可真是……”</p>
+<p>对麻美来说是份美差，但可不能忘了工作。绝不可以想着偷偷带几块回去给孩子当伴手礼……不过，孩子们要是吃到肯定会高兴吧，她不由得嘴角一松。</p>
+<p>“怎么了？”</p>
+<p>“没、没什么。有蒸的，也有烤的呢。”</p>
+<p>“对，蒸的比较容易成形好看，但烤的更能凸显香气。”</p>
+<p>带着焦色的，似乎是用月饼模子烤出来的。</p>
+<p>水莲轻轻切下一块递给她。</p>
+<p>里面夹了许多干果，但口感和月饼不同。</p>
+<p>“来，这边也尝尝。”</p>
+<p>她递过蒸的那块。这边口感蓬松柔软，但相对的香气稍逊。</p>
+<p>“能不能做成蒸的形状，却用烤的呢？”</p>
+<p>“果然你也这么想吧。我也这么觉得。”</p>
+<p>水莲端来了放在四角形模具里的点心。切开递给麻美。</p>
+<p>“这个好。”</p>
+<p>麻美差点笑出来。蓬松柔软的同时，核桃的颗粒感增添了嚼劲，枣和葡萄干的甜味慢慢渗透开来。乳酪的香气之外，还夹杂着另一种芬芳。</p>
+<p>“那再尝尝放了三天的那批。”</p>
+<p>麻美放入口中。果实的风味已经完全渗透到整个糕体中。为了防干燥，表面涂了甜汁，因此更加湿润可口。</p>
+<p>“……可以带一些给孩子吗？”</p>
+<p>一不小心脱口而出。糟了，麻美连忙捂住嘴。</p>
+<p>“哎呀。那可不行哦。这边的这些的话，倒是可以随便拿。”</p>
+<p>她到底做了多少啊。打开柜子，好几排经过不同工序制作的点心整齐排列着。</p>
+<p>“你现在吃的这些，是明天要端给少爷的。”</p>
+<p>“好、好的。”</p>
+<p>麻美略感遗憾，还是把剩下的碎块吃掉了。</p>
+<p>“我正发愁哪个最好，这下没问题了。谢谢你。”</p>
+<p>“哪里。不过，今天工作到这里就结束了，没问题吗？”</p>
+<p>“嗯。偶尔也该好好休息。别以为孩子不费心就老不见面，小心被他们忘了哦。”</p>
+<p>这话戳中痛处。虽然喜欢工作，但自己的孩子当然也是可爱的。</p>
+<p>“那个……月之君呢？”</p>
+<p>如果在的话她想打个招呼再走，但水莲摇了摇头。</p>
+<p>“今天一整天都跟家教在一起学习呢。别去打扰他。当然，为了明天的事，我会让他早点睡的，放心。”</p>
+<p>“我还以为他是去看围棋大会了。”</p>
+<p>麻美知道他很好学，所以并不觉得特别奇怪。</p>
+<p>“啊——那个啊，还没去呢。比起那个，麻美，你要不要当少爷的侍女？看你工作这么卖力，从少爷回来得早就能看出来了。”</p>
+<p>“……侍女恐怕有点难。毕竟我还有孩子。”</p>
+<p>那样的话就得一直和水莲在一起了。水莲是个什么样的人，麻美从曾是月之君乳母同伴的母亲那里听说过各种传说，觉得还是算了。</p>
+<p>“这样啊，真遗憾。那我得另找侍女还是什么了。”</p>
+<p>水莲的语气听起来并不怎么遗憾。仿佛她另外还有人选似的。</p>
+<p>包好点心，麻美走出了宫殿。</p>
+<p>包裹里飘出好闻的香气，但总觉得和刚才吃到的比起来差了点什么。</p>
+<p>带着一丝疑惑，她轻轻望向天空。</p>
+<p>“明天看来也是晴天啊。”</p>
+<p>她想着那个围棋大会会不会成功，又低头看了看手中的点心包。孩子们开心的笑容浮现在眼前，她的脸上自然而然地绽开了笑意。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-087.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-089.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
