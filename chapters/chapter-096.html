@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">096</h1>
+</header>
+<p>十九、入侵者</p>
+<p>阿多的宫殿一如往常。</p>
+<p>“阿多大人，给我们读书吧。”</p>
+<p>孩子们围在阿多身边。凉亭下，她为他们朗读的身影，宛如西方画作中的景象。</p>
+<p>壬氏正觉得难以开口，阿多却先察觉到了。她轻轻合上书，安抚好孩子们后站起身来。</p>
+<p>“诶——结束了？”</p>
+<p>“哈哈，快到晚饭时间了。睡前再读给你们听，在那之前要好好刷牙哦。”</p>
+<p>她抚摸着孩子们的头，身着胡服的丽人朝壬氏走来。她原本就显得年轻，搬到离宫后似乎更加容光焕发了。</p>
+<p>“月君，久疏问候。”</p>
+<p>阿多像官员一样单膝跪地，双手交叠行礼。看似恭敬，但壬氏不禁苦笑——她低下头的脸上，大概正偷偷吐着舌头吧。</p>
+<p>“您看起来气色不错。”</p>
+<p>壬氏轻轻伸手扶她。仿佛以此为信号，阿多果然吐着舌头抬起头来。</p>
+<p>对经常被人敬而远之的壬氏来说，阿多是少数能让他以近乎对等立场相处的人。</p>
+<p>他把爱唠叨的护卫马闪留在了外面。</p>
+<p>虽然马闪没有明说，但他显然对此不太高兴。</p>
+<p>按理说，该提醒的反而是他自己的姐姐，可他却做不到——真是个空有武力的软骨头。要是娶了媳妇，肯定比高顺还被吃得死死的。</p>
+<p>“不过，也得分人吧。”</p>
+<p>“您说什么？”</p>
+<p>“不，没什么。”</p>
+<p>被引进宫殿后，一阵浓郁的香气飘来。</p>
+<p>“这是？”</p>
+<p>桌上摆着几瓶酒。从气味来看，酒精度相当高。</p>
+<p>“这是……”</p>
+<p>壬氏忍不住又确认了一遍。</p>
+<p>“主上把水莲做的点心送了过来。不过我倒是更喜欢里面用的酒。特意要了一些分给我。”</p>
+<p>护卫被留在屋外，屋内只有壬氏和阿多。阿多的语气更加随意了。</p>
+<p>“……”</p>
+<p>壬氏想起之前和阿多一起喝酒的事。那大概是阿多离开后宫的前一晚吧。他被叫去，结果被灌了大量酒，最后一句“散了吧”就被赶出了宫殿。</p>
+<p>桌上除了酒，还摆着棋盘。</p>
+<p>阿多拈起一枚棋子把玩着。</p>
+<p>“听说你前几天下了场有趣的棋。”</p>
+<p>“已经传开了吗？”</p>
+<p>壬氏微微移开视线。只觉不祥的预感涌上心头。不知不觉间，立场似乎颠倒了，壬氏的措辞也变得恭敬起来。</p>
+<p>毕竟在后宫打了这么多年交道，这种语气反而更自然。</p>
+<p>难得只有两人独处，干脆就这样聊下去吧。</p>
+<p>“是啊。听说那位怪人军师被逼到绝境，我都忍不住笑了。你到底用了什么手段？”</p>
+<p>她晃着酒瓶，壬氏想必已经心知肚明了。</p>
+<p>“哪里，最后还是输了。”</p>
+<p>输了就是输了。</p>
+<p>能赢罗汉——不管用什么手段，对壬氏来说胜利就是胜利。</p>
+<p>“不过听说你差点就赢了？”</p>
+<p>“嗯，我确信了。差一层薄纸的距离，谁能想到他还能翻盘呢？”</p>
+<p>尽管如此，他并没有大意。为了再战，他本已考虑了各种对策，却全部被推翻。</p>
+<p>——“别把对手当人看。”</p>
+<p>棋圣说得一点没错。</p>
+<p>正因如此，壬氏才用了各种堪称卑鄙的手段，层层设套，试图把他逼死。</p>
+<p>阿多似乎早已料到，往玻璃器皿中倒入琥珀色的酒液。醇厚的香气瞬间弥漫了整个房间。</p>
+<p>“那么，你费这么大劲也想赢的对手，赢了之后打算做什么呢？”</p>
+<p>“……是啊，我打算做什么呢？”</p>
+<p>壬氏用问题回答了问题。</p>
+<p>阿多似乎觉得没趣，自斟了一杯递给壬氏。</p>
+<p>“无论以何种形式，只要赢了罗汉大人，那些只把我这张脸当回事的蠢货应该也会少一些吧。”</p>
+<p>“你倒是一直对自己的外表信心十足。让我想说句刻薄话都说不出口。”</p>
+<p>“这方面，我是不是该感谢生我的母亲呢？”</p>
+<p>壬氏的外表有时甚至令人厌烦，却实打实地成了他的武器。</p>
+<p>“……”</p>
+<p>阿多沉默了。壬氏隔着酒杯确认——难道因为她在容貌方面如此自信，把她惹烦了？</p>
+<p>“阿多大人？”</p>
+<p>琥珀色液体的对面，不知为何浮现出一张悲痛欲绝的女性面容。一瞬间，她与平时那位坚强的男装丽人判若两人。</p>
+<p>“您身体不舒服吗？”</p>
+<p>“啊，没什么。这酒后劲挺大的。”</p>
+<p>阿多放下了酒杯。那张悲痛的面容消失了，取而代之的是一张英气勃勃的脸，宛如年轻官员。</p>
+<p>“你也没必要非得去赢那位怪人军师吧。就算不刻意给自己镀金，经过子氏一族那件事，谁也不会把你当成体弱多病、闭门不出的皇弟了。”</p>
+<p>“子氏一族的事，不是我的功劳。”</p>
+<p>倒不如说，他是被人利用了——被那个已经不在此处的女狐狸。</p>
+<p>酒虽端到了手上，但他还没喝。在此之前，必须先谈正事。</p>
+<p>“比起那些，阿多大人。我听说您的宫殿被人放火了？”</p>
+<p>“哦，你消息倒挺灵通。”</p>
+<p>她以一副满不在乎的语气回道。</p>
+<p>“灵通什么啊，那已经是十天前的事了吧！”</p>
+<p>壬氏语气稍重地问道，为什么没有报告。</p>
+<p>“报告什么的，不过是场小火罢了。何况也没丢什么东西。”</p>
+<p>“为什么不报告？”</p>
+<p>阿多笑眯眯的。</p>
+<p>“别想用笑糊弄过去。”</p>
+<p>“不行吗？女官和宦官的话，我这一招大多都能搞定。”</p>
+<p>“我既不是女官也不是宦官，再说了，你原来一直在糊弄人吗？”</p>
+<p>“你不也一样，没资格说我吧？”</p>
+<p>壬氏一时语塞。</p>
+<p>倒不如说，他在后宫的时候可没少利用她，现在也偶尔借她的力。</p>
+<p>“那，你瞒着不说的理由是什么？”</p>
+<p>“你这么聪明，应该猜到了吧？”</p>
+<p>阿多拿起烤火腿当零嘴。她用双手拈起薄切片，在指间晃来晃去。</p>
+<p>这要是被水莲看见，怕是立刻就要挨训了。</p>
+<p>“入侵者似乎在打探翠苓的消息。”</p>
+<p>果然如他所料。</p>
+<p>翠苓，是先帝的孙女，子氏一族的幸存者之一。</p>
+<p>本该被处死的人，却在阿多的宫中。这是严重的问题。</p>
+<p>“孩子们呢？”</p>
+<p>除了幸存的子氏族人，阿多还养育着一些失去父母的孤儿。</p>
+<p>“都健康地生活着。小火是在半夜发生的，他们都没察觉。都是些乖巧年幼的孩子。过去的记忆——我想用新的回忆，替他们抹去那些悲伤的过往。”</p>
+<p>只要让他们完全忘记自己是子氏一族的人就好。这样一来，壬氏他们也不必为此烦恼。</p>
+<p>一旦出什么事，就立即处理掉。</p>
+<p>正是以这个约定为代价，那些孩子们才得以保住性命。</p>
+<p>只有一个叫赵迂的孩子，彻底失去了记忆。因此作为特例，他被送到了市井中、猫猫她们所寄住的绿青馆。</p>
+<p>把小孩送到娼馆似乎不太妥当，但从某种意义上说，那里反而是最容易看顾的地方。</p>
+<p>“那翠苓呢？”</p>
+<p>“被孩子们缠着读书，结果就在孩子房里睡着了。”</p>
+<p>壬氏露出难以理解的表情。翠苓是个高挑、大多时候男装的女子。壬氏实在难以想象她那个样子。更何况，以她那副面无表情的样子，根本不像会照顾孩子。</p>
+<p>“白天我让她修剪庭院树木，大概是累了吧。每次见到毛毛虫都吓得大叫。”</p>
+<p>把本应被幽禁的人拉来干园丁的活，倒还真是阿多的风格。</p>
+<p>“阿多大人。”</p>
+<p>居然这样对待那个曾搅动宫廷风云的女人。</p>
+<p>壬氏由衷觉得，自己终究不是阿多的对手。</p>
+<p>“也就是说，虽让贼人逃脱了，但没有留下什么关键证据——可以这么理解吧？”</p>
+<p>“是啊。至于我瞒着不说的理由——”</p>
+<p>阿多从怀中取出一只布包。里面装着指甲尖大小的棒状物。</p>
+<p>“这是……”</p>
+<p>“在小火现场掉落的。虽然被煤灰弄脏了，但一摸便知。”</p>
+<p>“……”</p>
+<p>壬氏用指尖确认。冰凉的材质，大概是玻璃吧。似乎是细长玻璃棒被切断而成，但中间是空的。</p>
+<p>“是珠子。”</p>
+<p>作为装饰品并不罕见的珠子，但在壬氏看来，这颗珠子实在太小。它并非单独串联，而是缝在衣服或鞋履上的那种。</p>
+<p>而在后宫中生活已久的壬氏，记得哪些妃子穿过缝有这种珠子的衣服。</p>
+<p>“是西方出身的人吗？”</p>
+<p>在西方，女子的刺绣被视为出嫁修行所必需，她们会在各种衣物上刺绣或缝缀珠子。</p>
+<p>“我瞒着不报，就是这个原因。”</p>
+<p>西方出身者——会对这个信息产生反应的人，会有多少呢？</p>
+<p>当今圣上正加强与西方的联系，对此的反感也很多。</p>
+<p>“我认为玉袁大人的亲属很可疑，你觉得呢？”</p>
+<p>玉袁——玉叶皇后的父亲，镇守茘之西。目前应该正住在都城。</p>
+<p>“这不是我能轻易说出口的立场。”</p>
+<p>“说的也是。”</p>
+<p>阿多的目光将手中把玩的火腿一分为二，送入口中。壬氏也拿起火腿尝了尝。咸淡适中的好肉。水莲常备甜点作下酒菜，偶尔换换口味也不错。</p>
+<p>“总之，既然已经察觉，也没办法了。”</p>
+<p>阿多用布巾擦了擦指尖，仰头饮尽杯中酒。</p>
+<p>“你太温柔了。所以，小心点。”</p>
+<p>她只说了这一句，便将酒杯放回桌上。</p>
+<p>放下的震动让壬氏那杯尚未沾唇的酒液晃荡起来。摇曳的琥珀色水面上，映出他扭曲的面容。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-095.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-097.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

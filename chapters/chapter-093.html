@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">093</h1>
+</header>
+<p>十六、手指的主人</p>
+<p>突然闯入的男人，正是之前那三胞胎的父亲，据说名叫博文。名字虽文雅，性格却颇不稳重，他这一闹，比赛只好被迫中断。</p>
+<p>他似乎注意到了壬氏和那位怪人的存在，但有更紧要的事让他顾不上这些。</p>
+<p>“这就是我儿子的手指……”</p>
+<p>骚动之后观众散去，剧场里只剩下了相关人士。</p>
+<p>比赛中断，怪人军师一副欲言又止的样子，但不知不觉间已经趴在棋盘上睡着了。</p>
+<p>看来是真的累坏了。剧场的角落里，随行官员正在照料他。那官员用眼神示意猫猫“替老爷子照看一下吧”，但被猫猫瞪了一眼便闭嘴了。</p>
+<p>取而代之的是燕燕她们过来了，帮忙照看。她们似乎对发生了什么事颇为好奇，干脆就留在了那里。</p>
+<p>姚看着桌上的手指差点昏过去。虽说已经习惯了不少，但见到断面还是让她有些抗拒。</p>
+<p>闯入者闹成这样，怪人又这副模样，比赛怕是暂时无法恢复了。</p>
+<p>“棋谱都有好好记录下来，没问题。”</p>
+<p>罗半对壬氏说“等事情平息了再继续”。壬氏脸上露出一丝尴尬。</p>
+<p>毕竟他本打算万无一失地赢下这局，用了各种钻空子、厚脸皮的手段，还一脸得意呢。</p>
+<p>（不过，差距拉开到那种程度，怪人应该也赢不了了吧。）</p>
+<p>但看那样子，果然还是跟罗半串通好的。</p>
+<p>毕竟是个连亲爹、亲祖父都能出卖的男人，只要利益一致，卖个养父也不在话下。</p>
+<p>（这里该追究吗？）</p>
+<p>不，追究下去只会让事情没完没了。</p>
+<p>猫猫眼下更在意的是冲着老爷子质问的博文。</p>
+<p>“能不能解释一下怎么回事？”</p>
+<p>博文被两个儿子按住了。</p>
+<p>突然闯进来的这三个人怎么看都格格不入，要是敢对老爷子动手，被制服也是活该。</p>
+<p>壬氏一脸复杂地留在原地。比赛半途而废，他那微妙的表情也显得意犹未尽。</p>
+<p>“还是说说吧。我们这边也被搅了局。总该有个合理的理由吧？”</p>
+<p>壬氏开了口，博文倒还不至于失去理智到违抗他的地步。他似乎一时不知该怎么开口，身后的三胞胎之一便替他说了。</p>
+<p>“大哥、二哥不见了。”</p>
+<p>二哥——也就是三胞胎中间的那个。听说前几天雷雨天闯了祸，被狠狠训斥了一顿。</p>
+<p>“三天前就不见了。今天早上，这布包送到了家里。”</p>
+<p>手指是成年男性的。据说是那位不在的次子的。</p>
+<p>“请让我仔细看看。”</p>
+<p>“你是什么人！”</p>
+<p>博文怒吼道，但被壬氏瞪了一眼便安静下来。</p>
+<p>虽说算不上相关人员，但事情来龙去脉还是知道的。姚她们也一样。</p>
+<p>不过——</p>
+<p>（那个人留下来算怎么回事？）</p>
+<p>是那位看了壬氏他们对局的所谓的棋圣。</p>
+<p>他若无其事地坐在椅子上。实在是太理所当然的样子，博文父子也没说什么。</p>
+<p>他们显然有许多话想说，但有壬氏在场，只能先平心静气地说明。博文深吸一口气，继续说下去。</p>
+<p>“都怪你，我儿子被告发抓了。还不止这些，过去受害的指控也接踵而来。”</p>
+<p>那是自作自受。三胞胎中的老幺移开了视线。想必是把自己的过错也推到了次兄头上。</p>
+<p>父亲虽然担心儿子，但事到如今又有什么用。他似乎一直庇护着这些不成器的儿子们，却难道意识不到自己的教育方式出了问题吗。</p>
+<p>“这些人当中，有人掳走了我儿子？”</p>
+<p>“肯定是的！”</p>
+<p>博文重重敲了一下桌子，回应老爷子的提问。</p>
+<p>“您心里有怀疑的对象吗？”</p>
+<p>“怎么可能知道！难道要我一个个盯着孩子们的举动吗！”</p>
+<p>（也许盯着点儿才是对的吧……）</p>
+<p>猫猫观察着那根手指。断面已经发黑了。</p>
+<p>（如果还是新鲜状态的话，也许还能接回去……）</p>
+<p>不过，这手指恐怕是在死后才被切断的吧。</p>
+<p>她听说过，在活人身上和死人身上切下来的肢体是不一样的。老爷子肯定看得出来，而且，看着那根手指时他那沉痛的表情也说明了什么。</p>
+<p>还有一点。</p>
+<p>（指甲变色了。）</p>
+<p>指甲中间一带变成了像是黑色又像是青色的颜色。</p>
+<p>“……”</p>
+<p>猫猫拉了拉姚和燕燕的袖子。</p>
+<p>“怎么了？”</p>
+<p>“我觉得该给他们上点茶。帮个忙吧。”</p>
+<p>“啊，也对。”</p>
+<p>其实三个人用不着都去，但叫上姚的话燕燕就会跟来，只叫燕燕的话姚又会闹脾气，所以没办法。</p>
+<p>“可是，有茶吗？”</p>
+<p>“有是有，不过也许该拿些更好的。”</p>
+<p>燕燕瞥了壬氏一眼。既然知道他是谁，就不能随便端些粗陋的东西。虽然没什么好感，但燕燕毕竟是个能做出这种程度周到的能干女官。</p>
+<p>“他不回去吗？”</p>
+<p>“他就是喜欢掺和这些怪事，没办法吧。”</p>
+<p>燕燕果然是毫不留情。猫猫心想她说得真够狠的，但转念又想起自己也常这么说。</p>
+<p>“水果水倒是有一大堆呢。是送给罗汉大人的慰问品。”</p>
+<p>“水果水啊。”</p>
+<p>猫猫摸着下巴。</p>
+<p>“有葡萄水吗？”</p>
+<p>“我记得有。装在漂亮的玻璃瓶里，品质应该不错。”</p>
+<p>“那就用那个吧。”</p>
+<p>猫猫朝后台的休息室走去。</p>
+<p>“呃……我们可以随便拿吗？”</p>
+<p>姚有些担心地问。</p>
+<p>“不是收到了很多嘛。反正他正睡着呢，少一瓶也看不出来。”</p>
+<p>“……既然猫猫说行，那应该没问题吧。”</p>
+<p>燕燕也赞同，于是她们便去翻那堆贡品了。</p>
+<p>---</p>
+<p>她们把葡萄水倒进杯子里，备好人数份端回来时，谈话似乎还在原地打转。</p>
+<p>博文大喊大叫，老爷子沉默地听着。</p>
+<p>壬氏什么也没做，只是静静坐在那里，但指尖拈着棋子的形状，大概是在想下一步吧。</p>
+<p>棋圣依旧面无表情。完全不知道他待在这里做什么。</p>
+<p>罗半倒是留了下来，不过似乎正忙着处理大会的善后事宜。不光是物理上的收拾，还因为已经收了预付款，正在写信商量该如何处理关于怪人指导的事。</p>
+<p>“请用。”</p>
+<p>姚和燕燕分发了水果水。</p>
+<p>罗半一瞬间露出“是酒吗？”的嫌弃表情，但闻了闻味道似乎发现是水果水了。他跟怪人一样不太能喝酒。大概是因为用了通常装酒的杯子，才让他误会了。</p>
+<p>燕燕把杯子递向三胞胎中的长男时——</p>
+<p>啪的一声，杯子被打翻了。</p>
+<p>红色的液体在空中飞溅。金属杯落在地上，当啷当啷地滚了出去。</p>
+<p>“哥……”</p>
+<p>老幺露出了苦涩的表情。</p>
+<p>燕燕被红色的液体淋了一头，但表情丝毫未变。</p>
+<p>（幸好不是姚。）</p>
+<p>不过话说回来，燕燕也挺可怕的。自己身上被泼了果水也纹丝不动，但换作她家小姐的话，整个人都会变个样。当然，燕燕也不会做出把小姐放到那个明显好女色的男人面前这种事就是了。</p>
+<p>“失礼了。没摸准您的口味。”</p>
+<p>燕燕淡定地收拾着。</p>
+<p>猫猫是特意让她们俩去分的。</p>
+<p>（果然。）</p>
+<p>老爷子脸上的皱纹更深了。眉毛悲伤地垂下来。</p>
+<p>既然猫猫都注意到了，老爷子不可能没发现。</p>
+<p>老爷子轻轻叹了口气，从椅子上站起身来。</p>
+<p>“您不喜欢葡萄酒吗？”</p>
+<p>老爷子问长男。</p>
+<p>“……不。”</p>
+<p>对方语气含糊。</p>
+<p>“葡萄酒不是你的最爱吗？”</p>
+<p>博文歪着头。</p>
+<p>“不，那跟现在没关系。先把我儿子找出来。否则的话——”</p>
+<p>“您儿子的下落，已经知道了。”</p>
+<p>老爷子悲伤地摇了摇头，然后抬起头来。</p>
+<p>“在、在哪里！”</p>
+<p>“是您的次子，对吧？”</p>
+<p>“没错！”</p>
+<p>连猫猫都觉得有些凄凉了。</p>
+<p>（这人还没明白啊。）</p>
+<p>这个叫博文的麻烦男人，还真的以为孩子不见了。</p>
+<p>可是——</p>
+<p>（连自己的孩子都分不清吗。）</p>
+<p>老爷子指向的，是打翻杯子的那个长男。不——是假扮长男的次子。</p>
+<p>“……什么意思？”</p>
+<p>“不见的是您的长子。至于他去了哪里，问问现在这两个儿子便知。”</p>
+<p>博文站起身来，想要抓住老爷子，但留守的武官们上前拦住了他。</p>
+<p>“你在胡说什么！别信口开河！”</p>
+<p>“胡说也好什么也好，这是事实。”</p>
+<p>猫猫忍不住说出了口。</p>
+<p>一出口便觉失言，她退后半步。</p>
+<p>“能不能解释清楚，也让我明白明白？”</p>
+<p>壬氏终于开口了。旁边的棋圣也点了点头。</p>
+<p>“博文，我明白你想说什么，但先闭嘴。这样下去没法说清楚。还有，后面那两个人，别想逃。”</p>
+<p>他毫不客气地钉住了他们。</p>
+<p>“罗门，你不好开口的话，让弟子来说也可以吧？你那能干的弟子似乎已经找到了答案。”</p>
+<p>真是多嘴。</p>
+<p>“要是错了，你作为师父纠正一下便是。”</p>
+<p>“……猫猫。”</p>
+<p>老爷子看向她。</p>
+<p>猫猫被周围的目光聚焦，只好无奈地走上前去。</p>
+<p>该从哪里说起呢——她先看了看那根手指。</p>
+<p>手指的主人恐怕已经死了。先从为何而死、是否被杀害说起吧。</p>
+<p>“请看这指甲。”</p>
+<p>变色的指甲。</p>
+<p>“这种指甲颜色，表明摄入了毒素。恐怕是砒霜或铅毒。”</p>
+<p>“铅毒。”</p>
+<p>壬氏应该记忆犹新。</p>
+<p>猫猫看向博文。</p>
+<p>“您的长子，很喜欢喝葡萄酒吧？”</p>
+<p>“……是，确实。”</p>
+<p>“是喜欢喝便宜的那种吧？”</p>
+<p>猫猫想起之前受老爷子指示录口供时，长男曾供述自己常去喝便宜酒。</p>
+<p>而毒葡萄酒被揭发，正是在那份口供前不久的事。</p>
+<p>也许市面上还有没来得及回收的毒葡萄酒。</p>
+<p>如果持续饮用，毒素就会显现在指甲上。</p>
+<p>录口供时，长男还没有异常。那之后，中毒症状才开始出现。</p>
+<p>然后——</p>
+<p>“他是不是死于铅中毒呢？在你们两人面前。”</p>
+<p>猫猫看向剩下的那对双胞胎。</p>
+<p>“你、你在说什么！”</p>
+<p>“就是啊。莫名其妙。”</p>
+<p>装傻又能怎样呢。</p>
+<p>“我有个问题。”</p>
+<p>“请说。”</p>
+<p>棋圣举起了手。</p>
+<p>“刚才你说‘假扮长男的次子’，听你这口气，似乎三男也知道这件事？”</p>
+<p>“是的。三胞胎再像，也不可能骗过同为三胞胎的兄弟吧。即便亲生父亲看不出来。”</p>
+<p>猫猫略带揶揄地说道。</p>
+<p>“……那么，是这两个人切下手指，自导自演了一出戏？”</p>
+<p>“是的。”</p>
+<p>“为什么？”</p>
+<p>（他其实心里已经有数了吧？）</p>
+<p>不愧是棋圣，头脑转得快。但这个问题，答案倒也方便解释给周围的人听。</p>
+<p>也许他是故意这么问的。</p>
+<p>“因为只要次子‘消失’，就能把罪责一笔勾销。不是吗？”</p>
+<p>猫猫看向长男——不，是次男。</p>
+<p>对方狠狠地瞪着她，却无言反驳，只能攥紧拳头。</p>
+<p>“……真、真的吗？”</p>
+<p>博文看向两个儿子。</p>
+<p>“您看不出来吗？连自己儿子的脸都分不清吗？”</p>
+<p>“……”</p>
+<p>博文凝神细看。</p>
+<p>“……猫猫。”</p>
+<p>老爷子叫了她一声。</p>
+<p>“失礼了。”</p>
+<p>猫猫默默退后一步。</p>
+<p>“那么，剩下的这两个人，知道长子在哪里吧。”</p>
+<p>被壬氏这么一说，他们只好开口。那张美人脸，威慑力十足。</p>
+<p>“……埋在院子里了。没杀他。他喝了酒，突然就不对劲了。脸色很差，样子很怪。然后……”</p>
+<p>突然暴起，摔了一跤撞到了头。</p>
+<p>“我本来想马上叫人来的。可是，大哥他——”</p>
+<p>三男看向次男。</p>
+<p>——“就当我死了吧。然后，我来当大哥。”</p>
+<p>为此，最好让人分不清他到底死了还是没死。</p>
+<p>于是切下尸体的手指，连同一封恐吓信一起送到了家里。</p>
+<p>“什么！”</p>
+<p>博文高声怒斥。</p>
+<p>“还不是老爹的错！”</p>
+<p>次男拍着桌子吼道。</p>
+<p>“一发现谁都护不了，就想把责任全推到我一个人头上。偷东西最厉害的是大哥啊！你也是！你以为是谁替你摆平了你搞上老爹小妾的事！”</p>
+<p>“喂，刚才那话是真的吗！”</p>
+<p>博文怒气冲冲地逼近三男。</p>
+<p>“啊，现在你疼得不得了的那个三岁妹妹，就是这家伙的种啊？因为是头一个女儿，你可是宝贝得很呢。”</p>
+<p>“哥！不是说好不提这个的吗！”</p>
+<p>“真的吗，这是真的吗！”</p>
+<p>（真是无聊透顶。）</p>
+<p>不只是猫猫，在场的所有人大概都是同样的想法。</p>
+<p>（人死了还要切手指……）</p>
+<p>猫猫认为，死了就是死了，尸体会怎样，本人根本无从知晓。</p>
+<p>但作为旁观者，这实在是一桩不堪入目的丑事，她只能愕然以对。</p>
+<p>望向窗外，月光照亮了夜空。猫猫只盼着早点回宿舍去。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-092.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-094.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
