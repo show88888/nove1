@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-106</h1>
+</header>
+<p>**三、缺失的数字　前篇**</p>
+<p>书籍是需要精心维护的。猫猫摊开一本布满蠹鱼蛀痕的古书，心无旁骛地抄写着。</p>
+<p>旧书受潮气和日晒影响，有的字迹洇开，有的则已脆化殆尽。这些书大多是纸质的而非木简。想必是考虑到若用木简，会过于笨重而无法收纳于室内吧。正因如此，那些写于劣质纸张上的书籍，如今才得由她这样一一抄录。</p>
+<p>“猫猫，吃饭了？”</p>
+<p>燕燕走了过来。</p>
+<p>“不用了。”</p>
+<p>比起吃饭，埋头苦读才更重要。</p>
+<p>（这里的记载可以省略掉。）</p>
+<p>老爹为了让她学习，曾写过几本习字帖。然而，她并未完全抄录，而如今这里的藏书中，有许多她从未见过的记述。从字迹来看确实出自老爹之手，但内容更为详尽。</p>
+<p>既有她学过的，也有没学过的，其中甚至有些记载与原先不同。</p>
+<p>随着技术进步，过去被认为是正确的说法被证明有误，这种情况并不少见。这个房间大约是在二十年前使用的吧。至少过了二十年，老爹所掌握的医学知识想必也已得到更新和修正。</p>
+<p>她衔着笔，翻过书页。知识是食粮。一旦投入其中，便无需饮食——然而……</p>
+<p>“吃晚饭了！”</p>
+<p>耳边响起一声大喊，是姚。猫猫若是猫，恐怕早已炸毛了。</p>
+<p>“我不……”</p>
+<p>“你得吃。”</p>
+<p>姚目光如炬，毫无要听她说话的意思。她抓住猫猫的衣领，将她拖了出去。猫猫想至少带上读到一半的书，也被她抢走了。</p>
+<p>“燕燕，你也得好好让猫猫吃饭。”</p>
+<p>“抱歉，小姐。猫猫正专注着呢，我怕是打扰她不好。再说，偶尔只有我们俩也不错嘛。”</p>
+<p>（后面那个绝对是主要原因。）</p>
+<p>猫猫似乎听到了燕燕咂舌的声音。最近，燕燕做的饭菜十分可口，她每次都享用不少。</p>
+<p>“我们可不是两个人哦。燕燕去取食材的时候，罗半先生来了。”</p>
+<p>“小、小姐？我怎么不知道。”</p>
+<p>大概是听说她与别的男人单独相处受了冲击吧，燕燕脸色僵住了。</p>
+<p>相比之下，姚却毫不在意。她虽平时对男性也一副不肯在气势上认输的倔强态度，但对罗半似乎并不太在意。大概是在他每次带来一堆麻烦事的过程中，不知不觉习惯了吧。</p>
+<p>“他说已经叮嘱过下人准备四人份的食材了，我还以为是他约好的呢。”</p>
+<p>姚指了指圆桌上摆满的菜肴。两人份的话太多，三人份也稍多。桌边摆了四把椅子。</p>
+<p>主菜是中央一只油亮亮的烤全鸭。</p>
+<p>猫猫不禁咽了口唾沫。</p>
+<p>“……我再去烙些薄饼。猫猫，来帮忙切菜。”</p>
+<p>燕燕显然有些不高兴。</p>
+<p>“我也来帮忙。”</p>
+<p>“不必了，小姐，很快就好。”</p>
+<p>燕燕干脆地拒绝了姚的提议。</p>
+<p>（唉……）</p>
+<p>姚噘起了嘴。</p>
+<p>燕燕虽然一心为小姐着想，但在微妙之处却未能理解小姐的心思。或许正因为距离太近，反而有些事看不清楚吧。</p>
+<p>猫猫切好葱，盛入盘中。将鸭肉和佐料用薄饼卷起，蘸上酱汁，大口咬下。</p>
+<p>她得感谢姚打断了她看书。</p>
+<p>厨房里餐具类似乎一开始就备好了，但数量无一例外都是四的倍数。</p>
+<p>猫猫眯眼看着盘子。</p>
+<p>“您这样眯着眼，还真有点像罗半先生呢。”</p>
+<p>燕燕的话让猫猫睁大了眼睛。</p>
+<p>“非亲非故，自然不可能像。”</p>
+<p>她明确地说道。</p>
+<p>粥大概连宵夜份都准备了，无需再添。</p>
+<p>至于餐后甜点，似乎一开始只准备了三份，她们便商量着等罗半回去后再吃。</p>
+<p>“姑且问一下，现在离开这座宅邸也没问题吧？”</p>
+<p>猫猫问那位过度保护的女官。</p>
+<p>“我之前不就说过没问题吗。再说了，小姐兴致正高呢。”</p>
+<p>“这点我才想不通。”</p>
+<p>“因为小姐一直是个能干的孩子，同龄人里尽是些蠢货。”</p>
+<p>燕燕一边干脆地说着，一边不停地烙着薄饼。猫猫则负责将其摊凉以免粘连，再码入盘中。</p>
+<p>“她一向用功读书，还说不会输给男人。老实说，入学考试输给猫猫时，她似乎非常懊恼，做出了一些不像她会有的举动。”</p>
+<p>大概是指让猫猫摔倒或者刁难她吧。不过说实话，那多半是她的跟班女官们干的，猫猫并不怎么在意。</p>
+<p>“那真是不好意思了。”</p>
+<p>她没想到自己能考出那么好的成绩。</p>
+<p>“虽说元凶是叔叔，但姚小姐为什么这么想出头呢？”</p>
+<p>猫猫随口问道。</p>
+<p>“……是因为小姐的母亲吧。”</p>
+<p>燕燕稍作迟疑，开口道。</p>
+<p>“对小姐而言，母亲已经形同死人了。在老爷去世的同时，她就等同于不在了。”</p>
+<p>“为什么？”</p>
+<p>猫猫对于母亲，也几乎没有感情。但姚和猫猫的生长环境不同。</p>
+<p>“老爷去世后，无法独自撑起宅邸的夫人会怎么做，您明白吧？”</p>
+<p>“由叔父继承了家业。”</p>
+<p>“而夫人仍旧是夫人。”</p>
+<p>所谓夫人，便是老爷的妻子。</p>
+<p>姚的母亲，大概是改嫁给了叔父吧。这并非稀罕事，但对女儿而言，却是一件复杂且令人厌恶的事。</p>
+<p>“是这样啊。”</p>
+<p>猫猫端着蔬菜和薄饼的盘子，只简短回了一句。</p>
+<p>---</p>
+<p>“哎呀，承蒙款待，真是感谢。”</p>
+<p>笑眯眯地走来的，是那个顶着一头烦人卷发、戴着眼镜的矮小男人。</p>
+<p>（我可没邀请你。）</p>
+<p>猫猫和燕燕的心意，在这一刻想必是一致的。他还特意带了伴手礼来，但不知为何是雪蛤膏。那是姚的喜好之物，出手倒是相当阔绰。</p>
+<p>顺便一提，姚正想确认那是什么时，燕燕便迅速将其藏了起来。大小姐至今仍不知她喜欢的点心是由蛙类制成的。</p>
+<p>（看来上次的棋赛赚了不少啊。）</p>
+<p>他似乎也利用甘薯在做生意，还有其他主业。明明就算有十个身子也不够用，但他能把这一切都处理好，这一点倒值得赞赏。</p>
+<p>“有美人相伴的晚餐真是令人愉悦。玫瑰、菖蒲，还有酢浆草。”</p>
+<p>不用说也知道酢浆草指的是谁。</p>
+<p>“关于燕燕女士的厨艺，我可是听闻不少传言，一直想尝尝呢。”</p>
+<p>“那可真是荣幸。”</p>
+<p>燕燕的表情冻结了。但她仍不忘侍奉，这一点倒是值得敬佩。</p>
+<p>（燕燕的厨艺传言，他到底是从哪听来的？）</p>
+<p>这个疑问很快得到了解答。</p>
+<p>“听说你兄长的店很受欢迎，而令妹的厨艺也毫不逊色。”</p>
+<p>“是啊。燕燕做的菜很好吃，一点都不比主厨差。”</p>
+<p>姚极其自然地大加赞赏。</p>
+<p>之前听说，燕燕的兄长曾受姚家救助。他本该在姚家担任厨师，后来似乎独立出去了。</p>
+<p>（大概是因为换了当家吧？）</p>
+<p>猫猫似乎明白了燕燕为何对姚的叔父毫无好感的其中一个原因。</p>
+<p>“我曾在你兄长的饭馆吃过三次饭，哎呀，那味道也是极好的。”</p>
+<p>“三次吗？都是什么季节去的？燕燕，你家的菜可是按季更换的吧。”</p>
+<p>“是的，应该每个月都会选用当季食材来烹饪。”</p>
+<p>只要提到燕燕的兄长，姚便会接话。姚主动引出话题，燕燕也因此加入对话。</p>
+<p>猫猫则只顾享受鸭皮的酥脆。油脂丰厚的鸭皮与佐料的香气，被紧锁于薄饼之中。再蘸上咸甜的酱汁送入口中。每咀嚼一下，肉的美味与焦香、佐料的口感、朴素的薄饼便绝妙地交融在一起，令人唾液分泌加速。</p>
+<p>一言以蔽之，就是好吃。</p>
+<p>“哎呀，真是美味。”</p>
+<p>罗半也表示了赞同。</p>
+<p>罗半还有另一个值得称赞的地方——他无论怎样都很会聊天。能让本就怕生的姚打开话匣子到这种程度，也难怪燕燕会有些不爽。</p>
+<p>猫猫默默地吃着，渐渐饱了。点心已约定不再上桌，她不禁频频瞥向那个放有书架的房间，想着现在是不是可以去看书了。</p>
+<p>“猫猫，你该不会想说，想快点去看书吧？”</p>
+<p>姚瞪着猫猫。意思大概是，就算不加入对话，也得到场作陪。</p>
+<p>“……”</p>
+<p>猫猫只好老实地坐着，百无聊赖地嚼着葱。</p>
+<p>（说起来……）</p>
+<p>她刚才注意到书架排列中有一处令人在意的地方。</p>
+<p>“罗半，书架上的书有没有被人拿走过？”</p>
+<p>“书架上的书？”</p>
+<p>罗半歪着头。</p>
+<p>“我不知道啊。义父对大伯父的事并不怎么过问。倒不如说，他反而会定期让下人去打扫房间。”</p>
+<p>对于那个怪人军师而言，这倒是罕见的体贴。难怪这间别院如此整洁。</p>
+<p>“你是说书有缺失吗？若有的话，负责打扫的下人确实可疑，但义父应该不会雇那种人。毕竟那人要是被当作了敌人，可是相当棘手的。”</p>
+<p>书是贵重品，有时会被偷，但敢在怪人军师的府邸干活的下人，有那个胆子吗？</p>
+<p>（难说。）</p>
+<p>“少了什么？”</p>
+<p>“与其说少了什么，不如说有几处让我在意的地方。”</p>
+<p>猫猫离席片刻，从书架上取了两本书，连同抄写用的纸和文具一起拿了回来。</p>
+<p>“请看书脊。”</p>
+<p>“这是什么？”</p>
+<p>姚歪着头。</p>
+<p>上面写着：</p>
+<p>『三—Ⅵ—１』</p>
+<p>『四—Ⅱ—３』</p>
+<p>也就是说，是第三卷第六套的第一册。虽然含义不明，但那是按分类逐一追加数字进行细分的结果。书架上至少还有数百本书以同样的方式编号。</p>
+<p>“前面的数字我能看懂。”</p>
+<p>“是西方的数字。”</p>
+<p>懂一些西方语言的燕燕答道。</p>
+<p>“是的。”</p>
+<p>猫猫在纸上写下数字。</p>
+<p>『１、２、３、４、５、６、７、８、９』</p>
+<p>『Ⅰ、Ⅱ、Ⅲ、Ⅳ、Ⅴ、Ⅵ、Ⅶ、Ⅷ、Ⅸ』</p>
+<p>听到“数字”二字，眼睛发光的是罗半。</p>
+<p>而姚则对写着『Ⅰ、Ⅱ、Ⅲ、Ⅳ、Ⅴ、Ⅵ、Ⅶ、Ⅷ、Ⅸ』的纸有了反应。</p>
+<p>“难道，下一个数字是写成『Ⅹ』吗？”</p>
+<p>姚用手指在桌面上比划着。</p>
+<p>“答对了，不愧是小姐。”</p>
+<p>燕燕替猫猫答道。</p>
+<p>“老爹是按照数字将书依次排列的。但是，第一卷和第二卷里缺了几本。”</p>
+<p>“是吗？”</p>
+<p>“我以为你那么喜欢数字，一看便知呢。”</p>
+<p>“不巧，我很少来这别院。毕竟很忙嘛。”</p>
+<p>“既然忙，就别悠哉游哉地来蹭饭啊。”</p>
+<p>猫猫不小心说出了真心话。</p>
+<p>“猫猫，请在小姐面前注意言辞。”</p>
+<p>燕燕开始了她的教育指导。</p>
+<p>“既然标了数字，那就是按系统分类写的吧？”</p>
+<p>“是的。第一卷和第二卷写的是基础内容。第一卷关于人体构造，第二卷关于外科处置方法。”</p>
+<p>猫猫的专业领域虽为生药，但从治疗他人的角度来看，她也想了解这些知识。</p>
+<p>“不巧，我不懂这些，但确实在意。我会去问问下人的。”</p>
+<p>罗半推了推眼镜，起身离席。盘中的食物已经吃得干干净净，他看起来相当满意。</p>
+<p>“我明天有点事，若有什么事，随便找个人联系我吧。”</p>
+<p>“明白了。”</p>
+<p>燕燕冷淡地答道。</p>
+<p>“多谢款待，非常美味。想必你们也累了，餐具就放着吧，我会叫下人来收。”</p>
+<p>猫猫本是打算收拾的，但既然不用，那更好。她只想赶紧回去继续抄书。</p>
+<p>罗半一出去，她便打算走向放着书架的房间，却被抓住了肩膀。</p>
+<p>“怎么了？”</p>
+<p>“还有点心呢。”</p>
+<p>姚笑着，一副绝不让她逃走的模样。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-105.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-107.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

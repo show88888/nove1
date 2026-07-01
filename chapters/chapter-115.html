@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-115</h1>
+</header>
+<p>十二、西都之主</p>
+<p>壬氏在办公处所收到了一封文书。</p>
+<p>既不是木简也不是纸。而是羊皮纸，用蜂蜡封口。各地送文书的习惯不同，这种样式在西方更为常见。</p>
+<p>“是从西都送来的吗？”</p>
+<p>马良从隔屏那边探过头来。</p>
+<p>“没错。是玉莺殿下的来信。”</p>
+<p>“……是玉袁大人的长子吧。”</p>
+<p>“嗯。”</p>
+<p>也就是玉叶皇后的兄长。皇后与他年岁相差较大，应该是异母所生。壬氏记得，他与性格温和的玉袁大人不太相像。</p>
+<p>“信上说了什么？”</p>
+<p>虽然房间里只有壬氏和马良两人，但直接问起书信内容还是有些冒昧。马良应该也明白，却还是故意问了出来。</p>
+<p>“说是想把女儿送进后宮。这事之前就暗示过，但这次是直接挑明了。”</p>
+<p>“玉袁大人知道这件事吗？”</p>
+<p>想把女儿送进后宮——这是高官们谁都想过的事，但当今圣上的正室已经是玉叶皇后了。难道是想进一步加深姻亲关系吗？</p>
+<p>还是说，是想从东宫的伯父，变成东宫的外祖父呢？</p>
+<p>玉叶皇后的心情想必很复杂吧。</p>
+<p>“玉袁大人看上去那样，其实是个深藏不露的人。或许他是心知肚明，故意放着不管的。”</p>
+<p>那张看似和善的老爷爷面孔很容易让人掉以轻心，但此人毕竟是登上帝王岳父之位的人物。</p>
+<p>“那是十七年前的事了吧——戌之一族覆灭的时候。”</p>
+<p>西都已成为茘国最需要重视的地区。那里过去被称为戌西州，但作为州名由来的戌之一族，被女帝——也就是先皇太后——以谋反嫌疑为由诛灭了。壬氏当时才虚岁四岁，根本不可能记得。</p>
+<p>“嗯。那之后，玉袁大人便大大扩充了势力。”</p>
+<p>玉袁目前正在都城停留。丝毫没有要回去的样子。也就是说，他就此在中央担任要职才是最合理的。</p>
+<p>玉袁来中央时，提出条件要中央派遣人才到他的儿子身边。</p>
+<p>就是那位曾担任怪人军师副官的武官——陆孙。</p>
+<p>玉袁指名要他，说是要让他辅佐尚未熟悉政务的儿子。</p>
+<p>这本来有些不合常理。陆孙虽是武官，却擅长文书处理。他应该一直在替讨厌案头工作的怪人军师打理各种事务才对。</p>
+<p>然而，明明还有其他更好的人选。</p>
+<p>不，还是说，玉袁是想把陆孙从怪人军师身边调离呢？</p>
+<p>“马良，你对陆孙这个人了解多少？”</p>
+<p>“……是罗汉大人的副官吧。”</p>
+<p>稍微一想，他便流畅地答对了。马良虽然不擅长处理人际关系，但官职和名字却记得很牢。</p>
+<p>“我听说罗汉大人不擅长记人，而陆孙擅长记人脸，所以就把这位文官出身的他挖了过去。”</p>
+<p>“文官——这倒更说得通。”</p>
+<p>那是个身形纤细的男人。比起持剑执棍，他更适合执笔带书。</p>
+<p>“详细情况问我姐姐比较好。”</p>
+<p>“麻美吗。你的情报来源就是她啊。”</p>
+<p>原来如此。那麻美消息灵通也就不奇怪了。</p>
+<p>“是的。姐姐跟我妻子聊得比较多。”</p>
+<p>“……妻子。说起来，你已经成家了啊。”</p>
+<p>壬氏记得高顺之前说过孙子出生了，那应该是马良的孩子吧。眼前这个男人，活像个青葫芦似的，光是碰一下家人以外的女子都像是要晕过去。——壬氏带着一种莫名的挫败感看着马良。</p>
+<p>“我能问一下吗？”</p>
+<p>“什么？”</p>
+<p>“你们是怎么走到一起的？”</p>
+<p>壬氏不由自主地咽了口唾沫。纯粹是出于一点好奇心罢了。</p>
+<p>“……是姐姐麻美和我母亲合谋的。她们拿我和马闪做了比较，然后选择了确实能留下后嗣的办法。”</p>
+<p>“……”</p>
+<p>这对马家兄弟真是两个极端。跟体质特殊的马闪相比，体弱的马良说不定反而还好些。</p>
+<p>“因为不知道能活到什么时候，所以她们说赶紧生个孩子。优先级比科举还高。”</p>
+<p>马良是前年考中科举的，按时间顺序应该是先有了孩子再去考试的。</p>
+<p>“……什么样的妻子，不，这个我之前好像听说过。”</p>
+<p>虽然忙起来忘了，但确实曾有所耳闻。</p>
+<p>“是巳之一族血脉的人。”</p>
+<p>这个答案让人信服。马之一族主要负责皇族护卫，而巳之一族则是皇族直属的情报机关。</p>
+<p>马与巳，一明一暗守护着皇族。为了加强纽带，有时会通过政治联姻让两族子女结合。</p>
+<p>“你也真不容易啊。”</p>
+<p>“不，无论从外表还是身份来说，都比不上壬氏大人您复杂。而且姐姐说了，晚上只要闭嘴躺着，妻子总会想办法解决的。”</p>
+<p>“……”</p>
+<p>他轻描淡写地说着对壬氏相当失礼的话，而且壬氏总觉得听到了不该听的东西。</p>
+<p>要是能像他这样坦然接受政治婚姻，人生倒是轻松了。</p>
+<p>正闲聊间，走廊传来脚步声。壬氏办公室前的走廊特意做成容易听见脚步声的构造。</p>
+<p>“正好姐姐回来了，剩下的您问她吧。”</p>
+<p>那是女人的脚步声。为了减少麻烦，壬氏尽量不让宫女靠近，自然能认出那是麻美。</p>
+<p>“知道了。”</p>
+<p>伴随着敲门声，果不其然麻美回来了。手里拿着文件和茶具。</p>
+<p>“我回来了——你们两位怎么了？”</p>
+<p>麻美歪着头，看着紧盯着她的壬氏和马良。</p>
+<p>“关于罗汉殿下的前副官、现在在西都的陆孙，你有什么知道的吗？”</p>
+<p>总算把话题拉了回来。</p>
+<p>“陆孙大人吗。这个嘛，我知道的也只是些传闻罢了。”</p>
+<p>麻美放下文件，一边用带来的茶具准备沏茶，一边说道。</p>
+<p>“在成为罗汉大人的直属之前，他好像做过文官，但不是科举出身，而是靠门路进去的。据说老家是商户。”</p>
+<p>“是谁的门路？”</p>
+<p>“那就不太清楚了，要我马上查查吗？”</p>
+<p>“倒也不急。”</p>
+<p>只是稍微有点在意罢了。本来应该是这样——</p>
+<p>聪明的麻美把茶和茶点放到壬氏面前，随即开始沙沙地写文书。大概是要立刻确认陆孙的事吧。写完后，她迅速晾干收进怀里。</p>
+<p>“今天的文件这是最后一份了。”</p>
+<p>“好。”</p>
+<p>比之前少了很多。稍微歇口气应该没问题。</p>
+<p>“虽然轻松了不少，但恐怕又要忙起来了。”</p>
+<p>麻美轻叹了一口气。她的视线落在那张壬氏刚才读过的羊皮纸文书上。</p>
+<p>“您是认真的吗——说要亲自去一趟西都。”</p>
+<p>“有这个必要吧。玉袁大人也在意西都的情况，主上也颇为关心。”</p>
+<p>况且那是靠近沙欧的地区。他想好好亲眼看看。</p>
+<p>“壬氏大人没必要亲自去吧？”</p>
+<p>马闪也说过这话。他今天混在武官里出操去了，不在。要是在的话肯定更啰嗦。</p>
+<p>从职责上来说，确实不一定要壬氏亲自去。但自去年以来，一直关注西方动向、同时应对蝗灾对策的人，就是壬氏。对于他提出的对策，甚至有官员嘲笑他杞人忧天。</p>
+<p>如果这时候派个游山玩水的高官去西都，那就毫无意义了。</p>
+<p>况且，敌人不仅限于外国和自然灾害。</p>
+<p>“如果您在那遥远的西地被暗算了，怎么办？”</p>
+<p>对麻美来说，那大概是最不安的一点。</p>
+<p>“所以我已经打算带去精锐的医官和武官。”</p>
+<p>“就是您让刘医官增加可用医官的那个安排吧。那武官呢？”</p>
+<p>“武官方面嘛……”</p>
+<p>壬氏抓了抓头发。麻美露出一副“真没规矩”的表情。</p>
+<p>壬氏经过多方考虑，最终得出结论：</p>
+<p>“我打算请罗汉殿下一同前往。”</p>
+<p>“哈啊？”</p>
+<p>麻美的脸扭曲得不成样子。就算是她，恐怕也很少会露出如此明显的嫌恶表情吧。</p>
+<p>“您在想什么啊？他会失控的。那绝对会出大问题。”</p>
+<p>“我知道。我知道。”</p>
+<p>“那谁来牵制他？就算带上罗半大人也绝对不行。不，说到医官的话，还有罗门大人——”</p>
+<p>不愧是麻美，心里有数。</p>
+<p>“罗门殿不行。年纪大了，长途旅行恐怕吃不消，而且腿脚也不好。就算要带他，也只能作为最后手段。”</p>
+<p>“那用谁——等等，难道是……”</p>
+<p>她反应快，省了解释。罗半不行，罗门也不行——那就只剩一个人了。</p>
+<p>“……是猫猫小姐吗？”</p>
+<p>麻美绷着脸问道。</p>
+<p>壬氏苦笑了一下，避开了她的视线。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-114.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-116.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

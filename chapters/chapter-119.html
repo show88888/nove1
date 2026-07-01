@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-119</h1>
+</header>
+<p>十六、选拔</p>
+<p>（比想象中要平静。）</p>
+<p>这句话差点脱口而出，猫猫轻轻闭上了嘴。</p>
+<p>她仔细地洗了手，换好衣服。</p>
+<p>接下来就是上司请客去澡堂。仅此而已。</p>
+<p>她第一次解剖了人的遗体。那是一个被处以绞刑的强盗犯人的尸体，身上各处都有刀伤的痕迹。如果早知道死了还要被这样肢解，他或许会选择一条不同的人生路吧。</p>
+<p>（身体也得好好洗干净才行。）</p>
+<p>她闻了闻手，看还有没有残留气味。换好的衣服也仔细熏过香，应该没问题——</p>
+<p>就在这时。</p>
+<p>「娘娘——」</p>
+<p>这算是在叫她吗？会用这种叫法的只有一个人。回头一看，是天祐。</p>
+<p>「……」</p>
+<p>如果回应的话，就等于默认了那个错误的称呼。但无视也不太合适。</p>
+<p>（要是他说的是无聊的话，就赶紧走人。）</p>
+<p>不过，他确实有叫她停下的理由。</p>
+<p>「刘医官现在要找你谈话。」</p>
+<p>「泡澡呢？」</p>
+<p>「往·后·挪。」</p>
+<p>天祐那故作玄虚的语气，但本人似乎也对泡不成澡感到不满，正把手的背面贴在鼻子上闻着。</p>
+<p>既然不是只有自己一个人，猫猫也没法抱怨，只好跟着天祐走。</p>
+<p>不过，其他见习医官们都直接回去了。</p>
+<p>「其他人呢？」</p>
+<p>「不知道吗？补考啊。」</p>
+<p>听到补考这个词，猫猫明白了。其他见习医官解剖动物时做得不错，但面对人体时手果然还是抖了。</p>
+<p>正常下刀的，大概只有猫猫和天祐吧。</p>
+<p>（也就是说这家伙也是……还以为会有几次实地操作的机会呢。）</p>
+<p>猫猫又闻了闻手。</p>
+<p>她被带到的房间里，有刘医官、老爹罗门，还有其他几位医官。会议用的大长桌旁摆着椅子，众人以上座为中心坐着。</p>
+<p>（全都是高级医官啊。）</p>
+<p>都是些医术精湛、值得学习的人。</p>
+<p>医官也有等级之分，大致分为高级、中级和见习。</p>
+<p>而在这些人中，猫猫发现了一个明显格格不入的人，忍不住揉了揉眼睛。</p>
+<p>那人正啪嗒啪嗒地挥着手。圆润的轮廓、温柔的眼神，明明是宦官却长着泥鳅般胡须的男人。</p>
+<p>「医官大人……」</p>
+<p>当然，这里的医官指的是前面带着「后宫」二字的那个。</p>
+<p>是那个庸医。</p>
+<p>（为什么他会在这里？不，从人选上说倒也没错……）</p>
+<p>毕竟如果独自负责后宫的医疗，至少职位上应该是高级医官才对。</p>
+<p>但实在太突兀了。</p>
+<p>在其他医官都各有突出才能的人群中，那只迷迷糊糊的小猪般的庸医正乖巧地坐着。</p>
+<p>（说起来……）</p>
+<p>那个庸医是连尸体都害怕触碰的性格。</p>
+<p>（他是怎么从见习医官升格为医官的？）</p>
+<p>太神秘了。</p>
+<p>猫猫正想着，响起了啪啪的拍手声。</p>
+<p>「看样子人都到齐了。」</p>
+<p>刘医官让嘈杂的房间安静下来。</p>
+<p>周围不知何时又多了几位中级医官。实际上，比庸医更不合群的猫猫正在被他们打量着。</p>
+<p>即便容貌不出众，在一群男医官中混进一个女的，想不注意都难。</p>
+<p>「那么，开始吧。空着的椅子随便坐。」</p>
+<p>（说是随便坐……）</p>
+<p>高级医官已经坐着了。</p>
+<p>中级医官开始落座。</p>
+<p>见习的天祐还站着。</p>
+<p>猫猫也等着大家都坐下。</p>
+<p>虽说随便坐，但到头来还是按序列来。除非是紧急情况，否则在这种场合按顺序坐下才不容易产生摩擦。</p>
+<p>天祐坐到了最末席，猫猫则坐在空着的位子上。</p>
+<p>（又是这种微妙的位置啊。）</p>
+<p>似乎没人想坐在高级医官旁边，唯一空着的位置就在庸医旁边。猫猫坐到了笑眯眯的庸医身旁。</p>
+<p>「哎呀，好久不见啊。吃吗？」</p>
+<p>他悄悄在桌下藏了颗糖。</p>
+<p>「现在不太方便。」</p>
+<p>总不能嘴里含着糖滚来滚去地听人说话吧。而且刘医官正瞪着这边。庸医本人没注意到自己被盯上了。</p>
+<p>话说回来，被叫来的原因——刘医官开始说明。他似乎暂时决定把那个腮帮子滚着糖的庸医先放一边。</p>
+<p>「叫你们来的原因是，我想从中选几个去西都的人。」</p>
+<p>这就是之前壬氏和刘医官谈过的事。</p>
+<p>为了远征，想带医官去。还想要两个人。</p>
+<p>猫猫当时在场，积极自荐了。至于最终会不会被选上，还不清楚。</p>
+<p>「有人想去西都吗？」</p>
+<p>猫猫立刻想举手，但在此之前已经有人猛地举起了手。</p>
+<p>「在那之前，我有一个问题。」</p>
+<p>既然有人要提问，猫猫也不好举手，只好默默放下。</p>
+<p>「前提太模糊了。为什么要去西都？也就是说，这是左迁吗？」</p>
+<p>开口的是中级医官中一个被公认有能力的年轻医官。名字猫猫不记得了。</p>
+<p>（啊——说得也是。）</p>
+<p>猫猫因为听说壬氏要去西都，自然就以为是远征了。但对不知情的人来说，说成左迁也不奇怪。</p>
+<p>（不，难道真的是左迁？）</p>
+<p>左迁——不，听壬氏的口气像是要亲自去，应该不至于吧。</p>
+<p>「诶？是左迁吗？」</p>
+<p>庸医慌张起来，小声戳了戳猫猫。</p>
+<p>（他没听说吗？）</p>
+<p>作为高级医官，应该是听过说明的吧。不，正因为是庸医才被省略了。或者是他刚才含着糖没听到？</p>
+<p>刘医官故意咳嗽了一声。猫猫只能无视庸医的搭话。</p>
+<p>「不是左迁。不过，地点特殊，所以会是很长期的。就算往短了算，也得离开都城三个月。」</p>
+<p>「……这是要开战了吗？」</p>
+<p>那人头脑聪明，但说话毫不委婉。</p>
+<p>因此周围骚动起来。庸医也害怕地贴了过来。猫猫觉得周围的目光很刺眼。</p>
+<p>「虞渊先生，那个……」</p>
+<p>老爹戳了戳庸医。</p>
+<p>（庸医原来叫虞渊啊。）</p>
+<p>在后宫期间，猫猫一直只叫他「医官大人」，没有机会知道他的名字。也许以前听过，但猫猫确实不擅长记人名，也没办法。</p>
+<p>（如果是那个武官的话我倒是不会忘……）</p>
+<p>说的是怪人军师的部下陆孙。猫猫记得听说他去了西都，那家伙才是真正的左迁吧。</p>
+<p>猫猫从庸医手里脱身，换成了老爹被缠住。</p>
+<p>刘医官已经无奈地不再看庸医了。不会察言观色，某种程度上也算一种才能吧。</p>
+<p>（为什么他不被解雇呢？）</p>
+<p>真是太不可思议了。</p>
+<p>「是不是战争我不知道。我们的工作是治疗病人和伤患。而且，这次远征规模会很大。」</p>
+<p>周围反应不太好。大概没人会在这里举手吧。</p>
+<p>（要是公布带队的核心人物是谁，态度可能会变呢……）</p>
+<p>如果是壬氏，那可是皇族。当上医官的话，或许有机会直接和他说话。</p>
+<p>（不过，如果壬氏要去，现在应该还没公布吧……）</p>
+<p>考虑到身份，大概会压到最后一刻才说。</p>
+<p>这样一来，就不会有人主动举手了。</p>
+<p>猫猫松了口气，正要举手，却被刘医官瞪了一眼。</p>
+<p>（什么意思？）</p>
+<p>这是不让猫猫自荐吗？果然是想说她配不上？</p>
+<p>「没有人举手吗。既然如此，已经决定好了三名候选人。还想再找一个人，所以才征集自荐。还有一个名额，不想要吗？」</p>
+<p>虽然他在煽动，但大家都无动于衷。高级医官们大概已经听过了，一副无可奈何的表情。</p>
+<p>「好——」</p>
+<p>有一个人举起了手。不是别人，正是天祐。</p>
+<p>「如果没人去的话，我可以吗？虽然还是个见习。」</p>
+<p>他的语气带着几分轻佻，和平时一样。解剖动物时、解剖人体时，他都没变。</p>
+<p>猫猫之前觉得他被燕燕那么冷待还能不气馁，大概是个神经很大条的人，但似乎并非如此。</p>
+<p>天祐的情绪波动大概比常人小得多吧。旁人看来他口齿伶俐、能说会道，所以会以为他很情绪化。</p>
+<p>他之所以老找燕燕搭话，也许正是因为燕燕对他最冷淡、反应最有趣。</p>
+<p>「还有别人吗？」</p>
+<p>没人举手。</p>
+<p>高级医官们叹了口气。</p>
+<p>（既然壬氏要去，那这些人里肯定有人会被编入吧。）</p>
+<p>刘医官是负责人，不可能去。如果要去西方，猫猫觉得老爹更合适——他知识渊博，也懂西方语言——但猫猫摇了摇头。</p>
+<p>（从年龄和体力上看，太勉强了。）</p>
+<p>因为成了宦官，他本就比实际年龄显老。而且一条膝盖的骨头被摘除后，不适合长途旅行。</p>
+<p>如果已经选好了三个人，那猫猫会怎样呢？</p>
+<p>很多人都把西都当边境，但其实并非如此。实际上那里是西方文化涌入的地方，应该相当发达。而且在医术方面，新技术也更容易传入。</p>
+<p>虽然没有老爹留学时那么厉害，但对猫猫来说也是很好的学习机会。</p>
+<p>（老爹会不会去呢？）</p>
+<p>虽然想着不可能、不行，但还是忍不住想。老爹还被庸医缠着，看起来很为难，却甩不开。</p>
+<p>「没有别人了吗？」</p>
+<p>刘医官确认道，那个优等生中级医官又举起了手。</p>
+<p>「你要去吗？」</p>
+<p>「提问。」</p>
+<p>然后，那个中级医官看向猫猫。</p>
+<p>「为什么那里会有一个医官助手的宫女？」</p>
+<p>这是每个人都想问的问题吧。不过在这里提出来，感觉有点不会读空气。</p>
+<p>「让她特别出现在这里，难道说她是被算在医官名额里的？」</p>
+<p>（要是算进去就好了。）</p>
+<p>如果能在这里得到答案，那正合猫猫之意，但周围的气氛很凝重。高级医官们似乎已经听过了，没什么反应，但中级医官们的目光很刺人。天祐则面无表情地环顾四周。</p>
+<p>「她不算在医官名额里，但会一起去。」</p>
+<p>（大概就是这样吧。）</p>
+<p>猫猫觉得这是合理的处理方式。总之能跟着去就好。</p>
+<p>「既然是长途旅行，我觉得带宫女去不太合适。」</p>
+<p>中级医官咄咄逼人。</p>
+<p>「体力确实不如男人，但这家伙刚才通过了实操考试。至少在技术上有医官的水平。而且在药材知识方面，恐怕比你还强。如果在旅途中药用完了，能否用现地材料应急处理，这是很重要的。」</p>
+<p>刘医官虽然严厉，但该看在眼里的都看在眼里。</p>
+<p>中级医官们依然不满。其中还有人用「就那个考试？」的难以置信的眼神看着她。</p>
+<p>「即便如此，你们还是不满把女人当作医官同等对待带去吗？这次是大队伍，别的职务也会有宫女同行。多几个帮手有什么问题吗？」</p>
+<p>「即便如此，配备专属医官的宫女还是头一次。而且居然让她参加实操考试，就算是刘医官也——」</p>
+<p>（嗯。）</p>
+<p>这是和天祐相反的性格。虽然多少有些嫉妒，但姑且也是在关心猫猫。虽然这些不识趣的发言要是出于好心的话，感谢归感谢，但也挺麻烦的。</p>
+<p>「这不是我决定的。」</p>
+<p>刘医官语气略带不满地说道。然后，他说出了令人震惊的话。</p>
+<p>「这次是汉太尉去。」</p>
+<p>中级医官们骚动起来。</p>
+<p>猫猫全身汗毛倒竖。她看向老爹，老爹正用一种极其悲伤的眼神看着她。</p>
+<p>虽然不是燕燕，但她也忍不住想咬牙切齿。</p>
+<p>「你们几个，能照顾好她吗？」</p>
+<p>刘医官的声音带着近乎放弃的意味，没人再反驳了。虽然不确定这种机密信息能不能说出口，但这个人选怎么看都说得过去。</p>
+<p>然而，猫猫已经没有余裕去深思这些了，她的脑子瞬间沸腾了。</p>
+<p>（那个混蛋——！！）</p>
+<p>猫猫久违地产生了一种把壬氏看成水洼里泡烂的蚯蚓般的心情。</p>
+<p>再加上——</p>
+<p>「五天后出发。给你们休假做准备，该打招呼的去打招呼。」</p>
+<p>猫猫张着嘴，久久合不拢。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-118.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-120.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

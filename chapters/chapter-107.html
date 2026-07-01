@@ -1,0 +1,536 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-107</h1>
+</header>
+<p>四、缺号　后篇</p>
+<p>（两本吧？）</p>
+<p>猫猫记下了缺号的书目。明显缺失的书似乎有两本。</p>
+<p>「嗯。」</p>
+<p>猫猫在桌前歪着头。今天也在抄写书籍。昨晚本想熬夜，却被姚和燕燕强行带走，硬逼着去睡了。据说熬夜对皮肤不好。</p>
+<p>书架上的书几乎都是老爹手写的。包含了许多他留学西方时期的知识，各处夹杂着外语。有些连猫猫也不认识。问燕燕，她也有很多拼写看不懂的，推测大概是茘语无法翻译的专业术语。</p>
+<p>虽然想全部读完，但没有时间。据说怪人军师明天就回来，所以她想在此之前尽量多抄一些，但恐怕来不及。既然如此，就只摘录尽可能重要的部分吧。</p>
+<p>「猫猫，别太拼命了。」</p>
+<p>燕燕手里拿着蔬菜走了过来。她说昨天吃得太丰盛，今天要做清淡一些。大概是为了姚的饮食着想吧。</p>
+<p>「不用担心。」</p>
+<p>「大小姐会学你的。」</p>
+<p>原来担心的不是猫猫。是燕燕一贯的风格。</p>
+<p>「那位姚小姐去哪儿了？」</p>
+<p>上午明明还和猫猫一起看书来着。中途就不见了。她说过，因为不想见那位叔父，假期不打算走出怪人军师宅邸的院子。</p>
+<p>「她好像也拿了几本书走，希望她早点还回来。」</p>
+<p>「又不是你的书。大小姐在二楼呢。」</p>
+<p>「……放着没人读也太可惜了。」</p>
+<p>要是就这么等着它们自然风化，不如把全部藏书都收走。但是没有地方放。宿舍肯定放不下，放在花街的破屋里，老爹回来时又会被发现。</p>
+<p>老爹虽然教了猫猫很多医学知识，但总在某些地方划了界限。他虽然高兴猫猫当药师，却不让她碰尸体，也不让她当医生。现在她当医官附设的宫女，大概也因为是医官的辅佐才被允许的吧。</p>
+<p>（他不太喜欢外科类的处理呢。）</p>
+<p>割伤、撞伤之类还好，但缝伤口、切开排脓之类的手术，老爹从不让猫猫动手，都是自己来。当然，老爹不在时，猫猫靠模仿也学会了那些处置方法，手法是懂的。</p>
+<p>猫猫忽然看向那些缺号的书。</p>
+<p>「人体构造、外科处置……」</p>
+<p>缺掉的书内容，大概就是老爹不愿意教给猫猫的部分。</p>
+<p>（反而更让人在意了。）</p>
+<p>猫猫皱着眉沉吟着，楼上突然传来一声巨响。有什么大东西倒下了。天花板上簌簌落下灰尘。</p>
+<p>「姚大人！」</p>
+<p>燕燕慌张地冲上楼。猫猫也放下书跟了上去。</p>
+<p>二楼一间房间的门开着。燕燕立刻走了进去。</p>
+<p>「好痛痛痛——」</p>
+<p>姚正坐在地上。旁边是倒在地上的衣柜。刚才的声音大概就是这个。</p>
+<p>「您没事吧？ 受伤了吗？」</p>
+<p>「没问题。没事没事。」</p>
+<p>猫猫环顾房间。这间房间的构造奇特到让人忍不住多看几眼。</p>
+<p>「真是让人不安的房间呢。」</p>
+<p>墙壁是从来没见过的样式。看得出地板和墙壁是木制的，但使用了两种颜色的木材，拼成奇妙的图案。天花板上画着动物的画，老实说，是一间毫无协调感、让人不安的房间。</p>
+<p>「……我第一次看到时也吓了一跳。不过，听说这栋别院也是罗氏一族的财产后，反而觉得能接受了。」</p>
+<p>「毕竟代代出怪人的家族嘛。有会造这种奇怪房间的人才也不奇怪。」</p>
+<p>姚和燕燕都看向猫猫。</p>
+<p>「……总之，您在做什么？」</p>
+<p>想转移话题的猫猫问姚。</p>
+<p>「这个。」</p>
+<p>姚拿出来的是一本老爹写的书。写着『一—2—Ⅰ』。</p>
+<p>「怎么了？」</p>
+<p>封面确认过编号，但还没看过内容。</p>
+<p>「你看最后一页。」</p>
+<p>姚翻开书。最后一页的角落，画着一个小小的圆形。</p>
+<p>「太极图吗？」</p>
+<p>太极图，也叫太极鱼。黑白两条鱼互相交缠形成一个圆形。猫猫只知道那是占卜常用的图案。</p>
+<p>「为什么会有这个？」</p>
+<p>只能歪头了。</p>
+<p>「如果是阴阳图的话……」</p>
+<p>燕燕下楼拿了一本书上来。</p>
+<p>「这本上面也有。」</p>
+<p>写着『一—2—Ⅲ』。</p>
+<p>「这本是在第一页画着。」</p>
+<p>「……」</p>
+<p>猫猫把两本书并排摆放。</p>
+<p>「我觉得中间缺失的那一本正好应该在这里。」</p>
+<p>「是的。所以我就在想——」</p>
+<p>姚自信满满地敲了敲房间的墙壁。</p>
+<p>「这本书是不是藏在这间房间里。」</p>
+<p>「为什么？」</p>
+<p>猫猫皱着眉表示不解，但燕燕却瞪大了眼睛，拍了拍手。</p>
+<p>「姚大人，不愧是您。」</p>
+<p>燕燕也不能因为大小姐可爱就什么都夸啊。什么「不愧是」呢？</p>
+<p>「这面墙和地板，是在表示八卦吧。」</p>
+<p>「对吧！」</p>
+<p>「八卦？」</p>
+<p>猫猫歪着头，在脑内转换着同音词。</p>
+<p>（八卦、白鸡、百家……）</p>
+<p>「八卦？」</p>
+<p>她记得那是与阴阳图有关的东西，但遗憾的是不是猫猫的专业领域。遇到不感兴趣的领域，猫猫的记忆力会显著下降。</p>
+<p>「八卦啊。你看，这个图案，不就是在表示爻吗？」</p>
+<p>「这样？」</p>
+<p>不仅不熟悉，甚至完全想象不出是什么的词汇冒了出来。</p>
+<p>「不会吧，你不知道？」</p>
+<p>姚露出惊讶的表情，似乎有些高兴。</p>
+<p>「知道的人反而更少吧？」</p>
+<p>猫猫有点不高兴了。总觉得不甘心。</p>
+<p>「这种图案你认识吗？」</p>
+<p>姚用指尖描着地板。白色系的地板和黑色系的地板。她只描了黑色地板的部分。</p>
+<p>「八卦由爻组成——一根长线和两根短线各组合三个。每根线分别叫作阳和阴，或刚和柔。」</p>
+<p>猫猫掰着手指数。两个爻有三个，共组成八种图案。所以叫八卦。</p>
+<p>看地板，中央只有一块白色木面，其余部分都是八个图案。</p>
+<p>「您把衣柜弄倒，是为了搬开它确认被遮住的地板吗？」</p>
+<p>「……是的。」</p>
+<p>姚有些不好意思地承认了。</p>
+<p>「这表示的是先天图。」</p>
+<p>又冒出了猫猫不懂的词。本想追问，但怕话题会中断，于是装作知道的样子继续往下说。</p>
+<p>「先天图知道了。那书在哪里呢？」</p>
+<p>「……」</p>
+<p>姚沉默了。看来她也不知道更多了。</p>
+<p>如果老爹是特意画上太极图的话，应该有什么能导出答案的线索。</p>
+<p>猫猫忽然看向那两本书。内容是人体构造。一本详细写了手，一本详细写了脚。</p>
+<p>「……姚小姐。八卦各自有什么含义吗？」</p>
+<p>「有方位、动物、家族之类的含义哦。」</p>
+<p>「包含人体吗？」</p>
+<p>「包含的！」</p>
+<p>姚惊讶地看着书。</p>
+<p>「除去缺号的书，『一—2』编号的总共有八本。」</p>
+<p>「八本。如果有手和脚的话，剩下的就是首、口、目、股、耳、腹这六个。」</p>
+<p>「我拿来了。」</p>
+<p>理解力快的燕燕已经从一楼把剩下的书拿来了。确认内容后，果然如姚所说。</p>
+<p>「如果用太极图来想，应该没有缺漏才对……」</p>
+<p>然而编号却有缺失。</p>
+<p>猫猫站在房间中央、没有任何八卦图案的位置。她下意识地抬头看了看。</p>
+<p>「画了很多动物呢。」</p>
+<p>「一看就知道啊。马、狗、野鸡，还有像龙的图案，没问题吗？」</p>
+<p>「龙可真是大不敬啊。」</p>
+<p>擅自使用象征皇族的东西，有时会受罚。</p>
+<p>「……话说，天花板上的画也是八卦。」</p>
+<p>姚眯起眼睛。虽然因为年久褪色，但还能辨认出来。</p>
+<p>「姚小姐，天花板正中央有一匹马和两只羊。分别代表什么？」</p>
+<p>「马的话，是『乾』。先天图里是南，家族里是父，身体是首，五行是金，数字是一。」</p>
+<p>「数字？ 羊呢？」</p>
+<p>「羊的话是二或八，先天图里是二。」</p>
+<p>「一和二各两个。」</p>
+<p>猫猫看向书本。不知是巧合还是什么，缺失的编号正好是『一—2—Ⅱ』。</p>
+<p>猫猫把头转回来，看向墙壁。黑白木板排列得比地板更精密。</p>
+<p>「姚小姐。」</p>
+<p>「什么？」</p>
+<p>「数字一和二的八卦是哪个？」</p>
+<p>姚在地板上移动。</p>
+<p>「一是这个，三根长线。二呢，最上面有两根短线，下面两根是长线。」</p>
+<p>『☰』和『☱』。</p>
+<p>猫猫仔细地在墙壁前搜寻。</p>
+<p>「你在做什么？」</p>
+<p>「我在找有没有一、二、二的排列。」</p>
+<p>相似的组合太多，看得眼睛都要花了，而且一移开视线就不知道看到哪里了。</p>
+<p>「那我从对面看。」</p>
+<p>「那我负责加油。我去准备茶点。」</p>
+<p>燕燕逃了。猫猫想追上去说「等等」，但一移开视线就会忘了看到哪里。想做个记号，又不能真的用笔画，只能忍受着眼睛发疼的工作。</p>
+<p>「……」</p>
+<p>「……」</p>
+<p>「……」</p>
+<p>燕燕在准备茶。飘来的香甜点心味，是之前水莲教的配方。猫猫把做法教给燕燕后，燕燕就自己开始做了。</p>
+<p>这么多图案，按理说该有一、二、二的排列才对，但就是没有。一、二之后，接下来不是二。</p>
+<p>（差不多该出现了吧。）</p>
+<p>正想着，和姚碰了个头。</p>
+<p>「找到了吗？」</p>
+<p>「没有。」</p>
+<p>「怎么回事？」</p>
+<p>「是看漏了吗？」</p>
+<p>两人眨着眼睛看向墙壁。必须再确认一遍，但实在不想干。</p>
+<p>「先喝茶吧？」</p>
+<p>燕燕举起茶具示意。</p>
+<p>「好！」</p>
+<p>「好！」</p>
+<p>姚和猫猫的声音重叠了。</p>
+<p>房间里没有桌子，她们在地上铺了垫子喝茶。水莲珍藏配方的点心很好吃。宿舍缺少厨具，只能蒸，但燕燕特意去别处借了烤炉来做。</p>
+<p>「好好吃。」</p>
+<p>姚非常满足，但吃完后还得再检查一遍。如果不是这里的话，猫猫的猜想就落空了吧。</p>
+<p>「就差一点啊，明明是一、二，可下一个数字不对。」</p>
+<p>「是啊。只有最后一个数字不同。明明有一个对的也好啊。」</p>
+<p>猫猫也同意姚。</p>
+<p>「就是就是。只差一根线，数字就变了。要是这里的阳变成阴就好了。」</p>
+<p>阳是长线，阴是两根短线。</p>
+<p>「……阳变成阴。」</p>
+<p>猫猫看着地板的八卦。</p>
+<p>把『☰』最上面的阳变成阴，就成了『☱』。</p>
+<p>猫猫站起来，再次凝视墙壁。</p>
+<p>（大概在这附近……）</p>
+<p>排列着一、二、一。</p>
+<p>记得没有其他这种排列了。</p>
+<p>猫猫触碰了第三个一——『☰』最上面的阳。</p>
+<p>指尖传来一丝异样。</p>
+<p>猫猫用指尖用力按了一下那根长线的正中央。</p>
+<p>阳的中央凹了进去。</p>
+<p>（阳变成了阴。）</p>
+<p>咔嗒一声，墙壁里弹出了什么东西。一个抽屉滑了出来。</p>
+<p>「不会吧？」</p>
+<p>姚瞪大了眼睛。</p>
+<p>「吓到了。」</p>
+<p>燕燕仔细端详着抽屉。</p>
+<p>猫猫从抽屉里取出一本书。</p>
+<p>『一—2—Ⅱ』</p>
+<p>虽然是一本缺号的书，但装订比其他书粗糙得多。纸页歪斜，厚度也不均匀。</p>
+<p>「羊皮纸吗？」</p>
+<p>「手感像是。」</p>
+<p>猫猫小心翼翼地翻开书页。字不是毛笔写的，而是用西方的书写工具写的。内容大部分都不是茘文。多是潦草的西方文字，偶尔像注释一样用茘语写着。</p>
+<p>（是留学时代的东西。）</p>
+<p>老爹罗门年轻时曾留学西方。他卓越的医学知识，正是在留学地学到的。</p>
+<p>猫猫虽然只能结结巴巴地理解西方文字。虽然有一些不认识的单词，但还是慢慢读了下去——</p>
+<p>然后脸色发白。</p>
+<p>「猫猫……」</p>
+<p>燕燕也露出了不安的表情。</p>
+<p>「怎么了？ 上面写了什么？」</p>
+<p>只有姚看不懂西方文字，对两人的反应急得不行。</p>
+<p>猫猫翻不开下一页。</p>
+<p>「喂，怎么了？」</p>
+<p>姚伸手拿过书，代替猫猫翻开了书页。</p>
+<p>翻开的那一页上，画着猫猫和燕燕都担心看到的东西。</p>
+<p>「这是什么？」</p>
+<p>精密的裸体画。光是如此还好。但那幅画画的是人皮被剥开、里面的肌肉被细致描绘的样子。</p>
+<p>「……！」</p>
+<p>姚恶心地移开了目光。那种过于写实的笔触，不可能是凭想象画出来的，一定是看着实物画的。</p>
+<p>猫猫翻到下一页。</p>
+<p>人的腹部被剖开，里面的脏腑被描绘出来。</p>
+<p>（老爹用西方学来的技术，剖开了皇太后的肚子。）</p>
+<p>剖腹产。原本是在母子都危险的难产时，作为只救孩子的最后手段使用的方法。</p>
+<p>然而，罗门却让母子都活了下来。</p>
+<p>这不是光靠知识就能做到的事。</p>
+<p>他大概剖过很多人的肚子吧。</p>
+<p>而且——</p>
+<p>作为练习，他应该切开过无数具尸体。</p>
+<p>老爹不让猫猫靠近尸体的理由。劝她当药师而不是医生的理由。</p>
+<p>（原来是这样。）</p>
+<p>猫猫合上了那本粗糙的书。</p>
+<p>她不否认老爹做过的事。进行医疗时，了解人体是理所当然的事，猫猫也因此反复用自己的身体做实验。</p>
+<p>但一般人的反应，大概会像姚一样吧。</p>
+<p>姚捂着嘴，用憎恶的眼神看着那本书。</p>
+<p>西方怎么样她不知道。但一般的茘国人，恐怕无法接受书中的内容。</p>
+<p>因为是信仰上的禁忌。那是违反禁忌的内容。</p>
+<p>猫猫翻过书的背面。</p>
+<p>上面写着——</p>
+<p>『witchcraft』</p>
+<p>用的是潦草的字体。</p>
+<p>无论那是什么意思，猫猫都明白了老爹为何要把这本书藏起来。</p>
+<p>这是一本如果公之于众就会被当作禁书烧掉、绝对不该存在的书。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-106.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-108.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-108</h1>
+</header>
+<p>五、禁忌</p>
+<p>说到禁书，到底什么地方有问题呢。</p>
+<p>猫猫一边翻着那本歪歪扭扭的古书，一边确认内容。</p>
+<p>外科手术本身在茘国是认可的。否则皇太后也不可能平安产下皇帝。</p>
+<p>那么，问题出在哪里呢。</p>
+<p>羊皮纸上详细描绘着人体。皮肤被切开，内脏清晰可见。若没有眼前被解剖的人体，是不可能画出来的，而被解剖的人显然不可能是活着的。</p>
+<p>“把尸体切开什么的……”</p>
+<p>姚的脸色依然发青。燕燕端来水递给姚。</p>
+<p>（尸体不可亵渎。）</p>
+<p>这是猫猫从老爹那里听过的话。甚至到了“不可触碰”这种极端的地步。</p>
+<p>人死了，并不意味着就此终结——许多人都是这么相信的。尤其对姚来说冲击更大。精通八卦的她，想必对此有更深的感受。</p>
+<p>人体解剖基本上是被禁止的。</p>
+<p>“那样就不能转世为人了啊。”</p>
+<p>遗体不得损毁。否则就不能再世为人——</p>
+<p>许多宦官都会把自己切下的那一部分好好保管带在身边。据说若没了那东西，来世就会变成驴马，而不是人。</p>
+<p>将罪人火葬的理由，也被说成是为了不让他们转世为人。罪人等特殊情况下也有进行解剖的，但出于道德观念，大多还是会避讳。</p>
+<p>另一方面，作为最重的刑罚之一，也有将活人凌迟处死的酷刑。</p>
+<p>若能一句“荒谬，哪有什么来世”就断然否定倒也好，但猫猫毕竟不能断言自己没有前世。猫猫或许也是某个人的转世，也或许不是。</p>
+<p>（死了也无法确认。）</p>
+<p>即便转世，也不会带着记忆。或许今生的自己就是过去某个人的转世，但前世的记忆早已烟消云散。</p>
+<p>猫猫一边沉吟，一边想要翻页。但姚抓住了书。猫猫慌忙抓住姚的手。</p>
+<p>“放手。”</p>
+<p>“你想干什么？”</p>
+<p>“这种东西不该留在世上，得烧掉才行。”</p>
+<p>这意见很在理。然而猫猫却按捺不住内心的冲动。</p>
+<p>“姚小姐。你参与过外科手术吗？”</p>
+<p>猫猫压低声音，努力不让情绪激动起来。</p>
+<p>“……缝合伤口的话倒是……”</p>
+<p>“不是那个。假如刀刃刺穿了腹部呢？如果只要处理得当就不会死的话呢？”</p>
+<p>“……”</p>
+<p>姚咬着嘴唇。她不过是个十五岁的少女。虽然精神上仍留有稚气，但头脑很好。而且她具备客观接受事物的聪慧。</p>
+<p>“你能第一眼就判断出伤到了哪个脏腑吗？”</p>
+<p>“我会学……会学会的。”</p>
+<p>“在那之前会有多少人错过救治时机呢？”</p>
+<p>“……”</p>
+<p>猫猫从姚手中夺回了书。</p>
+<p>猫猫明白姚想说什么。她也知道，作为常识，这本书属于禁书。</p>
+<p>本来，若非死刑执行人——刽子手，是不被允许损毁人身的。</p>
+<p>当然，若是战事等特殊情况则另当别论。</p>
+<p>然而另一方面，医术必须了解人体结构。老爹罗门姑且不论，其他医官又是如何呢。</p>
+<p>“我明白姚小姐觉得医官不该像刽子手一样切割人体。更何况像这样留下记录，更是无法接受，对吧？”</p>
+<p>“没错。”</p>
+<p>“但如果是被解剖的遗体系罪人呢？”</p>
+<p>“……”</p>
+<p>人类的道德观念本就是个模糊的东西。一旦定下了“不可为”的界限，人们就不允许与之相悖之事。但若准备一套例外之说，他们便能接受。</p>
+<p>有时被称为政治，有时被称为宗教。</p>
+<p>猫猫自到医局任职后，一直有个疑问。那就是外科医官的水平很高。若是市井的大夫，遇到需要截肢的重伤往往也只能截肢，而这里却能治好。</p>
+<p>猫猫曾见过一次刘医官的手术。她如今已被委以与姚等人不同的工作，也开始协助手术了。</p>
+<p>有位厌恶大夫的武官放任伤口不管，导致化脓。他们制服了挣扎的武官，让他服下镇痛药物。</p>
+<p>化脓范围很广，猫猫本以为只能截肢了，但刘医官只切除了最低限度的化脓部位，并未截肢。虽然会留下后遗症，但据说术后恢复良好。</p>
+<p>若不熟悉手臂肌肉的形态，绝不可能做出那般干净利落的手术。</p>
+<p>（关于这点，还是不要让姚产生疑问为好。）</p>
+<p>眼下要紧的是如何处置这本书。</p>
+<p>“对姚小姐来说，这本书无疑属于禁书。但擅自搜查别人家，还擅自处置别人家的东西，这样好吗？”</p>
+<p>“可、可是……”</p>
+<p>“单从纸张和书写工具来看，这应该是总结自西方所写的书籍。茘国和西方的常识不同。那边习以为常的医疗行为，在咱们这边只是显得异常罢了，不是吗？”</p>
+<p>“……即便如此，我也……无法接受……但是……”</p>
+<p>“姚小姐。”</p>
+<p>一直沉默的燕燕开了口。</p>
+<p>“这本书暂且先放回原处吧。有时装作没看见，或许是明智之举。”</p>
+<p>“但是……”</p>
+<p>姚性格耿直。说得好听是正直，说得不好听就是不知变通。</p>
+<p>不过，她至少还有冷静下来的余地。</p>
+<p>“先吃饭吧。今天准备了姚小姐喜欢的点心。”</p>
+<p>“没什么胃口……”</p>
+<p>“还有雪蛤和燕窝哦。”</p>
+<p>“……那就吃一点吧。”</p>
+<p>虽然不知道用料是什么，但无疑都是姚爱吃的东西。</p>
+<p>燕燕推着姚的背，把她带去了客厅。</p>
+<p>猫猫叹了口气，将歪扭的古书用布包好不让看见，放回了原来的暗格里。</p>
+<p>---</p>
+<p>白天虽然凉，夜里则更冷。</p>
+<p>猫猫裹着被子，继续抄写那本书。结果白天的事已经让她忙得不可开交，根本还没抄完。</p>
+<p>走廊传来咯吱咯吱的脚步声。</p>
+<p>“晚上请休息吧。”</p>
+<p>燕燕来了。</p>
+<p>“还没抄完呢。”</p>
+<p>“怎么可能抄得完呢。”</p>
+<p>燕燕在猫猫身边坐下。看她这样，姚应该已经睡熟了。</p>
+<p>“那本书你打算怎么办？”</p>
+<p>“怎么办……我暂时放回原位了。”</p>
+<p>装作若无其事地放回原位，也许是最稳妥的做法。但也说不上是最好的做法。</p>
+<p>考虑到姚的心情，若不做个明确的处理，她大概不会安心吧。</p>
+<p>与此同时，猫猫也更加确信姚不适合在医局工作。</p>
+<p>“燕燕，你觉得姚小姐继续在医局待下去合适吗？”</p>
+<p>“现在还说这个做什么？”</p>
+<p>燕燕开始抄写另一本不同的书。她能来帮忙倒是很感激。</p>
+<p>“不光是试毒的事，我觉得她的性格实在不太适合这里。以姚小姐的才干，其他部门应该也会争着要她吧。而且她对八卦也那么精通。”</p>
+<p>燕燕流畅地继续抄写着。</p>
+<p>“八卦和五行，原本是她想报考的部门的必修科目。”</p>
+<p>“哦——”</p>
+<p>“她听说医局也允许女性任职，才转了方向。毕竟五行在医局也会用到。”</p>
+<p>五行在医局确实也有应用。药膳也常常融入五行的理念。</p>
+<p>“猫猫对八卦不精通，我倒是有些意外。”</p>
+<p>“五行我多少还接触过一些，但八卦的咒术色彩太浓，跟我合不来。”</p>
+<p>她对诅咒、占卜之类的东西实在提不起兴趣。</p>
+<p>“原来如此。”</p>
+<p>燕燕深深点了点头。</p>
+<p>“像我这种没有其他特长的人也就罢了，但姚小姐和燕燕的话，到别处更能发挥才能吧。”</p>
+<p>话题有点偏了，先拉回来。</p>
+<p>燕燕停下了笔。</p>
+<p>“姚小姐不会离开医局的。”</p>
+<p>“无论如何？”</p>
+<p>“无论如何。——即使医局触碰了禁忌，也是一样。”</p>
+<p>“……”</p>
+<p>燕燕果然敏锐。看来她也注意到了和猫猫一样的事。</p>
+<p>“你什么时候察觉的？”</p>
+<p>“就是今天发现那本书的时候。”</p>
+<p>那本记载了人体解剖图的书。</p>
+<p>这个国家虽然允许外科手术，但不允许切割人的遗体。</p>
+<p>然而，刘医官却极其熟悉人体结构。</p>
+<p>若是罪人，切割遗体是被允许的。罪人的遗体不会被允许转世为人，而是会被火化。</p>
+<p>有时皇族也会接受外科手术，那绝不是允许失败的事情。</p>
+<p>也就是说，医官们是利用罪人的尸体来磨练医疗技术的。切割后的遗体一经火化，证据便荡然无存。</p>
+<p>医生必须是受人尊敬的身份。正因为如此，他们才想极力掩盖那些血腥残酷的行为吧。</p>
+<p>（老爹不想让我当医生，原来是因为这个。）</p>
+<p>“罗门医官和刘医官，还有好几个人对人体结构非常熟悉。新人和看起来不那么灵光的医官大概从一开始就不知情吧。”</p>
+<p>“我同意。”</p>
+<p>也许只有有才能的人才会被告知。而这其中，性格也必然被纳入了适应性考量。</p>
+<p>“姚小姐一旦离开医局，是无法转到其他部门的。很可能受到压力，哪里都进不去。医局是她叔父无法插手的地盘。”</p>
+<p>医官之首是刘医官。能违抗他的人恐怕没几个。</p>
+<p>“我想让姚小姐做自己喜欢的事，直到找到配得上她的夫婿为止。”</p>
+<p>“……夫婿。”</p>
+<p>“怎么了，猫猫？一脸惊讶的样子。”</p>
+<p>燕燕歪了歪头。</p>
+<p>“不，我还以为以燕燕的性子，会把接近姚小姐的男人统统赶走呢。”</p>
+<p>“怎么会。家世、相貌、性格等都超过一定基准，并且姚小姐本人也有意的话，我是不会处理掉的。”</p>
+<p>（处理……）</p>
+<p>她可是干劲十足。</p>
+<p>这样的理想夫婿能找到吗——猫猫望向远方。</p>
+<p>“所以，我希望您在医局里一切照常工作就好。需要特别学习的是那些优秀的医官，像我们这些宫女是不会被叫去的。”</p>
+<p>（也就是说，要我闭嘴就是了。）</p>
+<p>猫猫用手指按住自己的嘴唇。</p>
+<p>“眼下唯一的问题，就是那本被发现的禁书。”</p>
+<p>“……姚小姐恐怕没办法装作没看见吧。”</p>
+<p>至少，她没法像平常一样面对老爹了。</p>
+<p>“只希望她别在罗门医官面前露出破绽就好。”</p>
+<p>老爹很敏感，肯定会立刻察觉。</p>
+<p>“对于罗门医官，姚小姐一直很尊敬，冲击想必也很大。不过如果告诉她那是来自西方的留学见闻之类，她应该多少能够接受吧。”</p>
+<p>“……但愿如此。”</p>
+<p>猫猫重新动起笔，继续抄写那本书。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-107.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-109.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

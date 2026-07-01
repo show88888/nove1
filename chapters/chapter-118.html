@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-118</h1>
+</header>
+<p>**十五、名为玉莺的男子**</p>
+<p>陆孙将羽毛笔流畅地滑过羊皮纸。适合速记的潦草签名，他已不知写了多少个。偶尔他会比对着最初的签名，确认字形是否走样。</p>
+<p>在都城时只需盖章便可，远不如今日这般手酸。他趁着间隙活动着手腕，一边审阅着文书。</p>
+<p>“陆孙大人，这个也拜托您了。”</p>
+<p>一位文官又送来了新的文件。这是此人第五次被派来此处任职，从其口音不重这点来看，想必出身华央州。他耳垂肥厚，一副有福之相。大概平日习惯用右手搬运东西，身体微微向右侧倾斜着。</p>
+<p>“有劳。那么请把这个送过去。”</p>
+<p>“遵命。”</p>
+<p>交过来的文件可说都是些杂务。至少，此地的领主是这么认为的。</p>
+<p>戌西州的人口，大多集中在连接东西方的商路沿线城镇。</p>
+<p>这里所谓的杂务，是指那些远离商路的土地上的居民的诉状。与其说是城镇，不如说是村落或聚落。大部分从事放牧，或种植葡萄等耐旱作物。诸如请求修建灌溉水渠、盗匪频发导致牲畜被盗等等。</p>
+<p>“哈哈。”</p>
+<p>他不禁笑出声来，正欲离去的那位文官投来了诧异的目光。</p>
+<p>被从王都召至西都已经有半年多了吧。陆孙当初是本着“需要一个通晓都城政务的人”的理由而来，但被交付的工作尽是些杂务。要说与当初有何不同，大概就是处理的数量增加了而已吧。</p>
+<p>“看来是不太被信任啊。”</p>
+<p>他在被分配的公务室里独自低语。</p>
+<p>一边活动着日渐腱鞘炎的右手，一边确认着文件。</p>
+<p>陆孙毕竟每日要看大量的文件，渐渐也摸出了些门道。他希望能相信，自己除了记人脸之外，还有别的长处。</p>
+<p>“我可是好好报告了的啊。”</p>
+<p>分派给他工作的，是玉莺。若发现了什么却不报告，万一出了事，搞不好会被当作替罪羊。</p>
+<p>他甚至忍不住怀疑，自己之所以被叫来，是不是就是为此。</p>
+<p>玉莺，是如今西都的暂代主人。只要前往中央的玉袁不回来，身为长子的他便有望继承家业。</p>
+<p>“失礼了。”</p>
+<p>又一位文官送来了文件。这次并非新增的文书，而是陆孙呈报上去的文件被退了回来。此人是玉莺直属的文官，陆孙曾与他有过两面之缘。第一次是去年西行途中，第二次则是前去拜会玉莺时擦肩而过。</p>
+<p>“奉还给您。”</p>
+<p>文件上什么批注也没有。没有签名，也没有印章。</p>
+<p>“也就是说，不许可吧。”</p>
+<p>“是的。虽然确实可能是必要之事，但还有更多更重要的工作。他说，请按优先级来处理。”</p>
+<p>对方语气干脆利落。</p>
+<p>陆孙嘴角微扬，将退回的文件放入了抽屉。</p>
+<p>“还有一件事。”</p>
+<p>“请问是什么？”</p>
+<p>“玉莺大人有请。不是现在，说是上午公务结束后，想请您参加茶会，不知您意下如何？”</p>
+<p>虽是疑问句式，但这里并没有拒绝的选项。</p>
+<p>“遵命。我会在午钟之前，前往中庭的凉亭，对吗？”</p>
+<p>“是的。”</p>
+<p>文官面无表情地退了出去。</p>
+<p>那是玉莺常举办茶会的地方。就在水源绿洲旁边，比其他地方更为凉爽。每到茶会前夕，从早上起便会熏上驱虫的香，所以很容易辨认。</p>
+<p>玉莺这个男人并非无能。作为权贵之子，他受过良好的教育。或许是受其父——原为商人的玉袁影响，他力图发展西都的热忱，连陆孙也能清楚地感受到。</p>
+<p>他的眼中，自年轻时起便有着一种近乎野心的进取心。</p>
+<p>也因此，有时甚至让人感到一丝危险。</p>
+<p>“……这也在我的管辖范围内吗？”</p>
+<p>因长期闭门于公务室，与人交谈的机会减少了。养成自言自语的习惯，也情有可原。</p>
+<p>“真想多跟人说说话啊。”</p>
+<p>记人脸这一特长，同时也是他的兴趣所在。见过一次便不会忘记，也就意味着，总看同一张脸会觉得腻烦。</p>
+<p>送来的是一份丝绸、宝石等装饰品的请款单。作为交易之地，价格确实比在都城买便宜得多，但即便如此，数额依旧惊人。至于用在了何处，不难猜测。</p>
+<p>陆孙初到西都时，曾与一名女子擦肩而过。年纪大约十五六岁，气质很像玉叶后。</p>
+<p>他向负责向导的官员打听，得知那是玉莺的女儿。</p>
+<p>“不太像啊，”官员低声嘟囔，但没再多说，或许这也算是明智之举。</p>
+<p>“真是进取心旺盛啊。”</p>
+<p>陆孙轻扬嘴角，再次让羽毛笔沙沙地动了起来。</p>
+<p>---</p>
+<p>那位留着浓密黑须的大人，除了晒黑的皮肤外，长相和体格都不太像西都的居民。虽然面部轮廓略带深邃，但终究还是典型的荔国人的脸型。头发是直发，脸型相对较圆，身形也比西都人的平均体型显得清瘦。</p>
+<p>此人正是坐在陆孙面前的玉莺。</p>
+<p>年过四十有余，但在普遍容易发福的西都居民中，他看起来年轻了十岁。他那爽朗欢笑时露出的白牙，想必给人很好的印象吧。</p>
+<p>看到他那直挺的虎牙，陆孙轻轻移开了目光。</p>
+<p>“感谢您的邀请。”</p>
+<p>陆孙缓缓低下头。</p>
+<p>“不必拘礼，请坐。”</p>
+<p>男仆为他拉开藤椅。陆孙落座后，桌上便放上了一杯果汁水。</p>
+<p>“喝茶会不会更好？”</p>
+<p>“不。文官这工作，会让人想吃甜食。”</p>
+<p>大概是用地下水冰镇过的吧，玻璃杯壁上凝结着水珠。</p>
+<p>“太拘谨了。你是在提防我有什么企图吗？”</p>
+<p>“哈哈，只是有些紧张罢了。”</p>
+<p>他笑着，抿了一口果汁水。</p>
+<p>“我这般不相称的人从王都被派来，想必您很失望吧，我心里一直忐忑不安。”</p>
+<p>“哈哈。父亲选人不会有错。更何况，曾在罗汉大人手下做事的人，绝不可能是无能之辈。”</p>
+<p>罗汉大人吗……</p>
+<p>陆孙放下了玻璃杯。桌子中央摆着各色水果。</p>
+<p>“话说回来。”</p>
+<p>玉莺站起身来，回头望去。他的视线尽头，能看到一队商人。</p>
+<p>“那些人里，有你眼熟的人吗？”</p>
+<p>“……有三个。有两个是每年都会带队来都城的商队首领。还有一个，是以海路贸易为主的商人。”</p>
+<p>男仆走过来，在陆孙面前放好了文具。陆孙写下名字后递了过去。</p>
+<p>“我只记得两人的名字。其余都是初次见面的面孔。”</p>
+<p>“明白了，我会对照一下。”</p>
+<p>是确认其中有没有可疑人物，还是仅仅想试试陆孙的特长呢。</p>
+<p>过了一会儿，一位文官回来，在玉莺耳边低语了几句。</p>
+<p>“嗯。”</p>
+<p>玉莺抚着胡须，似乎对答案颇为满意。</p>
+<p>“果然厉害。全对。”</p>
+<p>“……只是碰巧有印象罢了。”</p>
+<p>陆孙缓缓低头谦逊道。</p>
+<p>“真不可思议。人的脸孔，一天要见几十、几百张，你怎么能记得住呢？难道说，你与都城传闻中拥有异能的罗氏一族有血缘关系？所以才在罗汉大人手下做事吧？”</p>
+<p>“哪、哪里……”</p>
+<p>今天，陆孙第一次笑了。或许这是他来到西都后听到的最有趣的事了。</p>
+<p>竟然被怀疑与罗氏一族有血缘关系，这比任何走江湖艺人的笑话都好笑。</p>
+<p>“那一族尽是些超出常理的人啊。至于我，嗯……这大概算是一种习惯吧？”</p>
+<p>“习惯？”</p>
+<p>“是的。母亲教导我说，不可以忘记他人的脸。”</p>
+<p>“说起来，你曾说过你出身商家吧。”</p>
+<p>“是的。若忘记客人的脸，会有损生意。她告诉我，要当作是关乎生计的事。”</p>
+<p>或许是因笑意而放松了紧张，话语不由自主地流淌出来。</p>
+<p>“真是位严厉的母亲啊。”</p>
+<p>“是啊。”</p>
+<p>陆孙仿佛为了调整呼吸般喝了一口果汁水。他正想着军师大人也喜欢喝果汁水时，玉莺却说出了令他惊讶的话。</p>
+<p>“罗汉大人会喜欢这个味道吗？”</p>
+<p>“您知道罗汉大人不喝酒吗？”</p>
+<p>“那是出了名的。”</p>
+<p>陆孙也明白那很出名。那位大人所到之处，总是像台风过境般一片狼藉。</p>
+<p>“他日若罗汉大人来西都，我会备好包括这种在内的果汁水。”</p>
+<p>“来西都的时候吗？”</p>
+<p>陆孙不禁重复了一遍。手心渗出了微温的汗。</p>
+<p>“哎呀，又紧张起来了。嗯，你是第一次听说吧。告诉你个好消息。”</p>
+<p>他语气仿佛是正题这才开始。</p>
+<p>“罗汉大人要来西都了。而且，据说皇弟殿下也会一同前来。”</p>
+<p>他口气像是在说皇族只是附带品一般。</p>
+<p>陆孙只是程式化地扬起嘴角，在心中深深地叹了口气。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-117.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-119.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

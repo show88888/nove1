@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-110</h1>
+</header>
+<p>七、葛粉</p>
+<p>破屋旁边传来咚咚的敲打声。被声音吸引，好奇的野孩子们凑了过来。</p>
+<p>「你在干嘛呢——原来是麻子脸！你总算回来了啊！」</p>
+<p>是赵迂。脸颊上沾着颜料。听说他在跟画师学画，看来还在继续学。</p>
+<p>猫猫手里拿着槌子，正敲打着树根——那是洗过的葛根。旁边左膳也拿着槌子在敲葛根。猫猫本想也叫克用来帮忙，但他正好有客人来买药，就让他看店了。要是老关着门，老鸨又要唠叨了。</p>
+<p>（反正店里也没放值钱东西，老鸨也在盯着吧。）</p>
+<p>现在首要的是教左膳怎么做葛粉。</p>
+<p>「干嘛呀，心情不好吗？拿树根撒气。」</p>
+<p>「不是，我在做药。」</p>
+<p>「哼——看着好脏啊。」</p>
+<p>「看着就过来帮忙，去打井水来。」</p>
+<p>「诶——」</p>
+<p>赵迂完全没干劲。这种不知天高地厚的小鬼，不给点甜头是不会动的。</p>
+<p>「帮忙的话，我做你没吃过的点心给你。」</p>
+<p>「我做！」</p>
+<p>赵迂眼睛一亮，朝水井跑去。</p>
+<p>「小孩子真有精神啊。」</p>
+<p>左膳在挖完坑之后又被迫挥槌，已经累得不行了。眼神都死了。</p>
+<p>「这砸得稀巴烂之后要干嘛？」</p>
+<p>左膳举起被槌子砸烂的葛根问道。</p>
+<p>「反复洗、用筛子过滤。」</p>
+<p>猫猫准备好桶和筛子。</p>
+<p>「水打来啦——」</p>
+<p>赵迂摇摇晃晃地回来了。</p>
+<p>「好。」</p>
+<p>猫猫在装满水的桶里仔细地洗葛根。洗完后用筛子过滤。她忍受着冷得像割手一样的水温，反复操作。</p>
+<p>「果然好脏啊。」</p>
+<p>褐色的浑浊水从筛子里流下来。筛子里剩下树根的残渣。</p>
+<p>「别废话，水还不够。再去打。」</p>
+<p>「麻子脸——打水很累的啊！」</p>
+<p>「我像你这么大的时候，一天被逼着往返五十趟呢。」</p>
+<p>「……！」</p>
+<p>赵迂大概也有不服输的一面，又去打水了。</p>
+<p>「五十趟？小孩子哪受得了啊。」</p>
+<p>左膳边砸下一根葛根边说。</p>
+<p>「但确实被罚了。」</p>
+<p>「你干了什么？」</p>
+<p>「……」</p>
+<p>（因为我把绿青馆所有的酒都泡了蛇，作为惩罚。）</p>
+<p>老鸨气得瞪圆了眼睛，罚我做完之前不许吃饭。顺带一提，那些泡了蛇的酒之后被老鸨以“壮阳”为卖点，全卖给了客人。</p>
+<p>左膳砸葛根，赵迂打水，猫猫仔细清洗后用筛子过滤。</p>
+<p>赵迂虽然不服输，但也是个娇气的小鬼。不知什么时候，他抓了几个闲着的男人来帮忙打水。</p>
+<p>（那小子……）</p>
+<p>要是让那些男人帮忙，老鸨不知道会说什么。肯定得准备点什么当工钱。</p>
+<p>「喂——猫猫。把你那个……同类，挪开一下。」</p>
+<p>左膳发出痛苦的声音。不知什么时候，猫毛毛爬到了正在干活的左膳背上。</p>
+<p>「谁跟你是同类。」</p>
+<p>猫猫双手夹住毛毛的两腋把它提了起来。毛毛喵地叫了一声，身体被拉得老长。</p>
+<p>「喂，别碍事。」</p>
+<p>毛毛也被绿青馆的人宠坏了，有点看不起人类。尤其是对左膳这种底层，更是如此。</p>
+<p>毛毛有点不高兴地拍了猫猫几下。</p>
+<p>「碍事的话就把你做成毛笔。」</p>
+<p>毛毛一瞬间僵住了，然后用后腿挠了挠后颈，跑开了。</p>
+<p>「欺负猫倒是行，不过全砸完了哦——」</p>
+<p>左膳转着肩膀说道。</p>
+<p>「这怎么才能变成粉啊？」</p>
+<p>左膳拈起被砸得稀烂的葛根——那是已经泡过水的。</p>
+<p>「用的不是那个。」</p>
+<p>「诶？」</p>
+<p>猫猫指了指那浑浊的水。</p>
+<p>「用的是这个。」</p>
+<p>「这个？不就是脏水吗？不是要倒掉的吗？」</p>
+<p>「哇——笨蛋！别倒啊！」</p>
+<p>猫猫不由得提高了嗓门。</p>
+<p>制作葛粉最重要的，就是这用筛子滤过的水。</p>
+<p>「为什么要把葛根砸碎呢？因为根部含有营养。」</p>
+<p>「嗯嗯。」</p>
+<p>「要把那些营养溶解到水里。也就是说，砸碎的根泡过水之后就没用了。」</p>
+<p>猫猫尽量耐心地解释道，但左膳似乎还没完全理解。</p>
+<p>「总之，这滤过的水要放一晚，搬到屋里去。尽量别摇晃。」</p>
+<p>「不，我还是不太明白。」</p>
+<p>「明天你就懂了。」</p>
+<p>「哼——」</p>
+<p>左膳虽然回答得含糊，但明天看到实物就明白了吧。</p>
+<p>猫猫把最后一根葛根滤过之后，长长地吐了口气。</p>
+<p>干完一桩活之后，猫猫也没能休息。她借用了绿青馆的厨房。果不其然，老鸨跑来要求支付那些男人的工钱。</p>
+<p>「喂——你说稀罕的点心是什么啊——」</p>
+<p>「啊——吵死了。我现在做，你闭嘴。」</p>
+<p>猫猫取出剩下的葛粉，放进大锅里。加水溶解，再加入糖蜜。</p>
+<p>（用砂糖或蜂蜜颜色会更好看，但……）</p>
+<p>太贵了，浪费。连糖蜜都算奢侈了。</p>
+<p>「颜色好难看啊。」</p>
+<p>「闭嘴。」</p>
+<p>放到灶上后，猫猫不停地用勺子搅拌。</p>
+<p>「开始变粘稠了。」</p>
+<p>「和葛根汤一样。」</p>
+<p>葛粉加热后会变粘稠。水分蒸发掉的话应该会变成年糕状。</p>
+<p>「光这点料，老太婆会觉得不够吧。」</p>
+<p>猫猫加入了核桃。核桃也作为强身健体的药材使用，所以很适合妓女。</p>
+<p>「差不多就行了吧？」</p>
+<p>猫猫在大盘子里撒上黄色的粉，然后把煮好的葛粉糊倒进去。已经不是粉了，而是糕状，叫葛糕更合适。</p>
+<p>「这黄色的粉是什么？」</p>
+<p>「是大豆，也就是黄豆粉。」</p>
+<p>在中药里常被称为“香鼓”。主要是煮过、发酵后变粘的豆子。这是炒过的大豆磨成的粉。猫猫在粉里也加了一点糖和盐。盐只需加一点点，就能增加甜味。</p>
+<p>她把黄豆粉均匀地裹在倒进去的葛糕上。</p>
+<p>「哎呀——看起来好好吃啊。」</p>
+<p>被香味引过来的是白铃小姐。</p>
+<p>（小姐最好别再补什么精力了……）</p>
+<p>既然被发现了，不做也说不过去。</p>
+<p>「小姐，马上就好，别偷吃哦。」</p>
+<p>「我知道啦——」</p>
+<p>说着，她还是吐了吐舌头。</p>
+<p>「赵迂，准备盘子。按人数来。」</p>
+<p>「好。」</p>
+<p>虽然是剩料，但葛粉很贵。核桃、砂糖、糖蜜、黄豆粉都用了不少。</p>
+<p>把这些分给绿青馆所有的妓女和男人们，老鸨也没话说了吧。</p>
+<p>「哦哦——这就是代替工钱的东西吗？」</p>
+<p>老鸨慢悠悠地走来，像在估价一样打量着葛糕。</p>
+<p>「看着有点寒碜啊。」</p>
+<p>「说什么呢，老太婆。你不信这可是后宫级别的点心手艺吗？」</p>
+<p>「啊哈哈，你这手艺明明是在妓院学的，哪来的后宫级别啊。」</p>
+<p>话虽这么说，老鸨还是拿起盘子，用筷子夹了一块塞进嘴里。</p>
+<p>「……里面加了核桃啊。比年糕软。要是再有点嚼劲就好了。」</p>
+<p>「本来是要冰镇着吃的。」</p>
+<p>「大冬天的谁吃冰的呀。」</p>
+<p>（啊——真希望她被噎住算了。）</p>
+<p>这张嘴不饶人的老太婆，大概能活到一百岁。</p>
+<p>猫猫用冰冷的井水冰着盘底，同时把糖蜜兑稀做成酱汁。</p>
+<p>因为是甜食，原本在房里练功或午睡的妓女们也慢悠悠地聚了过来。</p>
+<p>餐厅里坐不下所有人，底层妓女们就在玄关大厅里吃。今天白天没有客人，正好。</p>
+<p>赵迂高兴地端着盘子，和他要好的秃一起在大厅里吃。</p>
+<p>「嗯——好吃。」</p>
+<p>白铃小姐笑逐颜开。淋上一点稀释的糖蜜，味道更佳。</p>
+<p>「还不错嘛。」</p>
+<p>用略带居高临下的语气点评的是女华小姐。对她这种不爱说话的人来说，这已经算是夸奖了。</p>
+<p>「是用葛粉做的吧。要是能用更便宜的粉做就好了。」</p>
+<p>梅梅小姐用筷子夹起来观察着说道。</p>
+<p>「是啊，不能用小麦粉做吗？或者把米碾碎？」</p>
+<p>女华提议道。白铃小姐已经只顾着吃了，没在听。</p>
+<p>「小麦的话就成了馒头，米的话就只是普通年糕了。」</p>
+<p>「明明小麦和米都那么多。」</p>
+<p>绿青馆里存放着猫猫得到的小麦和米。是之前比酒量时赢来的。</p>
+<p>「葛……就是葛根吧。和树根差不多，能不能用树根做呢？」</p>
+<p>面对女华的提问，猫猫双手打了个叉。</p>
+<p>「葛根里储存了养分。把那个提取出来的就是葛粉……」</p>
+<p>猫猫歪了歪头。</p>
+<p>（把养分储存在根里……）</p>
+<p>也就是说，和芋头差不多。</p>
+<p>而关于芋头，猫猫心里有数。</p>
+<p>「用甘薯试试也许也行。」</p>
+<p>「甘薯啊。甘薯直接烤着吃不是更好吗？」</p>
+<p>吃完盘子的白铃插嘴道。</p>
+<p>「是啊。还是正常吃比较好。而且太费事了。」</p>
+<p>梅梅也点头。</p>
+<p>「不过，做成粉的话更适合保存呢。」</p>
+<p>脑子转得快的女华从另一个角度思考。</p>
+<p>「保存……确实。也不占地方。」</p>
+<p>（对，易于保存。）</p>
+<p>芋头不像米那样适合长期保存。很快会发芽，有时也会腐烂。但如果做成粉，保存性会大大提高。不会发芽，也不易腐烂，而且最重要的是不占地方。</p>
+<p>（姑且提个建议吧。）</p>
+<p>产地可能会有芋头过剩腐烂的情况，加工后也许还能创造就业。</p>
+<p>这方面猫猫是门外汉，大概会有人来做的。</p>
+<p>「女华和猫猫都好聪明啊。白铃姐姐我，除了吃芋头之外什么都不懂。」</p>
+<p>「小姐除了跳舞，不太喜欢学习呢。」</p>
+<p>梅梅有点无奈地说。</p>
+<p>「是啊。最近常来的客人也总说些难懂的话，我完全听不懂。」</p>
+<p>「小姐真狡猾呢。光是笑一笑客人就满足了。我却明明认真回答了所有问题，有时还会被嫌弃。」</p>
+<p>大概有些客人专门挑女华这种连科举考生都自愧不如的知识量来刁难吧。文官们为了有朝一日能灭灭女华的威风，一次次登门造访。</p>
+<p>「哦？什么话题？说起来最近西边来的客人多了呢。」</p>
+<p>「是啊——从西都来的客人。说什么审查啊、税涨了啊。好像被要求不准说，但还是说漏嘴了。不过反正我马上就忘，所以无所谓。」</p>
+<p>（审查？税？）</p>
+<p>说到西都，那是玉叶后的故乡。现在她父亲正在都城——</p>
+<p>（壬氏为了防备饥荒提高了税率，应该就是指那件事吧？）</p>
+<p>不，那审查又是什么？所谓不准说，是指下了缄口令吧。</p>
+<p>（感觉有点不太平啊。）</p>
+<p>猫猫一边眉头微微跳动，一边把葛糕送进了嘴里。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-109.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-111.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

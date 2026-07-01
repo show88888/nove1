@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-114</h1>
+</header>
+<p>**十一、医官与药师**</p>
+<p>在宫廷内文官办公的其中一个区域里，有一间医务室。文官的休息室也设在其中，此刻，猫猫、罗门和刘医官正面对面坐着。</p>
+<p>久别重逢的养父，表情比平时更显悲壮。</p>
+<p>虽然同在外廷供职，但被分配在不同的医务室，所以工作中很少见面。猫猫甚至觉得，似乎有人刻意避免让她和罗门一起工作。因为相比之下，姚和燕燕倒是经常被安排做同样的工作。</p>
+<p>猫猫认为，这是刘医官的安排。</p>
+<p>“情况就是这样。你怎么看，罗门？”</p>
+<p>面对神情悲壮的老爹，刘医官的表情则带着几分无奈。</p>
+<p>“猫猫啊……”</p>
+<p>（别说了。）</p>
+<p>猫猫并不是有意要让老爹为难。但她也有自己想做的事。</p>
+<p>她并非不明白，老爹不想让她成为医生的理由。</p>
+<p>罗门大概是希望猫猫能尽可能过得幸福吧。</p>
+<p>为此，他正试图剔除那些会让猫猫活得艰难的选择。</p>
+<p>（但不会强行阻止，这才是老爹的风格。）</p>
+<p>“你是无论如何都想当医官吗？”</p>
+<p>“我并非执着于医官的头衔。只是，我想拥有与医官同等的技术。”</p>
+<p>在刘医官面前，猫猫刻意让自己的语气保持礼貌。</p>
+<p>老爹缓缓地摇了摇头。</p>
+<p>“如果你执意如此，我也无法阻止。更何况，刘医官既然把你带到这里来，你应该也大致猜到要做什么了吧。”</p>
+<p>“我已经做好了心理准备。”</p>
+<p>“哎呀，罗门啊。你就这么轻易地点头同意了吗？”</p>
+<p>刘医官故意在此刻煽风点火。</p>
+<p>“身为医官，自然能获得相应的体面。毕竟是肩负他人性命的工作，必须置于受人尊敬的位子上才行。可若没有这个位子呢？人皆畏惧死亡。最接近死亡的职业，不外乎寺庙的和尚、掘墓人，或者医生吧。”</p>
+<p>他说得很流畅。</p>
+<p>“无论拥有多少知识，若没有能行使它的立场，人便不会相信你。即便你尽力去救治，若伤员或病人死了，结果会怎样？”</p>
+<p>“药师不也是一样吗？”</p>
+<p>猫猫反驳道。若在此被否定，她可就无路可退了。</p>
+<p>“药师和医生是不同的。药师只管给药，最多也就处理些简单的伤口吧？或许也能处理骨折或缝合刀伤。可是，若内脏被箭矢射穿，明知拔出来就会死，人们还会依赖药师吗？”</p>
+<p>“……”</p>
+<p>猫猫无法回答。她从未遇到过那种情况。</p>
+<p>“若是那般重症，谁也不会归咎于药师。药师的治疗就是给药。人们明白，若没有能持续服药的体力，药物便毫无意义。但医官就不同了。”</p>
+<p>刘医官的声音低沉下来。</p>
+<p>“有个士兵，箭矢擦着心脏刺入。药师大可以举手投降，但医官却必须将其作为工作来完成。为了不伤及血管，切开皮肤和肌肉，拔出箭矢，再重新缝合如初。说起来容易，但医者和药师的区别就在这里。患者只要移动一寸，一切都将前功尽弃。虽说会用麻药，但那不过是安慰罢了。将人绑在床上，再由数人合力按住使其无法动弹。在那混杂着口水、泪水与失禁、凝视着胸膛被剖开的恐惧面容面前，连一丝一毫的刀锋偏差都不被允许。若不拔出箭矢终有一死，但拔出操作若失败，便会即刻毙命。”</p>
+<p>猫猫明白。药师和医生，所处理的性命危险程度截然不同。</p>
+<p>“若你是医官倒还好。拥有相应的技术和资格，即便失败了也能用‘无可奈何’来搪塞。可若没有资格的人做了同样的处置，却失败了，结果会怎样？”</p>
+<p>恐怕不会轻易了事。根据情况，甚至可能要考虑被遗属杀死。</p>
+<p>“若是医官，有国家的头衔作保。国家还会为失败提供一定的庇护。可是你——”</p>
+<p>“我成不了医官。以现状而言。”</p>
+<p>猫猫坦率地承认。</p>
+<p>女人不能成为医官。</p>
+<p>改变法律很难。而且，现在还不是时候，也不知何时才能实现。更可能的是永远都不会改变。</p>
+<p>“即便如此，你也想拥有与医官同等的技术吗？”</p>
+<p>猫猫有一瞬间想看向老爹，但忍住了。她能想象出他脸上会是怎样的表情。她怕自己会动摇。</p>
+<p>“是的。”</p>
+<p>“……她说如此。罗门。”</p>
+<p>刘医官的声音更加无奈。</p>
+<p>“你养大的孩子，还真是固执得可以。跟你不同，她生来就是个会吃苦头的性子。”</p>
+<p>刘医官的声音里甚至带着几分亲切。</p>
+<p>“真是个没办法的孩子啊。”</p>
+<p>老爹缓缓站起身，轻轻拍了拍猫猫的头。</p>
+<p>（老爹是在为我着想。）</p>
+<p>正因为明白，才更觉得愧疚。但是，她讨厌因为不知道而做不到某些本可以做到的事。</p>
+<p>---</p>
+<p>最初准备的是鸡。还带着余温，尚未完全僵直。拔毛只拔了胸部和腹部，连血都没放。将磨好的小刀刺入时，鲜血飞溅。</p>
+<p>“把内脏完整地取出来，一条伤痕也不许留下。待会儿要做成菜，别粗手粗脚的。”</p>
+<p>（不放血的话，吃起来会有腥味啊。）</p>
+<p>但大概优先的是技术训练吧。</p>
+<p>除了猫猫，还有五六个人。从她认识的几张脸来看，全是见习医官。</p>
+<p>她被吩咐跟着去采购药材，结果被带到了离都城稍远的一处养鸡农户的场地。</p>
+<p>因为得从抓散养的鸡开始，穿着医官服可不行。大家换上脏兮兮的粗布衣，系上皮围裙，便开始工作。在外面抓到鸡并宰杀后，就在简易棚屋里进行分割。</p>
+<p>“可没叫你们活着切。感恩吧。”</p>
+<p>刘医官似乎有些乐在其中。他颐指气使地发号施令后，便跑去跟养鸡农户谈生意了，似乎是去鉴定鸡内金、鸡肝等源自鸡的药材。</p>
+<p>对于抓鸡宰杀这事，猫猫自认比别的见习医官擅长。但第一个抓到鸡的却是见习医官天祐，这让她有些不爽。</p>
+<p>“你家是开农场的吗？”</p>
+<p>她忍不住带着懊恼问道。</p>
+<p>“不，这培训我都第三次了，自然就熟练了。不过话说回来，这事可真不好受啊。”</p>
+<p>看来几天前他果然是在装傻。</p>
+<p>天祐虽然嘴碎又看起来处处不靠谱，但手倒是挺巧。利落地切割着滑溜溜的鸡皮。</p>
+<p>“边做边想，哪个内脏对应人体的哪个部位。”</p>
+<p>当然，人体和鸡的结构不同。</p>
+<p>这大概是最初级的入门吧。</p>
+<p>若连一只乱跑的鸡都抓不住，又怎么对付得了人。</p>
+<p>若没有宰杀活鸡的胆量，便无法切割人体。</p>
+<p>若没有将宰杀的鸡分割妥当的灵巧，也无法剖开人体。</p>
+<p>虽说是入门中的入门，但也有见习医官在这一关就吃了苦头。</p>
+<p>“鸡之后是什么？”</p>
+<p>“猪。那家伙大，所以三人一头。到了牛就五人一头。习惯了之后，就得穿着医官服做，还不能溅上血。然后，进入下一阶段。”</p>
+<p>“你还没到那一步吗？”</p>
+<p>“不，我被打回来重练了。说是我手还不够稳。”</p>
+<p>比起其他见习医官，他显得颇为从容，所以猫猫忍不住又跟他搭话。</p>
+<p>“只是重练还算好的。要是被判定为完全没有资质，那升迁之路就到此为止了。”</p>
+<p>（没有资质吗……）</p>
+<p>她想起了那位被调走的见习医官。</p>
+<p>“靠见习医官那点俸禄，可没法让燕燕小姐过上好日子啊。”</p>
+<p>（燕燕，加油。）</p>
+<p>看来这个男人真的是很缠人。</p>
+<p>分割鸡肉时，血腥味弥漫开来。有见习医官用毛巾捂住口鼻，却被回来的刘医官一把扯掉。</p>
+<p>“给病人治疗时戴布面罩是正确的。但现在，摘掉它。”</p>
+<p>被扯掉面罩的见习医官脸色煞白。他恶心得跑出了棚屋。</p>
+<p>“啊——这是第几次了。他肯定要被判定为没资质了。”</p>
+<p>天祐一副事不关己的口吻。</p>
+<p>猫猫将内脏摆放在碟子上。心脏、肝脏、肠、胃……</p>
+<p>（肠子容易坏，但很好吃啊。现在的话倒吃得下。）</p>
+<p>鸡肠很细，仔细清洗有些麻烦。</p>
+<p>（砂肝，真想串起来烤，再撒点盐吃。）</p>
+<p>要是放了血，想必会很好吃。</p>
+<p>（胆囊没破，还好。）</p>
+<p>若是胆汁漏出，一切就都毁了。</p>
+<p>她轻轻将其放下。待全部放好后，刘医官开口了。</p>
+<p>“好了，现在把它们装回去，缝合起来。”</p>
+<p>明明刚才才按烹饪部位分好。</p>
+<p>“我知道你想吃，但干这事时别总想着吃。否则患者在你眼里也会变成肉。”</p>
+<p>“那倒不至于。”</p>
+<p>看来她的心思被看穿了。</p>
+<p>猫猫将内脏按原位放回。尤其小心着不让胆囊破裂。</p>
+<p>“知道怎么用吗？”</p>
+<p>刘医官递到她面前的，是一根仔细用布包好的、类似鱼钩的东西。针线也一应俱全。</p>
+<p>“知道。”</p>
+<p>线似乎是丝质的，泛着独特的光泽。猫猫将线穿过钩针的针眼，用手指捏住进行缝合。</p>
+<p>（缝合这事我倒是做过。）</p>
+<p>她平时只用直针，但鱼钩形的针比她想象中更好用。</p>
+<p>（若是官营的，果然会给用好工具啊。）</p>
+<p>她一边感叹一边缝合。若要说奢望，若握柄能再长些，能握得更牢，想必会更轻松。</p>
+<p>（镊子是夹不住的啊。要是能有一种握得更牢的工具就好了。）</p>
+<p>她一边想着一边完成了工作。</p>
+<p>往旁边一看，天祐已经是一副完工的表情，这让她有些不甘心。</p>
+<p>“好了，让我看看。”</p>
+<p>刘医官查看缝合口。</p>
+<p>“……哼，剩下的你们随意。”</p>
+<p>似乎合格了。</p>
+<p>“针好好洗洗。待会儿煮沸消毒。很贵，别弄丢了。”</p>
+<p>无论是造型还是精细度，若非技艺精湛的工匠恐怕做不出来。猫猫打消了偷偷带回去的念头。</p>
+<p>猫猫剪断缝线后，决定把所有内脏拆开，好好清洗一遍。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-113.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-115.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

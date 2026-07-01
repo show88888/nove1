@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">chapter-116</h1>
+</header>
+<p>十三、姚与菜刀</p>
+<p>「有包裹到了哦。」</p>
+<p>猫猫从宿舍的大婶那里接过包裹。那是工作到很晚、吃完晚饭之后的事了。大婶大概是特意等着她回来才递给她的吧。</p>
+<p>大婶露出一种意味深长的笑容。猫猫看了看寄件人——不是别人，正是高顺。</p>
+<p>（她肯定误会了……）</p>
+<p>虽然用了高顺的名字，但实际寄件人肯定是壬氏。也可以用马闪的名字，但暴露了会很麻烦，所以才用了高顺的吧。</p>
+<p>「到底是什么呢？」</p>
+<p>猫猫在大婶窃笑的目光中回到房间。和信一起递过来的是一个布包，隐约散发出香料的气味。</p>
+<p>「一如既往地风雅啊。」</p>
+<p>猫猫轻轻打开包裹，里面是一个陶制的小容器，装着香。</p>
+<p>她把脸凑近闻了闻。</p>
+<p>（以白檀为基础，混合了几种香料。）</p>
+<p>虽然知道是好的东西，但总觉得搭配有些粗糙，显得有些廉价。对于一贯只处理顶级品的壬氏来说，这未免太过粗陋了。</p>
+<p>（不，难道说……）</p>
+<p>这是特意为了猫猫而降低了品质的香吗？猫猫记得自己以前好像说过，光靠香味就能判断对方的身份地位。</p>
+<p>这样想来，这香对于一个医官助手的宫女来说，倒是刚好有点勉强的档次。</p>
+<p>猫猫思索着壬氏为什么要送香来。她心里有个猜测。</p>
+<p>猫猫又闻了闻自己衣袖。还残留着淡淡的血腥味。</p>
+<p>（明明已经仔细把气味洗掉了才对。）</p>
+<p>最近她借着外出的名义，一直在解剖家畜。当然，解剖后的家畜内脏也会用作药材，肉也会进行处理。</p>
+<p>今天，她碰巧听说有猎人猎到了熊，便参加了分解工作。刘医官非常高兴，说如果不马上放血分解，腥味会残留，这种事难得遇上。</p>
+<p>为了解剖，她换了衣服，还戴上了皮围裙。工作结束后，回宫廷前先去洗了澡。</p>
+<p>（偶尔去街上的澡堂也不错。）</p>
+<p>因为宿舍没有浴缸，所以很高兴。说起来有些奢侈，但在花街长大的猫猫几乎是每天洗澡的。在后宫生活时也能隔几天洗一次。</p>
+<p>要说喜不喜欢洗澡，当然不讨厌。</p>
+<p>澡堂费有人出，白天泡澡也不错。</p>
+<p>（啊，是头发吧。）</p>
+<p>因为没有时间吹干头发，所以她洗了澡但没有洗头。</p>
+<p>壬氏是否理解，要成为真正的医官需要什么呢？</p>
+<p>（不知道他知不知道尸体解剖的事。）</p>
+<p>真是个心思细腻得奇怪的男人。</p>
+<p>猫猫这样想着，用勺子取了一勺香放在小碟子上，轻轻点上火。在上面罩上笼子，然后把明天要穿的衣服盖在上面。</p>
+<p>（这样大概就行了吧？）</p>
+<p>只熏一点点。</p>
+<p>猫猫正要换上睡衣时，门被敲响了。</p>
+<p>「请进。」</p>
+<p>进来的是燕燕。手里拿着春卷。</p>
+<p>「这是今天晚饭剩下的，要吃吗？」</p>
+<p>「吃。」</p>
+<p>猫猫不可能不吃燕燕做的菜。虽然现在不太饿，但留到明天早上当早饭也没问题。</p>
+<p>燕燕把盛着春卷的盘子放到桌上。她眼尖地看到了香。</p>
+<p>「真稀奇啊，你竟然会焚香。」</p>
+<p>「正好赶上月忌日。这次出血量有点多。」</p>
+<p>这不算完全是假话。正好是每个月那几天、让人有些倦怠的日子。</p>
+<p>「姚也在做，我就跟着学了。」</p>
+<p>不过实际在做的大概是燕燕吧。</p>
+<p>「是吗。」</p>
+<p>猫猫本以为燕燕会追问什么，但她什么也没说。也许是注意到了猫猫最近外出太多。</p>
+<p>（她是个会装不知道的人，应该没事吧？）</p>
+<p>只要姚没事，燕燕大概不会对猫猫的言行追究得太细。</p>
+<p>猫猫轻轻把布盖在春卷上，继续换衣服。</p>
+<p>第二天，猫猫刚到医局，就看到姚一脸不高兴地和刘医官说着什么。最近她们的工作时间总是错开，很少碰面，看来姚心情不太好。</p>
+<p>（但愿她别说什么奇怪的话。）</p>
+<p>猫猫一边有些不安，一边开始整理生药的架子。</p>
+<p>「难道就没有给我安排的外勤吗？」</p>
+<p>「没有。」</p>
+<p>刘医官干脆地说着，随手翻着日志。昨天的业务记录写得很中规中矩。</p>
+<p>「猫猫。你最近外勤是不是太多了？」</p>
+<p>姚把话题也抛给了猫猫。</p>
+<p>「确实不少。」</p>
+<p>猫猫不会笨拙地敷衍。</p>
+<p>「昨天在哪儿、做了什么？」</p>
+<p>「取了熊胆。」</p>
+<p>猫猫现在正在收拾的，就是昨天弄到手的熊胆。她已经从猎人那里买来了加工好的成品。</p>
+<p>刘医官似乎瞪了她一眼，但没有阻止。猫猫明白，这种内容说出来也没问题。</p>
+<p>「熊胆是贵重的生药，所以我也观摩了它的加工方法。另外还解剖了牛，确认有没有胆结石。可惜目前还没找到。」</p>
+<p>「牛的胆结石——牛黄的话，听说一千头里才有一头能找到。既然几乎找不到，有必要特意去看吗？」</p>
+<p>「是的。如果是有胆结石症状的牛，带有胆结石的概率会大大提高。牛黄一旦上市，价格可以翻几十倍，所以如果在可疑的牛身边出现解剖现场，并不奇怪。」</p>
+<p>姚的脸扭曲着，发出「唔唔」的声音。刘医官还在看日志。这个答案应该算是及格了吧。</p>
+<p>（我懂，我懂的。）</p>
+<p>姚真正想说的是什么。</p>
+<p>（为什么不也带我去？）</p>
+<p>就是这回事。</p>
+<p>而能给出答案的，是刘医官。</p>
+<p>「你要是想外勤，先去厨房待着吧。」</p>
+<p>「为、为什么是厨房？」</p>
+<p>「你连一只鸡都没宰过、没分解过吧？你以为光看熊解剖就行了吗？就是这样。猫猫可是手很熟的。」</p>
+<p>难得被刘医官夸奖，但猫猫一点也不高兴。</p>
+<p>「那燕燕呢？她分解鸡应该比猫猫更熟练吧。」</p>
+<p>「带一个从一开始就没干劲的人去只是浪费。你觉得燕燕会丢下你一个人去吗？我没兴趣硬拉一个没有上进心的人。你要是觉得只带猫猫去不公平，就自己别拖后腿。」</p>
+<p>刘医官一如既往地说着严厉的话。</p>
+<p>姚紧紧攥着裙摆，虽然一脸不甘，但还是忍住了。因为她确实从未在厨房拿过菜刀。</p>
+<p>（比起这个……）</p>
+<p>姚身后，燕燕正咬牙切齿地、把手伸向消毒用的酒瓶，好可怕。好可怕……</p>
+<p>「燕燕。」</p>
+<p>姚轻轻伸手制止了她。</p>
+<p>平时看起来总是被燕燕牵着走的姚，在关键时刻却很清楚该怎么管住这个过度保护的侍女。</p>
+<p>「我知道了。刀工什么的，我马上就去学。」</p>
+<p>「哦哦。那先从杀活鸡开始吧。」</p>
+<p>「杀、杀……」</p>
+<p>确实，不做到那种程度是跟不上节奏的。以前还有见习医官在杀猪时哭得鼻涕横流呢。</p>
+<p>如果连家畜都受不了，那就没法面对人了。医官在没有任何麻醉的情况下，砍掉人的手脚也是有可能的。</p>
+<p>（要是上了战场，这就是司空见惯的景象。）</p>
+<p>就算没有老爹藏起来的那种解剖图，战场上人内脏也是随便看。那种解剖图都能被称为禁书，从某种意义上说，这确实是一种和平。</p>
+<p>（从那之后，姚是怎么想的呢？）</p>
+<p>她应该对老爹罗门产生了不少不信任感吧。</p>
+<p>如果她只是把动物解剖当成字面上的意思去理解，那就算学会了用刀，也不如不做。</p>
+<p>如果姚只是为了反抗叔父才走上医学之路，那还是早点让她放弃比较好。</p>
+<p>虽然试毒伤到了内脏，但姚还年轻、漂亮、聪明。想娶她的人多得是。</p>
+<p>（不，这么想的话就和姚的叔父一样了。）</p>
+<p>姚和燕燕虽然厌恶叔父，但从某种意义上说，她仍有获得幸福的可能性。在茘国，风俗上女性独自生活是很艰难的。</p>
+<p>猫猫把昨天采购的生药记在账上，放进了架子里。</p>
+<p>那天晚上，姚立刻就站到了厨房里。燕燕提心吊胆地看着姚那笨拙的动作。</p>
+<p>「这样，然后这样！」</p>
+<p>「大、大小姐！」</p>
+<p>那挥刀的方式简直像在劈柴，感觉不仅要切肉，连骨头都要一并砍断。</p>
+<p>「太危险了，先从更小的东西开始吧。」</p>
+<p>「没事，我要切肉！」</p>
+<p>燕燕很慌张。如果是冷静的燕燕，应该能更好地教姚才对，但这样可不行。</p>
+<p>猫猫本想装作没看见回房间，却被燕燕逮了个正着。燕燕用极为犀利的眼神看着猫猫，然后用食指轻轻敲了敲桌子。那是一道已经做好的菜——干烧虾仁。</p>
+<p>猫猫咽了口唾沫。她为什么要先做出来呢？热腾腾的蒸汽正在不断散去。弹牙的大虾配上几种蔬菜。用了豆瓣酱，应该很辣，但又加入了少量果汁，应该是柔和顺口的口感。</p>
+<p>配上米饭该有多好吃啊。那弹力十足的虾肉在口中迸发的感觉。</p>
+<p>也就是说，燕燕想表达的是——</p>
+<p>（想吃的话就来帮忙是吧。）</p>
+<p>猫猫半眯着眼，但还是洗了手。终究还是敌不过虾的魅力。</p>
+<p>猫猫先拿出一把比姚手里那把小一号的菜刀。然后把一根胡萝卜放在砧板上。</p>
+<p>「姚小姐，先切这个吧。」</p>
+<p>「胡萝卜？ 我想切肉啊。」</p>
+<p>「说不定刘医官会说，连棒槌人参都切不了吗？」</p>
+<p>棒槌，即药用参。</p>
+<p>「……好吧。」</p>
+<p>「那请换这把刀。菜刀也分种类，有不同的切法。你手里那把是用来砍骨头的，既不适合切软肉，也不适合切蔬菜。要是练习砍掉患者的手臂倒没问题。」</p>
+<p>「……」</p>
+<p>姚咬着嘴唇换了刀。燕燕松了口气。</p>
+<p>好学的姚应该懂药食同源的道理，但大概不懂菜刀的种类。</p>
+<p>「握刀的方式不对。要这样握。另外，扶胡萝卜是这样。」</p>
+<p>猫猫一边指导，一边一一调整姚的手。</p>
+<p>「固定好胡萝卜不要让它动……然后不要挥刀，慢慢切入。燕燕保养得很好，刀很锋利，不需要用力。如果切掉化脓的皮肤或肉时，可能会连活着的血管也一起切断。」</p>
+<p>姚咚地一声切掉了胡萝卜的头。</p>
+<p>「就这样切成圆片，厚度大约五分。」</p>
+<p>咚、咚、咚。只要掌握了要领，她是个能做好的孩子。虽然外表已是成年女性，但实际上才十六虚岁。</p>
+<p>「切好了。」</p>
+<p>胡萝卜全部切完了。</p>
+<p>「那接着是这个。」</p>
+<p>猫猫拿出白萝卜。</p>
+<p>「我不要切蔬菜了。」</p>
+<p>「你只会圆切吧？ 能切肉，得先学会利落地削白萝卜皮。」</p>
+<p>要说哪个更难，当然是削皮更难，但猫猫想先用蔬菜来练手。等姚能分解肉了，万一她直接冲到刘医官那里去也挺麻烦的。不，在那之前还得先杀鸡呢。</p>
+<p>姚虽然不满，但还是乖乖地拿起了白萝卜。</p>
+<p>「不要想着一下子削完一整根。先切成容易削的大小再削。」</p>
+<p>「我知道啦。」</p>
+<p>在姚削白萝卜皮的时候，猫猫看着胡萝卜，琢磨着怎么处理。</p>
+<p>「猫猫。」</p>
+<p>燕燕指了指姚砍过的猪肉和干香菇。香菇是高级品，猫猫就不问她是哪儿弄来的了。</p>
+<p>周围剩下的也就是调味料了。</p>
+<p>（是想让我做古老肉吧。）</p>
+<p>正好猫猫还有之前用芋头做出来的粉。裹上粉把肉炸一下应该不错。</p>
+<p>虽然担心虾会凉掉，但燕燕一直盯着姚，怕她受伤。于是猫猫只好自己动手做。</p>
+<p>「猫猫。」</p>
+<p>这次是姚在叫她。</p>
+<p>「我是不会放弃医官这条路的。」</p>
+<p>「女人是不能当医官的哦。」</p>
+<p>猫猫从不撒谎。</p>
+<p>「可是你正在被教那些成为医官所需的知识吧？」</p>
+<p>「……」</p>
+<p>不回答——既然不说谎，就只能沉默。</p>
+<p>「我自那以后想了很久。关于在罗汉大人家里找到的那本书。」</p>
+<p>虽然听到了不太想听的名字，但此时做出奇怪的表情也没用，猫猫只是静静地听着。</p>
+<p>「虽然作为思想难以接受，但我也明白，那大概是从事医术的人必须要了解的东西。而且，为了了解人体构造，先从家畜开始练习，对吧？」</p>
+<p>聪明的孩子，同时也很麻烦。如果不知道，或者装作不知道，或许能选择更平稳的道路。</p>
+<p>猫猫都这么想了，燕燕更是如此。她应该希望姚能幸福吧。</p>
+<p>但一旦要学习跟医官同样的东西，她的人生道路就会远离平静的幸福。</p>
+<p>「……姚小姐。医生这份工作，有时是要切开人的身体的。当孕妇和胎儿都危险时，如果要优先保住孩子，就要剖开孕妇的肚子。也可能在没有麻醉的情况下，砍下恳求不要切的患者的手脚。甚至要把脱出的肠子塞回去，缝合腹部的皮肉。」</p>
+<p>「我知道。」</p>
+<p>「从事这种腥风血雨的工作，也许一辈子都无法和任何人共度一生。血被视为不洁，会遭人嫌弃。除非是相当有胆量的人，否则不会靠近你的。」</p>
+<p>「那种连血都怕的胆小男人，我才不要呢。对吧，燕燕？」</p>
+<p>「大、大小姐……」</p>
+<p>平时总是极力不让男人接近姚的燕燕，此刻露出了复杂的表情。</p>
+<p>「啊，削好了。白萝卜皮其实挺难的吧？」</p>
+<p>「很难。」</p>
+<p>「燕燕可是能削出牡丹花装饰的。」</p>
+<p>「我觉得燕燕小姐是特别的。」</p>
+<p>猫猫诚实回答后，把裹了芋粉的肉用大量油翻炒炸制。</p>
+<p>姚则对着被切得支离破碎的白萝卜撅着嘴，依然在勇敢地挑战着。</p>
+<p>能吃到虾，看来还要再等一会儿了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-115.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-117.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
