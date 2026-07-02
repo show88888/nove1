@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">283</h1>
+</header>
+<p>二十二、隔离生活结束</p>
+<p>隔离生活开始十天之后，猫猫她们终于被释放了。</p>
+<p>卯纯自始至终一口咬定不知情，而妤在此期间一直认真地照顾患者。告诉她这是设计好的未免太残酷，何况她情绪化起来不知会做出什么，猫猫便一直没说。</p>
+<p>猫猫一直为究竟是谁、出于什么目的做出这种事而耿耿于怀，现在终于有了说明的机会。</p>
+<p>妤因要向长官报告病历而单独行动。仿佛算准了时机，一阵独特的脚步声啪嗒啪嗒地靠近。</p>
+<p>“我来接您啦。”</p>
+<p>那种独特的语尾，猫猫认识的人里只有一个。</p>
+<p>“雀小姐，能请您说明一下到底发生了什么吗？”</p>
+<p>不知何时，患者武官和卯纯也不见了，诊所里只剩下猫猫一人。</p>
+<p>“也是呢。”</p>
+<p>雀从玄关大步走进诊所，熟门熟路地开始准备茶水。据猫猫所知，雀从未来过这家诊所，但因为是雀，倒也说得通。</p>
+<p>猫猫擦了擦桌子，接过雀递来的茶。没有茶点，雀便从怀里掏出了一个馒头。</p>
+<p>“给您！已经热好了哦。”</p>
+<p>“……”</p>
+<p>温得有点微妙。猫猫特意把馒头放在茶旁等它凉。雀那略带夸张的动作也许别有深意，但猫猫不明白，便无视了。</p>
+<p>“各种原因交织在一起，也是没办法的事。纯先生那边呢，是用他同父异母的妹妹作为人质来请求他配合的哦。”</p>
+<p>“哦。”</p>
+<p>猫猫不知道雀的话有多少是真的，但先听着。</p>
+<p>“先不说这个，天花的事有什么进展吗？”</p>
+<p>如果猫猫的推测没错，天花应该也像阑尾炎的药物实验一样，在进行类似的操作。</p>
+<p>“看起来，有人在我不知道的地方悄悄推进实验呢。”</p>
+<p>猫猫被借阅禁书，大概是为了让她理解。她借到的禁书终究只是抄本，而且不是全部。</p>
+<p>“禁书里提到过‘种痘’这个词。对方只给了我抄本的那一部分，所以很好懂。”</p>
+<p>之所以是禁书，是因为没有解剖部分。大概觉得那部分不便外传吧。只要没有解剖内容，即便被人看到也能找借口搪塞过去。</p>
+<p>“克用的信里提到了牛和马。医官们似乎早就开始着手那项实验了。”</p>
+<p>“是的。他们好像用红梅馆的马和牛在做实验——那地方可是我义弟的心上人待的地方哦。而且猫猫小姐应该早就注意到了吧，这里的患者不用说，就是那些种痘实验的受试者。”</p>
+<p>正如猫猫所料。</p>
+<p>“那为什么要用这些人来隔离我呢？”</p>
+<p>雀“噗嗤”一声笑了出来，让人有些来气。</p>
+<p>“呵呵，猫猫小姐这次只是附带品哦。”</p>
+<p>“嗯？也就是说，目标不是——”</p>
+<p>而是隔离妤才是重点。</p>
+<p>（怎么回事？）</p>
+<p>雀笑大概是想说猫猫想太多了。雀这个人本来就有几分煽风点火的性格，若在这里动怒反而适得其反，猫猫便决定冷静地反问。</p>
+<p>“也就是说，是为了拖延妤小姐的脚步，对吗？”</p>
+<p>雀眯起一只眼，笑着用左手打了个响指。</p>
+<p>猫猫觉得，雀在煽动别人方面确有天赋。</p>
+<p>“为什么要针对妤小姐？如果是跟克用有关的话——”</p>
+<p>猫猫忽然顿住了。</p>
+<p>知道克用在做种痘的人——猫猫认为是幸存下来的村民。而妤的家人也是其中之一。</p>
+<p>“是妤小姐的家人擅自做了种痘吗？”</p>
+<p>“猫猫小姐不用解释就能明白，真是省心呢。”</p>
+<p>猫猫浑身冒出了冷汗。紧张时出的汗和运动时不同。雀不可能闻不到那股独特的气味。</p>
+<p>“我们曾怀疑妤小姐也参与其中，但从这十天的观察来看，她似乎与此无关。”</p>
+<p>雀大概是为了让猫猫安心，首先声明妤是无辜的。</p>
+<p>“至于种痘的事——如果我说，妤小姐的家人‘试图’做这件事，您能明白吗？”</p>
+<p>“试图做？”</p>
+<p>雀似乎想让猫猫自己说出答案。猫猫觉得这方式太绕弯子，但平时自己也常这样说话，便不好多说什么。</p>
+<p>（妤与此无关。）</p>
+<p>（妤的家人试图做种痘。）</p>
+<p>（种痘需要天花患者的皮肤等材料。）</p>
+<p>妤的村子被天花毁灭是好几年前的事了。当时的患者皮肤就算留到现在，也不能用来种痘了。</p>
+<p>那么就需要较新的天花患者的组织。</p>
+<p>“妤的家人是受了某人指使去做种痘，然后拿到了天花患者的组织——是这样吗？”</p>
+<p>雀用手指比了个圈。</p>
+<p>“答对了。据说白天有个可疑人物在妤不在的时候来过。妤的母亲不在家，家里只有孩子。大概是瞒着从天花前线回来的妤，悄悄进行的吧。”</p>
+<p>“那个人是——”</p>
+<p>“嗯，我想猫猫小姐已经猜到了。就是妤所在村子原来的村长。大人们不在时，只有孩子们在家。大概是听说有幸存者住在都城吧。因为是前村长，孩子们就放松了警惕。所以他们才会试图做种痘的模仿。是母亲察觉到异常阻止了，事情才败露。”</p>
+<p>雀一边吃着馒头一边说道。虽然边吃边说，却不会掉渣，不愧是出身良好的人家。</p>
+<p>“最好不要告诉妤小姐。更何况村长还没抓到——所以你们才演了这么一出大戏？”</p>
+<p>雀点了点头。</p>
+<p>“妤小姐家的男丁都在天花疫区帮忙，所以通知她反而会引起不必要的骚动。为了在村长再次回来时抓住他，她家周围早已暗中布下了官差。这次演戏就是为了想出能自然隔离她的办法。”</p>
+<p>“虽说只是未遂，但擅自尝试种痘也是问题。”</p>
+<p>即使是孩子，也会面临一定的处罚。妤有可能走向错误的方向。</p>
+<p>妤作为医疗从业者，在这个年纪已经相当出色。但性格比较情绪化。</p>
+<p>虽不如天祐那么糟糕，但处理起来也不容易。</p>
+<p>“是啊，很麻烦呢。妤小姐还不知道这件事，所以不能让她回家，最好也切断她的信息来源。虽然在她家周围布了暗哨准备抓村长，但一直没找到。”</p>
+<p>猫猫明白雀的意思。但仍有一个疑问。</p>
+<p>“那为什么连我也被卷进来了？”</p>
+<p>“呵呵。再多一个女性的话，妤小姐会比较安心，而且——”</p>
+<p>“而且？”</p>
+<p>“还有一个原因——这种时候，我正好想借一下罗汉大人的手。”</p>
+<p>猫猫照例露出嫌恶的表情。</p>
+<p>“也是为了以保护猫猫小姐的名义，防止您撞上那位村长。”</p>
+<p>雀拍着手，变出旗子和花来。她这副玩笑的样子反而显得很可疑。</p>
+<p>“村长似乎到处走访医疗从业者。保护妤小姐也与此有关。”</p>
+<p>虽说是有十天的名义，但既然能出来了，应该问题已经解决了。</p>
+<p>“那村长被抓到了吧？”</p>
+<p>“嗯……三天前。”</p>
+<p>猫猫没有漏掉雀那吞吞吐吐的口气。</p>
+<p>“是没活捉吗？”</p>
+<p>“不。”</p>
+<p>“那——”</p>
+<p>“村长——不，那个行凶者，是在那个因天花而被封锁的村子里被发现的。好像是妤小姐的父亲在那里干活的事，被孩子不小心说漏了嘴。”</p>
+<p>雀停顿了一下。</p>
+<p>“同时，被那个行凶者刺伤的克用先生也被发现了。”</p>
+<p>“什么？！”</p>
+<p>猫猫站起来拍了一下桌子。</p>
+<p>“他还活着。虽然挺危险的，但还活着哦。”</p>
+<p>“……怪人军师没派上用场啊。”</p>
+<p>“因为拜托罗汉大人的范围只限于都城内。他也不是那种会连猫猫小姐不在的别处城镇都顾及到的人。”</p>
+<p>猫猫心中泛起一种莫名的愧疚感。</p>
+<p>“那么，雀小姐跟我解释完这些之后，还有什么事要做吗？”</p>
+<p>雀早已吃完自己的馒头，正盯着猫猫的那个。馒头已经凉了，猫猫便直接给了她。</p>
+<p>雀接过馒头，在指尖把玩着说道。</p>
+<p>“被抓到的村长，状态不太好。像是被什么东西缠住了一样，仿佛在用最后一点生命之火行动。大家都当作是疯子的胡言乱语搁置不理，但您不好奇吗？”</p>
+<p>“……您是想让我去给他看病？”</p>
+<p>“我不会强迫您哦。”</p>
+<p>被这么说，就没法拒绝了。</p>
+<p>猫猫在麻烦和好奇心之间权衡，只能朝着倾斜的那一方走去。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-282.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-284.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

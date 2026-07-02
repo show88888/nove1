@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">276</h1>
+</header>
+<p>**十五、书信**</p>
+<p>『致猫猫小姐：</p>
+<p>关于栀子小姐，总算能让她的饮食恢复到常人水平了。自从能正常吃饭后，她似乎也安定多了，简直像是从野狗变成了正在接受训练的幼犬。</p>
+<p>起初我还以为送来的是个麻烦的孩子，但只要好好吃饭，她似乎很温顺。不过，毕竟她吃的是姚小姐亲手做的饭菜，这也是理所当然的吧。</p>
+<p>最近她不仅学会了用菜刀，还会做菜了。不过我觉得，至少做饭的事全都由我来替她做就好了。</p>
+<p>另外，姚小姐似乎终于开始认真考虑搬家的事，目前正在找房子。因为还有栀子小姐的事，想必年后也会考虑到治安问题，不会搬离罗汉大人的宅邸太远，但终究是一大进步。</p>
+<p>等住处定下来后会再报告。</p>
+<p>燕燕 敬上』</p>
+<p>燕燕还是老样子，但猫猫不禁想到——</p>
+<p>姚既然想独立，会不会把燕燕也叫到新住处去呢。</p>
+<p>---</p>
+<p>『致猫猫——</p>
+<p>好久不见——毕竟你帮我介绍了工作，至少也该写封信吧，所以就写了。</p>
+<p>嗯，现场情况嘛……相当糟糕。村里的人都喊着想快点离开，真是让人感触颇深。问妤还好吗？嗯，她也差不多到极限了，我会让她回去一趟。虽然本人还想继续干，但至少过年和家人一起好好聚聚也没问题吧。</p>
+<p>是叫老医官吧——那个人真厉害。对于让妤暂时回去的事也很积极，真是个通情达理的老爷爷。</p>
+<p>所以妤回来时拜托你啦。除非猫猫你觉得没问题，否则别把她送回这边来。我也会一起回去一次，住宿就拜托啦。那点费用医官们应该会出吧。</p>
+<p>另外有个问题想问——你知道都城附近有哪里养了很多牛和马吗？</p>
+<p>克用』</p>
+<p>“妤和克用要回来了吗。”</p>
+<p>对妤来说，这大概是很辛苦的工作吧。正如克用所说，必须让她在都城好好休养，直到完全恢复。</p>
+<p>不过牛和马是怎么回事？猫猫放下克用的信，心想介绍红梅馆附近应该没问题吧。</p>
+<p>---</p>
+<p>『猫猫小姐，猫猫小姐——</p>
+<p>这里是雀小姐为您带来的特别商品介绍哦——</p>
+<p>来来来，请看这里，雀小姐为您介绍当年拿下丈夫的独家秘笈商品哦。还附有简单易懂的插图——』</p>
+<p>猫猫没看完就撕碎扔进了火盆。</p>
+<p>---</p>
+<p>『致妹妹：</p>
+<p>虽说奉月之君之命收养了豪大人的千金，没想到你也掺和进来了……</p>
+<p>明明生得那般美貌，真是可惜。就算不至于倾国倾城，凭她的家世和起码的教养，至少也能混个中级妃吧。</p>
+<p>栀子小姐的身高比同龄女子平均矮了八寸，体重虽然一直在增加，但还远远不够。</p>
+<p>另外，语言方面也看得出她与外界接触实在太少了。就算是深闺千金，若母亲和乳母能好好跟她说话，语言能力也该更发达一些才是。</p>
+<p>哈哈哈，看来母亲是把她当作人偶或宠物在养吧。真令人不快。孩子若不施以教育，便与野兽无异。</p>
+<p>至于豪大人，我也知道。前几天听说他触怒了皇帝，是真的吧？那人确实干得出来。</p>
+<p>虽是皇太后的亲族，也真是叫人头疼。明明长着一张年轻俊美的脸。</p>
+<p>啊，三个儿子都继承了父亲那端正的容貌，不过与其说是当家，不如说更适合招赘吧。性格不像父亲，辅佐方面倒是不错，但没有出风头的性格。</p>
+<p>可问题在于……</p>
+<p>各种传闻我也听说过，但这次让我痛感必须好好调查才行。</p>
+<p>豪大人的三公子时常来我家，每次都说是探望妹妹，还带牛乳来当伴手礼。栀子小姐似乎也很高兴三公子来访，简直像狗摇尾巴一样。</p>
+<p>他嘴上说着“妹妹很聪明吧”，疼爱有加，但怎么看都是偏袒自家人，眼光都偏了。</p>
+<p>既然这样，一开始就好好给她吃饭、好好养大不就好了——虽然想这么说，但贸然插嘴别人家的事也不体面。我家也不是能说别人的家世。</p>
+<p>本想委婉地劝他别来太勤，结果兄长却开始分发自家种的蔬菜，又收下牛乳作为回礼，还说什么“在西都学过”就开始做起奶酪来了。虽然兄长在确实方便很多，但希望他别再扩大田地了。</p>
+<p>另外猫猫，有件事想拜托你。</p>
+<p>因为你牵扯进来的这些事，我可是吃尽了苦头。所以能不能答应我一个请求？</p>
+<p>听说猫猫你好像跟某家麦农有联系，能用很便宜的价格买到小麦，能介绍一下吗？</p>
+<p>嗯，原因是，有几艘装着小麦的船出了事故沉了。</p>
+<p>只要你写封介绍信就行，这样栀子小姐的事就算一笔勾销了。</p>
+<p>罗半 敬上』</p>
+<p>---</p>
+<p>『致罗半：</p>
+<p>拒绝。</p>
+<p>猫猫』</p>
+<p>猫猫立刻写好了回信。</p>
+<p>---</p>
+<p>『致猫猫：</p>
+<p>你有好好吃饭吗？我都有好好吃，放心吧。</p>
+<p>一天能吃三餐，而且虞渊先生每次都会给我点心。真不可思议，他是怎么弄到那么多花样点心的呢。</p>
+<p>我从刘先生那里听说了，猫猫你没有得过天花，所以千万别想着去现场啊。</p>
+<p>老先生的医术不输刘先生，决断力也很强。就交给他吧。</p>
+<p>如果你染上天花，我会负责任地照顾你的。到那时，想必我也会传染上天花吧。</p>
+<p>另外，据说月之君下令让豪大人的女儿过来了，我大概半个月会去一次。</p>
+<p>听说本来也能每天从宅邸往返后宫的，但现在实在没那个精力。我不能丢下虞渊先生一个人，抱歉了。</p>
+<p>罗门 敬上』</p>
+<p>确实，庸医的点心来源令人费解。虽说是后宫医官，却几乎不出后宫，却总能备着那么多点心，这确实是个谜。</p>
+<p>不过，这是个没必要解开的谜，暂且放到一边。</p>
+<p>关于罗门迟迟未能回来的原因，猫猫猜想与其说是妃子们怀孕，不如说是彼此间的牵制。</p>
+<p>妃子们互相下毒。</p>
+<p>万一出事，只靠庸医一人恐怕应付不来。</p>
+<p>---</p>
+<p>『致猫猫：</p>
+<p>喂，克用那家伙什么时候回来？</p>
+<p>喂？喂？</p>
+<p>过年前总能回来吧？</p>
+<p>他不在我真的很不安很不安。我有多消沉呢？消沉到绿青馆的妓女们都来安慰我了。</p>
+<p>记住了。如果克用回来，立刻通知我。</p>
+<p>另外又有信来了，一并附上。</p>
+<p>左膳 敬上』</p>
+<p>里面还夹着另一封信。纸质略显粗糙，没有焚香，字迹虽稚拙却很工整。</p>
+<p>『致猫猫：</p>
+<p>天变冷了呢。</p>
+<p>我正努力着。你知道吗，竟然有很多人想跟我这样的一起结婚呢。</p>
+<p>一说我从后宫出来，大家都有反应。果然那里是很了不起的地方吧。</p>
+<p>我也想去一次绿青馆看看，但凭我的薪水得攒好几年，真是发愁。</p>
+<p>那就先这样。等我拿到好纸了再写信。</p>
+<p>小兰 敬上』</p>
+<p>“……所以说——你把住址写给我啊——不然我怎么回信啊。”</p>
+<p>猫猫把信放进了信匣里。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-275.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-277.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
