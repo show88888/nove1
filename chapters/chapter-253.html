@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">253</h1>
+</header>
+<p>八、肉食与草食</p>
+<p>休息过后，猫猫这次和长前辈搭档，和短前辈轮换。</p>
+<p>「请多关照。」</p>
+<p>「好，多多关照。」</p>
+<p>比起短前辈，长前辈语气更随意，但个子高所以有压迫感。和猫猫站在一起，看着凹凸不平，但和李白比显得更修长单薄。</p>
+<p>今天先在宫廷做半天药。剩下半天做什么呢——</p>
+<p>「下午还有后宫的工作吧。」</p>
+<p>「是的，我以前当过宫女。」</p>
+<p>这就是表面上的理由。</p>
+<p>猫猫她们一边用石臼把糯米磨成粉，一边聊着。</p>
+<p>（总不能把翠苓叫到宫里来啊。）</p>
+<p>万一她被人认出来就麻烦了。</p>
+<p>「喂，我能问个问题吗？」</p>
+<p>「什么呢？」</p>
+<p>「后宫真的全是美女吗？」</p>
+<p>来了个直球问题。</p>
+<p>「这个嘛，妃子们都很美，女官们也是。」</p>
+<p>入后宫时会有一定筛选。当然也有猫猫这样被漏掉的，但大部分人都在平均水平以上。</p>
+<p>「哦哦——」</p>
+<p>「不过，可不是你想的那种世界哦。」</p>
+<p>猫猫把话挑明。</p>
+<p>「并不是那种女人之间嘻嘻哈哈嬉戏打闹的气氛。」</p>
+<p>有时会有人下毒、被人下毒，流言蜚语满天飞，还有揪头发扭打的打架。此外还有同性或宦官之间的私情，不过还是含糊带过比较好。</p>
+<p>「你倒是说得直白啊。」</p>
+<p>「毕竟那是争夺皇帝有限宠爱的地方，大家不可能手拉手做好朋友嘛。」</p>
+<p>还好有玉叶后和梨花妃这样的上位者还算有常识，已经算不错了。</p>
+<p>（先帝的后宫估计更可怕。）</p>
+<p>光是想象就起鸡皮疙瘩。</p>
+<p>「不过啊——」</p>
+<p>长前辈似乎还没放弃幻想。就连看起来正经的前辈们，聊起天来也会露出世俗的一面。</p>
+<p>边聊边干活，看起来像在偷懒，但上司们并不会说什么。医官的工作中也需要一边听人说话一边收集信息的技巧。只要手头不出错，说话也没问题。</p>
+<p>「对了，前几天我第一次见到皇后，真是美貌。」</p>
+<p>「很美吧。」</p>
+<p>猫猫稍微有点得意。</p>
+<p>「她娘家的女儿也很美。有异国血统才会有那么美的头发啊。」</p>
+<p>「倒也不一定是因为异国人呢。不过红发确实少见。」</p>
+<p>猫猫只见过玉叶后一个明显的红发。在戌西州虽然也擦肩而过见过类似发色，但几乎没看到过。比金发银发还少，应该是相当稀有的颜色吧。</p>
+<p>「说起来，你知道后天性也会变红发吗？」</p>
+<p>「是那种受冲击后变白发的那种吗？」</p>
+<p>据说极度恐惧的经历会让头发一夜变白。实际上不会那样，但心理影响导致白发增多并不罕见。</p>
+<p>「不，我听说的是营养不良。」</p>
+<p>「营养不良。」</p>
+<p>那大概是生成毛发时所需的营养不足吧。</p>
+<p>「缺少的营养是肉吗？」</p>
+<p>听说头发和指甲的营养来自肉和鱼。</p>
+<p>「是啊。据说发色会褪色，变成金发或红发。」</p>
+<p>他说“据说”，看来没亲眼见过，但猫猫觉得听到了有趣的事。虽然养父罗门说过不少故事，也读过书，但总还有没听过的。</p>
+<p>「听到了有趣的事呢。」</p>
+<p>猫猫收集着从石臼落下来的粉末。</p>
+<p>「还有什么别的吗？」</p>
+<p>「别为难前辈啊。你突然这么一问——」</p>
+<p>长前辈一边转着石臼一边沉吟。是个愿意满足后辈要求的好前辈。</p>
+<p>「说到肉——」</p>
+<p>「有什么吗？」</p>
+<p>猫猫眼睛一亮。</p>
+<p>「嗯，难得有机会，来个问答形式吧。」</p>
+<p>「问答形式吗？」</p>
+<p>猫猫对输赢没兴趣，点了点头。</p>
+<p>「那我开始了。过去，我国与别国交战，曾惨败。当时指挥军队的武人据说非常聪明，能冷静判断形势、权衡决断。他确认了情况，是在有胜算的情况下才发起的战斗，可为什么输了呢？」</p>
+<p>「……这可不是我的专长啊。」</p>
+<p>猫猫没想到会听到完全不同的故事，皱起了眉。</p>
+<p>「给个提示吧。」</p>
+<p>「再想想。」</p>
+<p>「又不是我专长。」</p>
+<p>两人一边嘎吱嘎吱地磨石臼，一边把粉沙沙地拢起来。</p>
+<p>「提示是‘肉’。」</p>
+<p>「肉？」</p>
+<p>猫猫歪着头，沉吟起来。</p>
+<p>（肉、肉、肉……）</p>
+<p>（不是中了什么特殊陷阱之类的吧？）</p>
+<p>肉应该没关系才对。</p>
+<p>（营养状况？不——）</p>
+<p>猫猫拍了拍手上的粉。糯米粉白得细滑，可以当白粉用。为了不混入米糠，特意用精米磨粉。</p>
+<p>「……米糠。」</p>
+<p>猫猫啪地拍了一下手。</p>
+<p>「明白了？」</p>
+<p>「嗯。那个聪明的武人，是不是误判了敌军的规模？」</p>
+<p>「为什么这么想？」</p>
+<p>「因为对方是常吃肉的人。我听说过一种判断敌部队规模的方法——检查敌人的排泄物。肉食为主的人和谷物为主的人不同。肉食动物的粪量比草食动物少。」</p>
+<p>如果摄取的是富含纤维的食物，粪量会增加，有时会相差两倍、三倍。糙米比白米纤维更多。</p>
+<p>用己方标准从排泄物量推测敌军人数，结果完全估错了。</p>
+<p>长前辈双手比了个圈。</p>
+<p>「还有别的吗？」</p>
+<p>「我再找找看。」</p>
+<p>长前辈求饶似的又转起了石臼。</p>
+<p>下午，猫猫前往阿多的别邸。</p>
+<p>「这是我凭记忆写下的资料。」</p>
+<p>翠苓递给猫猫一张纸条。上面列着以曼陀罗华为代表的毒草。</p>
+<p>「净是会死人的毒啊。」</p>
+<p>「是的，毕竟是赋予死亡的药。」</p>
+<p>「不会感到疼痛吧。」</p>
+<p>「醒来后会疼就是了。」</p>
+<p>翠苓说话句句透着消极，但记录却写得很扎实。</p>
+<p>「顺便也把砂欧那边的知识写上了。还没验证过。」</p>
+<p>砂欧是茘的邻国，砂欧的前巫女正被藏在阿多的别邸里。</p>
+<p>「要让人不感到疼痛，不是还有其他药物可用吗？」</p>
+<p>翠苓又写了几种例子。</p>
+<p>「这种大概不行。」</p>
+<p>「为什么？」</p>
+<p>「一开始效果很好，但有依赖性，身体适应后效果会减弱。」</p>
+<p>猫猫摇了摇头。</p>
+<p>「这么说的话，用毒物本身也有问题吧？」</p>
+<p>「确实如此。」</p>
+<p>完美的麻醉药并不存在。只能寻找适合情况、副作用小的药物。</p>
+<p>「针灸呢？」</p>
+<p>「恐怕不能用来剖腹吧。干脆让人失去意识呢？」</p>
+<p>「要是让人昏迷，大概会因不敬罪被斩首吧。」</p>
+<p>「那就让人忍着。」</p>
+<p>「要是因为疼痛乱动就可怕了。」</p>
+<p>「想想办法嘛。」</p>
+<p>「就算能行，周围人也不会允许。」</p>
+<p>「皇族真是麻烦。」</p>
+<p>「同意。」</p>
+<p>后半段猫猫和翠苓都开始瞎扯了。</p>
+<p>「大概我们讨论的事，其他医官也已经在做了。」</p>
+<p>翠苓捏着纸条说道。</p>
+<p>「不过，每个医官都会做吧。」</p>
+<p>「是啊。」</p>
+<p>翠苓从房间角落拿来一个关着老鼠的笼子。她一边抱怨，一边已经开始用老鼠做投药实验了。</p>
+<p>「药这东西很复杂。并不是剂量减半，睡眠时间也减半这么简单。」</p>
+<p>「是啊。半吊子的剂量根本不起效。」</p>
+<p>猫猫也亲手做过投药实验，所以明白。</p>
+<p>「我能说说我个人的看法吗？」</p>
+<p>翠苓抓住老鼠，确认着它的动作。</p>
+<p>「我不知道皇帝是个什么样的人。他是怕痛、会拒绝手术的人吗？只要处理方法确立，麻醉或许没那么重要。与其说麻醉，不如说术前或术后更重要。」</p>
+<p>「术前是指？」</p>
+<p>术后可以理解——开腹手术后因化脓而死亡的案例很多。</p>
+<p>「皇帝是否愿意接受手术，周围人是否允许那场手术。」</p>
+<p>「……那不是我们工作范围的事。」</p>
+<p>那是皇帝和壬氏该做的。</p>
+<p>「是啊。所以麻醉的事我来研究。你研究术后的药更有效率吧。」</p>
+<p>「明白了。」</p>
+<p>猫猫把纸条收进怀里。</p>
+<p>（能做就做，做不到的就交给别人。）</p>
+<p>她没想过事事亲力亲为。要是有足以让她认为自己什么都能做的实力和傲慢，那该多好。</p>
+<p>猫猫叹了口气，离开了离宫。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-252.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-254.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">251</h1>
+</header>
+<p>**六、麻**</p>
+<p>工作的间隙，猫猫也会和同事们闲聊几句。</p>
+<p>矮个子前辈出身于世代行医的家族，被迫参加医官考试似乎是无法逃避的命运。</p>
+<p>“老实说，简直是地狱。”</p>
+<p>虽然有些才能，但不适合的话就很痛苦了。</p>
+<p>“真辛苦。”</p>
+<p>猫猫只能这么说。</p>
+<p>在作为药物试验场的诊疗所里，两人分担了角色。</p>
+<p>矮个子前辈见不得血，猫猫则不能吃荞麦面，于是两人互相弥补对方的弱点。因为是内科治疗，本不常见血，但有一次，一个患者在上厕所途中摔倒，磕破了额头，是猫猫处理的。</p>
+<p>作为交换，制作安慰剂的工作则交给了矮个子前辈。</p>
+<p>乍看之下很可靠的前辈，一旦发现她的弱点，反倒让人莫名感到亲近。</p>
+<p>---</p>
+<p>诊疗所第一天工作结束后，猫猫回到宿舍。宿舍前，雀正等在那里。</p>
+<p>“你好，猫猫小姐。”</p>
+<p>“你好，雀小姐。”</p>
+<p>猫猫明白雀的来意，便朝她招手的方向走去。果然，那里停着一辆马车，猫猫直接上了车。</p>
+<p>---</p>
+<p>猫猫被带到的地方是书库。离壬氏的公务室不算太远，但规模不算大。</p>
+<p>“打扰了——”</p>
+<p>跟着雀进去，里面弥漫着特有的潮湿空气和纸墨气息，令人感到舒适。</p>
+<p>人很少。入口处有一个，里面还有一个在忙着什么。仔细一看，似乎是在把纸浸入一种像水一样的液体中，将粘连的书页剥离。</p>
+<p>“正在进行修复。别打扰他们。”</p>
+<p>身后传来声音。回头一看，是壬氏。身后跟着护卫高顺。</p>
+<p>（真少见。）</p>
+<p>听说高顺已经调到皇帝身边了。却还跟在壬氏身边，想必是有什么用意。</p>
+<p>不过，猫猫的兴趣另有所在。</p>
+<p>“那本书复原了吗？”</p>
+<p>猫猫两眼放光地问道。</p>
+<p>“还在进行中。”</p>
+<p>壬氏招手示意她过去，猫猫便跟了过去。</p>
+<p>那里摆着一张张纸。纸已残破不堪，有污渍和字迹洇开的痕迹。上面还画着像是人体的图画。</p>
+<p>“……哦哦。”</p>
+<p>猫猫瞪大了眼睛。</p>
+<p>上面记载着病症、创伤和药物，但最重要的是解剖图。人体内部被详细地描绘了出来。</p>
+<p>（天祐说是他祖先写的来着。）</p>
+<p>莫名感到一种血缘上的亲近。</p>
+<p>“……”</p>
+<p>“……”</p>
+<p>“……”</p>
+<p>“说句话啊。”</p>
+<p>壬氏对看得入迷的猫猫说道。</p>
+<p>“抱歉。”</p>
+<p>嘴上这么说，目光却仍紧盯着修复的书。</p>
+<p>“这是本很有趣的书。”</p>
+<p>“对我而言很无聊。”</p>
+<p>“正因为不拘泥于道德，所以才能大胆尝试，也因此得到了有趣的结果。”</p>
+<p>“作为人来说呢？”</p>
+<p>壬氏无奈地附和着。</p>
+<p>大概是大约一百年前的著作吧。书中记载了对活人剖腹的记录。</p>
+<p>“患者是奴隶吗？”</p>
+<p>“可能性很大。”</p>
+<p>剖开活人的腹部，这简直不可想象。皇太后生下当今皇帝时，之所以能进行剖腹产，大概是因为即使皇太后死了也无可奈何，才能被允许的吧。</p>
+<p>猫猫确认房间里只有壬氏、雀和高顺。她正觉得雀很安静，原来是从高顺那里拿到了一根长长的棒棒糖。高顺选择不会掉渣的零食，这很符合他的风格。</p>
+<p>看着这几个人，猫猫在思考自己该说到什么程度。但她也意识到，事到如今已不是说“不想被卷进来”的时候了。</p>
+<p>“主上现在的身体状况如何？”</p>
+<p>“你觉得呢？”</p>
+<p>以问题作答，这就是答案。</p>
+<p>“……这仅是我个人的见解。”</p>
+<p>“还是老套的开场白啊。”</p>
+<p>猫猫并不认为自己的见解就是答案，所以只能这么说。终究只是推测而已。</p>
+<p>“……我认为主上患的可能是阑尾炎。因为现在宫廷的医官们正在测试阑尾炎药物的效果。另外，推测很可能是慢性的。”</p>
+<p>“为什么认为是慢性的？”</p>
+<p>“测试药效需要时间。如果是急性阑尾炎，不会有时间进行药物实验。又或者，可能是得过一次阑尾炎后治愈了，但有复发的风险，所以需要研究。”</p>
+<p>“正确答案是后者。主上确实得过一次你说的那种阑尾炎。当时是靠服药治好的。”</p>
+<p>“那现在是出现了当时的症状吗？”</p>
+<p>“关于这一点，由我来解释。当时，我担任过主上的辅佐。”</p>
+<p>高顺上前一步。</p>
+<p>（辅佐主上……那应该是壬氏入宫之前的事。）</p>
+<p>也就是说，还是在皇位更替之前。</p>
+<p>“当时还是东宫的主上，出现了腹痛、恶心、发热的症状。当时的首席医官诊断为因精神压力引起的阑尾炎，在服药的同时，通过改变饮食结构稳定了病情。”</p>
+<p>阑尾炎的病因有多种，不能一概而论。但既然当时的首席医官这么说了，大概是确实存在某种明显的强烈精神压力吧。</p>
+<p>“知道精神压力的来源吗？”</p>
+<p>“虽然不能明确说是哪一个，但主上作为东宫，比起先帝，与他母后的争执更多。”</p>
+<p>“……”</p>
+<p>（那当然会有精神压力。）</p>
+<p>猫猫没有亲眼见过先皇太后——女帝，所以不清楚，但从传闻来看，她绝非等闲之辈。</p>
+<p>民间传说，女帝晚年与当时还是东宫的当今皇帝之间常有争执。</p>
+<p>“还有一件事，我不确定小猫你怎么看。”</p>
+<p>“什么事？”</p>
+<p>“当时，陪伴在主上身边的是罗汉大人。”</p>
+<p>猫猫张大了嘴。</p>
+<p>“那也太糟糕了。”</p>
+<p>“猫猫小姐，您把真心话说出来了哦。”</p>
+<p>雀吃完了棒棒糖，高顺又递给她一根。看来他与儿媳的关系不错。</p>
+<p>不过，仔细一想倒也说得通。那位怪人单片眼镜是十七年前——不，十八年前从西都回到中央的。要想在那之后出人头地，就需要强大的靠山。如果那里有一位比自己年轻、与女帝对峙的东宫，那么支持他就能增强势力，这是可以想见的。</p>
+<p>更重要的是，猫猫一直很纳闷，那个在后宫搞爆炸、胡作非为的男人，为何能无罪释放。</p>
+<p>（原来是握有主上的把柄。）</p>
+<p>这样一切就说得通了。</p>
+<p>“不如说，精神压力的来源就是那个戴单片眼镜的中年人吧？”</p>
+<p>“对此我保持沉默。”</p>
+<p>高顺退缩了。</p>
+<p>“那么，主上现在正承受着与当时相同的症状？”</p>
+<p>“是的。至少刘医官和汉医官问诊时，情况还没有严重到那种程度。”</p>
+<p>汉医官——就是老爹罗门。</p>
+<p>“也就是说，还没有好转的迹象。”</p>
+<p>高顺点了点头。</p>
+<p>如果持续用药仍不见好转，就必须进行外科手术。</p>
+<p>（要在天子身上留下刀痕吗。）</p>
+<p>猫猫也明白。即使那是手术，也必须做好赴死的觉悟。就算成功了，也不知会被如何指责。可能会被安上莫须有的罪名，被判死罪。</p>
+<p>对方是天子，与皇太后的剖腹产相比，轻重程度截然不同。</p>
+<p>猫猫下意识地挠了挠头。</p>
+<p>无论是养父罗门，还是像刘医官那样优秀的医官，都不应该因为这种无能为力的理由而受到惩罚。</p>
+<p>这本华佗的书里，难道没有记载什么划时代的疗法吗？如果修复工作继续推进，说不定会发现什么。</p>
+<p>（可没时间优哉游哉地等了。）</p>
+<p>猫猫能做的事有限。但能不能做点什么呢？</p>
+<p>“主上若有什么闪失，全国都会动荡。”</p>
+<p>壬氏的喃喃自语很有道理。东宫还不满五岁。若立摄政，那便是玉叶后的父亲——玉袁。</p>
+<p>厌恶有着遥远西地血统的东宫的臣子不在少数。那么，想把与东宫同龄的梨花妃皇子推上皇位的人想必也很多。更何况，如果被拥立的话——</p>
+<p>那就是年方二十二、与皇帝同母的兄弟——壬氏。</p>
+<p>（会乱。肯定会乱。）</p>
+<p>即使壬氏对皇位毫无兴趣，周围也不会坐视不理。</p>
+<p>而且，与过去不同，猫猫也无法置身事外。</p>
+<p>（能不能找到什么、什么办法？）</p>
+<p>哪怕一点也好，为了在万一之时能派上用场。</p>
+<p>猫猫再次凝视着书本。</p>
+<p>“喂，猫猫。”</p>
+<p>壬氏叫了她一声，但猫猫此刻只是在搜寻任何可抓的稻草。</p>
+<p>在那些文字中，她发现了一个模糊的字。</p>
+<p>“麻……”</p>
+<p>猫猫眯起眼睛。</p>
+<p>她努力解读那模糊的字迹，发挥想象力，读出了那个字。</p>
+<p>“麻沸散。”</p>
+<p>她感觉自己读了出来。猫猫握紧了拳头。</p>
+<p>上面似乎写着原材料，但字也模糊不清，看不真切。只能看到其中几种材料。</p>
+<p>“那是什么？”</p>
+<p>“我只听说过名字。据说是由神医制作的传说中的麻醉药。”</p>
+<p>“……能做出来吗？”</p>
+<p>壬氏似乎明白了猫猫的意图。</p>
+<p>“不知道。材料几乎无法辨认，效果也不清楚。不过，我认识一个对此比较熟悉的人。”</p>
+<p>“谁？”</p>
+<p>猫猫笑了。</p>
+<p>唯一能辨认出的原材料上，写着“曼陀罗花”。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-250.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-252.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

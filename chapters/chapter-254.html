@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">254</h1>
+</header>
+<p>**九、阳之君**</p>
+<p>僥阳从出生起，一切言行举止都已被人安排妥当。</p>
+<p>作为皇帝唯一的皇子——这便是僥阳被赋予的地位。</p>
+<p>时刻都处于某人的监视之下，几乎没有任何随心所欲的自由。若要说勉强算自由的时刻，大概只有和乳兄弟们玩耍的时候了。</p>
+<p>---</p>
+<p>“用膳时间到了。”</p>
+<p>高顺告知他伏案工作的结束。比他年长两岁的乳兄弟，一度曾侍奉瑞月。按理本应安排其他马氏一族的人跟随。那个当时还被唤作另一名字的男人——高顺，作为僥阳的副官兼护卫，无人能替代。正因如此，他才必须跟随瑞月。</p>
+<p>午膳准备的是连米粒都看不见的稀粥和清汤。除此之外，也备有正常的菜肴。</p>
+<p>若只端病人膳食过去，总会招来多心之人的猜疑。因此，平时的膳食也一并端来。</p>
+<p>“用膳前请先服此药。”</p>
+<p>“……非喝不可吗？”</p>
+<p>“非喝不可。”</p>
+<p>高顺将药递到他面前。</p>
+<p>那独特的苦涩气味。起初为了掩盖药味，曾掺入果水或蜂蜜，但虽能减弱苦味，却增加了药量，便作罢了。</p>
+<p>僥阳将药一饮而尽，舀起一勺糊状的粥。那浸润着肉与盐味的粥，若非如此形态，想必会更为美味。</p>
+<p>僥阳吃了三口便放下了勺子。</p>
+<p>“可是疼痛加剧了？”</p>
+<p>“何必多问。”</p>
+<p>慢性腹痛正逐渐加重。有时还会伴有低烧和恶心。因是曾经历过的疼痛，原以为同样施治便能好转，却毫无痊愈的迹象。</p>
+<p>“医官们在做什么？”</p>
+<p>“万分抱歉。”</p>
+<p>僥阳明白，向高顺发火也无济于事。只是若不向谁倾吐一番，恐怕会在人前失态。</p>
+<p>正如瑞月会在高顺面前撒娇一般，僥阳也向高顺撒着娇。</p>
+<p>僥阳觉得，在马氏一族中，高顺是个难得的好男人。</p>
+<p>就在这时，脚步声响起。</p>
+<p>门外传来声音。</p>
+<p>“不行，陛下正在用膳。”</p>
+<p>“无妨。你以为我是谁？”</p>
+<p>那隔门也能辨认的声音，令僥阳心头一冷。</p>
+<p>来者是以一位年约五十的男子为首的集团。那是个瘦长的男人，看起来比实际年龄年轻。娃娃脸大概是遗传的吧。</p>
+<p>“打扰陛下用膳了。”</p>
+<p>他笑呵呵地走近，但高顺挡在了中间。门外的护卫们也虎视眈眈地注视着。</p>
+<p>“若觉得失礼，不来便是。”</p>
+<p>“哈哈，真是严厉。对伯父也如此不留情面吗？”</p>
+<p>伯父——即僥阳的母亲安氏的兄长。名为豪。</p>
+<p>“嗯。也就是说，你觉得自己因为是伯父，便有资格打扰朕用膳？”</p>
+<p>“不敢不敢，绝无此意。”</p>
+<p>豪大幅挥手否定，却毫无退意。</p>
+<p>安氏本人并非权力欲强之人。但她的娘家却非如此。为了笼络那位只对幼儿感兴趣的先帝，安氏被送入了宫中。安氏如娘家所愿，怀上了僥阳，登上了皇后、乃至皇太后的宝座。</p>
+<p>女帝——僥阳的祖母早已察觉到这份野心。因此，在她有生之年，即便僥阳的外戚，也未曾获得重要职位。</p>
+<p>然而，女帝驾崩、僥阳即位之后，他们便开始趾高气扬。安氏的父亲早已离世，但其同父异母的兄长却愈发嚣张。</p>
+<p>毕竟是外戚，周围也无人敢严厉斥责。</p>
+<p>母亲对这位异母兄长并无好感。僥阳亦是如此，但表露出来并非明智之举。</p>
+<p>只要僥阳稍露不满，便会有无数人头落地。</p>
+<p>“不过，用膳该更愉快些才是。”</p>
+<p>豪看着端来的膳食说道。若只有清粥和汤水，恐怕会引人怀疑。</p>
+<p>“准备试毒人手太麻烦了。”</p>
+<p>僥阳举起方才服药所用的杯子。高顺恭敬地为他斟上葡萄酒。</p>
+<p>“是啊，不知何方何人想取陛下性命。尤其是西边的蛮族，想必更为野蛮。”</p>
+<p>僥阳明白豪想说什么。豪不满于当今的东宫。论血统，东宫是妹妹安氏的孙辈，自己可算是其伯祖父。但东宫的母亲是玉叶。同为东宫外戚，今后玉氏一族将掌握权力。</p>
+<p>豪想必早已焦躁不安。碍事的女帝已死，本以为能大展拳脚，然而身为亲族的安氏却态度消极。更何况，那被他所轻视、视为西方蛮族的家族，竟已先获赐名号。</p>
+<p>此前豪曾拐弯抹角地向他索要名号，但僥阳一直置之不理。</p>
+<p>“即便是伯父，也请勿对东宫之事妄加议论。那已是朕决定之事。”</p>
+<p>“是，是。但在我看来，那不过像是先将其立为东宫摆摆样子罢了，您说呢？”</p>
+<p>豪眯起眼睛。藏在拱手礼之后的口角，似乎正咧着笑。</p>
+<p>“梨花妃生育第一子时也是如此。因是首位诞下的皇子，便立为东宫。”</p>
+<p>“梨花是上级妃。有何不妥吗？”</p>
+<p>“不，绝无此意。只是，臣在想，倘若那长子尚在人世的话——”</p>
+<p>“那已是过去之事。”</p>
+<p>僥阳轻轻晃动酒杯。他并未饮下杯中葡萄酒，只是凝视着那摇曳的红色液体。</p>
+<p>那已是早已了结之事。他与阿多之子，已不在人世。</p>
+<p>对豪而言，若阿多之子尚存，想必正中下怀。若能成为没有后盾的阿多的监护人，到了下一代，想必又能颐指气使。</p>
+<p>而令人困扰的是，这同时也是僥阳的愿望。</p>
+<p>“是啊。想必已成长为一位英姿飒爽的青年了吧，如同瑞月大人一般。”</p>
+<p>“……”</p>
+<p>僥阳无言地怒视着豪。然而，他的视线被阻断。</p>
+<p>“呃？！”</p>
+<p>豪瞪大了眼睛。他的鼻尖前，正抵着一柄剑。</p>
+<p>持剑之人，正是高顺。这个平日里沉默寡言、眉头紧锁、一脸劳碌相的男人，甚至还以惧内闻名，难免会遭人轻视。更何况，他还因瑞月的任性，不得不假装宦官长达七年之久。</p>
+<p>“你、你意欲何为？！”</p>
+<p>豪的护卫们随即反应。但因身处皇帝寝殿，不得佩剑，只有三名精壮的护卫。</p>
+<p>“原话奉还。您以为，提及月之君的名号还能安然无恙吗？”</p>
+<p>高顺的目光比剑尖更为锐利地刺向豪。</p>
+<p>“当今世上，能直呼月之君名号的，唯有主上一人。您根本不了解自己的身份。说您欺君罔上也不为过。”</p>
+<p>高顺在马氏一族中也是格外温厚之人。这样的男人竟会做出如此举动，足见豪是何等得意忘形。</p>
+<p>护卫们动弹不得。与制服高顺相比，豪的脑袋恐怕会先落地。甚至，全体护卫都可能命丧当场。高顺便是如此身手不凡之人。</p>
+<p>僥阳心想，或许就此砍下他的脑袋倒好。虽能解气，但善后麻烦。不仅打扫房间麻烦，更不想因除掉豪而导致安氏娘家势力削弱。子氏一族既已覆灭，宫廷内的势力平衡已然倾斜。再削减派系并非明智之举。</p>
+<p>僥阳抬手示意，让高顺收剑。</p>
+<p>豪脸色铁青，怒视着高顺。</p>
+<p>“你凭什么对我如此放肆！”</p>
+<p>豪唾沫横飞地叫嚷道。</p>
+<p>“是，我并无任何官位。”</p>
+<p>马氏一族从不担任官职。高顺亦不例外。</p>
+<p>“然而，我是主上的利剑。主上的利剑，不过是依其职责行事罢了。”</p>
+<p>“正是。谁也没说过你可以直呼瑞月之名。能如此称呼的，唯朕一人。”</p>
+<p>豪咬紧嘴唇。</p>
+<p>豪是僥阳的外戚。虽是外戚，却并非皇族。而直呼高位皇族之名，乃属禁忌。</p>
+<p>豪是个不好不坏、恰如其分的男人。</p>
+<p>野心恰到好处，愚蠢也恰到好处。</p>
+<p>若他是个精明能干的男人，反倒难办。那才真正棘手。</p>
+<p>像这样偶尔做些蠢事时，只需勒紧缰绳，让他明白谁才是主人便好。</p>
+<p>“你以为，自己还能继续留在这里吗？”</p>
+<p>“……万分抱歉。”</p>
+<p>豪的态度与方才判若两人。</p>
+<p>“臣改日再行拜访。”</p>
+<p>说罢便离去了。</p>
+<p>待脚步声完全消失，僥阳抚着腹部。</p>
+<p>“疼痛加剧了？”</p>
+<p>“是啊。刚才被气得厉害。”</p>
+<p>“豪大人究竟在想什么？”</p>
+<p>“无非是想让月之君回到东宫之位吧。”</p>
+<p>“是吗。”</p>
+<p>高顺已不见方才的锐利目光。</p>
+<p>“陛下并无此意吧？”</p>
+<p>高顺以一如既往的语调问道。</p>
+<p>“……是啊。”</p>
+<p>僥阳既未肯定也未否定，只是将盛着葡萄酒的杯子放了下来。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-253.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-255.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

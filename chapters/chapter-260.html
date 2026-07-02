@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">260</h1>
+</header>
+<p>**十五、告白　里**</p>
+<p>阿多心想，自己方才真是失态了。</p>
+<p>看着其他三人的表情，他们似乎察觉到了什么，却佯装不知，这让她松了一口气。她希望这一切当作没发生过，也当作没发生过。</p>
+<p>阳为何要在手术前这样召见月？又为何召见表面毫无关系的阿多？她思索着其中的缘由。</p>
+<p>阳似乎不愿放手月。那是出于早年与阿多交换的某个荒唐约定，还是因为自己身为“天”，所以也想让月继承“天”呢？</p>
+<p>因此，他明知近乎遗言，却还是叫来了阿多等人。</p>
+<p>本该在这种重要场合出现的，是皇后玉叶，而非一个并非妃子的女人。</p>
+<p>束缚月的方法并非没有。比如，正式指定他为皇位继承人。敌人虽多，但盟友也不少。更何况，指名并非亲生儿子、而是自己的弟弟，固然会让周遭困惑，但这点也能解决。</p>
+<p>只要在此告诉月，他才是自己的亲生儿子。</p>
+<p>如此一来，无论月如何，都无法拒绝阳的命令了。</p>
+<p>其他皇子尚年幼，而月处理政务的能力出众。这两点，足以弥补其生母阿多地位低下的不足。</p>
+<p>只是，这对皇后玉叶及其一族而言，却是晴天霹雳。</p>
+<p>阳宠爱玉叶。不仅是因为她的地位，想必也欣赏她的人格。阿多曾与她喝过几次茶，觉得她是个好妃子。至少，她不是那种会乐于颠覆国家的人。</p>
+<p>她并不想为难玉叶。</p>
+<p>事到如今，没有理由再特地拿出那个本已死去的皇子，来埋下祸根。</p>
+<p>阿多认为，阳打算做的事，简直愚蠢至极。</p>
+<p>但当事人想必心知肚明，仍执意如此吧。</p>
+<p>阳并非“人”，而是“天”。除此以外的人，皆为“人”。阳之所为，在他身为皇帝之时，皆被允许。只要天命未改。</p>
+<p>正因为是“天”，便可随意处置“人”。哪怕只是一时兴起，选个夜伽的指导者，也无需考虑这意味着什么。他拥有足以照顾一个“人”一生的权力。所以，不必在意。</p>
+<p>阳是“天”，但月又如何呢？月也是“天”吗？</p>
+<p>然而，这不过是阿多的杞人忧天罢了。</p>
+<p>月并非“天”，而是“人”。</p>
+<p>阳仍看着阿多。</p>
+<p>阿多用手掌掩住落下的泪滴，望着阳。</p>
+<p>“阳啊。月是如此说的。你意下如何？”</p>
+<p>她应该发出了与平日无异的嗓音。</p>
+<p>“……”</p>
+<p>“要让他们先回去吗？”</p>
+<p>“嗯。”</p>
+<p>阳的态度，令月和猫猫都愕然。月大概不明白阿多为何在此，更不明白阿多叫来猫猫的用意。</p>
+<p>明明那般敏锐，却视而不见。</p>
+<p>也曾有过唤阳为“父亲”的时期。</p>
+<p>想必常有人说，月和阿多气质相似。</p>
+<p>事实上，阿多也曾替代过月。</p>
+<p>察觉了却佯装不知，那便足够。</p>
+<p>又或者，是水莲巧妙地瞒了过去吧。</p>
+<p>怎样都好。</p>
+<p>对阿多而言，月是“人”。这一点已经确认了。</p>
+<p>而这对于阳来说，想必也是一种冲击。</p>
+<p>“这样好吗？”</p>
+<p>月问阳。</p>
+<p>“嗯。”</p>
+<p>“明日的手术，您打算如何？”</p>
+<p>“不必担心。我会乖乖接受的。”</p>
+<p>听到这话，比起月，猫猫露出了更为安心的表情。</p>
+<p>“那遗书呢？”</p>
+<p>月似乎难以启齿，阿多代为问道。</p>
+<p>“稍后再写。总之，你们先回去吧。”</p>
+<p>月的脸上写满了不安。猫猫也很担心，但听到阳愿意接受手术，似乎让她松了口气，表情没有那么凝重。</p>
+<p>“那么，告辞了。”</p>
+<p>月和猫猫正要离开，阿多也打算跟上去。</p>
+<p>“且慢。”</p>
+<p>“什么？”</p>
+<p>“你还有事。”</p>
+<p>阳没有松手。</p>
+<p>“好吧好吧，我知道了。你们俩别担心，回去吧。”</p>
+<p>月与猫猫面面相觑，退出了房间。</p>
+<p>待到四周安静下来，阳才终于松开了手。</p>
+<p>“该不会是要我代笔吧？你要是死了，我会因伪造遗书而被处斩的。”</p>
+<p>“我哪会做那种事。”</p>
+<p>阳望着天花板。</p>
+<p>“不打算写立月为帝吗？”</p>
+<p>阳保持沉默。</p>
+<p>“若由月来坐那个位子，定能好好处理政务。等东宫长大，他自会退位。”</p>
+<p>阳仍仰着头。</p>
+<p>“就算成不了留名青史的贤君，也绝不会是昏君。”</p>
+<p>“……写下来便可？”</p>
+<p>“不必。我不适合当国母吧？”</p>
+<p>阿多自嘲地说道。</p>
+<p>“我还以为你会跟月说呢，说我犯下的过错。”</p>
+<p>“把外人带进来，不正是你的打算吗？”</p>
+<p>“说出来也无妨。猫猫很聪明。”</p>
+<p>“毕竟是罗汉的女儿嘛。”</p>
+<p>阿多终于明白了阳为何一直望着天花板——他是不想让满溢的泪水落下。</p>
+<p>“阿多，你恨朕吗？”</p>
+<p>“阳啊，你反倒觉得我不会恨你吗？”</p>
+<p>“是朕有何不足吗？”</p>
+<p>“哈哈。就是这个。”</p>
+<p>阳一直待阿多很好。无论是在东宫时代，还是登基之后，他都设法让阿多过得不受拘束。离开后宫后，他也处处关照，周围人想必都明白阿多的特殊地位。</p>
+<p>“你想让我当国母吗？”</p>
+<p>“那不是你自己说的吗？”</p>
+<p>泪水顺着阳的脸颊滑落。</p>
+<p>“阿多会遵守与朕的约定。只要不背弃约定，你便会遵守吧？”</p>
+<p>“是的。可我又被你毁约了多少次呢？”</p>
+<p>阿多向这个令人失望的弟弟伸出手去。她并未拭去他的泪水，反而揪住了他的胡须。</p>
+<p>“你是打算先立个年幼的东宫，由我留下来辅政吧？”</p>
+<p>“是啊。因为阿多一向信守承诺。”</p>
+<p>阿多感到一阵恼怒，手指用力，差点想将胡须连根拔起。</p>
+<p>“立年幼的东宫，好巧妙地操控其他臣子。等时机成熟，再与长大成人的月交换？还是打算违背与我的约定？若要毁约，早该宣布才是。你是打算养我几年、几十年吗？”</p>
+<p>优柔寡断。这本不该发生，但阳却被允许如此。</p>
+<p>“在政治上，你明明能更果断些。为何不干脆一刀两断，把我这个累赘处理掉！”</p>
+<p>“你不是累赘。”</p>
+<p>“就是累赘！你可知道，我被人嘲笑是‘没有职责的妃子’多少年了？你根本不知道。你自以为女人之间的纷争不如男人激烈。是啊，直接打斗是少了些。不过是偶尔被刺、偶尔被下毒、偶尔被放火罢了。”</p>
+<p>阿多用力拉扯阳的胡须，强迫他与自己对视。那满溢的泪水滚落，溅在阿多的脸颊上。</p>
+<p>“我已经不能生育了。当那个孩子死去时，你为何不干脆毁约？”</p>
+<p>“阿多，你是不会主动毁约的。一旦知道约定无法履行，你定会以某种形式自行消失。”</p>
+<p>可是，她留了下来。</p>
+<p>“所以你才发现了婴儿掉包的事吧。”</p>
+<p>阿多不禁笑出声来。掉包的共犯安氏和水莲绝不可能会背叛，她一直纳闷阳是如何察觉的。</p>
+<p>“你倒是很了解我的行动模式。”</p>
+<p>“是啊。”</p>
+<p>“那你也不该忘记，我曾想做的事。”</p>
+<p>阳在东宫时代，时常厌学偷跑出去，躲起来吃点心。他们曾边吃边聊，说过这样的话：</p>
+<p>“反正我也当不了官。那不如去做个商人吧。”</p>
+<p>阿多靠着栏杆说这话，已是多少年前的事了。若成为夜伽的指导者，别说商人，连宫门都踏不出去。</p>
+<p>她不可能不明白这一点。</p>
+<p>“对阳来说，夜伽的指导者不过是一时兴起，但对我而言，却是一生的问题。”</p>
+<p>“……若阿多成了商人，大概就不会再回宫了吧。”</p>
+<p>阳那已开始夹杂白发的发丝轻轻垂落。</p>
+<p>“你会丢下朕，再不回来了吧？”</p>
+<p>“回来不回来，若不是阳召见，本也见不着面吧？”</p>
+<p>阿多没有权限召见阳。若反过来倒还罢了。</p>
+<p>从出生起，他们的立场便不同。若非生母水莲当了乳母，他们本是一生无缘相见的人。</p>
+<p>阿多明白阳想说什么。阳虽能给予一切，却并非能去往任何地方的人。</p>
+<p>阳是害怕阿多远走他乡吧。那时的他们，不过十二三岁，想来也不曾深思熟虑。</p>
+<p>“我不想让你去任何地方。所以，我想守住那个约定。”</p>
+<p>“守住那个对谁都没好处的约定？即使你明知我并不真想当国母？”</p>
+<p>“是的。”</p>
+<p>阳作为“天”，占有了阿多这个“人”。</p>
+<p>那么，阳的儿子月又会如何呢？</p>
+<p>是否要重蹈父亲的覆辙？为此，他才叫来了猫猫。他想确认的是，月是否会占有猫猫。</p>
+<p>那是杞人忧天。</p>
+<p>月并非“天”，而是“人”。</p>
+<p>“阿多。若你成了商人，还能与朕做朋友吗？”</p>
+<p>“只要你肯做宫廷御用商人，随时都可以。”</p>
+<p>“哈哈。”</p>
+<p>阳笑着，泪水也随之滑落。</p>
+<p>“喂。我有件事求你。”</p>
+<p>阿多松开胡须，双手环住阳的脖颈，将脸凑近。</p>
+<p>“那个约定，由我来毁掉。”</p>
+<p>“你是说要离开朕吗？”</p>
+<p>阿多拼命按住想要抬头的阳。</p>
+<p>“不，我会留到最后。我宫里的行李，别处怕是装不下吧。”</p>
+<p>翠、子氏一族的孩子们，还有沙欧的巫女。</p>
+<p>“所以，让月自由地去做吧。”</p>
+<p>她在阳耳边低语道。</p>
+<p>“你的牢骚话，我随时都愿意听。直到入土为止。”</p>
+<p>阿多知道自己的请求有多么傲慢。</p>
+<p>阿多的孩子只有月，但阳的孩子不止月一个。她却要求只对月特别对待。</p>
+<p>“那孩子虽是皇族，却太过接近‘人’了。太过温柔。”</p>
+<p>“是啊。”</p>
+<p>“他有成为贤君的才能，但同时，恐怕也活不长。”</p>
+<p>“或许吧。”</p>
+<p>皇帝需要的不是温柔，而是慈悲。那是由上至下施与之物。将民众视为与自己同等的君主，终会病倒。而月从一开始，便不打算将能治愈这病痛的人卷入其中。</p>
+<p>阿多觉得对玉叶、梨花及其他妃子们过意不去。</p>
+<p>她正向阳提出一个极其任性的请求。</p>
+<p>为了守护自己的孩子，她企图将责任推给其他孩子们。</p>
+<p>“我失败了。把后宫管理权当作赌注，本就是个错误。为何要打那种赌？”</p>
+<p>“阿多，那家伙其实很狡猾。”</p>
+<p>“哈哈。在后宫里，他可是把妃子们哄得团团转啊。”</p>
+<p>“即便如此，他却完全没碰过她们。”</p>
+<p>“对阳来说省了生孩子的麻烦，但月大概是太明白其中的麻烦了吧。”</p>
+<p>阳的头轻轻晃动。看来已有了能笑的余裕。</p>
+<p>“阳，快睡吧。明天可是要挨刀子的日子。”</p>
+<p>“别吓我。我知道。我马上睡。睡眠不足导致体力下降，若引起不良影响，那可就麻烦了。”</p>
+<p>“不写遗书吗？”</p>
+<p>“朕可没打算死。”</p>
+<p>“还是写下来吧。万一失败，也好让医官们免受罪责。”</p>
+<p>阿多松开阳的头。</p>
+<p>“你是假定朕会死啊。”</p>
+<p>阳的脸，到了这个年纪竟还鼓起腮帮子。</p>
+<p>“猫猫也会参与手术。若失败，可是会与罗氏一族为敌的。”</p>
+<p>“别说了。罗汉那家伙，自打我把叔叔赶走，就一直给我脸色看。”</p>
+<p>“若失败了，你已不在人世，也不必再看他的脸色了。”</p>
+<p>“所以叫你别老假定我会死。”</p>
+<p>阳嘴上说着，却取出了文具。</p>
+<p>“字还是一如既往地丑。”</p>
+<p>“吵死了。”</p>
+<p>像十岁孩童般的对话中，阿多和阳开始书写遗书。</p>
+<p>阳是“天”，阿多是“人”。即便如此，至少还能模仿朋友的样子。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-259.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-261.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
