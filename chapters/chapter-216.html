@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">216</h1>
+</header>
+<p>**六、报告**</p>
+<p>红色毛毡笔直地向前延伸。其尽头，是当今皇帝御座的所在。</p>
+<p>按理说，壬氏回来后应立即汇报，但在同为皇兄的皇帝的体谅下，此事被推迟到了次日。而且，将时间指定在午后，与其说是慰劳，不如说是对另一位汇报者的关照吧。</p>
+<p>坐在玉座上的是皇帝。东宫时代，他曾被称为阳之君、昼之君。壬氏开始被称为月之君，很大程度上与此形成对比。他是这个国家唯一能直呼壬氏本名的人。</p>
+<p>一年的时光似乎并未带来多大变化。只是或许因光线原因，头发里混杂了几根银丝。不加掩饰地任其自然，大概是皇帝下令不许动吧。</p>
+<p>皇帝的两侧，站着朝中重臣。曾经子昌所在的位置，如今站着玉袁。</p>
+<p>“华瑞月前来拜谒。”</p>
+<p>他缓缓低下头。</p>
+<p>壬氏能直呼本名的对象，也只有皇帝一人。</p>
+<p>壬氏身后，站着罗汉及数位重臣。马闪也在后方，但他大概正瞪大了眼睛，以防罗汉惹出什么乱子。</p>
+<p>汇报书已经提交给了皇帝。壬氏只口头概述了这过去一年在戌西州发生的大事。</p>
+<p>他瞥了一眼玉袁，对方表情未变，但想必对儿子的死心中有所感触。</p>
+<p>“辛苦你了。”</p>
+<p>那低沉而熟悉的声音。平日里若在夜间被召见，通常会边喝酒吃菜边谈，但今天又会如何呢。</p>
+<p>壬氏打算极其简短地结束汇报，抢在身后的罗汉搞出什么名堂之前退场。这一年经历了许多事，但若要汇报，不过数行便能说完。他打算简洁报告，若无特别之事便告退，然而——</p>
+<p>“对了，瑞。”</p>
+<p>就在汇报即将结束时，皇帝叫住了他。</p>
+<p>“许久未见了，要不要一同去后宫？”</p>
+<p>皇帝提出了一个惊人的邀请。周围的重臣们顿时一阵骚动。</p>
+<p>壬氏以宦官身份进入后宫，虽是心照不宣之事，却并非正式之举。他顿时感觉自己被狠狠捉弄了一把。</p>
+<p>这里的标准回答应是“您说笑了”，但作为一个六年来说这话的人，他此刻却难以作答。</p>
+<p>“开玩笑的。你还没休息好吧。好好歇息到明天再说。”</p>
+<p>皇帝没有等壬氏回答。</p>
+<p>壬氏松了一口气，同时也觉得此人依然深不可测。</p>
+<p>身后的罗汉这次没有打瞌睡，仿佛为这对他来说无聊的时光总算结束而高兴一般，快步走了出去。</p>
+<p>“好好歇息吗？”</p>
+<p>向主上问安之后，还需前往太后、东宫以及玉叶后处问候。</p>
+<p>之后应该就能好好休息了。船旅中文件之类的事务都已处理完毕，回到都城后的这几天，应该可以轻松些。</p>
+<p>“月之君，要回宫吗？”</p>
+<p>“等去太后等人处问候完再说。不过，我想请你去传个话。”</p>
+<p>“什么事？”</p>
+<p>“能否帮我把猫猫叫来？”</p>
+<p>壬氏略带羞涩地开口道。罗汉早已不见了踪影，他是在确认对方听不到之后才说的。</p>
+<p>“那位姑娘……吗？”</p>
+<p>马闪歪了歪头。</p>
+<p>“怎么？有什么事吗？”</p>
+<p>马闪在某些方面反应迟钝，壬氏明白他对叫猫猫来有所犹豫。但为了将来，总得让他习惯才行。</p>
+<p>“不，医官们今天起就要开始工作了，那姑娘应该也是今天复工。要现在就去叫她吗？”</p>
+<p>“……不，算了。不用了。”</p>
+<p>壬氏心想，对了，确实如此。壬氏是被主上亲自准许休息的，但其他人可没有。那么，等对方下班后再叫吧？但复工第一天就被叫来，会怎样呢。</p>
+<p>对方碍于上司情面无法拒绝，但大概会用一双疲倦又带着“搞什么名堂”的眼神看着自己吧。这倒也不坏，但完全顺从自己的欲望，还是有些不好意思。</p>
+<p>“嗯。那麻美能叫来吗？”</p>
+<p>“家姐应该没问题。”</p>
+<p>麻美——马闪的姐姐，留在了中央。以她的才干，应该能告诉壬氏这一年中发生的事。</p>
+<p>---</p>
+<p>皇太后和玉叶后虽一年未见，却都风采依旧。两人似乎都有话想对壬氏说，但大概是久别重逢，态度都较为克制。</p>
+<p>唯一令人难过的是，后宫中曾受他宠爱的铃丽公主已经完全忘记了他。即便扣除她正处于怕生的年龄，这依然相当令人受打击。</p>
+<p>回到宫中，水莲正在打扫。不是普通的打扫，而是大扫除。</p>
+<p>“水莲，你干劲十足固然好，但旅途劳顿，你也该休息一下。”</p>
+<p>话说回来，这座宫殿原本就被打扫得很干净。还要再重新打扫一遍，这大概就是世人所说的“婆婆做派”吧。</p>
+<p>“我也想休息啊。可是发现了这么多东西。”</p>
+<p>水莲虽然笑容满面，却拿出了可疑的符咒、人偶，以及用头发编成的绳子。</p>
+<p>“……”</p>
+<p>“少爷您大概忘了，但有些人一旦离开视线，真不知道会做出什么事来。恋爱中的姑娘家就是如此。”</p>
+<p>“不不不。”</p>
+<p>“还有缝着头发的内衣呢，您要穿吗？”</p>
+<p>“扔掉吧。”</p>
+<p>“明白了。”</p>
+<p>水莲毫不留情地将它们丢进了垃圾箱。</p>
+<p>那些诅咒的符咒和人偶，除了恋爱祈愿外，或许也有纯粹想诅咒壬氏的东西。但壬氏并不打算一一追究，那些只会用诅咒这种拐弯抹角手段的小人物，大概也掀不起什么风浪。正因为壬氏坚信诅咒不过是迷信，他才能如此干脆。</p>
+<p>“麻美来了吗？”</p>
+<p>“是的。正在内室帮忙。”</p>
+<p>麻美虽是女中豪杰，但也敌不过水莲。</p>
+<p>起居室里，麻美正像水莲一样把可疑的人偶扔进垃圾箱。</p>
+<p>“好久不见，月之君。这些稍后会统一焚毁，请放心。”</p>
+<p>她看起来像是把桃美的年龄减半，在西都看惯了的那种女性。</p>
+<p>“长话短说，能告诉我这一年发生了什么吗？”</p>
+<p>“好的。那么就从与月之君相关的事说起。”</p>
+<p>麻美一边手下不停，一边开始了汇报。</p>
+<p>西都来的玉莺之女，即将成为玉叶后的侍女。</p>
+<p>此外，朝中出现了要求为壬氏安排王妃的声音。</p>
+<p>还有，试图将梨花妃之子立为太子的派系正在蠢蠢欲动。</p>
+<p>“还有……”</p>
+<p>麻美略微停顿了一下。</p>
+<p>“还有什么？”</p>
+<p>“只是传言罢了。”</p>
+<p>“但说无妨。”</p>
+<p>壬氏在椅子上坐下，水莲不知何时已备好了茶。</p>
+<p>“目前皇族男丁数量稀少是个问题。主上有两位皇子，月之君尚未婚配。也就是说，有人正试图接近这为数不多的男性皇族。”</p>
+<p>“嗯，倒也合理。我记得先先帝有一位年纪相差很大的异母弟弟。”</p>
+<p>也就是先帝的叔父。据说女帝当政时，他因惧怕触怒她而选择了出家。</p>
+<p>“是的。那位大人有一个儿子。”</p>
+<p>既然是男系，便拥有继承权。壬氏也曾多次听说过他的存在。</p>
+<p>“你是说他们在图谋谋反？”</p>
+<p>“那倒是与以往并无不同。只是，除此之外，还有关于男系皇族存在的传闻。”</p>
+<p>“男系皇族？”</p>
+<p>壬氏歪了歪头。</p>
+<p>“到底是几代前的皇族了？”</p>
+<p>“大约三代前吧。据说曾有一位皇族触怒了当时的皇帝。”</p>
+<p>“嗯。”</p>
+<p>“那人在被处刑前被剥夺了皇籍，但在此之前，曾与市井女子育有一子。”</p>
+<p>“真是离奇的故事。”</p>
+<p>“是啊。虽然纯粹是无稽之谈，但姑且当作故事听听也好。”</p>
+<p>这是麻美式的玩笑。类似的故事壬氏听过无数。妓女中甚至有人以“华”为艺名招揽生意，自称是皇族的私生子。</p>
+<p>“还有不少话要说，您意下如何？”</p>
+<p>“我饿了。边吃边听，没问题吧？”</p>
+<p>“遵命。”</p>
+<p>麻美又发现了一个绣着头发的坐垫，随手扔进了垃圾箱。</p>
+<p>壬氏心想，还不如换个宫殿得了，但一想到猫猫会皱着眉说“别乱花钱”，他便没有说出口。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-215.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-217.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

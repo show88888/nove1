@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">221</h1>
+</header>
+<p>十一、阿多的真相</p>
+<p>回溯到猫猫拜访壬氏的数日前。</p>
+<p>阿多的离宫里，回荡着孩子们的嬉闹声。侍女们正在追赶在宽敞宅邸里四处奔跑的孩子们。</p>
+<p>「危险啊，请等一下。」</p>
+<p>「才不要——」</p>
+<p>一个男童一边东张西望，一边吐着舌头。大概是因为没看前面，撞上了走在前面的阿多。</p>
+<p>「啊，阿多大人。」</p>
+<p>侍女连忙低头道歉。</p>
+<p>「哈哈哈，真有精神。不过，还是要好好看前面哦。」</p>
+<p>阿多扶起男童。</p>
+<p>「对不起。阿多大人，我们来玩捉迷藏吧？」</p>
+<p>男童看着阿多。</p>
+<p>「今天有客人要来，不行啊。」</p>
+<p>阿多揉了揉男童的脑袋。其他孩子也纷纷围了上来，他便一一摸了摸所有人的头。</p>
+<p>阿多宫里的孩子们，原本是子一族的幸存者。是阿多受月之君所托，将他们藏匿在这里的。</p>
+<p>他们还不知道自己的父母发生了什么，也没有人告诉他们。聪明的孩子会自然保持沉默，年幼的孩子则已经忘记了父母。</p>
+<p>「别给阿多大人添麻烦。到这边来。」</p>
+<p>一个身材高挑的年轻人走了过来——说是年轻人，但并非男性。</p>
+<p>「翠，拜托了。」</p>
+<p>「遵命。」</p>
+<p>翠苓——她也是子一族的幸存者，同时也是先帝的孙女。她的存在同样无法公开，因此也住在阿多的离宫里。</p>
+<p>翠苓聪明而冷静，也懂一些医术。阿多觉得可惜，但也无可奈何。为了活下去，她只能这样。</p>
+<p>「对了，猫猫要来，翠你不见见她吗？」</p>
+<p>「猫猫……还是算了。」</p>
+<p>「上次旅途中，你们看起来关系不错啊。」</p>
+<p>「那是您的错觉。」</p>
+<p>翠苓拉着孩子们的手离开了。</p>
+<p>「难得有个能说话的人来……」</p>
+<p>知道翠苓存在的人很少。她的存在是不被官方承认的。</p>
+<p>若能见面时不见，能说话时不说，恐怕就会被遗忘吧。</p>
+<p>「我又不能永远待在这里。」</p>
+<p>阿多挠了挠后颈，走进了宫里。</p>
+<p>猫猫准时到了。</p>
+<p>「阿多大人，好久不见。」</p>
+<p>「好久不见啊。」</p>
+<p>站在猫猫身边的是雀。虽然在西都受了重伤，但她依然带着与往常无异的笑容。</p>
+<p>「哈哈哈，听说你在西边吃了不少苦头。」</p>
+<p>阿多躺在长椅上，喝着果汁。如果是跟猫猫单独见面，备酒也无妨，但这次要谈的内容不太一样。</p>
+<p>「发生了很多事。」</p>
+<p>「是啊。阿多大人想听雀讲讲吗？」</p>
+<p>雀莫名地积极。猫猫似乎很在意，目光在阿多和雀之间来回打量。</p>
+<p>「阿多大人，您和雀小姐是？」</p>
+<p>「是我让雀带猫猫来的。这样你大概能猜到一些了吧？」</p>
+<p>阿多吃着桌上的烤点心。用了大量奶酪，香气扑鼻。</p>
+<p>「也就是说，雀小姐的行动和月之君不一致。」</p>
+<p>猫猫像明白了什么似地呼出一口气。</p>
+<p>「雀小姐真正的主人是阿多大人，对吗？」</p>
+<p>「不用我解释就明白，真是省事。」</p>
+<p>阿多把点心推向猫猫和雀面前。雀毫不客气地吃了起来。</p>
+<p>「没错，雀是效忠于我的。」</p>
+<p>「是的。」</p>
+<p>雀嘴边沾着点心渣，肯定道。</p>
+<p>「奉主上之命，阿多大人的性命高于一切。」</p>
+<p>「但雀小姐看起来一直在为月之君做事……」</p>
+<p>「直呼壬氏也无妨。我也叫他‘月’。」</p>
+<p>猫猫凝视着阿多，似乎是在猜测阿多接下来要说什么。</p>
+<p>「阿多大人曾对我说，我的工作是‘让月之君幸福’。」</p>
+<p>雀说道。</p>
+<p>「没错。」</p>
+<p>「……」</p>
+<p>猫猫虽然心中有数，但似乎犹豫着要不要说出口。阿多便替她说了。</p>
+<p>雀不再多言，退后半步。她平时虽然聒噪，但并非不懂分寸。接下来她与猫猫的谈话，她绝不会向外透露。</p>
+<p>「因为月是我的亲生儿子。」</p>
+<p>就阿多所见，猫猫并没有露出惊讶的表情。猫猫移开目光，低下头，轻轻叹了口气。</p>
+<p>「看你这反应，你似乎早就察觉到了我和月的关系。」</p>
+<p>「我确实想过这种可能性。」</p>
+<p>「把真正的皇弟和我的儿子掉包了——这件事你也知道？」</p>
+<p>「……是的。」</p>
+<p>猫猫脸上写着“虽然知道，但不想亲耳听到”。阿多经常听到关于月和猫猫的传闻，但一直不明白为什么他们的关系没有进展。原来是因为猫猫一直在糊弄。</p>
+<p>「为什么要告诉我这些？」</p>
+<p>「因为我在西都听到各种风声，说你和月似乎有了进展。」</p>
+<p>猫猫立刻瞪向雀。雀故意吹着口哨，望向天花板。</p>
+<p>阿多知道，猫猫最讨厌这种信息被共享的方式。他自己也多次差点掐死周围的女官。但一旦事关别人，又会觉得有趣，真是麻烦。</p>
+<p>阿多摇了摇头。自己讨厌的事，不该对别人做。</p>
+<p>「月这个人，虽然由我来说有点奇怪，但实在是个麻烦的男人。」</p>
+<p>「我明白。」</p>
+<p>猫猫目光放远。</p>
+<p>「同时他也正值青春期，大概不久就会让你进宫吧。」</p>
+<p>「确实不能排除这种可能。」</p>
+<p>「你知道进宫意味着什么吗？」</p>
+<p>「我姑且算是出身花街的。」</p>
+<p>猫猫深深叹了口气。</p>
+<p>「那可不是普通的男女私会。他可是这个国家最高贵的血统。」</p>
+<p>「……避孕方法，我比一般人懂得多。我会处理好，不留后患。」</p>
+<p>真是个现实到骨子里的女人。既然月是阿多的孩子，那他就不是先帝之子，而是当今皇帝之子。皇弟和皇帝的长子，立场会有天壤之别。那还不到七岁的皇后之子，和已经元服的侧室之子——皇后一方只能祈祷皇帝在太子元服之前平安无事。</p>
+<p>「万一有了，你也不打算偷偷养大吗？」</p>
+<p>即使用了药，也还是可能怀上。</p>
+<p>「为了那个孩子，会有几十、几百条人命轻易被夺走吧？既然如此，用长针扎穿自己的肚子反而更轻松。」</p>
+<p>「用针扎？那是花街常见的堕胎方法吗？」</p>
+<p>「还有喝汞、打肚子、泡冷水——您想听哪一种？」</p>
+<p>猫猫是明白的。她不是那种只看着月的脸就沉溺于恋爱的女人。既然接受了月的感情，就必须有相应的觉悟。</p>
+<p>正因如此，阿多才觉得她可怜。</p>
+<p>「还不止这些。如果你接受了月的好意，就再也无法离开这个国家了。」</p>
+<p>「大多数百姓本来也不会离开自己的国家，甚至连出生的土地都离不开吧。」</p>
+<p>「说得也是。」</p>
+<p>茘国女人的一生由家来决定。良家女子越是少出门，有些人甚至一生都在宅邸中度过。</p>
+<p>但阿多望向了远方。</p>
+<p>「如果我说，我曾经想离开这个国家、去看看外面的世界，你会觉得太天真吗？」</p>
+<p>「不会。」</p>
+<p>猫猫摇了摇头。</p>
+<p>「远方有这里没有的东西——不只是物品，还有语言、文化，以及药草、药剂和治疗方法。风土不同，疾病也不同，这是理所当然的。」</p>
+<p>猫猫说到后半句时，语气里带着奇异的热情。这个女人，大概和阿多一样，对异邦怀有憧憬吧。</p>
+<p>「呵呵。我的梦想在十四岁就结束了。」</p>
+<p>阿多回想起自己曾经自由的身份——作为东宫乳母之子，作为乳兄弟长大。</p>
+<p>「叫我‘阳’吧。」</p>
+<p>那个弟弟这样说道。月之所以叫月，是因为他与阳相对，却永远无法超越。</p>
+<p>阿多曾像个男孩一样打扮，偷吃点心，爬树，有时逃掉老师的课，捉弄大哥高顺，两人一起大笑。</p>
+<p>如果阿多是男子，或许还能延续那样的日子。</p>
+<p>阿多曾把阳当作朋友。但别忘了——阳是立于国顶的人，而阿多只是他的臣下。</p>
+<p>当被要求担任指导官时，她无法拒绝。</p>
+<p>她曾多次想逃跑，但终究做不到，最终只能归于达观。</p>
+<p>阿多知道，自己是被拖下水的。</p>
+<p>皇帝生来就没有自由。除非是那种忘记职责的昏君，而阳是聪慧的。他能自由自在的，只有后宫之内。一旦戴上皇帝之冠，就注定要过上加锁的一生。</p>
+<p>对阿多来说，阳是朋友；但对阳来说，阿多并不是朋友。</p>
+<p>阿多知道男女之间不可能对等，但对她而言，这就像被折断了翅膀。</p>
+<p>没错。</p>
+<p>皇族生来就没有自由。但与此同时，他们也能夺走任何人的自由。</p>
+<p>阳没有意识到——他忘记了自己是夺人自由的一方，把阿多变成了指导官。</p>
+<p>阿多担忧着猫猫，她正走向与曾经的自己相同的道路。作为母亲，按理说应该支持亲生儿子的恋情。但阿多心中的良知——或者说，怜惜昔日自己的记忆——让她说出了这样的话：</p>
+<p>「现在还能逃走。我可以帮你。」</p>
+<p>猫猫露出困惑的表情。</p>
+<p>「怎么，我好歹还留有一些权力。」</p>
+<p>「请等一下——」</p>
+<p>开口的不是猫猫，而是雀。</p>
+<p>「怎么了？」</p>
+<p>「阿多大人，这话自相矛盾啊。那样的话，我接到的命令就没法执行了。」</p>
+<p>『让月之君幸福』——那就是雀的使命。</p>
+<p>「怕什么。少一个女人就会不幸的男人，也就那种程度了。他不会努力从别处弥补吗？」</p>
+<p>「您可真会强人所难。」</p>
+<p>雀抱起胳膊，歪着头。</p>
+<p>猫猫注视着阿多。</p>
+<p>「阿多大人。雀小姐的使命暂且不论，我是在接受这一切的前提下，才选择站在现在的位置上的。」</p>
+<p>「真的吗？不会后悔吗？」</p>
+<p>「为了不后悔，我会尽量让他做出让步。」</p>
+<p>「呵呵，让他给你建个大温室怎么样？」</p>
+<p>「那倒不错。」</p>
+<p>猫猫和雀似乎很合得来，在这种场合也能互相调侃。</p>
+<p>阿多的话反而让猫猫更加坚定了决心。</p>
+<p>「不如再建个果园如何？雀小姐可是很想大吃特吃新鲜荔枝呢——就像传说中的美人那样。」</p>
+<p>「在温室里种或许有可能。不过荔枝吃多了会上火，不太好。」</p>
+<p>「哎呀呀。那吃一百个左右应该没问题吧？」</p>
+<p>「请控制在十个以内。」</p>
+<p>这虽是无关紧要的对话，但阿多听着，心中却奇妙地平静了下来。</p>
+<p>同时，她也想起了自己曾对阳说过的话：</p>
+<p>『让我做国母吧。』</p>
+<p>她本以为这样说，阳就会放弃把她留在身边。那不过是玩笑话，也可以说是一句戏言。</p>
+<p>但自那约定以来二十多年过去，阿多至今仍未离开阳。即便出了后宫，也被以极其特殊的方式安置在离宫里。按理说，即使被降为下级妃，她也应该继续留在后宫。</p>
+<p>她虽被赶出后宫，却被特别赐予了离宫，因此没有人敢轻视阿多。</p>
+<p>反倒不如被放逐，或许还更轻松些。</p>
+<p>阿多就这样一直留在离宫里。不仅如此，她还要照看子一族幸存下来的孩子和翠苓。</p>
+<p>仿佛在说，即便作为指导官和妃子的职责已经结束，仍有使命在等着她。</p>
+<p>「我是不是成了压舱石？」</p>
+<p>阿多叹了口气。</p>
+<p>阳不仅想束缚阿多，还想束缚她的儿子。</p>
+<p>而她的儿子，是否也想束缚猫猫呢？</p>
+<p>想到这里，阿多对自己无能为力感到焦躁。</p>
+<p>数日后，听说猫猫去了月的离宫。</p>
+<p>阿多听到猫猫平安归来、什么也没发生，大大松了一口气。</p>
+<p>「他没有犯下和阳一样的罪。」</p>
+<p>阿多躺在床上，摊成大字，笑了出来。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-220.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-222.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

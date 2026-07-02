@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">212</h1>
+</header>
+<p>二、罗半的日常</p>
+<p>义父从西都回来了。</p>
+<p>这对罗半来说，既是好事也是坏事。</p>
+<p>「义父大人，今天开始要上朝了。好歹第一天也打起精神来啊。」</p>
+<p>罗半看着睡眼惺忪地喝着粥的罗汉。罗汉身边有三个孩子——四番、五番、六番。是罗汉捡回来的三个孤儿，如今在府上做些杂役般的活儿。</p>
+<p>四番正殷勤地把勺子送到罗汉嘴边。</p>
+<p>对罗汉来说，他只是懒得自己动手吃饭，但在旁人看来，这景象难免让人怀疑他有某种癖好。不过，若让他一个人吃，他会像幼儿一样永远吃不完，所以也没办法。</p>
+<p>除了这三个孩子，还有一个陌生的少年。还未元服，比身材矮小的罗半还要小一圈。</p>
+<p>「恕我冒昧，你是谁？」</p>
+<p>他是昨天和罗汉一起来到府上的。从长相看应该是戌西州来的，但不知道为什么会来。</p>
+<p>「是被义父大人捡回来的吗？」</p>
+<p>罗汉有从不知哪里捡人的毛病。也许是在西都看中了哪个孩子，就直接带回来了。如果是孤儿倒还好，若有父母就麻烦了。</p>
+<p>「如果你想回西都的话就说。虽然这是义父大人的过失，但作为家人，我会负责把你送回去的。」</p>
+<p>对罗半来说，家主回来意味着可以推卸责任，但同时也意味着善后工作会剧增。送一个孩子回去还算简单，比起炸后宫的企图，这根本不算什么。</p>
+<p>「不，我是来工作的。奉月之君之命，先负责照顾罗汉大人。」</p>
+<p>「月之君的命令啊。那姑且问一下你的名字吧。」</p>
+<p>不知道义父大人打的是什么算盘，罗半觉得还是先问清楚为好。</p>
+<p>「好的。我叫汉俊杰。」</p>
+<p>「汉俊杰……」</p>
+<p>罗半脑筋转得很快。听到这个耳熟的名字，又发现亲兄长并不在场，他立刻明白了——为什么哥哥不在，却有个素未谋面的孩子在这里。</p>
+<p>昨天太忙，还没来得及收到报告，不过应该很快就会来了。</p>
+<p>「原来如此。」</p>
+<p>罗半点了点头。在他看来，哥哥是个样样通却样样松、净会抽到下下签的人。此刻应该还在远方，拼命干活吧。</p>
+<p>罗半并不讨厌哥哥，心想改天要给他介绍个好姑娘。</p>
+<p>「罗半大人。」</p>
+<p>三番走了过来。</p>
+<p>「怎么了？」</p>
+<p>「抱歉，我在大人衣物里发现了这个。」</p>
+<p>三番递过来的信件虽然简朴，却带着高贵的香气。发信人看似不详，但罗半从笔迹就能看出是谁写的。那字体流畅中带着一丝力道。</p>
+<p>是月之君的来信，委婉且略带歉意地说明了为什么会有「汉俊杰」这个少年在。大致和罗半猜想的一样——等兄长回到中央后，会把「汉俊杰」送回西都，在此之前请他代为照顾。</p>
+<p>虽然对哥哥有些过意不去，但能欠月之君一个人情是件大事。今后要不断地积攒人情，直到大到还不起为止。</p>
+<p>回头得写封回信才行。</p>
+<p>罗汉喝完了粥，正让四番帮他擦嘴。五番和六番端来了水果甜点。</p>
+<p>「义父大人，在上朝之前，我想先汇报一下当前的情况。」</p>
+<p>「嗯——不是大家都在做吗？」</p>
+<p>「您离开了一年，很多地方都松动了。」</p>
+<p>罗半把棋盘拿到罗汉面前。罗汉把部下比作将棋棋子，在棋盘上摆出他们的配置来说明。</p>
+<p>起初罗半也不明白，但看多了就摸出了规律。虽然不完全准确，但罗汉想说什么，在棋盘上就能看懂。</p>
+<p>「棋子是怎么动的？」</p>
+<p>「嗯——这个是这样，那边是那样。」</p>
+<p>罗半把银将移向敌阵，夺走了一枚步兵。但香车被角行吃掉了。</p>
+<p>「香车啊。势头倒是好，不过那家伙看起来像骗子呢。」</p>
+<p>罗汉并不参与政治派系。但即便罗汉本人无意，自然形成「罗汉派」也是无可奈何的事。</p>
+<p>罗汉的部下们在他不在期间，一直紧盯着敌对派系防止他们肆意妄为。但「想长寿就别动罗汉」这条不成文的规矩，在这一年里已经松动了不少。</p>
+<p>罗汉的一名部下投靠了其他派系。但另一方面，他们也成功拉拢了其他派系的人。</p>
+<p>罗汉出发去西都前，只给部下们下了一道命令：</p>
+<p>「保持现状，等我回来时不要有变化。」</p>
+<p>结果就是香车被吃、夺了步兵。部下们想必正战战兢兢地等着罗汉回来。</p>
+<p>罗半心想——要让本就不擅长政治博弈的武官们维持宫廷内的力量平衡，本来就是强人所难。所以这已经算是及格了，但罗汉会作何反应就不知道了。</p>
+<p>「总之先看看捡来的步兵吧。」</p>
+<p>「明白了。」</p>
+<p>罗半提起笔，五番和六番备好了墨和纸，他便写下了能让副官理解的命令。副官名叫音操，是个男人。时隔一年终于见到妻女，第二天就要上朝，也着实令人同情。但身为罗汉的副官，休假本就不存在。</p>
+<p>「这就是宫廷吗？比西都的公所大多了。」</p>
+<p>那个和哥哥同名同姓的少年眼睛发亮地下了马车。</p>
+<p>罗半在思考该怎么安置这个西都来的少年。原本交给三番她们也无妨，但出了点问题。</p>
+<p>寄居者——姚和燕燕掺和了进来。不知为何，她们竟开始笼络起少年俊杰来。</p>
+<p>三番和姚似乎合不来，两人正火花四溅。至于她们为什么吵架，罗半只想装作没看见。</p>
+<p>总之，俊杰和罗汉似乎还算合得来，就让他以小姓的身份跟着吧。这样若能减轻音操的负担，罗半这边的文书工作也能顺畅些，但他并不觉得会那么顺利。</p>
+<p>「燕燕，我刘海没乱吧？」</p>
+<p>「没问题，一如既往地美丽。」</p>
+<p>身后传来寄居者们的声音。送罗汉上马车时，两位小姐也决定坐马车同去。虽然其中一辆是借来的，但总不能让她俩走路去。</p>
+<p>「罗半大人，对女性温柔固然好，但有必要做到这种地步吗？」</p>
+<p>三番低声问道。今天也是她来赶车。说实话，让她去做别的工作效率更高，但三番不听，也没办法。</p>
+<p>「三番，这不是你该干涉的事。」</p>
+<p>「……遵命。」</p>
+<p>「那我就送义父大人过去了。」</p>
+<p>从明天起，他打算交给音操。罗半也没打算每天给罗汉当保姆。</p>
+<p>「我们去医局吧。」</p>
+<p>姚和燕燕终于离开了，罗半稍稍松了口气。既然猫猫回来了，他打算让她们搬回宿舍。</p>
+<p>「那么，俊杰君，回头见。」</p>
+<p>「好的。姚大人和燕燕大人也请加油工作。」</p>
+<p>「不用这么拘谨的。」</p>
+<p>姚莫名地亲近他。本以为她有些厌男，或许是因为对方还是元服前的孩子才如此温柔吧。</p>
+<p>「今后要好好帮哥哥和伯父的忙哦。」</p>
+<p>姚和燕燕正要离开，罗半叫住了她们。</p>
+<p>「两位，你们似乎误会了什么。」</p>
+<p>「什么意思？」</p>
+<p>姚歪着头。</p>
+<p>「是的。我虽然姓‘汉’，但和罗汉大人他们没有血缘关系。」</p>
+<p>「可是昨天罗汉大人不是说‘俊杰？是我外甥吧。’了吗？」</p>
+<p>燕燕模仿得惟妙惟肖。说起来，昨晚燕燕半夜在做点心，该不会是在笼络罗汉吧？罗半打了个寒颤。</p>
+<p>「没错，但又完全不对。没时间了，回头再解释。」</p>
+<p>罗汉能记住亲兄长的名字简直是奇迹。但他不记得长相。结果，俊杰少年虽然感觉有点不对，但还是被定位成了「大概是我外甥」吧。</p>
+<p>罗半心想，真希望亲兄长早点成家。</p>
+<p>「呃……我的名字有什么问题吗？」</p>
+<p>「嗯——虽然很复杂，但不用在意。比起这个，义父大人又开始打瞌睡了，你能从后面推他一把吗？」</p>
+<p>「好的。」</p>
+<p>罗半和俊杰少年一起推着昏昏欲睡的罗汉往前走。</p>
+<p>原本只要把他送到办公室就结束了。</p>
+<p>然而——</p>
+<p>「怎么回事，这么吵。」</p>
+<p>「出什么事了？」</p>
+<p>罗半和俊杰少年对视一眼。</p>
+<p>办公室前站着副官音操。</p>
+<p>「音操大人。怎么了？」</p>
+<p>「罗半大人。那是——」</p>
+<p>音操的视线投向办公室内。那表情像是在说「你自己看更快」。</p>
+<p>「……哇哦。」</p>
+<p>那里挂着一样不太美观的东西。</p>
+<p>办公室的房梁上，吊着一个男人的尸体。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-211.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-213.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

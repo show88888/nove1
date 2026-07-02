@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">214</h1>
+</header>
+<p>四、办公室的上吊尸体 中篇</p>
+<p>包含尸体描写。</p>
+<p>时隔一年多重逢的义妹，一脸不悦。</p>
+<p>“哟，妹妹。”</p>
+<p>“滚，算盘眼镜。”</p>
+<p>猫猫对罗半开口就是一句粗话。</p>
+<p>“猫猫呀——”</p>
+<p>猫猫身旁站着罗汉。罗汉想扑上去抱住猫猫，但猫猫用扫帚柄顶住他的脸颊，阻止他靠近。</p>
+<p>“猫猫，你就不能手下留情点吗？”</p>
+<p>“那你来替？”</p>
+<p>“绝对不要。”</p>
+<p>罗半拒绝后，又看向另外两个人。</p>
+<p>一位是刘医官——宫廷医疗人员的长官。他是罗半的叔父罗门的同期，以脾气古怪著称。</p>
+<p>另一位是个年轻男子，中等身材，面相轻浮。</p>
+<p>“尸体在哪儿啊——”</p>
+<p>他两眼放光，但随即被刘医官一记拳头砸在头上。</p>
+<p>“天祐，安静点。”</p>
+<p>原来他叫天祐。这种男人的名字，无关紧要。</p>
+<p>罗半心想，麻烦的家伙也跟来了，但正主既然上钩了就好。如果罗汉开始惹麻烦，就推给猫猫好了。同时，对方肯定也在打同样的算盘。</p>
+<p>“我也没空，赶紧带我去看尸体。下午还要听月君的报告，没时间磨蹭。”</p>
+<p>刘医官额角青筋暴起。</p>
+<p>西都远征组的报告也与罗汉有关。罗半也想尽快了结。</p>
+<p>“这边请。”</p>
+<p>音操在前引路。俊杰少年因怕刺激太强，安排在别的房间等候。那孩子很认真，问有没有能帮忙的事，罗半便让他去打扫罗汉用的别室。</p>
+<p>“……恕我直言，罗家的人对自家人似乎太过宽容了。”</p>
+<p>刘医官看向罗汉、猫猫和罗半。</p>
+<p>“对女儿宠一点有什么错？”</p>
+<p>罗汉答得理所当然。跟这个男人说“看场合”也没用。</p>
+<p>刘医官也不傻，明白跟罗汉说什么都没用。他若无其事地走进办公室。</p>
+<p>“就是这家伙吗？”</p>
+<p>天花板的横梁上还挂着那枚“香车”。是罗半指示先别放下来的。</p>
+<p>“这样可什么也做不了吧？”</p>
+<p>刘医官眯起眼睛。</p>
+<p>“哦——死了死了。”</p>
+<p>那个叫天祐的男人闹腾起来。</p>
+<p>“明明说是‘横死’，这不是上吊嘛……”</p>
+<p>猫猫本想自言自语，却不小心说出了口。所以才说是“横死”。“横死”指死因不明的尸体，也可能是毒杀。</p>
+<p>按理说，罗汉不该来自己的办公室。所以，需要给他一个必须来的理由。</p>
+<p>“都这样吊着了，不是自杀吗？”</p>
+<p>刘医官的拳头再次落在天祐头上。</p>
+<p>“这么说，您是有不是自杀的依据了。所以才保持着现场原状吧。”</p>
+<p>刘医官看着尸体。</p>
+<p>“没错。”</p>
+<p>替罗汉解释的是音操。他们事先商量过，比起罗半，音操更适合说明。</p>
+<p>“说是自杀，却有矛盾之处。”</p>
+<p>“什么矛盾？”</p>
+<p>音操取出一根绳子。</p>
+<p>“这根绳子是按照死者王芳从脖子以下的身高剪断的。结合上吊绳的角度、王芳的身高和椅子的位置，他能上吊吗？”</p>
+<p>在罗半眼中，世界仿佛充满了数字。要完成上吊，椅子至少需要再靠近一尺左右，否则即使踮脚也无法把脖子套进绳圈。</p>
+<p>“如果从椅子上跳下来时把椅子踢倒了，那椅子不就会移动吗？”</p>
+<p>天祐提出意见。</p>
+<p>“考虑到椅背的位置，他到底用了多大的力气踢呢？”</p>
+<p>罗半代替音操回答。</p>
+<p>也许是因为天祐太吵，猫猫反倒安静。她一边和递点心的罗汉保持距离，一边疑惑地抽着鼻子。</p>
+<p>“嗯。你们没把尸体放下来，是想让我确认这个？”</p>
+<p>“正是。”</p>
+<p>“能说椅子的位置没变过吗？”</p>
+<p>“要叫目击者来作证吗？”</p>
+<p>刘医官似乎是个喜欢把事情弄清楚的人。该怀疑的地方就要怀疑。</p>
+<p>“话说回来，您竟然亲自来了。”</p>
+<p>“因为你说‘派个见习的来’，这种说法让我很在意。监督官还是需要的吧？”</p>
+<p>也就是说，是为了防止他们做手脚。</p>
+<p>“那就把尸体放下来吧。”</p>
+<p>“遵命。”</p>
+<p>音操叫来武官，把尸体放了下来。</p>
+<p>“各位，请坐在椅子上等候。”</p>
+<p>“好。”</p>
+<p>天祐迅速坐到了长椅上。</p>
+<p>“我站着就行。”</p>
+<p>“我也是。”</p>
+<p>刘医官和猫猫都站着。</p>
+<p>绳子在途中被剪断，尸体被放了下来，但颇费了些力气。“香车”——王芳有着武官般结实的体格。</p>
+<p>据报告，他是两年前被罗汉发掘的。因直觉敏锐、行动迅速而被录用。他适合实战，罗汉派去试用的任务都顺利完成。有上进心，但同时也欲望强烈。不过，只要监管得当便没问题——报告如此写道。</p>
+<p>大概是在罗汉不在期间崩溃了吧。</p>
+<p>“总算放下来了。”</p>
+<p>被放在布上的尸体，说实话，惨不忍睹，令人不忍直视。</p>
+<p>“天祐。”</p>
+<p>“来了——”</p>
+<p>刘医官让天祐先看。猫猫也从天祐身后探头看向尸体。</p>
+<p>“你怎么看？”</p>
+<p>“脖子上留有指甲抓痕。大概是太痛苦，想把绳子扯开的挣扎痕迹。”</p>
+<p>天祐意外地露出认真的眼神。猫猫也点头看着。</p>
+<p>“他挣扎得很厉害。”</p>
+<p>“挣扎得很厉害啊。”</p>
+<p>“上吊不是很痛苦吗？”</p>
+<p>音操不解地问。</p>
+<p>“上吊时若用力跳下，颈椎会脱臼，人会瞬间失去意识。那种情况下，应该不会挣扎。”</p>
+<p>刘医官解释道。</p>
+<p>“也就是说能死得轻松？”</p>
+<p>“没有轻松的死法。失败了会很痛苦，所以我不推荐。”</p>
+<p>听到刘医官的话，音操苦笑。</p>
+<p>“要脱衣服了。”</p>
+<p>“好。”</p>
+<p>天祐开始脱尸体的衣服。猫猫也打算帮忙。</p>
+<p>“哦？你要帮忙？”</p>
+<p>在罗半的记忆中，罗门一直告诫猫猫不要碰触尸体。</p>
+<p>“这是工作。”</p>
+<p>猫猫毫不迟疑地脱下尸体的衣服。罗半心想，虽然已是尸体，但能如此熟练地扒光男人的身体，实在不知该作何评价。</p>
+<p>“猫猫呀，别碰那种脏东西。”</p>
+<p>罗汉边说边掉点心渣。罗半不禁佩服他竟能在尸体前吃得下东西。</p>
+<p>“从腿部的尸斑颜色来看，已经过了不少时间了。你觉得多久了？娘娘？”</p>
+<p>“看起来至少过了半天以上。下半身的红斑相当浓。”</p>
+<p>“嗯，从肉的硬度来看，应该不到八个时辰。”</p>
+<p>天祐捏了捏尸体。</p>
+<p>刘医官没有反驳，想必判断无误。</p>
+<p>“即使有误差，也是在傍晚到夜间之间。”</p>
+<p>罗半碰了碰眼镜。那早已过了工作时间，他到底在做什么呢。</p>
+<p>“死因是上吊没错。”</p>
+<p>“嗯。”</p>
+<p>刘医官也没有异议。</p>
+<p>“能明确判断是自杀还是他杀吗？”</p>
+<p>“这还无法断定。从刚才提到的椅子位置来看，你们倾向于他杀吧。”</p>
+<p>面对音操的提问，天祐摇了摇头。刘医官也点了点头。</p>
+<p>猫猫眯起眼，看着天花板的横梁。</p>
+<p>“怎么了？妹妹？”</p>
+<p>“……”</p>
+<p>猫猫默默踩了罗半的脚尖，可惜鞋尖垫了东西，冲击被缓冲了。</p>
+<p>“到底怎么了？”</p>
+<p>罗半又问了一遍。</p>
+<p>“我只是在想，那绳子像套索一样套在横梁上。这样的话，就不需要用梯子了。”</p>
+<p>“套索？”</p>
+<p>“不如实际演示一下更快。”</p>
+<p>猫猫瞥了一眼刘医官。</p>
+<p>“那就请吧。”</p>
+<p>音操说道。猫猫不听罗半的话，但对音操倒是比较顺从。</p>
+<p>“失礼了。”</p>
+<p>猫猫拿起绳子，在末端系上重物，甩动起来，朝横梁与天花板之间抛去。</p>
+<p>“这样要怎么系在柱子上？”</p>
+<p>“看横梁上绳结的系法就明白了。像这样——”</p>
+<p>猫猫把绳头轻轻打了个结，再将另一端的绳头穿过去。</p>
+<p>“然后这样拉紧这根绳子——”</p>
+<p>绳子便牢牢系在了横梁上。</p>
+<p>罗半看着，点了点头。</p>
+<p>“原来如此。”</p>
+<p>“什么原来如此？”</p>
+<p>“我在想，如果是他杀，凶手是怎么杀人的。”</p>
+<p>对方是个体格魁梧的武官。想勒死他可没那么容易。</p>
+<p>“因为义父指认的凶手，怎么看都不像能杀掉武官的人。”</p>
+<p>“凶手？那个大叔知道是谁？”</p>
+<p>猫猫半眯起眼。</p>
+<p>“嗯，爸爸马上就知道了。”</p>
+<p>罗汉不知何时出现在身旁，猫猫立刻后退。</p>
+<p>“就算知道凶手是谁，义父也不知道作案动机、手法和证据。不过，手法已经弄清楚了，接下来就是动机了吧？”</p>
+<p>“动机吗——”</p>
+<p>猫猫瞥了一眼长椅方向。</p>
+<p>“你知道？”</p>
+<p>“大概。”</p>
+<p>“告诉我吧，妹妹。”</p>
+<p>如果是罗汉部下搞的鬼，问题就大了。希望能尽量息事宁人。</p>
+<p>“不太想说。”</p>
+<p>“不说的话，月君的报告就要迟了。”</p>
+<p>猫猫一脸不情愿地开了口。</p>
+<p>“也不是什么需要深究的动机。凶手大概是‘女人’吧？”</p>
+<p>“你怎么知道的？”</p>
+<p>罗半佩服。罗汉说的是“白棋”。“白棋”指女人，“黑棋”指男人。</p>
+<p>猫猫抽了抽鼻子。</p>
+<p>“原来如此吗？”</p>
+<p>“就是这样。”</p>
+<p>猫猫像是无奈般，看了一眼被扒光的尸体。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-213.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-215.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

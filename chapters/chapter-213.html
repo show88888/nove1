@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">213</h1>
+</header>
+<p>**三、公务室的上吊尸体　前篇**</p>
+<p>罗半知道，人类的遗体其实并不稀奇。</p>
+<p>都城及其周边地区，登记在册的人口有百万之众。无论这个数字是否准确，至少也是保守估计。由于存在针对成年人的定额人头税，所以有人谎报孩子未出生，有人谎报孩子在成年之前死亡，甚至有人将男丁申报为女性。虽然也有人忘记提交死亡申报，但恐怕没有户籍的人更多。</p>
+<p>宫廷内，包括后宫女官和杂役在内，有近万人工作。</p>
+<p>人多了，目睹死亡的机会自然也多。如果觉得罕见，那大概是因为人们为了避讳，将遗体藏匿起来了吧。</p>
+<p>训练中因意外事故死亡的情况也有。根据去年的记录，有三起死亡案例，另有十八起留下了无法继续担任武官的后遗症。这个数字不算高，因此想必还有更多未上报的案例。</p>
+<p>文官也因繁重的工作压力，有人不堪重负而自杀。</p>
+<p>“去年有七起吧。”</p>
+<p>罗半看着悬挂的尸体说道。</p>
+<p>上吊的尸体并非文官，而是穿着武官的制服。</p>
+<p>“好大一个晴天娃娃？”</p>
+<p>“义父大人，这是遗体。”</p>
+<p>罗汉一如既往地说着不知是玩笑还是认真的话。身旁的俊杰少年脸色苍白，嘴巴张张合合。这才是正常的反应。</p>
+<p>“罗汉大人，该怎么办？我马上让人清理房间，您是否换个地方办公？”</p>
+<p>副官音操向罗汉问道。</p>
+<p>“不用，马上收拾干净的话，这房间就挺好。”</p>
+<p>“就算义父大人不在意，其他人也会在意的。”</p>
+<p>在罗半看来，尸体并不美丽。结束了生命活动的人，从“人”变成了“物”，随着时间流逝会腐烂。腐烂很难说是清洁的，对罗半而言，那是不美的。</p>
+<p>“这房间采光好呢。”</p>
+<p>在残冬仍寒的季节，罗汉最优先的事项就是确保一个可以暖洋洋地睡午觉的地方。</p>
+<p>周围除了罗半他们，还有很多人——准确地说，武官十七人、文官十人、女官三人，都聚过来看热闹。</p>
+<p>“话说回来，这人是谁？”</p>
+<p>罗半重新戴好眼镜，眯起眼睛。他不想细看遗体，但必须确认是谁。今天大概没法工作了。</p>
+<p>“他是罗汉大人大约两年前提拔的武官。用罗汉大人的话说，是‘香车中的一人’。”</p>
+<p>音操解释道。</p>
+<p>“就是那个据说跳槽了的？”</p>
+<p>“是的。要我立刻拿出他的履历吗？虽然是一年多以前的东西了。”</p>
+<p>那是昨天罗半向罗汉解释棋局时，被夺走的“香车”。</p>
+<p>罗半虽然传达了消息，但他并不知道那个“香车”长什么样。记人脸不是罗半的工作，那是陆孙的活儿。</p>
+<p>“那家伙在义父的公务室里自杀？”</p>
+<p>罗半环顾四周。</p>
+<p>“香车”悬挂在公务室中央的横梁上。罗汉为了方便使用吊床，特意选了天花板高、有多根大横梁的房间作为公务室。但结果本人却动作迟钝，根本没法用吊床——还有这么一段无关紧要的往事。</p>
+<p>其他房间的结构，不太可能把上吊的绳子挂在房间正中央。</p>
+<p>距离遗体渗出的污物稍远的地方，有一把椅子。大概是被踢倒了，侧躺在地上。</p>
+<p>罗汉不在时，他的公务室似乎一直无人使用。虽然有人打扫，但并未彻底清理。罗汉喜爱的长椅被擦得干干净净，但架子的角落还残留着灰尘。</p>
+<p>“嗯。”</p>
+<p>罗半看着悬在横梁上的上吊绳和悬挂的“香车”，以及倒在地上的椅子。</p>
+<p>“义父大人。”</p>
+<p>“嗯？”</p>
+<p>“这群人中，有杀死‘香车’——那个上吊男人的凶手吗？”</p>
+<p>“嗯。”</p>
+<p>罗汉用下巴指了指那群看热闹的人。</p>
+<p>“诶？”</p>
+<p>俊杰少年惊讶地看看罗汉，又看看那群看热闹的人。</p>
+<p>“这、这是什么意思？”</p>
+<p>“是的。小声点。会被凶手察觉的。”</p>
+<p>罗半轻声提醒俊杰少年。他本无心对男子温柔，但面对这个顶替了兄长而来的少年，他觉得多少友善一些是起码的礼节。</p>
+<p>俊杰少年用双手捂住了自己的嘴。听话的孩子就是好管教。</p>
+<p>“是哪个人？”</p>
+<p>罗半问罗汉。</p>
+<p>“白棋。”</p>
+<p>对罗汉来说那是棋子，但罗半可分辨不出来。罗半眯起了眼睛。</p>
+<p>“啊。”</p>
+<p>看热闹的人渐渐散去。凶手也消失了，但罗汉的副官音操已经牢牢盯住了对方。此人虽不及陆孙，但记人脸的功夫也算不错。</p>
+<p>“音操大人。”</p>
+<p>罗半还是觉得麻烦，便看向罗汉的副官。</p>
+<p>“罗半大人。您该不会想着‘剩下的就交给你了，我先去工作’吧？”</p>
+<p>音操露出一个歪扭的笑容，握住了罗半的肩膀。他好歹也算有些武艺，握力很强，捏得生疼。</p>
+<p>罗半叹了口气，不知如何是好，又看向罗汉。</p>
+<p>“我要睡觉。在那之前，我想去见猫猫。”</p>
+<p>罗汉的脑子构造，常人无法理解。他能不靠公式得出答案，但其中的推导过程完全令人摸不着头脑。无论他的命中率有多高，都很难立案。</p>
+<p>“嗯……”</p>
+<p>罗半叫来附近的下官。</p>
+<p>“去医局一趟，请他们来验尸……不是上吊尸体，是‘非正常死亡’。”</p>
+<p>“不是上吊尸体吗？”</p>
+<p>“请说是‘非正常死亡’。对了，难得有机会，让刚复职的见习医官们也都来一趟吧？有贵重的新鲜遗体，应该很适合学习。”</p>
+<p>罗半拐弯抹角地说了句“把猫猫带来”。虽不敢说百分百，但这么一来，猫猫八成会来。只要她来了，毫无干劲的罗汉应该多少会正常一些。</p>
+<p>罗汉会给出答案，但光有答案毫无用处。</p>
+<p>罗汉指出了凶手。罗半他们必须找出杀人方法和动机。</p>
+<p>于是，罗半推了推眼镜，又为不得不再次目睹这不美的景象而叹了口气。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-212.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-214.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
