@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">210</h1>
+</header>
+<p>三十五、你的名字</p>
+<p>海风很舒服。</p>
+<p>猫猫吹着海风，走在甲板上。离开了戌西州，悠闲的航海开始了。船和来时很像，但形状略有不同。这次同样有三艘大船，还有商船跟随着。</p>
+<p>这几个月，西都发生了翻天覆地的变化。曾有一段时间，阴谋论暗流涌动，说皇弟暗杀了玉莺、企图占领西都。但自从玉莺的长子鴟枭参与政事之后，周围人的印象发生了变化。</p>
+<p>与传闻中那个放荡儿子的形象相比，鴟枭给人的印象并不差。最受欢迎的，大概是他那酷似父亲的容貌吧。他那莫名讨人喜欢的气质，或许也因为他继承了玉莺那种仿佛在演戏般的“武生”风范，由鴟枭做出来竟毫无违和感。</p>
+<p>粮食危机仍然问题重重，但皇弟壬氏不能一直留在地方，终究要回去了。被留下的鲁侍郎虽然辛苦，但还请他加油。</p>
+<p>（老实说，壬氏在中央反而更容易行动。）</p>
+<p>那些吝于支援的人，若皇弟近在眼前，想必也无法拒绝。这本来不是皇族该做的事，但猫猫觉得壬氏干得出来。</p>
+<p>（回去差不多花了一年啊。）</p>
+<p>中央变成什么样了呢？大家都还好吗？</p>
+<p>（忘了买伴手礼，但大家会体谅的吧。）</p>
+<p>实在没有那个时间。要说带了什么的话，大概也就只有龙涎香了。至少给最难搞的老鸨带了礼物，这一点帮了大忙。</p>
+<p>本想松一口气，但返程的船上人员可让人无法放松。</p>
+<p>「雀小姐，雀小姐。」</p>
+<p>「是是是，怎么了，猫猫小姐？」</p>
+<p>雀像是在留恋西都似的，吃着葡萄干。她只用左手就灵巧地从枝上摘下，送进嘴里。</p>
+<p>「为什么那个大叔会在这里？」</p>
+<p>猫猫半眯着眼，看着蹲在船头的大叔——怪人军师。</p>
+<p>「他和猫猫小姐一样，也是要回中央的哦。不过呢，刚才还挺精神的，一开船就变成那样了，跑去找厕所也没来得及，把胃里的东西喷得闪闪发光地散播在海风里了。」</p>
+<p>「不用说得这么详细我也知道。」</p>
+<p>呕吐物正闪闪发光地飞溅着，旁边他的副官看起来都可怜了起来。周围有个端着桶的小姓，正是那个叫俊杰的少年，在西都时曾照顾过猫猫。</p>
+<p>「罗汉大人本来应该坐另一艘船的，但他这次闹着非要跟猫猫小姐一起坐，差点连火药都掏出来了，实在没办法呢。不过，上了船他就老实了，应该没问题吧。」</p>
+<p>「他到底是从哪儿掏出的火药啊。」</p>
+<p>猫猫无语了。</p>
+<p>「我也没想到俊杰会跟来。」</p>
+<p>明明还年轻，却为了家人出门打工，真是个孝顺的好孩子。</p>
+<p>「是啊。返京人员名单里也有俊杰的名字，最吃惊的反而是他自己呢。接下来就让他跟着罗汉大人吧。毕竟罗汉大人和孩子意外地合得来。」</p>
+<p>这就是让人无法放松的人员之一。</p>
+<p>至于之二嘛——</p>
+<p>「行李收拾好了。下一个任务是什么？」</p>
+<p>一个态度谦逊的青年双手拿着行李问道。</p>
+<p>猫猫半眯着眼盯着他。</p>
+<p>「啊——那麻烦你打扫一下个人房间前面吧。罗汉大人上甲板之前吐了一地，很脏的。那是猫猫小姐和我的房间，别搞错了。」</p>
+<p>「明白了。弄完之后，我可以去月之君那里吗？」</p>
+<p>青年恭敬地行礼，名叫虎狼。</p>
+<p>「你在说什么呢？雀小姐的工作还多着呢。打扫完房间前面，接下来就是甲板哦。」</p>
+<p>雀指了指正在呕吐的怪人军师。</p>
+<p>「为什么这个人会在这里？」</p>
+<p>猫猫用明显不悦的声音说道。</p>
+<p>「您对我也太苛刻了。请随意叫我虎狼就好。」</p>
+<p>和平时一样笑眯眯的青年说道。</p>
+<p>猫猫之所以落得在戌西州四处逃亡的下场，是因为给鴟枭处理了伤口。但把她引到鴟枭那里的，是小红。而小红是由虎狼带去的。</p>
+<p>为了争夺继承人位置，试图陷害鴟枭的正是虎狼。</p>
+<p>「猫猫小姐，猫猫小姐。」</p>
+<p>「雀小姐。说实话，我也很难保持平静。」</p>
+<p>「请想开点。」</p>
+<p>雀笑了笑，特意举起行动不便的右手示意。</p>
+<p>「正如您所见，我在西都已经没有立足之地了。而且，我该完成的使命也变了。」</p>
+<p>「没有立足之地我明白了。使命是什么？」</p>
+<p>猫猫面无表情地问虎狼。</p>
+<p>虎狼微微脸红，垂下目光。</p>
+<p>「为了应当侍奉的主君，献出自己的一切。」</p>
+<p>「听不懂。」</p>
+<p>猫猫感到一阵恶寒。</p>
+<p>「猫猫大人虽然不喜欢我，但请相信我。我是为了完成使命而来的。我随时可以为月之君献身。我是为了那位大人而活着的。」</p>
+<p>（又多了一个奇怪的信徒……）</p>
+<p>猫猫无语地看向雀。</p>
+<p>「能换回小红吗？」</p>
+<p>「我也这么想过，但她毕竟是未成年人，不行。」</p>
+<p>看来她已经去交涉过了。</p>
+<p>「小红！好眼光。我也一直觉得那孩子很能干呢。」</p>
+<p>「既然你觉得她能干，为什么要把她卷进来？」</p>
+<p>「因为别人说她比我更合适，我就在意起来了，忍不住想试探一下。结果没想到她竟然把猫猫大人带来了。我本没想卷她进来的。真的，我说真的，请相信我。」</p>
+<p>虎狼的态度莫名地轻浮起来，像是哪里拧断了螺丝似的。</p>
+<p>「啊——原来如此啊。」</p>
+<p>雀莫名地一副了然的样子。</p>
+<p>猫猫不明白她懂了什么，但还有一件事想确认。</p>
+<p>「那么虎狼大人，莫非在西都期间，您一直在试探我吗？」</p>
+<p>酿酒坊的食物中毒事件、异国贵人的病患问题，都是虎狼带来的。</p>
+<p>「试探这种说法不好听。我只是觉得猫猫大人应该能解决，才带您去的。」</p>
+<p>「酿酒坊的食物中毒也是吗？」</p>
+<p>猫猫像是在确认般地问道。</p>
+<p>虎狼只是笑了笑，没有回答。</p>
+<p>「说到酿酒坊，之后好像挺麻烦的呢——」</p>
+<p>雀换了个话题。猫猫虽然想追问虎狼，但也明白这是让她别再深究的意思。</p>
+<p>「试饮本身没问题，但被发现把最高级的酒都喝光了。据说喝得太过分，连该出货的部分都喝掉了，还掺了兑水的劣质货混着卖。」</p>
+<p>「劣质货……」</p>
+<p>好像在哪听过这事。</p>
+<p>「是啊。正好碰上私酒骚动的时候，本来瞒得挺好，结果因为食物中毒事件败露了——」</p>
+<p>雀和虎狼像是商量好似的笑眯眯的。两人长得完全不像，笑容却如出一辙。</p>
+<p>「也不是说不行，就是干活总是粗心大意。得好好调教一番才行呢——」</p>
+<p>「他是要当雀小姐的部下吗？」</p>
+<p>「是的。我会狠狠使唤他的，猫猫小姐也尽管随便使唤就好——」</p>
+<p>「请多关照。」</p>
+<p>明明像是被赶出家门一样，虎狼却莫名地开朗。</p>
+<p>猫猫叹了口气，转身背对着他们。</p>
+<p>那个把胃内容物吐得满地、还造出彩虹的怪人军师，以及不知会搞出什么名堂、但好歹有缰绳可牵的虎狼。</p>
+<p>猫猫不想让这两人出现在视野里，于是想着去别的地方待着。</p>
+<p>想来想去，她看到了桅杆上的瞭望台。</p>
+<p>「请问，我可以上去吗？」</p>
+<p>猫猫向船员确认。</p>
+<p>「上去干嘛？小姑娘，很危险的。」</p>
+<p>「没什么特别的原因。」</p>
+<p>「没什么特别的原因？中央来的人怎么都喜欢往高处跑啊。」</p>
+<p>船员虽然无奈，但还是拿来了绳子。</p>
+<p>「喏，安全绳。危险，记得牢牢绑在身上。」</p>
+<p>「啊，谢谢。」</p>
+<p>没想到他答应得这么爽快，猫猫有些意外。</p>
+<p>她把绳子绑在腰上，爬了上去，坐到了桅杆中段的瞭望台上。</p>
+<p>「……」</p>
+<p>刚想踏上去，发现已经有先客了。</p>
+<p>「为什么猫猫会来这里？」</p>
+<p>「这话我原样奉还，壬氏大人。」</p>
+<p>壬氏坐在瞭望台上。</p>
+<p>「我嘛……算是从那些烦人的事里逃出来的。」</p>
+<p>「马闪……不对，是虎狼大人吗？」</p>
+<p>壬氏的脸色沉了下来，看来是猜中了。</p>
+<p>「……你又是为什么？」</p>
+<p>「天气好想待在外面，但怪人军师在到处呕吐，所以找个好地方就来了。」</p>
+<p>大致是同样的理由。</p>
+<p>「那就坐下吧。」</p>
+<p>「好挤。」</p>
+<p>「忍着。」</p>
+<p>猫猫坐到肩膀相碰的位置。因为挤，也没办法。</p>
+<p>说不定允许她上瞭望台，正是因为已经有先客了。</p>
+<p>「终于能回去了。」</p>
+<p>「回到家才算旅途结束哦。」</p>
+<p>「别这么说。难得心情这么好。」</p>
+<p>壬氏眺望着天空。蓝天中飘着白云。一幅平淡无奇的景象。</p>
+<p>「回到中央也有很多工作等着呢。」</p>
+<p>「是啊。中央的工作肯定积压了不少，而且从远方支援戌西州也会很辛苦。」</p>
+<p>但壬氏的表情告诉他，再辛苦也得做。他端正的侧脸上，留着一道伤疤。那是不会再消失的伤痕，但猫猫记得他意外地喜欢这道疤。</p>
+<p>（会想起子一族的事。）</p>
+<p>壬氏想必每次照镜子、每次触碰那道伤痕，都会想起子一族的事。</p>
+<p>猫猫知道壬氏是个责任心很强的人。其实不必猫猫多嘴说工作的事，但为什么自己偏要说这种不识趣的话呢。</p>
+<p>「壬氏大人回都城后想做什么？」</p>
+<p>猫猫没什么话题可聊，随口问道。</p>
+<p>「……想做的事？」</p>
+<p>壬氏陷入了沉思，歪着身子哼了几声。</p>
+<p>（不，您这么纠结我也很为难。）</p>
+<p>猫猫问这个问题并没有多深的用意。</p>
+<p>「有这么难回答吗？」</p>
+<p>猫猫要是被问到，会想说采集药草、制药、试新药之类的，能说出一堆。</p>
+<p>「不，反正想得到的都是些不想做的事，所以一直在想该怎么应付。」</p>
+<p>「啊——是有新妃候选人要入宫之类的事吧。」</p>
+<p>好像是玉莺的养女。玉莺不在了，那个被送来的女孩实在令人同情。</p>
+<p>「那边玉叶后会处理的。大概会被她笼络住吧。」</p>
+<p>「笼络……？」</p>
+<p>「你不知道吗？玉叶妃拉拢人的本事可是出了名的。」</p>
+<p>猫猫回想起后宫时代。说起来，她确实经常和中级妃、下级妃喝茶，然后把她们拉进自己的派系。</p>
+<p>「看来玉叶后的立场没变啊。」</p>
+<p>猫猫虽然给中央送过信，但终究不好给皇后级别的贵人写信。完全不知道那边的情况。</p>
+<p>「听说东宫和公主都很好。」</p>
+<p>「那就好。」</p>
+<p>对猫猫来说，公主比东宫更熟悉。那位好奇心旺盛的公主应该长大了不少。</p>
+<p>「回去后，要去打个招呼吗？」</p>
+<p>「我可以去吗？玉叶后可是好几次想挖我呢。」</p>
+<p>「那你还是别去了。」</p>
+<p>壬氏立刻回答。</p>
+<p>「想做的事……说起来倒有一件。」</p>
+<p>「什么事？」</p>
+<p>壬氏用右手触碰了猫猫的左手。</p>
+<p>掌心贴着掌心，大小差异一览无余。</p>
+<p>「这就是你想做的事吗？」</p>
+<p>「还有别的。」</p>
+<p>「是吗。」</p>
+<p>「但做不到。」</p>
+<p>壬氏的视线轻轻落在甲板上那个正四处喷洒呕吐物的人身上。</p>
+<p>「我忍得很辛苦。有点难受。」</p>
+<p>猫猫很了解壬氏的感情，更重要的是知道他不用再假扮宦官了。</p>
+<p>所以像这样紧挨在壬氏身旁，反倒让她感到一种奇异的尴尬。</p>
+<p>但同时又并不那么讨厌。</p>
+<p>『猫猫小姐也有各种经历，不被情绪左右是很重要的。但是……』</p>
+<p>『不能拿这个当借口哦。』</p>
+<p>猫猫想起了雀的话。</p>
+<p>大概猫猫对壬氏的感情，并非熊熊燃烧的热恋。她无法回应壬氏对她的感情，但她开始觉得，能让自己如此安心的人并不多。</p>
+<p>猫猫渐渐明白了自己的感情是什么。</p>
+<p>也开始觉得应该好好正视它。</p>
+<p>没想到会被那个爱耍宝的侍女点醒，真是令人意外。</p>
+<p>（该怎么办呢。）</p>
+<p>猫猫的左手仍然被壬氏的右手握着。虽然什么都没发生倒也无妨，但她不知道什么时候该放开。于是只好茫然地望着下方。</p>
+<p>（和来的时候比，多了好多不一样的人啊。）</p>
+<p>怪人军师自不必说，还有罗半兄带来的农民伙伴们。猫猫对他们感到有些过意不去。</p>
+<p>然后她注意到一件事。</p>
+<p>「说起来，没看到罗半兄呢？」</p>
+<p>「罗半兄？这次与农业相关的人员应该都指定坐这艘船才对。」</p>
+<p>「说起来……」</p>
+<p>猫猫回想起来。</p>
+<p>她有没有告诉罗半兄可以回中央呢？</p>
+<p>（因为小红的巨大变化，一时忘了说……）</p>
+<p>不，不对，就算猫猫忘了，肯定会有别人告诉他的。</p>
+<p>「不过罗半兄几天前不是说过‘去村里看看田地’吗？」</p>
+<p>「不，他会回来的。而且所有乘员都会在名单上确认的。」</p>
+<p>「说得也是。再怎么也不至于被落下吧。为防万一，确认一下名单吧。」</p>
+<p>「好。对了，罗半兄叫什么名字来着？」</p>
+<p>「……」</p>
+<p>猫猫不仅感觉到自己的手，连壬氏的手也渗出了汗。</p>
+<p>之后，确认了罗半兄没有上船，同时也知道了他的本名。但远在西方大地上的罗半兄，还没有发现自己被落下了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-209.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-211.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

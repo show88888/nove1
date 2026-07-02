@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">196</h1>
+</header>
+<p>**二十一、独眼龙**</p>
+<p>镇子出乎意料地安静。</p>
+<p>大型宗教建筑周围虽然有商铺，但都关了门。取而代之的是些脏兮兮的男人在游荡。怎么看都是盗贼。</p>
+<p>猫猫和小红被一个中年男人押着走。盗贼们用估价的眼光打量着她们，但中年男人一瞪眼，他们便移开了目光。</p>
+<p>这个镇子似乎已经被盗贼控制了。盗贼不事生产，等把这个镇子吃空，他们大概就会转移到别处去。</p>
+<p>不过，猫猫庆幸自己的判断是正确的。这个中年男人作为谈判对象还不错。</p>
+<p>首先，他是这个教会的信徒。其次，他有一定地位。</p>
+<p>从项链的纹样可以看出他是信徒。至于地位，猫猫从他的穿着打扮判断——他披着脏兮兮的外套，看起来绝不富裕，但从盗贼的立场就能看明白：他那把弯刀磨得很精细，外套虽是脏的，却是厚实的毛皮，被轻砍几下也不会破。</p>
+<p>对于盗贼这类流寇，力量直接等同于权力。猫猫判断，装备就代表着他的地位。</p>
+<p>正因如此，猫猫的脖子上被刀尖划了一下，流了血。虽然血量不多，很快就结了痂，但血看起来流了不少，小红很担心。</p>
+<p>（这孩子真是乖巧，帮了大忙了。不过……）</p>
+<p>小红一有不安就会吃头发。心理压力大时会有吃异物的症状，这大概就是其中之一吧。</p>
+<p>“进来。”</p>
+<p>猫猫她们被带到了镇中央的教堂。</p>
+<p>（是什么教来着？）</p>
+<p>雀教过她，但那发音太难，猫猫没记住。</p>
+<p>在礼拜堂中央大模大样躺着的是一个约三十岁的男人。他一只眼睛因伤而失明，面相凶恶。穿着类似异民族的服装，无袖上衣外披着狐皮。</p>
+<p>这本是向神祈祷的地方，他却铺了好几层毛皮，酒瓶和肉食散落一地，躺在那里。身边有两个战战兢兢的女人，像是随时伺候他。</p>
+<p>“头领，人带来了。”</p>
+<p>中年男人说道。</p>
+<p>（意外地年轻？）</p>
+<p>猫猫本以为会更老一些。他肌肉发达，大概是以实力坐上首领之位的吧。</p>
+<p>“就是她？”</p>
+<p>“是的。”</p>
+<p>猫猫心里疑惑，他在说什么“就是她”？</p>
+<p>“哼。随行的女人就不需要了吧？”</p>
+<p>“……同教应该可以放行。至少可以当个做饭的。”</p>
+<p>（随行女人？放行？）</p>
+<p>猫猫觉得这与她的预期有些出入。这语气仿佛是，本来的目标并不是她。</p>
+<p>（如果不是我……）</p>
+<p>她看向小红。</p>
+<p>头领慢吞吞地站起来，像熊一样庞大的身躯站在小红面前。小红含着泪，躲到猫猫身后。</p>
+<p>“哼。喂。”</p>
+<p>“在。”</p>
+<p>“通缉令呢？”</p>
+<p>女人们战战兢兢地递过羊皮纸。头领展开来，和小红对比着看。</p>
+<p>“有点像，又不太像？”</p>
+<p>（画像？）</p>
+<p>上面画着孩子的面容特征。猫猫觉得这画像眼熟。</p>
+<p>（这是？）</p>
+<p>她想起前几天见过的那个异国大小姐。</p>
+<p>（不，应该不会。）</p>
+<p>猫猫看了看小红。小红的头发颜色相当浅。远远看去，被误认为是异国人也不奇怪。她眼睛不是蓝色的，但远看或许看不出来。</p>
+<p>（年龄差太大了。）</p>
+<p>小红最多七岁左右。就算虚报，顶多也就十岁。</p>
+<p>相比之下，那个蛀牙的小姐看起来大约十四岁，但——</p>
+<p>（异国人看起来显成熟。）</p>
+<p>所以猫猫觉得她大概也就十二三岁。</p>
+<p>（不。）</p>
+<p>据说异国人的年龄不是按虚岁算，而是按出生日算的。如果按出生满一年算一岁来计算，就算上面写着十岁也不奇怪。</p>
+<p>猫猫瞥了一眼画像。上面有几条备注。</p>
+<p>（淡金色头发、蓝眼睛、年龄十一……）</p>
+<p>眼睛不是蓝色的，所以正常人应该能看出是另一个人，但头领似乎没注意到。</p>
+<p>还有一条特别说明：</p>
+<p>（可能是男扮女装。）</p>
+<p>猫猫明白了她们被抓住的原因。</p>
+<p>“啊——搞不懂了。我记得说是男的。脱了不就知道了，脱了！”</p>
+<p>头领正要伸手拉小红，猫猫挡在了前面。</p>
+<p>“嗯？”</p>
+<p>头领不悦地哼了一声。</p>
+<p>猫猫强忍着退缩的冲动，咽了口唾沫。</p>
+<p>“不劳您动手。这个孩子是女孩。”</p>
+<p>猫猫把小红推到前面。</p>
+<p>“忍一下。”</p>
+<p>她把快要哭出来的小红推上前，撩起她的裙子。只要证明是女孩，应该就没事了。</p>
+<p>这时，刚才倒酒的女人走了过来。</p>
+<p>“独、独眼龙大人。我来确认吧。”</p>
+<p>“……嗯，行。”</p>
+<p>看来头领被称为独眼龙。</p>
+<p>（独眼龙？）</p>
+<p>猫猫心里感叹这名字可真够威风的。这原本是古代武将的号。</p>
+<p>女人走近，含着泪抓住了小红的裙子。</p>
+<p>“对不起。”</p>
+<p>“……”</p>
+<p>女人似乎是为了不让小红——即便是个幼童——蒙羞，才代替别人来确认。她确认小红下身没有任何东西后，松了口气，看向独眼龙。</p>
+<p>“是女孩。”</p>
+<p>“……女的。谁说下一辆马车可疑的？”</p>
+<p>“是潜伏在邻镇的人。”</p>
+<p>“那就打一百下，饿三天。”</p>
+<p>“明白了。”</p>
+<p>中年男人默默地执行命令。</p>
+<p>“啊——可恶。本以为总算能收拾鸱枭了。”</p>
+<p>独眼龙像个孩子一样跺着脚。他体魄庞大，跺得地面都在震动。</p>
+<p>（鸱枭？）</p>
+<p>猫猫护住小红。小红听到伯父的名字，显得很不安。要是被对方发现她们认识鸱枭就糟了。</p>
+<p>（那个大哥哥，到底干了什么？）</p>
+<p>看来是那个异国的蛀牙娘——不，蛀牙小子——引起的纠纷。虽然看起来是个娇生惯养的大小姐，但似乎是个相当重要的人物。</p>
+<p>（而且，我逃跑是为了不让壬氏受牵连。）</p>
+<p>那个蛀牙小子关系到某种政治因素。</p>
+<p>“这两个怎么处理？”</p>
+<p>中年男人向独眼龙询问猫猫她们的去留。</p>
+<p>“啊。随你便。”</p>
+<p>独眼龙已经完全失去兴趣，或者只是在闹别扭，他在毛皮窝里蜷成一团，那样子活像一头熊或老虎。</p>
+<p>“喂。”</p>
+<p>中年男人叫住了刚才向小红道歉的女人。</p>
+<p>“带她们去。是同教。”</p>
+<p>“明白了。”</p>
+<p>女人恭敬地向中年男人低下头。她对独眼龙是畏惧，但对中年男人则带着几分敬意。</p>
+<p>“这边请。”</p>
+<p>猫猫她们只能跟着女人走。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-195.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-197.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

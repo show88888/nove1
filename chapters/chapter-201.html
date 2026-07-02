@@ -1,0 +1,407 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">201</h1>
+</header>
+<p>二十六、善后</p>
+<p>剿灭盗贼的收尾工作，快得令人发笑。</p>
+<p>去厕所的盗贼被一个个擒获，教堂里的盗贼虽然抵抗了一下，也几乎兵不血刃地被拿下。不过，因为盗贼们上吐下泻，现场惨不忍睹，详细的描写还是略过为好。反正打死也不想打扫。</p>
+<p>猫猫紧皱着眉，与鴟枭面对面坐着。旁边站着小红和那位女镖师。小红见到伯父，高兴得合不拢嘴。</p>
+<p>他们借用了集会所的一个房间，门外有护卫把守，以防偷听。</p>
+<p>「也该请您详细说明一下了吧？」</p>
+<p>面对体重至少是自己两倍的男人，猫猫毫无惧色。</p>
+<p>女镖师大概是为了避嫌，带着小红离开了房间。</p>
+<p>「好了，虽说要说明，但咱们先互通一下底细吧。你对我了解多少？
+照实说就行。」</p>
+<p>鴟枭这么一说，猫猫决定实话实说。</p>
+<p>「您是玉袁大人的孙子、玉莺大人的长子、玉叶大人的外甥，血统无可挑剔，但品行不端，在继承人之争中风评不佳的败家子。据说您酿私酒贩卖，还疑似与盗贼有往来。顺带一提，我觉得您该好好管教自己的孩子。」</p>
+<p>「你还真敢说啊。」</p>
+<p>鴟枭并没有生气。</p>
+<p>「那就换我说。你是汉太尉的女儿。表面上是来当医官助手的宫女，实际上却是月之君的心腹吧？」</p>
+<p>「汉太尉只是把我误认成了他曾熟识的一个妓女的女儿。至于月之君，只能说我在试毒方面很受重用。」</p>
+<p>猫猫觉得有必要纠正这一点。</p>
+<p>「嗯，那就当是这么回事吧。」</p>
+<p>这话让人有些在意，但若不理会，对话就进行不下去。</p>
+<p>「事情会变成这样，该从哪说起好呢？」</p>
+<p>鴟枭一边沉吟，一边用手指敲着桌子。</p>
+<p>「别人都说我是头目之类的，不过简单来说，就是我开了一家镖局——准确说是收购了一家小镖局接手了。至于盗贼那件事……并不是什么蜜月关系。自从我弄瞎那头熊的一只眼睛后，他就一直恨我。他老是跑到我的地盘找茬，有时还会冒用我镖师的名义干坏事。」</p>
+<p>虽然不能全信鴟枭的话，但猫猫之前听到的消息大多来自雀。</p>
+<p>（雀的消息才更可疑吧。）</p>
+<p>如果全信雀的话，矛盾就出来了。何况，当初和鴟枭一起带猫猫逃跑的，正是雀。</p>
+<p>（以雀的作风，很可能是故意掺入真话，引导我往那个方向想。）</p>
+<p>那么，就应该好好听鴟枭的话，对照事实。</p>
+<p>「月之君刚到西都不久，有人来找我，说想把一支异国商队护送到西都。前半段是别的镖局接的活儿，但因为要离开地盘，就转给了信得过的镖师。对方大概是了解我的为人，才来找我的。就算被我父亲玉莺发现，也能糊弄过去——他们大概就是这么想的。毕竟在镖师圈子里，我父亲讨厌异国人是出了名的。」</p>
+<p>「作为玉莺大人的儿子，您自己怎么看？」</p>
+<p>「……以前受父亲影响也讨厌过。但在这种四面都是边境的地方排挤异国人，根本得不到任何好处。」</p>
+<p>（哼——）</p>
+<p>猫猫喝了一口当作茶的马奶酒。</p>
+<p>「那支商队里有异国要人吗？」</p>
+<p>「一开始我也不知道。但慢慢就觉得不对劲了。」</p>
+<p>「哪里不对？」</p>
+<p>鴟枭竖起一根手指。</p>
+<p>「他们像是打听到月之君在此地才来的。可刚一到，追兵就来了。如果只是冲着商人来的，未免太执着、太麻烦了。而且他们长得像茘人，但很明显是异族。我当时想，大概是别国的大人物想跟月之君谈事才来的。可实际上，他们却躲在茘国要人聚集的地方，隐姓埋名地藏了起来。」</p>
+<p>「为什么要做那种事？」</p>
+<p>没必要特意跑到他国来躲藏。而且偏偏选在壬氏来的时候，这又有什么用意？</p>
+<p>「也许是想趁机流亡，又或者觉得有要人在场，追击的本国人就不方便进来。他们身边好像有个不知道是天才还是蠢材、总爱走极端的参谋。」</p>
+<p>（那可真是麻烦。）</p>
+<p>总之，他们似乎一直在隐藏行踪——</p>
+<p>「后来蝗灾爆发，他们被困住了。虽然异国人容易招致反感，但多亏大海叔父在驿站镇收留了他们，才得救。中途有人生病需要医生的时候，可真是急坏了。」</p>
+<p>「……」</p>
+<p>（异国人、驿站镇、医生……）</p>
+<p>猫猫对这件事的印象非常深刻。</p>
+<p>「那位要人是个孩子吗？」</p>
+<p>「没错。」</p>
+<p>果然——猫猫抱住了头。</p>
+<p>「总不能一直窝在驿站镇。但我父亲一死，事态就有了进展。」</p>
+<p>「玉莺大人不在了，情况怎么变了？」</p>
+<p>「如果一边是愿意听异国人说话的人，另一边是不愿听的人，你会想跟谁谈？也就是说，那个异国人——现在可以说名字了吧——是理人国的人来接那个孩子了。他们国内的风波总算平息了。」</p>
+<p>（理人国……）</p>
+<p>猫猫记得，那大概是北亚连中的某个国家。更具体的她就不清楚了。</p>
+<p>「所以我就负责在月之君和对方之间牵线搭桥。可就在我准备去谈这件事的时候——」</p>
+<p>鴟枭拍了拍侧腹，正是他被毒箭射伤的地方。</p>
+<p>「我一进本邸就被袭击了。我条件反射地打倒了旁边的门卫，那就是错误的开始。总之不知道刺客在哪，我就躲进了那条密道，把箭挖了出来。」</p>
+<p>「然后让我处置了。」</p>
+<p>事情对上了。</p>
+<p>「那为什么我也被卷进来了？」</p>
+<p>「被算计了。不知不觉间，我成了绑架异国要人的犯人。而为你治伤的你，也被视为同伙。在外交问题上，把自己的不利面暴露给对方是基本禁忌。」</p>
+<p>他毕竟作为长子受过教育，似乎明白这些道理。</p>
+<p>「考虑到宅邸内还有人用吹箭攻击我，里面有内应的可能性很高——雀是这么说的。」</p>
+<p>把猫猫带出来，大概是雀的判断。因为猫猫已经接触过那位异国要人，无法断言她一无所知。</p>
+<p>「只要和异国要人汇合，解开误会、把他交给理人国，就能脱身。当然，得先确认交接对象不是要人的政敌。在那之前，不仅是我们，你和侄女也得藏好，还得甩掉追兵。我也一直想和月之君取得联系。」</p>
+<p>（你说得轻巧，可要干的事太多了，太多了。）</p>
+<p>「结果当然没那么顺利。要人察觉危险后就离开了驿站镇，前往事先定好的汇合点。于是又只好把你们拖来拖去。」</p>
+<p>「……那个要人的追击者之一，就是那个独眼龙吧？」</p>
+<p>「这种称呼太抬举他了，叫他熊男就够了。那家伙本来就对我怀恨在心，肯定很乐意接下这活儿。这个村子是我经常用作补给的地方，他大概就埋伏在这里等我吧。……真是抱歉。」</p>
+<p>「我们既然还在这里，说明要人已经顺利交接了吧？」</p>
+<p>「没错。虽然想早点赶过去，但要是被熊男察觉就麻烦了。虽然听起来像借口，但我真没打算拿你和小红当诱饵。」</p>
+<p>「我知道。一般人不会弄错。」</p>
+<p>独眼龙——不，熊男会把小红误认为异国要人，是因为那男人不识字。画像没有上色，细节特征以文字列在旁边。发色暂且不论，连眼睛颜色都弄错，说明他根本没看那些文字。</p>
+<p>而如果大多数盗贼都不识字，那就能在各方面钻空子。</p>
+<p>猫猫看着自己的衣袖。她已从毛织品换成了洗过的衣服。袖口绣着一只雀，针脚细密，远不止“修补脱线”的程度。而且，衣服上原本根本没有脱线。</p>
+<p>这种细密的刺绣不可能是短时间内趁劳动间隙绣好的。所以猫猫断定，这刺绣原本就有。</p>
+<p>仿佛绣花的主人在说：猫猫对衣着没兴趣。而且她预料到猫猫会察觉“修补脱线”是暗号。这必须是熟悉猫猫的人才能做到。</p>
+<p>镇上事先就有内应——那位大婶。在那些田园调调的居民中，唯独她词汇量异常丰富。</p>
+<p>「你们事先约定了联络方式吗？」</p>
+<p>「就按普通方式潜进去告知的。无非是在指定位置留下指示而已。」</p>
+<p>「那种人真的存在吗？」</p>
+<p>「有啊，有人擅长这个。」</p>
+<p>「……是那位女镖师吗？」</p>
+<p>「答对了。」</p>
+<p>「……莫非，她是——」</p>
+<p>猫猫正要开口，门开了。</p>
+<p>女镖师站在那里。她看起来三十多岁，相貌精悍——但那表情却出奇地亲切。</p>
+<p>「莫非您是……雀小姐？」</p>
+<p>猫猫半眯着眼看着女镖师。她虽然隐约猜到了——</p>
+<p>「嘿嘿，被您发现了。没错。」</p>
+<p>女镖师摆出了一个极其夸张的姿势。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-200.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-202.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

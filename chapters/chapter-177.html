@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">177</h1>
+</header>
+<p>二、玉的血脉</p>
+<p>猫猫正在给庸医的脚上敷药。被那混账孩子打伤的地方，第二天就肿了起来，还引起了内出血。</p>
+<p>「这两三天需要静养。」</p>
+<p>猫猫觉得，让庸医请假在房间床上躺着就好了。但既然他自己说“还要工作”，也不能把他从诊疗室赶出去。</p>
+<p>（他在不在其实都没差……）</p>
+<p>但猫猫也不至于对庸医冷漠到把这话说出口。</p>
+<p>「呜呜，好痛啊。」</p>
+<p>「抱歉啊，大叔。」</p>
+<p>李白低下了头。就在他稍微离开的那一瞬间，事情发生了。猫猫还记得留下的护卫脸色惨白地道歉。</p>
+<p>护卫的疏忽只是短短一瞬。</p>
+<p>对方毕竟是个孩子，但即便如此，孩子能突破护卫袭击庸医，也是有理由的。</p>
+<p>（他应该是我的护卫吧？）</p>
+<p>明面上是医官的护卫，所以本该保护庸医。但留下的护卫却跟着猫猫。</p>
+<p>在猫猫面前，并没有公开的特别待遇。大概是壬氏的关照吧，但作为默契，护卫们大概都知道猫猫是什么人。</p>
+<p>（我才不想被认为是那个怪人的女儿呢。）</p>
+<p>所以，只要对方不挑明，猫猫也只是一介医官助手。也只能如此。</p>
+<p>但这样一来，庸医因此暴露在危险中就不好了。</p>
+<p>昨天的护卫，据说还是个不熟悉要人警护的武官。李白一脸歉疚地说他去洗手也是因为这个原因。</p>
+<p>诊疗室的警卫由李白固定担任，其他护卫轮流替换，但最近新面孔很多。</p>
+<p>「咚咚咚——打扰了——」</p>
+<p>做出敲门样子走进来的是雀。</p>
+<p>「庸医先生——来探病啦——」</p>
+<p>雀带了水果来。</p>
+<p>「雀小姐，真是不好意思啊。」</p>
+<p>（喂喂喂。）</p>
+<p>她直接叫“庸医”，庸医难道不在意吗？</p>
+<p>「猫猫小姐，你想知道昨天袭击庸医先生的那个不法之徒是谁吗？」</p>
+<p>「是谁？既然在这座宅邸里，应该是玉袁大人的孙子或曾孙吧。」</p>
+<p>「猜对了。是玉莺大人的长子的儿子。」</p>
+<p>（果然。）</p>
+<p>猫猫听说玉莺和玉叶后相差了近乎父女的年岁，所以有这么大的孙子也不奇怪。</p>
+<p>「听说名字叫玉隼哦——」</p>
+<p>雀用手指比划着写字。玉莺也好，看来给孩子取名都喜欢用鸟名。</p>
+<p>「然后呢，玉隼想要道歉，和他母亲一起来到诊疗室门口了。您看怎么办？」</p>
+<p>「这种事您倒是先说出来啊。」</p>
+<p>猫猫看向庸医。</p>
+<p>庸医微笑着说道：</p>
+<p>「如果他真心觉得自己做错了、想来道歉的话，那就让他们进来吧。」</p>
+<p>（真是老好人啊……）</p>
+<p>猫猫虽然这么想，但受害者是庸医，只好听他的。</p>
+<p>「请进。」</p>
+<p>猫猫板着脸打开了诊疗室的门。</p>
+<p>门外站着的，是同样板着脸的玉隼那个小崽子，和一个神色惶恐的女人。</p>
+<p>「这次犬子实在非常抱歉。」</p>
+<p>女人深深低下了头，想按住那嚣张小鬼的头让他道歉。</p>
+<p>「我、我才不道歉！」</p>
+<p>「快道歉！」</p>
+<p>「不要，我不要。」</p>
+<p>玉隼耍起了性子。</p>
+<p>母亲露出焦躁的表情，猛地抬起手——啪的一声清脆响起，玉隼的身体倒了下去。</p>
+<p>这一巴掌不会留下伤痕，但声音很响。大概不会受伤，但孩子身体还小，承受不住冲击吧。</p>
+<p>「快道歉！」</p>
+<p>母亲快哭出来了。</p>
+<p>玉隼吸着鼻子，紧闭着嘴。</p>
+<p>「对、对不起。」</p>
+<p>那道歉完全是形式上的。</p>
+<p>看这样子，感觉他还会再犯，但庸医正慌张地看着那位母亲。</p>
+<p>「好了好了，我不在意的。没事，抬起头来吧。」</p>
+<p>「实在非常抱歉。」</p>
+<p>母亲又郑重地低了一次头。</p>
+<p>抬起头来的玉隼，正怨恨地瞪着庸医。</p>
+<p>母子离去后，众人都感到一阵疲惫。</p>
+<p>「那孩子没事吧……被打得那么狠。」</p>
+<p>庸医还在担心那个毫无悔意的孩子。</p>
+<p>「被父母揍两下很正常吧，大叔。男孩子就该练到挨拳头昏过去才行啊。」</p>
+<p>「就是啊，那还算轻的了。没被棍子打就该偷笑了吧？」</p>
+<p>「光挨巴掌倒还好。不过，如果伤在看不见的地方就有问题了。比如心窝，虽然疼但看不出来。」</p>
+<p>李白、雀、猫猫各自发表了感想。</p>
+<p>「你们到底都是在什么环境里长大的啊……」</p>
+<p>庸医稍微退缩了一下。</p>
+<p>不过，猫猫也能理解庸医的担忧。</p>
+<p>「那位母亲，感觉特别慌张啊。虽说伤了皇弟的医官确实是大问题……」</p>
+<p>确实是大事。但猫猫觉得，那位母亲似乎还有更深层的焦虑。</p>
+<p>「这个嘛，要不要让雀来给大家说明一下呢？」</p>
+<p>雀竖起食指，摆了个姿势。</p>
+<p>「有什么内情吗？」</p>
+<p>庸医追问道。李白也显得很感兴趣。猫猫虽然也在意，但决定保持“只是和大家一起听”的立场。</p>
+<p>「玉莺大人去世了。现在西都正为谁来主政而闹得不可开交。玉袁大人的其他儿子、从中央来的陆孙先生，甚至月之君的名字都被提了出来。」</p>
+<p>「嗯，我听说了。」</p>
+<p>主要都是从那个爱发牢骚的壬氏那里听来的。</p>
+<p>「但是，你们知道原本最该站上那个位置的人，其实不在台上吗？」</p>
+<p>「……按理说，应该由玉莺大人的儿子来继承吧。」</p>
+<p>李白说得没错。但——</p>
+<p>「是的。但他的儿子却因为年纪尚轻、完全不碰政事，甚至因为过于无知而被排除在外了。你们不觉得奇怪吗？」</p>
+<p>「是啊。按理说应该早就开始培养了才对。」</p>
+<p>庸医沉吟道。</p>
+<p>「说到这个份上，猫猫小姐大概已经猜到了吧。其实玉莺大人的长子，是个无可救药的败家子！」</p>
+<p>雀双手撒出了纸花。</p>
+<p>「连亲戚都不把他当继承人看待，甚至想把外姓人推上首领之位，可见这家伙有多放荡了吧？」</p>
+<p>李白抱起胳膊。</p>
+<p>「是啊——。长子今年二十五岁。按理说早该学习帝王学，随时做好继位准备才对，但品行实在太差。」</p>
+<p>「他都干了些什么？」</p>
+<p>「和玉袁大人那里倒数第二的七男，二十五岁同龄，两人不合，老是打架。有一次还拔真剑决斗过。」</p>
+<p>（嗯？）</p>
+<p>「还酿造私酒，偷别家酒坊的瓶子装劣酒卖。被偷瓶子的酒坊声誉一落千丈。而那家酒坊正是玉袁大人的三女儿经营的。」</p>
+<p>（嗯嗯？）</p>
+<p>「还有，之前去农村时遇袭的盗贼事件，似乎也和他泄露富户情报有关。」</p>
+<p>（嗯嗯嗯？）</p>
+<p>猫猫伸手打断了雀。</p>
+<p>「玉莺大人居然没跟他断绝关系啊？」</p>
+<p>「大概因为是长子吧。玉莺大人似乎有些奇怪的执念，对次子和三子完全没有进行政治教育。」</p>
+<p>雀不知从哪儿掏出麻花，咔嚓咔嚓地吃着。庸医和李白也拿了一根。</p>
+<p>「玉莺大人的兄弟们呢，自己的事就已经忙得焦头烂额，没能力治理西都。但也不能交给玉莺大人的长子。所以，就把陆孙先生和月之君的名字提出来拖延时间。次子和三子都很优秀，趁这段时间培养他们，同时策划废除长子。玉莺大人不在了，长子等于是没了靠山。」</p>
+<p>「雀小姐真是消息灵通啊。」</p>
+<p>庸医佩服地说，但这些大概都是普通人不该知道的信息。</p>
+<p>不愧是玉袁的子女，连皇弟都被他们拿来当拖延时间的棋子。</p>
+<p>「所以刚才那位母亲才那么慌张啊。」</p>
+<p>就算现在是长子的媳妇，一旦被废嫡就毫无意义了。再加上伤了皇弟的医官，她肯定吓坏了。</p>
+<p>「所以，接下来一段时间，次子或三子中的一人应该会跟月之君共事。另一个则配给陆孙先生。只要其中一人尽快成材，我们也能早点回都城了。好了，那雀也该回去干活了。」</p>
+<p>说完，雀像是吃完点心该走了似的站了起来。</p>
+<p>猫猫举起了手。</p>
+<p>「提问，雀小姐。」</p>
+<p>「什么事，猫猫小姐？」</p>
+<p>猫猫此刻想起，这里正是本邸。</p>
+<p>「那个无可救药的败家子，现在也在这座本邸里吗？」</p>
+<p>「他好像不太回家，不过完全有可能碰面哦——」</p>
+<p>雀啪地眨了一下单眼。</p>
+<p>（别给我立这种旗啊……）</p>
+<p>猫猫差点想象出一条充满坎坷的未来，只好硬生生甩了甩头，决定把它忘掉。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-176.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-178.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

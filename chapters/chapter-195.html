@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">195</h1>
+</header>
+<p>二十、逃亡</p>
+<p>猫猫她们在森林中逃亡。途中几次听到追赶的脚步声，每次都躲藏起来。如果对方人数不多，两位车夫护卫还能击退他们。</p>
+<p>但不知道这能持续多久。</p>
+<p>「好痛。」</p>
+<p>年轻的护卫手臂受了伤。在与追兵交手时被砍伤了。</p>
+<p>猫猫拿出随身携带的止血生药涂上，用绷带包扎好。神经似乎没问题，但行动可能会变慢。</p>
+<p>关键在于追兵到底有多少，逃下去又是否有尽头。</p>
+<p>（真是绝境。）</p>
+<p>连猫猫这样的外行都这么想，两位护卫自然也心知肚明。</p>
+<p>「姑娘们。」</p>
+<p>那位大叔护卫神情凝重地对猫猫说道。</p>
+<p>「追兵人数很多。说实话，再继续下去，这活儿就不值这个价了。虽然还能逃一阵子，但除非逃出这片森林，否则我们无法保护你们。」</p>
+<p>「……」</p>
+<p>他说得在理。</p>
+<p>就算逃出森林，也没有马。粮食和水也几乎没有，很难回到原来的城镇。但也不能回到马车那边，更不可能进入下一个城镇。</p>
+<p>情况比预想的还要糟糕。</p>
+<p>「说实话，继续这样逃下去也没意义。我可不是因为能打才当镖师的。你看，我这人就是靠胆小才活到现在的。」</p>
+<p>猫猫也明白。与其说是勇猛果敢，不如说危机回避能力强的人才更适合当护卫。</p>
+<p>「……我明白了。」</p>
+<p>猫猫叹了口气。</p>
+<p>「姑且问一下，就算我们说加钱，也不行吗？」</p>
+<p>猫猫抱着一线希望，想着如果能弄到马，或许就能带她们逃出去——</p>
+<p>但两位护卫对视一眼，摇了摇头。</p>
+<p>「最安全的办法是抓住附近水源边的野马。我们倒是能骑，但你们能骑没经过训练、没装马鞍的马吗？我们也没把握带人骑还能甩掉追兵。」</p>
+<p>「……」</p>
+<p>猫猫心想，早知道就该学骑马了。</p>
+<p>命才是最重要的。</p>
+<p>倒不如说，这两位护卫已经相当有良心了。</p>
+<p>（不会背叛我们、把我们交给追兵，也不会抢了钱就跑。）</p>
+<p>他们在尽力履行职责，判断不可能之后，还向猫猫她们说明了情况。</p>
+<p>「……你们还年轻，又是女人。就算被抓住，活下来的可能性也很高。」</p>
+<p>「……」</p>
+<p>（活下来的可能性很高……是吗。）</p>
+<p>但不知道会遭遇什么。被山贼抓住，谁能保证会受到正常对待？</p>
+<p>不过，如果这两位护卫被抓，多半会被杀吧。</p>
+<p>猫猫判断再交涉也无济于事。</p>
+<p>「明白了。不过我有最后一个请求。」</p>
+<p>「……什么？」</p>
+<p>大叔护卫戒备着反问。</p>
+<p>猫猫取出绷带剪开。</p>
+<p>「小红，你母亲叫什么名字？」</p>
+<p>「银星。」</p>
+<p>猫猫心想，这不是给动物起的名字啊，一边写了下来。</p>
+<p>「另外，这个借我用一下，可以吗？」</p>
+<p>「嗯。」</p>
+<p>猫猫取下了小红的发饰。</p>
+<p>「请把这个发饰交给这个人。作为暂时的报酬。」</p>
+<p>猫猫摸了摸怀里，看看有什么能给的。她身上带了一些铜钱，但只够当小费。既然如此——</p>
+<p>（虽然非常、非常可惜……）</p>
+<p>猫猫忍着心痛，拿出一个小荷包。里面装着几颗不太圆润的珍珠。她本想留着作药材用，但也没办法了。</p>
+<p>「抱歉了。」</p>
+<p>两位护卫把猫猫她们留在了森林里。小红紧抓着猫猫，悲伤地望着他们的背影。她太聪明了，知道自己被留下了。</p>
+<p>那么，问题是——</p>
+<p>猫猫环顾四周。还没人的气息，但追兵迟早会来。那么——</p>
+<p>她找到一棵大树，在地上挖了个坑。然后躲在落叶下藏身。</p>
+<p>「……躲起来吗？」</p>
+<p>「现在先躲。」</p>
+<p>「可能会被发现。」</p>
+<p>「会被发现吧。」</p>
+<p>被发现只是时间问题。但是——</p>
+<p>过了一会儿，传来了脚步声。是粗鲁踩踏地面、沙沙作响的声音。那些人手里都拿着武器。</p>
+<p>（是灭口，还是抓活口？）</p>
+<p>猫猫不知道会朝哪个方向发展。</p>
+<p>就算被当成人质，也不知道会遭受怎样的对待。</p>
+<p>「忍一下。」</p>
+<p>猫猫小声对小红说。她卷起衣袖，塞进小红嘴里。</p>
+<p>脚步声沙沙地靠近。</p>
+<p>猫猫用眼角余光扫了一下。</p>
+<p>（那个不是。）</p>
+<p>猫猫怀里的小红，心跳声震耳欲聋。小红想必也能感受到猫猫的心跳。明明已是微凉的季节，却异常燥热。热到几乎让人觉得会冒出蒸汽暴露藏身之处。</p>
+<p>（这个也不是。）</p>
+<p>追兵走来又走过。</p>
+<p>盗贼们的行动很草率。大概是因为她们刚才一直和护卫一起逃亡，没想到会没有护卫、躲在这种洞里蜷缩着吧。</p>
+<p>（再等等，再等等。）</p>
+<p>猫猫一直等着。然后——</p>
+<p>一个手持弯刀的男人走近了。胡子浓密、体毛旺盛，头发蓬乱，披着脏兮兮的外套。大概五十岁左右。脖子上挂着什么东西。</p>
+<p>（就是这家伙。）</p>
+<p>不知道还会不会被别人发现。所以，即便不知道对方是什么人，也只能赌在他身上了。</p>
+<p>当那男人快要从猫猫面前走过时，她站了起来。</p>
+<p>「你、你……」</p>
+<p>「……」</p>
+<p>猫猫紧闭着嘴。</p>
+<p>男人把弯刀架在猫猫脖子上。</p>
+<p>（冷静，冷静。）</p>
+<p>猫猫顾不上血滴落下来，开口说话了。</p>
+<p>『神啊，你在看着我们吗？』</p>
+<p>那是之前从雀那里听来的异国经文中的一句。她努力不咬舌头、流利地说完。</p>
+<p>猫猫紧紧盯着那个男人——不如说是在瞪他。心跳加速，腿几乎要发抖，但不能露怯。要虚张声势，关键就在于表现得多么镇定。</p>
+<p>「……妈的。」</p>
+<p>随着男人发出一声放弃似的低语，弯刀被放了下来。</p>
+<p>（……赌赢了吗？）</p>
+<p>猫猫现在几乎要腿软，但还得继续虚张声势。</p>
+<p>「要是异教徒的话，我就可以直接处理掉了。」</p>
+<p>（好险。）</p>
+<p>真的好险。</p>
+<p>猫猫看向男人脖子上挂着的饰物。那只是在皮绳上吊着一块木片的简陋东西。上面刻着和猫猫之前翻看的典籍上一样的纹样。</p>
+<p>而街上那座教堂，正是信奉那本典籍的宗教。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-194.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-196.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

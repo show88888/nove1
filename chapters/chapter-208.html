@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">208</h1>
+</header>
+<p>**三十三、妥协方案**</p>
+<p>时隔数日好好地睡了一觉，这极大地恢复了壬氏的精力。</p>
+<p>他轻轻看向床铺。浑身沾满灰尘和血痂、脏兮兮的猫猫蜷缩着睡得正香。大概是太累了吧，壬氏把她抱起来放到床上时，她也没有醒来的迹象。</p>
+<p>她的脸颊上有像是被打过的痕迹，身上有擦伤，脖子上有刀伤。那身血衣，似乎是因为处理了重伤的雀而染上的。</p>
+<p>“真是狼狈不堪的样子。”</p>
+<p>即便壬氏问起这几天发生了什么，猫猫大概也只会像报告公务一样淡淡地叙述吧。那其中没有一丝“担心一下我”“关心一下我”那样刺痛人心的情感。她是不想成为壬氏的负担，还是觉得光靠感情倾诉毫无意义呢？</p>
+<p>如果是前者，壬氏要是不把这可恨的猫一样的家伙收拾一番，心里就过不去。</p>
+<p>停用宦官药的壬氏，已经具备了完整的雄性功能。他明白，若不是理性的锁链束缚着，他只会沦为野兽。</p>
+<p>“少爷。”</p>
+<p>侍女水莲唤道。她手里拿着换洗衣物。</p>
+<p>“差不多该用膳了。”</p>
+<p>“我知道。”</p>
+<p>“要沐浴吗？”</p>
+<p>“……不了。没时间吧。”</p>
+<p>“虽说满身是血的样子实在不卫生。”</p>
+<p>水莲虽然嘴上唠叨，但看起来比平时笑得更开心。</p>
+<p>“至少准备些热水吧？”</p>
+<p>水莲的目光投向床铺。就算壬氏不需要，也该让猫猫洗个澡。</p>
+<p>“也准备好换洗衣物。”</p>
+<p>若是察言观色的侍女，应该明白壬氏省略掉的“谁的”指的是谁。</p>
+<p>“遵命。”</p>
+<p>水莲恭敬地低下了头。</p>
+<p>壬氏伸了个懒腰，再次站到床前。</p>
+<p>他靠近熟睡的猫猫，以免吵醒她。</p>
+<p>“这点补充，应该被允许吧？”</p>
+<p>像是在说服自己一般低声说着，他轻轻用嘴唇碰了碰猫猫的额头。</p>
+<p>---</p>
+<p>换好衣服、用完膳后，壬氏前往本宅的大厅。大厅位于别院，据说常用于宴会，但今天只放进了包括护卫在内的最少人数。为确保谈话不被任何人听去，布置得很周到。跟在壬氏身边的是桃美。她今天并非作为侍女，而是以副官身份随行。</p>
+<p>大厅里已有先客。各自坐在长桌旁的椅子上。</p>
+<p>其中一个是粗犷的男人。他长得很像那个让壬氏吃尽苦头的玉莺。只是没有胡子。虽然面无表情，但眉心紧锁。他是玉莺的长子——鸱枭。壬氏几乎没跟这个男人说过话，但在遗产继承时一直在观察他。他与父亲玉莺看似相像，实则不像。</p>
+<p>与鸱枭相对而坐的，是一个刚元服不久的青年。他是最近一直在壬氏手下学习工作的虎狼。他的长相与长兄鸱枭完全不同。是个姿态谦卑、体格看起来仍在发育中的年轻人。</p>
+<p>还有一个人。</p>
+<p>按理说长子、三男之后应是次男，但并非如此。那里坐着一个吊着三角巾、笑眯眯的女人。她脸上有擦伤，身上的衣服穿得鼓鼓囊囊，像是身体也经过了处理。肩上披着棉袄御寒。马良常穿的那种棉袄。</p>
+<p>“月之君，好久不见呀——”</p>
+<p>听到那与平时无异的嗓音，壬氏甚至怀疑她是不是真的受了伤，但从猫猫身上的溅血来看，她应该伤得不轻，失血也很多。</p>
+<p>“不好意思，我可以保持这个姿势吗？”</p>
+<p>雀的目光不时瞟向桃美。她不是在观察壬氏，而是在看婆婆的脸色。桃美面对重伤的儿媳，应该也不会过于严厉。</p>
+<p>“无妨。”</p>
+<p>壬氏代替婆婆答道。</p>
+<p>鸱枭和虎狼已经站起身来，恭敬地向壬氏低头行礼。</p>
+<p>“屡次劳您大驾，实在抱歉。”</p>
+<p>先开口的是鸱枭。他态度恭敬，与上次遗产继承协商时判若两人。</p>
+<p>鸱枭大概也有自己的考量吧。</p>
+<p>相比之下，三男虎狼则笑容满面。</p>
+<p>“月之君，您脸色看起来好多了。感谢您对我这等罪人的宽大处理。”</p>
+<p>“我可没说会饶恕你。”</p>
+<p>壬氏语气平淡地说道。听到这话，虎狼笑意不减，反倒是鸱枭的表情僵住了。</p>
+<p>接下来在大厅里讨论的，是关于虎狼的事。他们聚集在此，是为了弹劾虎狼——他有何意图，做了什么。</p>
+<p>而本应在场的次男飞龙不在这里。这是因为有些事不想让他知道。</p>
+<p>壬氏用手示意“坐下”。鸱枭和虎狼确认壬氏落座后才坐下。</p>
+<p>雀仍坐在椅子上，手里端着饮料。那乳白色、冒着热气的东西，大概是羊奶或加了羊奶的汤吧。失血太多，这也是没办法的事。</p>
+<p>壬氏决定不再在意，开始谈话。</p>
+<p>“虎狼，你为何要杀你亲兄长鸱枭？”</p>
+<p>无需铺垫，壬氏单刀直入地问道。</p>
+<p>虎狼面不改色，笑容依旧。</p>
+<p>“我有我自己的想法，为了西都、为了戌西州。”</p>
+<p>“那就是杀亲兄长？”</p>
+<p>壬氏淡淡地反问。</p>
+<p>鸱枭紧盯着虎狼。作为兄长，他大概心情复杂吧。</p>
+<p>“你以前不是和鸱枭相处得不错吗？遗产继承上，有兄长在也不会困扰你吧？”</p>
+<p>“是的。大哥确实说过，他不要遗产，随我们怎么分。”</p>
+<p>“没错。我什么都不要。老爹的遗产你们自己分就好。我也没打算治理西都，飞龙和虎狼你们俩商量着办就行。再说了，我的名字是鸱枭。我不打算再用‘玉’这个姓了。”</p>
+<p>鸱枭的话，在世人看来对次男、三男无疑是求之不得的提议。但对治理戌西州的家族而言，事情没那么简单。</p>
+<p>“可您却说什么‘让飞龙大哥和我来治理’，这也太强人所难了。您以为大哥不继承遗产和工作，一切就能顺利吗？”</p>
+<p>“不是吗？飞龙是个可靠的家伙。比我聪明多了，会处理好的。你辅佐他就行了。就算不能马上替代父亲，几年后应该也能胜任。”</p>
+<p>“几年后？接下来几年才是最困难的时候啊？”</p>
+<p>虎狼像是被逗笑了一般说道。</p>
+<p>“飞龙大哥确实可靠。若在中央当官，他肯定比鸱枭大哥升迁得快得多。但要让他当头领，您觉得如何？”</p>
+<p>虎狼似乎在问壬氏，而非鸱枭。</p>
+<p>“蝗灾善后、治安恶化、粮食短缺，再加上今后还得把别国入侵纳入考量。您觉得飞龙大哥有统合全局的能力吗？”</p>
+<p>“可以依赖祖父和叔父们吧？”</p>
+<p>“祖父年事已高。我不认为他还能频繁从中央回来。而叔父、叔母们又能依靠到什么程度呢？祖父之所以将西都交给父亲，不论其思想如何，也是因为他有统合的能力。”</p>
+<p>壬氏只能对虎狼的话表示赞同。无论出于何种想法，玉莺确实有能力。</p>
+<p>“祖父在世时大概还好。如果是蝗灾发生前的状况，我们也会老实本分。但如今父亲已逝，叔父叔母们今后会毫无顾忌地插手本家。而既非长男的飞龙大哥和我，根本没有压制那些在各个领域拥有势力的叔父叔母们的力量。所以飞龙大哥一直在等鸱枭大哥回来。因为鸱枭大哥至少有能力靠拳头让幼达叔父闭嘴。”</p>
+<p>幼达——意为末子。玉袁的孩子中最小的孩子是玉叶后，但若论男丁，听说七男——掌管畜牧的那位——是最小的。据说他曾与鸱枭动过刀子，大吵过一架。</p>
+<p>“在我们兄弟中，恐怕唯一能正经治理西都的，只有鸱枭大哥了。正因为明白这点，飞龙大哥和我一直以来都只想着作为辅佐来支持他。”</p>
+<p>“这就矛盾了。你方才一直在夸赞鸱枭。我在问你为什么还要取他性命？”</p>
+<p>“并不矛盾哦。”</p>
+<p>开口的是雀。她手里拿着一个松软的炸面饼之类的东西。</p>
+<p>“如果鸱枭先生就那么活着，一定会有想利用他名号的人出现。那才是碍事的地方吧。”</p>
+<p>“正是。”</p>
+<p>雀的回答得到了虎狼的赞同。</p>
+<p>“但若鸱枭不在了，又会怎样？你方才不是才说飞龙和虎狼都力有未逮吗？”</p>
+<p>面对壬氏的追问，雀和虎狼相视一笑。那笑容竟出奇地相似。</p>
+<p>“是的。不过虎狼先生发现了啊——比毫无干劲的长兄更适合留在西都的人。”</p>
+<p>“是的，正是如此。”</p>
+<p>虎狼紧盯着壬氏。壬氏感到一阵不祥的预感。</p>
+<p>“玉莺大人的三位公子中，最适合治理的确实是鸱枭先生。但对虎狼先生来说，只要有其人才，他并不执着于杨家。虎狼先生的目的是‘发展西都’。只要是政治上适合担任西部长、且具备实力的人物——”</p>
+<p>雀也看向壬氏。</p>
+<p>“如果鸱枭大哥不在了，本应该能顺利进行。飞龙大哥和我也能好好作为辅佐发挥作用。”</p>
+<p>说着，虎狼从椅子上站起身，跪伏在地，低下头。</p>
+<p>“我深知这是强人所难，但还是恳请您——月之君，能否留在西都，引导戌西州的百姓？为此，即便要我献出项上人头也在所不惜。”</p>
+<p>虎狼一次次将额头贴在地上，他的眼神明亮得令人不快。</p>
+<p>壬氏不禁后仰，看向身后的桃美。</p>
+<p>“……听说巳之一族被教育为‘侍奉主君即为最高喜悦’。”</p>
+<p>“即便您说是最高喜悦……”</p>
+<p>“若月之君此刻答应留在西都，我甘愿自刎。”</p>
+<p>“你若自刎，我也很为难。”</p>
+<p>谁来收拾这烂摊子啊。</p>
+<p>“住手！不必做那种事！”</p>
+<p>鸱枭在跪伏的虎狼身旁坐下，然后像虎狼一样将头贴在地上。</p>
+<p>“如您所见。弟弟只是一心为戌西州着想。请不要想着砍他的头。”</p>
+<p>壬氏原本也没说要砍虎狼的头。那只是虎狼自己说的。</p>
+<p>“鸱枭大哥。我没事的。如果这样能让西都顺利运转，那不也挺好吗？”</p>
+<p>虎狼眼中没有丝毫犹豫。倒不如说，他对鸱枭庇护自己感到不解。</p>
+<p>雀仍坐着，眯起眼睛看着这一幕。</p>
+<p>“说什么都没用。他们从小就是这样被培养的。根本的想法就完全不同。”</p>
+<p>“怎么可能！他为什么要为这种事赴死？”</p>
+<p>“这种事？若你说出这种话，就真的不适合当继承人了。你为了弟弟而想替弟弟承担责任，这或许是出于同情。但鸱枭先生，你完全没有继承人的才能。即便你舍弃‘玉’这个姓氏，自称污秽之名，装恶人拉拢地下势力，也完全不搭调。你待在表舞台上当个傀儡就好——这才是保护你弟弟最合理的方式。”</p>
+<p>雀一口气说完，又开始喝羊奶。</p>
+<p>鸱枭一脸茫然，而虎狼仍用那闪亮的眼神看着壬氏。</p>
+<p>“虎狼先生，你也放弃吧。我明白你的命令，但如果你的指令与雀小姐的指令冲突，雀小姐只能不惜一切手段将你击溃。”</p>
+<p>“雀大人。您伤得那么重，还能做什么？会留下后遗症，地位也会大幅下降吧？”</p>
+<p>“即便如此，也比虎狼先生高哦。雀小姐很灵巧，光靠左手就能应付大多数事情。不过雀小姐很温柔，所以愿意给虎狼先生这种年轻后辈提一个折中方案。”</p>
+<p>雀朝壬氏微微一笑。</p>
+<p>“鸱枭先生也有才能哦。他拥有他父亲玉莺大人渴望却得不到的东西。”</p>
+<p>雀咧嘴笑着，看向鸱枭。</p>
+<p>“他一定会成为一个出色的人偶，伫立在西都。”</p>
+<p>壬氏轻轻看向桃美。桃美似乎理解儿媳的工作，她什么也没说，只是在意着桌面上散落的食物碎屑。她大概是打算不去深究巳之一族的想法吧。</p>
+<p>壬氏心想，早知道就该再多做点准备。他反省着。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-207.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-209.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

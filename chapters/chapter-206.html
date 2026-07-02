@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">206</h1>
+</header>
+<p>三十一、继承人</p>
+<p>马良十六岁那年，被母亲桃美叫去。</p>
+<p>“接下来口头传达的事，你一定要记住。”</p>
+<p>母亲是马氏一族的掌事者。马氏一族作为皇族的护卫而存在，反过来说，男人有时要拼上性命，甚至死去。因此，万一出了什么事，需要留下作为头脑的便是女人。</p>
+<p>原本这应是族长之妻的职责。父亲高顺因特殊缘由不会成为族长，但也没有其他合适人选，所以母亲便承担了这个角色。</p>
+<p>桃美所讲述的，是“名门”之一——“巳族”的事。若马氏一族负责明面上的守护，那么巳族便负责暗中的守护。</p>
+<p>“虽说是巳族，但其构成不像我们这样是简单明了的血缘关系。”</p>
+<p>巳族擅长谍报。然而正因其职责，他们不会公开身份。</p>
+<p>“巳族虽有多支，但请将其视作各自世袭制。”</p>
+<p>“世袭制是指？”</p>
+<p>“巳族的人——比如有十个人的话。这十个人各自选一名继承人。大多从血亲中挑选，但若无合适人选，也会从外部收养。那便是下一代的巳族。此外，除继承人外，其他人不被承认为巳族，且大多情况下，除了选定的继承人外，不会传授技艺，甚至连血缘是巳族这件事都不会知道。”</p>
+<p>“母亲，我能问个问题吗？”</p>
+<p>“什么？”</p>
+<p>“也就是说，巳族也可能会潜入其他名门？”</p>
+<p>桃美露出满意的笑容。她的表情已说明答案正确。</p>
+<p>“没错。这是最重要的一点。正因巳族与马族是对应的家系，所以只有我和少数人知晓此事。”</p>
+<p>马良感到胃隐隐作痛。专精谍报的家族——若如此，确实适合探察臣下的心思。</p>
+<p>“还能再问一个问题吗？”</p>
+<p>“什么？”</p>
+<p>“我的妻子也是巳族的人吗？”</p>
+<p>几天前，姐姐麻美开始提起相亲的事。</p>
+<p>“不清楚。但你要明白，你不能拒绝。”</p>
+<p>面对母亲斩钉截铁的话，这个性格软弱的儿子无从反驳。</p>
+<p>---</p>
+<p>几天后，由姐姐介绍来的女人是个莫名其妙的人。</p>
+<p>“你好，我叫麻雀。请随意叫我雀小姐！”</p>
+<p>看着这个精力充沛地出现的女人，马良觉得她与自己是完全相反的人。</p>
+<p>“这是雀小姐。虽然距离感很近，但她就这性格，习惯就好。来，雀小姐，这是我弟弟马良。偶尔会昏过去，有事叫个男仆把他抬进卧室就行。”</p>
+<p>“明白了！”</p>
+<p>雀利落地向麻美行了一礼，走近马良。马良慌乱地躲到房间墙角，却不知何时已被绕到了身后。</p>
+<p>“呵呵呵，居然逃跑，好纯情啊。雀小姐不讨厌这样的人哦。”</p>
+<p>“哇啊——”</p>
+<p>他当场就昏了过去。</p>
+<p>雀给马良的第一印象是：距离感太近，绝对合不来。</p>
+<p>---</p>
+<p>“你好——雀小姐来了哦。做了棉衣，请穿上吧。”</p>
+<p>“好——我带了馒头来。啊，您在读书吗？趁热吃吧。”</p>
+<p>“我准备了帘子方便说话——隔着这个能聊吗？”</p>
+<p>总之雀经常到马良这里来。有时闹腾，但若他在备考科举，便会放下馒头；若靠得太近，又会拉开距离。</p>
+<p>雀这个女人，虽然吵闹，却很能干。</p>
+<p>馒头送来多次后，渐渐变成了马良喜欢的尺寸和口味。</p>
+<p>棉衣也随季节变化，送来合身的。</p>
+<p>帘子说实话，确实方便好用。</p>
+<p>“呵呵呵，雀小姐很能干吧？”</p>
+<p>“自己说这话？”</p>
+<p>不知过了多久，他们才终于能隔着帘子交谈。看不见脸，说话轻松了许多。</p>
+<p>“跟我结婚可没什么好处哦？说实话，家业会由弟弟继承。就算有孩子大概也会被收养，对你可没什么好处。养育孩子大概会由姐姐来吧？”</p>
+<p>“收养吗？也就是说雀小姐不用养孩子！那太好了！”</p>
+<p>“你关注的点是这个？”</p>
+<p>马良一时无语。明明在聊生儿育女的事，但能不能生得出来还是问题。他想象了一下，脸微微发红。</p>
+<p>“既然麻美小姐愿意养，她肯定会好好做的。比我来养要安全放心。雀小姐自然会成为利落干练的职业女性。”</p>
+<p>她不像是在逞强。</p>
+<p>马良想起母亲说过的话。如果雀是巳族，孩子会被当作继承人来培养。那么交给姐姐来教育更为妥当。</p>
+<p>马良是个软弱的人，没有反抗谁的勇气。因此，无论是谁来政治联姻，他都只能接受。</p>
+<p>“马良先生，我多少有点用吗？”</p>
+<p>“还算吧。”</p>
+<p>马良觉得，自己已经稍微习惯这个奇怪的女人了。</p>
+<p>---</p>
+<p>“能把灯关了吗？没问题的，我不会出岔子。”</p>
+<p>作为新婚初夜的台词，这话实在有些微妙。关于灯的事听起来像是纯情，但那之后怎么看都是立场颠倒。</p>
+<p>不过，对于近乎不信任人的马良来说，若要在初夜不出丑，在外面练习是不可能的。而且，还伴随着全凭对方主导——这对男人来说颇为不体面。</p>
+<p>“不痒吗？”</p>
+<p>“……怎么可能不痒？”</p>
+<p>面对像麻雀一样咯咯笑的妻子，马良总是认输。</p>
+<p>“皮肤好光滑啊。真是令人羡慕。”</p>
+<p>雀的声音莫名有些黏腻。</p>
+<p>马良只能闭上眼睛。</p>
+<p>---</p>
+<p>就算生了孩子，雀还是那个雀。</p>
+<p>“真像个猴子啊。而且大家都说像马良先生，但你们分得清吗？话说生孩子好累啊。下次马良先生来吧。”</p>
+<p>“不，那不可能。”</p>
+<p>马良如今已能无需帘子就与她交谈了。雀把皱巴巴脸蛋的婴儿递给他。</p>
+<p>“别对自己的孩子认生啊。”</p>
+<p>“真失礼。”</p>
+<p>不过，抱着这软绵绵像没骨头的小东西实在很难。他不安地想还给雀，却被拒绝了。</p>
+<p>“不需要了。再抱下去要是被记熟了脸也挺麻烦的。”</p>
+<p>“这是做母亲该说的话吗？”</p>
+<p>“是啊，一开始不就说好了嘛。”</p>
+<p>不久后，雀说要去工作便离开了。</p>
+<p>那时马良已确信雀是巳族。</p>
+<p>巳族据说很多人连谁与自己同族都不知晓。他们各自侍奉皇族，被排定位次。获得更高的序列是巳族的荣誉，对继承人也是如此。</p>
+<p>雀终有一天要选定继承人。把孩子推开，或许是雀作为母亲的一种爱护吧——马良决定这么想。</p>
+<p>---</p>
+<p>雀总是吵吵闹闹的。安静的时候只有吃饭或睡觉时。不，就连睡觉时，她真的睡着了吗？</p>
+<p>那样的雀如今浑身缠满绷带，躺在床上。</p>
+<p>据说雀在回西都途中与盗贼搏斗受了伤。</p>
+<p>本应静养不动为好，但雀的工作不允许如此。手术后，她大概是拖着破烂不堪的身体被马车颠簸着送回来的。</p>
+<p>回到主宅时正值会议中，马良是事后才听说的——就是刚才的事。</p>
+<p>床边坐着药师的女儿——猫猫。</p>
+<p>‘啊——’</p>
+<p>该说什么好呢。马良几乎没有与她正面交谈过。大多时候都是隔着帘子说话。</p>
+<p>“……雀小姐伤得很重，请不要让她勉强。”</p>
+<p>说这话的人自己也满脸擦伤、狼狈不堪。</p>
+<p>想必是拼命治疗才保住了雀的命。</p>
+<p>“……”</p>
+<p>马良只是低下了头。</p>
+<p>他明白雀是为了工作才变成这样的。至于那是什么工作，马良不知道。只是，他什么都做不了。</p>
+<p>他下意识地碰了碰她完好的左手。指尖冰凉。</p>
+<p>“……嗯。”</p>
+<p>“⁉”</p>
+<p>雀的眼睑缓缓睁开。大概是睡久了，看起来有些肿。</p>
+<p>“哎呀，这不是夫君吗。好一副要死的表情啊。”</p>
+<p>“这话该你说才对？”</p>
+<p>“呵呵呵。稍微失手了。果然，考虑不周还是不行啊。”</p>
+<p>听到雀的声音，马良才放下心来。同时，声音还很虚弱，也让他担忧。</p>
+<p>“我能问个问题吗？”</p>
+<p>“什么？”</p>
+<p>“我以后可能没法像以前那样活动了。怎么办？”</p>
+<p>她说的是“我”，而不是“雀小姐”。</p>
+<p>“我已经没用了吗？是不是该和离比较好呢？”</p>
+<p>突如其来的话让马良愕然。</p>
+<p>“你问我怎么办……”</p>
+<p>“右手，大概用不了了。”</p>
+<p>右手不能用——这会对今后的生活造成诸多不便。</p>
+<p>但是——</p>
+<p>“雀是左右手都能用吧？”</p>
+<p>马良是知道的。她两只手都能灵活地用筷子。右手也好左手也好，不知从哪里都能变出旗帜、花和鸽子来。</p>
+<p>“比我灵巧十倍的人，就算只剩一只手，也不过是变成五倍灵巧而已。”</p>
+<p>“哎呀，呵呵呵。那还真是被雀小姐将了一军呢。”</p>
+<p>“别笑，会牵扯到腹部的。”</p>
+<p>马良慌忙说道。</p>
+<p>“嘻嘻嘻，失礼了。”</p>
+<p>“而且你那多嘴的毛病也没变。还是说被人打了，记住的外国话全忘光了？”</p>
+<p>“没有，大概还记得哦。”</p>
+<p>雀语气中带着莫名的愉悦。</p>
+<p>“那就没必要在意了吧。”</p>
+<p>“是啊。那么，非常能干的雀小姐能拜托一件事吗？”</p>
+<p>“什么？”</p>
+<p>“肚子饿了。”</p>
+<p>雀的肚子发出咕噜一声巨响。</p>
+<p>“你这人……”</p>
+<p>不知从何时起，说话的语气变得如此随意。</p>
+<p>若是娶新的妻子，又要从头开始拉近距离，那也太麻烦了。</p>
+<p>这种麻烦，有一个人就够了。</p>
+<p>---</p>
+<p>马良看着雀吃完饭后便离开了。他似乎想帮忙，但看雀能用左手灵活地用筷子，便显得无所事事。雀心想，为了让对方担心，本可以故意拿筷子拿得更笨拙些，但毕竟空了的肚子优先填饱。</p>
+<p>吃完就睡——虽是疗养的基本，但有来访者的话也无可奈何。</p>
+<p>雀缓缓睁开眼睛。即使手臂被扯断、腹部被重击，她自认直觉还未衰退。</p>
+<p>昏暗中站着一个四十来岁的男人。鲁侍郎——礼部次官。</p>
+<p>“怎么了？来探病倒是稀罕，是来训斥不成器的弟子的吗？”</p>
+<p>“你松懈了。口音还没完全去掉。”</p>
+<p>“哎呀。失礼了。”</p>
+<p>雀无法起身。肋骨似乎断了，被紧紧固定着。吃饭时也很不便，但她忍住了。</p>
+<p>“右手已经废了吧。左手还能用。”</p>
+<p>“半吊子的能力就不需要了。”</p>
+<p>“我已经没有价值了吗？”</p>
+<p>雀表情扭曲。只是马良五倍的灵巧也算半吊子吗？</p>
+<p>“要重新选定师父的继承人吗？”</p>
+<p>“现在找人来培养，你觉得要花多少时间？”</p>
+<p>“说得也是。就算像我这样的奇才，也得花上五年呢。”</p>
+<p>“我培养你，本就不是为了让你去肉搏的。你的翻译能力，主上可是很看重的。”</p>
+<p>“那真是荣幸。不过，没法表演开场小魔术，也挺麻烦的。要不学着讲几个小笑话？”</p>
+<p>那大概得像猫猫那样收集些俏皮话才行。</p>
+<p>“我会被处分吗？”</p>
+<p>“正因为你还能用，才棘手。”</p>
+<p>“真是抱歉。”</p>
+<p>“那就去找个更优秀的继承人候选来。”</p>
+<p>“优秀的吗？”</p>
+<p>雀忽然想起了小红。那孩子倒是很有天赋，但要把她拉过来恐怕不容易。</p>
+<p>“总会有办法的。”</p>
+<p>雀咧嘴一笑。</p>
+<p>鲁侍郎是将雀拉进巳族的人。表面上是礼部次官。原本巳族不会爬到这个位置，因为不显眼、便于行动的立场才是理想的。但鲁侍郎因兄长去世，不得不继承了家督之位。</p>
+<p>雀也跟着鲁侍郎去了中央。在那里结识了麻美，并与马良结婚。那桩婚姻毫无自由可言——包含了鲁侍郎的意图和马族的意图，是双方合意下的产物。</p>
+<p>只要自己还有价值，雀觉得那也不错。马良也不是坏人，雀反而觉得他是个好丈夫。</p>
+<p>本来，她不该为与出生国不同的国家效力。但雀在巳族上的天赋和适应性都超过了母亲。若自己的价值提升、得到认可，就能以序列的形式获得评价。</p>
+<p>母亲是巳族。作为主上派往西地的眼线，因其美貌而成了玉莺的妻子。</p>
+<p>“但也不过如此。”</p>
+<p>曾经潜入西都第一宅邸时，师父——鲁侍郎这样说道。</p>
+<p>“只是个被宠爱的装饰品。作为眼线并未被赋予重要任务，序列也很低。”</p>
+<p>因此，母亲急于立功。她以工作为名去了沙欧。但半吊子能力的人终究会坏事。她失败后，身份险些暴露，恰巧发生了沉船事故。她打算在风头过去之前潜伏到异国。</p>
+<p>雀便是在那时出生的。</p>
+<p>雀的母亲本性近乎骗子。她确实是以妻子的身份真心爱着男人。但工作结束后便舍弃了。</p>
+<p>舍弃了雀，也舍弃了雀的父亲。</p>
+<p>父亲的工作往来信息，大概成了她返回茘的伴手礼吧。</p>
+<p>那时协助母亲逃脱的，正是鲁侍郎的师父。</p>
+<p>母亲回到西都后，便抹去了雀和父亲的记忆。她与丈夫和三个孩子重逢，又生了一个孩子。</p>
+<p>然而之后玉莺之所以灭掉戌族，大概也是母亲能力不足的缘故。像蛇一样从内部慢慢绞杀、使人动弹不得——作为巳族，母亲太过半吊子了。</p>
+<p>母亲自己也明白这一点。所以她试图挑选优秀的继承人。</p>
+<p>已有的三个孩子在离开母亲期间已被玉莺毒害了。于是她决定再生一个孩子。</p>
+<p>虎狼——玉莺的三男。</p>
+<p>正如其名成长起来的虎狼，一心想要按自己的意愿改造西都。</p>
+<p>他最容易的做法，便是排斥行事荒唐的长兄，辅佐易掌控的次兄。</p>
+<p>若让长兄坐上家主之位，会变成什么样？难以预料。但若是次兄，或许能图个安稳。</p>
+<p>又或者，他是为了将玉族之外的某个人安插到西都。</p>
+<p>这样的念头浮现在脑海中。</p>
+<p>但长兄却知道了虎狼的秘密。</p>
+<p>“哎呀，鸱枭大人也真有意思。居然自己提出想成为巳族。”</p>
+<p>怎么看都不是适合谍报的人。</p>
+<p>他自称“鸱枭”，或许也是决心成为巳族的表现，但在雀看来简直可笑至极。名字这种东西，立场一变，随时可以造来扔掉——这就是巳族。</p>
+<p>既然鸱枭已知道母亲是巳族，母亲的序列便依旧很低。</p>
+<p>“雀小姐的序列会掉多少呢？”</p>
+<p>“总不会比那个女人更低吧。”</p>
+<p>“说得也是。”</p>
+<p>雀笑了。</p>
+<p>母亲曾判定雀毫无价值。若那个毫无价值的人，却始终凌驾于自己之上，她会怎么想呢？</p>
+<p>对雀来说已无所谓了。但父亲却什么都不知道就死了。</p>
+<p>所以，这点程度的报复应该被允许吧。</p>
+<p>为了不忘记父亲、不忘记雀自己，雀必须始终比母亲更有价值。</p>
+<p>为了这微不足道的复仇，雀向茘国献上了忠诚。</p>
+<p>“师父，雀小姐的工作还照旧吗？”</p>
+<p>“应该不会变。”</p>
+<p>“那就好。”</p>
+<p>“虽然是个相当难以理解的任务，但你明白它的意义吗？”</p>
+<p>师父皱起了眉头。</p>
+<p>“是的。我的首要任务是‘让月君幸福’。”</p>
+<p>“简直莫名其妙。”</p>
+<p>雀自己也觉得莫名其妙。若让她去探查或消灭某人，反倒好懂些。</p>
+<p>不过，即便失去了右手，能保护住猫猫，她认为这没有错。</p>
+<p>“唉——猫猫小姐要是能好好听雀小姐的劝就好了。”</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-205.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-207.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

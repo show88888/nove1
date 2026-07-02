@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">205</h1>
+</header>
+<p>**三十、雀**</p>
+<p>幼时的雀，是个非常幸福的孩子。</p>
+<p>父亲是贸易商，上了年纪才结婚。据说他见到美丽的母亲后，不顾年纪，一见钟情。</p>
+<p>高挑的身姿，象牙色的肌肤，流畅的曲线美人。就算不是父亲，任何人见了都会为之倾倒。</p>
+<p>母亲是异国人，语言不太流利，却是个勤劳的人，常常帮父亲干活。雀最喜欢被父母牵着手一起去教堂。休息日，三人一起祈祷，然后在外用餐才回家。</p>
+<p>父亲与异国母亲相遇，似乎是偶然。母亲乘坐着邻国沙欧的船，因暴风雨遇难，被父亲的商船救起。最初语言不通，很是辛苦。父亲精通沙欧语，便多方照顾母亲。</p>
+<p>父亲本想立刻送母亲回沙欧，却未能如愿。遇难的船上，母亲的丈夫和孩子都已遇难。她在沙欧也没有亲人，即使回去也无处容身。</p>
+<p>父亲虽是商人，却为人极好。他的生意是靠人望撑起来的，这样的父亲不可能抛弃孤苦伶仃的母亲。更何况，年过四十仍单身的父亲，不顾年纪，竟也尝到了恋爱的滋味。</p>
+<p>“本来打算过继个亲戚的孩子来着。”</p>
+<p>第二年，雀出生了。虽是个女孩，但本以为自己不会有孩子的父亲欣喜若狂，雀出生后连续十天，他都在给路过店铺的人们分发点心。</p>
+<p>雀这个名字是母亲取的。父亲说，那是小鸟的名字，很可爱。雀不像母亲那般高挑美丽，倒更像矮胖的父亲。不算大的眼睛，塌塌的小鼻子，个子也不高。但正所谓“情人眼里出西施”，父亲在亲戚面前对雀赞不绝口。</p>
+<p>雀的容貌虽算不上好，但脑子不差。出生不到一年就会走路，两年不到就叽叽喳喳地说起话来。父亲笑眯眯地看着她，想着再过一年她又会如何成长。</p>
+<p>雀的脑子不差。</p>
+<p>因为她记得母亲在三岁前消失的事，也记得母亲消失前的样子。</p>
+<p>有一天，母亲突然不见了。父亲惊慌失措，员工们也惊讶困惑，闹得沸沸扬扬。</p>
+<p>他们画了许多肖像画，日日搜寻。</p>
+<p>父亲怀疑母亲是否卷入了什么事件，但随着搜查的深入，一些奇怪的事逐渐浮出水面。</p>
+<p>似乎有父亲交易伙伴的情报泄露出去。虽然没有确凿证据，但在与他国的进出口往来中，能看到一些奇怪的动向。</p>
+<p>父亲是靠人望拿生意，但仅凭这点还不足以支撑起一门生意。雀那灵活的头脑，正是遗传自父亲。</p>
+<p>父亲从未忽视过细微的违和感。他核查了母亲来后的几年间与账目的流向。</p>
+<p>于是，与某个国家联系上了。</p>
+<p>荔国——沙欧的邻国。两国虽无邦交，但它位于隔着沙欧的东侧。</p>
+<p>母亲虽说是沙欧人，但容貌却更接近荔人。</p>
+<p>“一定，一定会找到你的。”</p>
+<p>父亲这样对雀说着，把一本经书递给她，叫她好好学习。无事可做的雀便拿着经书让仆人读给她听。</p>
+<p>“妈妈一定有她的理由。一定是不得已的。”</p>
+<p>父亲温柔地说着，雀却第一次觉得父亲很愚蠢。</p>
+<p>几年后，父亲说可能找到了母亲。据说有人说在荔国见过一个和画像一模一样的人。</p>
+<p>父亲欣喜若狂，乘船前往荔国。</p>
+<p>那时，雀后悔自己没能伸出手去挽留。她觉得，只当母亲死了就好。她和父亲两个人，好好地活下去就行。</p>
+<p>可是，那个愿望未能实现。</p>
+<p>父亲没有回来。</p>
+<p>失去父母的孩子会怎样呢。如果雀再大一些，情况或许会不同。但一个不满十岁的女孩，什么也做不了。</p>
+<p>不到一个月，父亲的财产就被夺走了。所幸的是，那些感念父亲恩情的仆人们留下了几枚金币，这才到了雀手里。</p>
+<p>如果父亲神志清醒，想必会为雀选一个合适的监护人吧。母亲固然美丽，但她究竟让父亲疯狂到了何种地步呢。</p>
+<p>“有事就去教堂。”</p>
+<p>雀握紧金币，走向教堂。</p>
+<p>神职人员还算正派，怜悯雀，想让她进救济院。但雀知道，那样不行。仅剩的几枚金币一旦被发现就会被抢走。</p>
+<p>雀的目标早已确定。</p>
+<p>教堂里有一位想向东传教的老师，雀听说他即将启程远行。</p>
+<p>“请带上我。”</p>
+<p>雀对那位看似严肃的老师说道。</p>
+<p>“不能带孩子去。”</p>
+<p>老师大约四十岁，原是某大教堂老师的护卫，体格健壮。毕竟是要去异教徒遍布的外国，若没有武力大概是不行的。</p>
+<p>雀是个孩子，什么力量也没有。但她只有一样东西。</p>
+<p>『神啊，你在看着我们吗？』</p>
+<p>雀还记得那本被人念过无数次的经文。她一字不差地全部背诵出来。</p>
+<p>“……”</p>
+<p>“请也带上我。”</p>
+<p>如果没有价值，谁也不会正眼相看。</p>
+<p>对父亲而言，雀是女儿，所以有价值。</p>
+<p>对仆人而言，雀是雇主的孩子，所以有价值。</p>
+<p>所以，雀表明自己对老师的传教有利用价值，是一枚有用的棋子。更何况，雀是母亲的女儿，有着偏东方的面孔。</p>
+<p>之后，老师虽然闹腾了一阵，最后还是妥协了，这让雀松了口气。也许他也明白，雀已经无家可归了。</p>
+<p>“死了我可不管。”</p>
+<p>“我知道。”</p>
+<p>雀跟着老师向东行去。但传教活动与移动并行，速度很慢。穿越沙欧，到达荔国花了一年时间。但在荔国内移动却异常艰难。</p>
+<p>途中，老师给了雀多种语言写成的经书。</p>
+<p>“听好了，是语言。学会语言。一个字也不准错。这关系到生死。”</p>
+<p>老师说话粗鲁，却很会照顾人。只是途中多次被反对教会教义的人追赶，他很是烦躁。有时会被关起来，遭受近乎拷问的对待。</p>
+<p>“异教徒！不改变信仰，绝不放过你！”</p>
+<p>这是老师的口头禅。</p>
+<p>雀不明白他为什么要到异教徒遍布的荔国来，但这与雀无关。</p>
+<p>虽说是一个教会团体，但对孩童仆役的待遇并不算好。因为教会团体本身资金也不充裕，这也是无可奈何。每当那时，雀就会想起自己是谁——她不是富商之女，只是个仆役小鬼。</p>
+<p>所以为了吃饭，她绞尽脑汁。有时在镇上对着看起来温柔的老妇人哭泣，偶尔会得到施舍。有时扮小丑逗乐孩子，会分到零食。偶尔遇到庆典有丰盛食物时，她会拼命吃下平时吃不到的分量。</p>
+<p>在一次偶然与游艺团同行时，她学会了戏法。若明目张胆地偷学，会被群殴，所以她爬到树上躲起来偷看。学会后在富人面前表演，就能得到一些小钱。</p>
+<p>被老师发现后会挨骂，但因为老师对没能让她好好吃饭也有些内疚，所以雀收到的零食和小钱从未被没收过。</p>
+<p>雀改名为“麻雀”。这是老师的教导——假扮成荔国人，生存几率更高。</p>
+<p>“听说你要去西都？”</p>
+<p>“是的。”</p>
+<p>老师和团体似乎要停留在一个建有大型教堂的城镇，以那里为据点传播教义。</p>
+<p>“要送你到那里吗？”</p>
+<p>“不用了。”</p>
+<p>雀已经十二岁了。在荔国已是适龄女子了。一般人大概会觉得危险。但雀把头发剪得很短。小眼睛和塌鼻子也绝算不上美丽。她作为前往西都的商队杂役随行。</p>
+<p>到达西都时，年已过去，她十三岁了。她拿着已经破旧不堪的母亲画像四处行走。</p>
+<p>雀似乎天生适合当小丑。白天她靠滑稽的动作和戏法赚些小钱，晚上则躲在水道里御寒入睡。在这样过了一段日子后，她听说有人长得很像母亲画像上的人。</p>
+<p>“我记得确实是在最大的那座宅邸里见过一次。不过，也就那一次。”</p>
+<p>雀相信了这话，便向那座宅邸走去。</p>
+<p>那是西都最大的宅邸。以雀那副肮脏的模样，根本进不去。所以，她只在宅邸门口等着有人出来。</p>
+<p>“哥哥，等等我。”</p>
+<p>她听到了声音。</p>
+<p>门里走出一个身材结实的男子。虽然称他为男子，但大概也就十五岁出头吧。不过，他穿得比雀体面多了。那棱角分明的眉眼，想必很受年轻姑娘欢迎。</p>
+<p>接着走出来的是一个少女。刚才的声音应该是她的。正值适龄的少女，目光锐利，但容貌美丽。她那大量用料的衣服，想必是丝绸吧——那是父亲还在做生意时才见过的东西，她已经好多年没摸过了。</p>
+<p>“快点！哥哥愿意给你做护卫，你该感激才是！啊——要不是祖父的吩咐，我才不会答应呢。”</p>
+<p>在那位看似要强的少女身后，又跟着一个少女。她有一头美丽的红发和翠玉般的眼睛。与前面那位少女不同，她的眼神温柔。年纪看起来和雀差不多，但为何如此不同呢。</p>
+<p>“银，说话注意分寸。”</p>
+<p>她听到了声音。</p>
+<p>那声音，她已经好多年没有听到了。</p>
+<p>“叶大人是要入宫的。你要注意自己的身份。”</p>
+<p>那里站着一位身材高挑、象牙色肌肤、曲线流畅的美女。</p>
+<p>那个被称为银的少女显得不高兴。但雀不在乎这些。她只想知道，那个本应一直与自己在一起的女子，为什么会在那里。</p>
+<p>“知道了，母亲大人。”</p>
+<p>银说道。</p>
+<p>母亲大人——雀在脑中咀嚼着这个词。那是她花费数年才学会的荔语，意思是“母亲”。可她不明白，为什么银要这样称呼她。</p>
+<p>她曾听说母亲在遇到父亲之前有过丈夫和孩子。但不是说他们在船难中死了吗？</p>
+<p>“母亲——”</p>
+<p>又传来一个声音。</p>
+<p>是孩子，比雀还小，大约八岁。</p>
+<p>“我也要一起去。”</p>
+<p>“不行。你要跟我学习哦。购物下次再说吧。”</p>
+<p>“诶——”</p>
+<p>孩子紧紧抱住母亲的腿。</p>
+<p>雀不明白自己看到了什么。她只清楚一个事实——母亲身边的孩子们都比她漂亮得多。</p>
+<p>雀剃着光头，穿着多年未换的旧衣，无处投宿，好几天没洗澡，浑身污垢的脏小鬼。</p>
+<p>她不由自主地从藏身的墙后探出头来。一步，又一步，向母亲靠近。</p>
+<p>“有个脏兮兮的家伙。”</p>
+<p>那个叫银的少女说道。那眼神分明是在看污物，不是没有价值，而是连存在都不被允许的目光。这让雀想起父亲鉴定废品时的眼神。</p>
+<p>“银，别管她。”</p>
+<p>男子说道。雀难以判断“别管她”这句话里包含的意味。</p>
+<p>然而，雀只是看着那位美人。</p>
+<p>美人像银一样瞥了雀一眼，然后若无其事地带着孩子回宅邸去了。</p>
+<p>雀不知该怎么办才好。</p>
+<p>她只是追着母亲的背影而来。她以为，只要母亲看到自己，一定会认出她来。</p>
+<p>可是，母亲甚至没有察觉。</p>
+<p>雀花了那么多年追寻母亲，究竟是为了什么？</p>
+<p>是因为想要一场感人的亲子重逢吗？不，不是的。</p>
+<p>她想知道的是，对母亲而言，雀到底有什么价值。</p>
+<p>那天夜里，雀潜入了那座宅邸。</p>
+<p>她无论如何都必须确认。她想知道，自己对母亲来说，究竟是什么。</p>
+<p>多亏了多年来被异教徒追来赶去，潜入宅邸对她来说轻而易举。她一边躲藏，一边寻找母亲所在的房间。</p>
+<p>“耗子可真是臭得受不了。”</p>
+<p>有人在她身后说道。</p>
+<p>她慌忙回头，却已被死死按住。</p>
+<p>“流浪儿是来偷东西的吗？小心我剁了你的手指。”</p>
+<p>按住她的是一个男人。大约三十岁，她被压着看不见脸。</p>
+<p>“我不是小偷。”</p>
+<p>雀尽可能用最礼貌的措辞说话。这是老师教她的。但这却起了反效果。</p>
+<p>“你，是异国人吧？发音有口音。”</p>
+<p>雀的脸被摁在地上。</p>
+<p>“还年轻，是哪个国家的？沙欧？不，还要更西边？目的是什么？”</p>
+<p>男人把雀带到一个没人看到的地方。</p>
+<p>“我、我是来、见、母亲的。”</p>
+<p>雀断断续续地说道。</p>
+<p>“母亲？这宅子里有谁会是你这种肮脏小鬼的亲人？”</p>
+<p>男人发出嘲弄的笑声。无论被如何辱骂，雀都不在乎。她只是从怀里掏出那张污损的画像。</p>
+<p>“……这是？”</p>
+<p>男人的声音变了，透出困惑。</p>
+<p>按住雀的力量松开了。</p>
+<p>“你……是那女人的孩子？”</p>
+<p>雀不知道“那女人”是谁，但她只能抓住男人困惑的间隙。只是，要逃走很难。要如何抓住这个间隙呢——</p>
+<p>“十三年前，母亲遇难，被父亲所救。我是那时出生的女儿。”</p>
+<p>“女儿……哈，是吗，原来如此。确实有这么一个。”</p>
+<p>男人笑了。</p>
+<p>“就是那个女人为了抛弃不要的孩子吧。”</p>
+<p>“不要”这个词在雀脑中回响。</p>
+<p>“不要？”</p>
+<p>“是啊。不要。要回到这宅邸，她就是多余的孩子吧。不过是潜伏异国数年间的身份证明。那就是你存在的价值。”</p>
+<p>“是了”——那个过去式。意思是，雀已经不再需要了。</p>
+<p>“不能带你回去。为了完成任务，你必须是‘不存在’的。”</p>
+<p>“不存在的存在。”</p>
+<p>这句话像重锤一样敲击着雀的脑袋。</p>
+<p>她其实早已明白。当母亲抛下她和父亲离开时，她应该已经明白了。</p>
+<p>“你父亲呢？那位富商，应该又娶了后妻吧？”</p>
+<p>如果真是那样倒好了。父亲为人善良、温柔，却也愚钝。</p>
+<p>“听说母亲在荔国，他踏上旅途，然后就死了。家业也败了。我什么都没剩下，只能追着母亲来到这里。”</p>
+<p>“就带着这一张画像？”</p>
+<p>“是的。”</p>
+<p>“哼。”</p>
+<p>男人似乎在思考什么。他打量着雀。</p>
+<p>雀心想，现在，自己的价值即将在这里被决定。如果什么也没有，大概会被当作废物处理掉。</p>
+<p>“我会说母语、荔语和沙欧语。也能听懂几种其他语言。”</p>
+<p>她想起老师给她的经文，流利地说起了外语。</p>
+<p>“算术我也会。我曾经只靠水撑过七天。我耐痛，而且，手也很巧。”</p>
+<p>雀展示了照猫画虎学来的戏法。</p>
+<p>她什么都愿意做。为了活下去，为了证明自己的存在价值。</p>
+<p>“……真是个蠢货。你明明更适合这边。”</p>
+<p>男人低声说道。</p>
+<p>“好。先让我看看你的本事。如果你真有价值的话——”</p>
+<p>男人咧嘴一笑。</p>
+<p>“我就让你做我的继承人。”</p>
+<p>对雀来说，这个男人成为了她的师父。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-204.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-206.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
