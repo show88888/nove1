@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">144</h1>
+</header>
+<p>**十八、飞头蛮　后篇**</p>
+<p>中庭一度陷入混乱，但最尊贵的壬氏一声“散开”，所有人便立刻回归了各自岗位。待众人散去后，他们开始检查网中的东西。</p>
+<p>“这是什么……”</p>
+<p>壬氏和马闪瞪大了眼睛。从马闪的反应来看，看来他还没来得及仔细确认，鸟就被放走了。</p>
+<p>雀捕获的那只鸟，是一只约一尺长的猫头鹰。然而它的长相却有些诡异，不像寻常的猫头鹰，难怪他们会大吃一惊。</p>
+<p>那脸盘又白又圆，活像戴着一张面具。而且脸部周围的羽毛呈深色，若在暗处不展开翅膀，乍一看确实会像一张浮在半空中的脸。</p>
+<p>但是——</p>
+<p>“好像有点小啊。”</p>
+<p>敢这么直言不讳的，也就只有天祐了。在壬氏、月之君面前，他也一副泰然自若的样子。</p>
+<p>猫猫姑且用胳膊肘捅了捅天祐。</p>
+<p>“哎呀，失礼了。月之君也在啊。”</p>
+<p>猫猫心想，这可真是个无礼的家伙。当然，她把自己的事另当别论。</p>
+<p>壬氏的表情也略显僵硬。表面上仍挂着那副天人之笑，但——</p>
+<p>“闹出这么大的动静，没注意到才奇怪吧。不过，你们到底在干什么？”</p>
+<p>（真是明知故问。）</p>
+<p>连马闪都派来了，还装什么糊涂。</p>
+<p>天祐不知会说出什么话来，猫猫便上前一步。</p>
+<p>“是。最近宅邸周边有传闻，说出现了诡异的怪事。担任医官护卫的武官曾受佣人私下咨询，便在巡逻时展开了调查。今天一早，那位佣人又来找我们商量，但若让刚完成夜间护卫的武官继续调查，未免不太妥当。毕竟他的本职是护卫医官，而非杂务。”</p>
+<p>（稍微带点讽刺吧。）</p>
+<p>“因此，身为医官付属女官的我，便决定至少先去听听情况。”</p>
+<p>“嗯。那旁边的这位医官又是怎么回事？医官应该还有其他工作吧。”</p>
+<p>壬氏的目光锐利起来。</p>
+<p>（啊——）</p>
+<p>果然，把天祐也卷进来还是不行啊。</p>
+<p>“非常抱歉。是我·硬要跟来的。这位猫猫比我这等年轻医官更擅长调药，我正在向她学习。听说猫猫要去中庭转转，我还以为她是要找生药材料，便跟了过来。”</p>
+<p>（这家伙……）</p>
+<p>他改变了自称。另外，看来平时故意叫错名字也是装出来的。</p>
+<p>壬氏的眼神似乎变得更加锐利了。</p>
+<p>“哦哦。大致情况我明白了，但关键那怪异的真面目，就是这只鸟，没错吧？”</p>
+<p>“是的。但只说对了一半。”</p>
+<p>猫猫看了看那只猫头鹰。</p>
+<p>“这里人多眼杂。换个地方，我想详细听听，可以吗？”</p>
+<p>“遵命。”</p>
+<p>猫猫接受了壬氏的提议。</p>
+<p>---</p>
+<p>“我还是第一次见到长着这样一张脸的鸟。”</p>
+<p>壬氏仔细端详着笼中的鸟。</p>
+<p>她们从中庭被引到了壬氏使用的客房。虽然壬氏用的房间有好几间，但这里是适合轻松小酌茶会的地方。</p>
+<p>壬氏为主座落座，周围是平常跟随的水莲、桃美、雀，以及护卫马闪。大概马闪的兄长马良也在附近，不过应该不会露面。</p>
+<p>不知为何，天祐也笑眯眯地待在同一个房间里。</p>
+<p>（就说有工作推掉嘛。）</p>
+<p>哪里有热闹可凑就一定会跟上来，这就是天祐。</p>
+<p>“为什么你会认为这只鸟就是怪异、‘飞头蛮’的真身？”</p>
+<p>面对壬氏的提问，猫猫闭上眼睛。必须小心别让天祐得到多余的信息。</p>
+<p>“是。最初让我起疑的，是‘面具’这个词。听到有人在树木或屋顶上看到了‘面具’，我便首先绕着树木查看了一圈。”</p>
+<p>于是发现了鸟粪。不是小鸟的，而是某种体型较大的肉食性鸟类的。</p>
+<p>“白天，小鸟在宅邸内正常飞行，所以若有肉食鸟类，我想大概是夜行性的。”</p>
+<p>“嗯。在那个时候，你似乎就怀疑鸟才是怪异的真身了，根据是什么？”</p>
+<p>“只要了解这种鸟，就不难想象。我虽是第一次见到实物，但知道有一种鸟就像戴了面具一样。以前在药铺工作时，曾在一本生物图录上见过。”</p>
+<p>壬氏应该知道那是什么图录。那是从子家一族的堡垒带出来的图录之一。现在应该由壬氏保管着，若他带到了西都，应该就能看到。</p>
+<p>“它的名字好像就叫‘面枭’（仓鸮）。如果是普通猫头鹰，应该不会让人觉得是面具在漂浮，而且，这只猫头鹰的颜色似乎有些特别。”</p>
+<p>深色的羽毛。一般来说，即便翅膀是黑色的，腹部也应该是白色——这是猫猫对猫头鹰的印象，但这一只除了脸部，几乎全是深褐色。</p>
+<p>“能问个问题吗？”</p>
+<p>天祐举手道。</p>
+<p>“说吧。”</p>
+<p>壬氏的语气比平时略微高亢。</p>
+<p>“确实外表看起来像面具，但这尺寸是不是太小了？要说是人脸，未免也太可爱了些吧。”</p>
+<p>天祐看着笼中的猫头鹰。猫头鹰没有挣扎，反倒一脸困倦。若是给它垫些巢材，或许会睡着。</p>
+<p>“人的视觉是很模糊的。只要看起来像有白色漂浮着，就足以产生强烈的存在感。而且——”</p>
+<p>猫猫从怀里取出纸。她正想借文具，雀便刷地递了过来。动作真是麻利。她还时不时朝放跑了猫头鹰的马闪投去挑衅的眼神。</p>
+<p>猫猫在纸上点了四个点，拿给壬氏和天祐看。正好处在眼、眼、鼻、口的位置。</p>
+<p>“人的眼睛就是如此，只要看到排列的点，就能联想成一张脸。这和常说的柱子上浮现人脸之类的是一个道理。”</p>
+<p>“明白了。夜里漂浮的面具真身已明。”</p>
+<p>天祐把手伸进笼子，戳了戳猫头鹰。猫头鹰并未特别抵抗。桃美端着一个小碟子走了过来，里面放着生鸡肉。</p>
+<p>（真是奢侈。）</p>
+<p>桃美用筷子夹起鸡肉递过去，猫头鹰便顺利吃了下去。看来它对被人喂食毫无抵触。</p>
+<p>“面具的真身是明白了。但‘头’呢？”</p>
+<p>天祐并不笨。他好好记住了猫猫说的话。</p>
+<p>“面具和头？这又是什么意思？”</p>
+<p>壬氏要求解释。</p>
+<p>猫猫决定重新从头说起，也当作是梳理一遍。</p>
+<p>“目击情报是从二十天前开始的。当时称之为‘面具’或‘脸’。但最近几天的目击情报，据说都称之为‘头’。而且，据称是在宅邸外漂浮行走。”</p>
+<p>“你是想说‘面具’和‘头’是两回事吧。那么，这只鸟是‘面具’，那‘头’又是什么呢？”</p>
+<p>“问题就在这儿。”</p>
+<p>猫猫瞥了雀一眼。</p>
+<p>“怎么了？雀小姐有什么吩咐吗？”</p>
+<p>“不是您，对吧？”</p>
+<p>猫猫试着梳理一下时间线。几天前开始的‘头’的目击证词，恰好与猫猫她们抵达西都的日子吻合。而会做这种怪事的，有一个可疑人选。</p>
+<p>“失礼了。雀小姐这几天可是一直和猫猫小姐在一起的哦。”</p>
+<p>确实如此，猫猫和雀是一起去耕田的。</p>
+<p>“这只是一个假设。不过，看了这只猫头鹰，我似乎明白了一些事。”</p>
+<p>猫猫看着正在啄食鸡肉的猫头鹰的脚。上面能看到精美的金属工艺。</p>
+<p>“我想，很快就能找到了。只要设个小陷阱就好。”</p>
+<p>猫猫咧嘴一笑，轻轻摸了摸那只面目诡异的猫头鹰。</p>
+<p>---</p>
+<p>第二天，伴随着独特的脚步声，雀来了。</p>
+<p>猫猫刚收拾完早饭，正和庸医一起调药。</p>
+<p>“猫猫小姐是预言家吗？”</p>
+<p>雀眨巴着眼睛说道。</p>
+<p>“看来找到了。没有动粗吧？”</p>
+<p>“你们俩在说什么呢？我可是一头雾水啊。”</p>
+<p>从头到尾被蒙在鼓里的庸医，但解释起来太麻烦，便让他继续调药。等他调完药，应该会去准备茶水。</p>
+<p>雀大模大样地坐下，等着庸医端茶点来，一副要顺便说事的样子。</p>
+<p>“是的。正如猫猫小姐所说，我们夜里守着猫头鹰的笼子。然后，等猫头鹰突然开始骚动，我们便趁机察看四周，哎呀，可不得了。发现了一个戴着奇怪面具、一身黑衣的人。”</p>
+<p>她绘声绘色地说着，一边接过庸医递来的茶。点心是西都特色的干果。</p>
+<p>“没想到还真打扮成那样啊。”</p>
+<p>猫猫也对这过于吻合的猜测感到惊讶。</p>
+<p>“那么，那个可疑人物，就是饲养这只猫头鹰的人吗？”</p>
+<p>“正解。”</p>
+<p>雀比了个大大的圆圈。</p>
+<p>“猫猫小姐，您为什么会觉得怪异的犯人是猫头鹰的饲养者呢？”</p>
+<p>雀坦率地问道。</p>
+<p>猫猫回忆起猫头鹰的特征。</p>
+<p>“因为那显然是被人饲养的猫头鹰。脚上有饰物，在笼中也不乱扑腾，对处理好的鸡肉毫无戒心地就吃了。不像是暂时捕获的玩赏动物，而是被长期照顾的。”</p>
+<p>“哦哦。”</p>
+<p>“而且，目击情报里有一点让我在意。”</p>
+<p>‘面具’的目击情报约二十天前，‘头’的目击情报则是几天前。它们有一个共同点。</p>
+<p>“二十天前，正好是玉叶后的侄女动身前往都城的时候吧。”</p>
+<p>“啊。”</p>
+<p>雀似乎也明白了。</p>
+<p>“这只猫头鹰原本是打算进献给都城的贡品之一。如果它不知怎么逃脱了呢？”</p>
+<p>“哦哦。那么，现在又试图抓住它，是因为皇族来了，想再次进献吗？戴那种奇怪的面具，是为了不让别人看到脸吗？”</p>
+<p>关于那身奇怪的装扮，猫猫心里有些猜测。不过，那并非确切的答案，终究只是猫猫的推测之一。</p>
+<p>“猫猫小姐。雀小姐虽然爱起哄，但可不笨，所以猫猫小姐的意见，我只会当作一个故事，不会全盘接受的。”</p>
+<p>雀拐弯抹角地催促她“快说吧”。被她这么一说，猫猫倒也愿意开口了。</p>
+<p>“那个面具和黑衣，大概是为了模仿猫头鹰的父母的样子。”</p>
+<p>雀歪着头。</p>
+<p>“您知道‘印随’吗？”</p>
+<p>“知道。雀小姐知道。就是小鸟从蛋里孵出来后，把第一眼看到的东西当作父母，对吧。”</p>
+<p>“是的。饲养者大概是打算把那只猫头鹰放回野外的。我想他是为了不让猫头鹰记住人的脸。”</p>
+<p>“……哦。”</p>
+<p>从猫头鹰的粪便来看，它确实是自行捕食的。</p>
+<p>“但结果，它还是变成了会从人那里接受鸡肉的性格。长着有趣面孔的猫头鹰若是亲近人，富人会觉得稀罕而购买，也能作为献给贵人的贡品。”</p>
+<p>“而对此不认同的饲养者，就让它逃走，或者说放走了它？”</p>
+<p>“这只是假设。”</p>
+<p>“即便如此，本应逃走的猫头鹰偏偏在玉袁大人的别邸住了下来。而皇族要来住，那可就不得了了。”</p>
+<p>“我都说了是假设。”</p>
+<p>“穿成当年饲养时的样子，就能把它引出来。抓住猫头鹰，再放生到远处去。”</p>
+<p>“假设。”</p>
+<p>“我知道啦——”</p>
+<p>召唤猫头鹰时大概用了哨子之类的东西。猫头鹰虽有反应，却没能飞出去。</p>
+<p>不管猫猫的假设是否正确，至少有一点是确定的。</p>
+<p>“他是猫头鹰的饲养者这一点，应该没错吧。”</p>
+<p>“是啊。”</p>
+<p>猫猫和雀相视一笑。庸医被晾在一边，看着两人密谋的模样，害怕了起来。</p>
+<p>如果如猫猫所料，此人是从雏鸟开始养鸟的能手，那么某个问题便有望得到解决。</p>
+<p>念真——那位前农奴所说的“读风之族”。据称曾被戌之一族所豢养的部族。</p>
+<p>（光靠祭祀活动，应该无法维生吧。）</p>
+<p>而且，若思考他们是如何驱虫的，便会得出一个答案。</p>
+<p>那个“读风之族”曾与鸟打交道。猫猫想起以前曾见过利用鸟类进行的某种活动。</p>
+<p>利用鸽子传递消息的方法。</p>
+<p>同样地，若他们也以鸟类为传递手段，那么读风之族或许不仅精通祭祀，也精通谍报。</p>
+<p>猫猫决定先去见见那个被抓住的可疑人物。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-143.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-145.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

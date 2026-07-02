@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">164</h1>
+</header>
+<p>三十八、火种</p>
+<p>“为了自身安全”这句话，不知听过多少遍了。</p>
+<p>壬氏被近乎软禁的生活已经持续了一个多月。他的行动范围仅限于玉袁的别邸。偶尔会被叫去本邸或公所，但周围都有武官严密监视，动弹不得。</p>
+<p>移动时，他偶尔瞥见马车窗外，能看到一片荒废的景象。但若按常理，这种程度的荒废恐怕还不止。</p>
+<p>壬氏来西都时，已在一定程度上预想到了蝗灾的发生。他查阅了历次蝗灾的文献。作物被啃光，饥饿的人们甚至会吃人。</p>
+<p>“蝗灾会导致亡国”这种话，绝不是空穴来风。</p>
+<p>而玉莺说，那种愤怒与矛头自然会指向皇族。</p>
+<p>如今，壬氏的行动完全掌握在玉莺手中。壬氏身边的人对此并不愉快。不如说，他们大概认为主子太过优柔寡断。</p>
+<p>壬氏有自己的立场。</p>
+<p>名义上，他是以皇弟身份来视察西都。既是视察，便终究是客人。</p>
+<p>一旦打破这个形式，日后会带来诸多弊害。</p>
+<p>他是这么想的，然而——</p>
+<p>「月之君，您太过于被动了吧。」</p>
+<p>坐在马车对面的雀，语气淡然。除了护卫之外，还要带一名侍女同行，但不是水莲也不是桃美。</p>
+<p>考虑到年龄，要带的是最能应对突发情况的人。这次护卫带了老手来。虽然马闪武力更强，但与对方不合拍。西都中对壬氏待遇最愤愤不平的就是马闪。武力再强，若不善于自律，也无济于事。</p>
+<p>「那样别人只会以为，是无能的纨绔子弟从中央跑来当陪衬的。」</p>
+<p>雀灵巧地活动指尖，在指间夹着几颗小珠子，时而增多时而消失，忙得很。</p>
+<p>「我知道。」</p>
+<p>为此，壬氏此刻正在前往公所的路上。</p>
+<p>壬氏虽是客人，但他自认为在西都做了该做的事。他派人去调用事先备好的粮食，粮食立刻被使用了。他派人到周边各村调查受灾情况，根据灾情估算所需粮食。带文官马良同来，果然是对的。</p>
+<p>都城的援助之所以来得快，是因为收到罗半兄的飞鸽传书后，立刻就派了快马。要是有鸽子就好了，但都城养的鸽子没带来，也没办法。若真出了什么事，就当是皇族纨绔子弟搞错了，糊弄过去就行。</p>
+<p>他向主上和几位重臣、部下都提过可能发生蝗灾的事，也说过西都可能受灾。</p>
+<p>正因为如此，救援才比预想中来得快。</p>
+<p>不过，请求救援是壬氏的独断。他并没有确凿证据证明蝗灾一定会来。因此，他曾暗示救援船最坏可能被拒绝入港。</p>
+<p>结果，壬氏决定即便自己沾一身泥，也要把功劳让给玉莺。</p>
+<p>蝗灾发生后，玉莺的使者立刻来到壬氏处。壬氏报告了平安，同时询问“能否向都城请求救援？”，并表示物资接收由玉莺负责。</p>
+<p>结果，连壬氏原本带来的粮食也由玉莺来分配了。</p>
+<p>了解真相的都城部下们感到愤慨，但这里是西都。如果由壬氏来分配，人手也不够。他们并没有带那么多能参与施粥的佣人。</p>
+<p>要迅速行动，借助玉莺的力量是最快的。</p>
+<p>天灾使人人心惶惶，归根结底是因为不安在加剧。一碗粥、一个饭团，只要发到手里，就能缓解一些不安。</p>
+<p>壬氏曾因不知市井物价而屡遭白眼，但他觉得这些年总算稍微靠谱了些。</p>
+<p>即便在繁华的都城，他也见过空腹的孩子捧着空碗乞讨的模样；见过遮住面容、在暗处拉客的夜莺；也见过卖亲身儿女去青楼的父母。</p>
+<p>与其坐在马车里居高临下地“视察”，不如双脚落地行走，看到的东西要多得多。</p>
+<p>穿着绢制内衣，吃着没有杂质的白粥，每晚浸在清澈的热水里。</p>
+<p>壬氏如今依然不愁吃穿。他这地位，究竟是为了什么？</p>
+<p>如果有无聊的自尊，就扔掉吧。若有人想被捧到台前出风头，就让他去好了。比起执意拒绝支援，被利用反而轻松得多。不，甚至可以说，利用别人的是壬氏自己才对。</p>
+<p>皇弟无能也无妨。被百姓嘲笑也没关系。最好是让人连把他当傀儡的兴致都没有。</p>
+<p>要是被马闪知道了，他会怎么想？大概会暴怒，却不敢对壬氏发作，反而把房间里所有东西都砸个稀巴烂吧。</p>
+<p>壬氏喜欢“壬氏”这个名字。即便它只是为欺骗后宫女眷和宦官而编造的假名。</p>
+<p>比起无人会唤的“华瑞月”，能被叫出口的“壬氏”要好得多。</p>
+<p>要是能被人更随意地搭话就好了——他明知这是奢望。</p>
+<p>这么想着，便到了公所。</p>
+<p>「到了哦——」</p>
+<p>雀眯着眼看向窗外。</p>
+<p>壬氏调整了心态。</p>
+<p>随意归随意，被人小看又是另一回事。</p>
+<p>准备好的房间里摆着一张圆桌。</p>
+<p>玉莺和罗汉已经坐在那里。罗汉大概是闲得无聊，正在摆弄死活题。</p>
+<p>房间角落，有几个拿着文书的官员在待命。</p>
+<p>壬氏的护卫和雀互相交换了一个眼神。</p>
+<p>气氛与之前几次会面不同。尤其是罗汉在场这一点，让他在意。这个天才却随性的男人，行动捉摸不定。既然让他坐在席上，究竟是何用意？</p>
+<p>「劳您前来，抱歉。」</p>
+<p>玉莺站起身来。</p>
+<p>果然没带马闪是对的。皇族进屋时仍坐着，会被视为无礼。顺便一提，罗汉还在继续他的死活题。</p>
+<p>「有何贵干？若是蝗灾的事，我带了资料来。」</p>
+<p>雀迅速递上文书。</p>
+<p>上面写着壬氏他们自行估算的粮食分配方案。此外，还调查了可食用的救荒作物及能尽快收获的作物。这些参考了猫猫和罗半兄的知识。另外也汇总了药品等仅次于粮食的支援物资。</p>
+<p>「关于蝗灾，月之君的支援帮了大忙。没想到中央的援助会来得这么快。」</p>
+<p>那是自然的，毕竟壬氏在正式申报前几天就已请求支援了。</p>
+<p>「那么，是追加支援吗？」</p>
+<p>壬氏也翻看资料。按目前的粮食状况，最多撑两三个月。支援也有限，必须尽快种植能早收的作物。</p>
+<p>「是的，希望您能提供支援——人力方面的。」</p>
+<p>「人力？ 什么意思？」</p>
+<p>人手确实不足，但盲目增加人手也养不起。若想增加农民，不如就地培养当地人。</p>
+<p>「我想请求派遣武官。」</p>
+<p>「武官？ 是为了镇压盗贼吗？」</p>
+<p>粮食的有无会直接影响贫富差距。穷人连饭都吃不上，便会走向犯罪。之所以急于提供粮食支援，正是因为赶在他们犯罪之前喂饱他们，可以抑制冲动。</p>
+<p>玉莺露出一个笑容。他长得不太像玉袁。与其说是商人，更像武官；与其说优雅，更有勇猛之气。</p>
+<p>身后的官员递给玉莺一张大纸。</p>
+<p>「请看这个。」</p>
+<p>玉莺在桌上摊开一张地图。是戌西州的地图，各处用墨画了圈。圆圈分为黑圈和红圈，越往西红圈越多。</p>
+<p>「哼。」</p>
+<p>正在做死活题的罗汉抬起了头。</p>
+<p>「盗贼吗？」</p>
+<p>「正是。」</p>
+<p>那些圆圈似乎表示盗贼出没的地点。</p>
+<p>「异族来袭不少啊。」</p>
+<p>「您一眼就看出来了。」</p>
+<p>玉莺满意地看着罗汉。</p>
+<p>也就是说，红圈是异族盗贼所为。戌西州虽在边境，但壬氏仍觉得数量未免太多。</p>
+<p>「是在增加吗？」</p>
+<p>「是的，去年就很多，但今年尤其多。我们虽已做了一些军备准备，但没想到蝗灾会来。」</p>
+<p>壬氏曾听说他们在推进征兵，但此刻被这么一说，也不好反驳。玉莺也不是傻瓜。</p>
+<p>「正因发生了蝗灾，他们才会一路来到茘——这样想比较合理。」</p>
+<p>蝗灾波及范围很广。若毫无对策，损失必然惨重。认为他国也遭受了类似损失并不奇怪。</p>
+<p>「那么，是要镇压异族吗？」</p>
+<p>几年前也发生过这种事。那时只是击退了事。地点不在戌西州，大约是在子北州以西。</p>
+<p>「不。」</p>
+<p>玉莺又叠上了一张更大的地图。这次的范围更广，连砂欧、北亚连、亜南都包括在内。</p>
+<p>「我们打这里吧。」</p>
+<p>玉莺指向的地方，是砂欧。</p>
+<p>「……什么意思？」</p>
+<p>壬氏像是确认般地看着玉莺。</p>
+<p>「如您所见。此次灾害以西边最重。各国若都受灾，从他国进口粮食将变得困难。那么，若将粮食经陆路运往西方，会怎样呢？」</p>
+<p>恐怕难以送达足够的量。更何况，除了异族来袭，还可能面临他国入侵。</p>
+<p>「将粮食运往西方最快的方法是什么？ 不是陆路，而是海路吧。」</p>
+<p>而以贸易为主的砂欧，无论海路还是陆路都衔接良好。确实，若想稳定供应粮食，能自由使用砂欧的港口会方便很多。</p>
+<p>「你是说要为此开战？」</p>
+<p>壬氏尽量压低声音。他本想着被抢功劳也就罢了，但这话实在不能苟同。</p>
+<p>为了不让百姓挨饿，就去抢掠——这与盗贼何异？</p>
+<p>「哦？ 您反对吗？
+我记得，对砂欧而言，占着大义名分的，不正是月之君您吗？」</p>
+<p>玉莺的话语充满自信。</p>
+<p>壬氏明白了他在说什么——是指砂欧巫女的事。</p>
+<p>表面上看，壬氏害死了砂欧巫女，因此对砂欧欠着人情。</p>
+<p>实际上巫女还活着，正被秘密藏匿——这件事玉莺应该不知道。</p>
+<p>「杀死巫女的本就是砂欧女子。即便她已是入后宫的中级妃，把别国女子做的事全算在茘头上，怕是不妥吧。」</p>
+<p>旁人看来，这确实像是单方面受损。更何况，还让皇族蒙羞了。</p>
+<p>「砂欧以杀害巫女威胁茘，这正是开战的名分，不是吗？ 皇弟殿下……」</p>
+<p>开战的名分，在有些时代要多少有多少。光是让皇族蒙羞，就足以株连九族了。</p>
+<p>「您怎么看，罗汉大人？」</p>
+<p>玉莺转头问罗汉。</p>
+<p>罗汉正盯着地图，眼神像是在看棋盘游戏。他向副官伸手，接过一个袋子，里面像是将棋棋子。</p>
+<p>「老夫不懂什么大义名分，老夫只会在将棋上赢。」</p>
+<p>说着，他在地图上开始摆棋子。副官带着歉意看了壬氏一眼。</p>
+<p>罗汉并无恶意，但也无善意。只要自己和身边人不受害，他什么也不在乎。只是不会放过参与有趣游戏的机会。</p>
+<p>壬氏明白了叫罗汉来的用意。</p>
+<p>「若月之君愿亲自举旗，西方的民众想必会大为振奋。」</p>
+<p>玉莺叫壬氏来的目的正在于此。</p>
+<p>「大家想看到的，或许不是作为客人的您，而是作为领导者的您吧？」</p>
+<p>玉莺误解了。壬氏并不想抛头露面，又或者玉莺是想激他的皇族自尊心？</p>
+<p>「届时，我愿全心全力，做您的右臂。」</p>
+<p>那灼灼的目光令人不适，他真的是玉叶后的兄长吗？</p>
+<p>那眼神分明在说：他渴望战争。</p>
+<p>「……就算调来武官，真要开战也需要人力。」</p>
+<p>「是的。西方之地忠心之人众多。即便是农民，战时也愿出力者不少。皇弟殿下举旗，罗汉大人战略，再加上我杨氏一族虽力薄，但也将全力辅佐。」</p>
+<p>「杨氏一族吗。」</p>
+<p>玉袁原是商人，在戌西州全境都有势力。</p>
+<p>壬氏眯起眼睛。</p>
+<p>「那么，玉袁大人知道这件事吗？」</p>
+<p>一瞬之间，玉莺的眉毛动了一下。</p>
+<p>「父亲曾说，若能让手伸向砂欧之地便好。」</p>
+<p>「哦，那就是还不知道了。」</p>
+<p>壬氏依旧冷静地回应。</p>
+<p>他想起了后宫女眷的魔窟。不过，比起女人的谎言，男人的大话要更容易挑出破绽。</p>
+<p>「确实若走海路，砂欧的港口令人垂涎。但弊害也太多。那些与砂欧陆路接壤的国家会怎样？
+它们的货物将不再流入。更何况，袭击一个作为中立国存在的国家，这合适吗？
+若玉袁大人在，应该会仔细权衡这些问题吧。」</p>
+<p>玉袁原是商人，不会只看眼前利益，一定会仔细确认弊害。即便收到了儿子的咨询信，也一定会说“为时尚早”。</p>
+<p>提到玉袁的名字时，玉莺的眼神似乎动摇了。</p>
+<p>壬氏感觉到玉莺周身萦绕着一种闷闷不乐的气氛。</p>
+<p>壬氏不露声色。对玉莺来说，壬氏不过是个连他一半年龄都不到的小子罢了。玉莺大概想用气势压倒他——</p>
+<p>「我是作为中央代表来的，同时也是主上的耳目。耳目擅自举旗，岂不荒唐？」</p>
+<p>「主上」一词让身后的官员们露出了动摇之色。那些官员都是西都人，也就是倾向于玉莺、把壬氏当木偶看的。</p>
+<p>木偶居然反抗主人，那自然会哗然。</p>
+<p>玉莺也不会轻易退让。</p>
+<p>「那么，您只是主上的耳目，无法自行判断吗？」</p>
+<p>壬氏再次庆幸没带马闪来。</p>
+<p>「我正是判断之后才说的。攻打砂欧，弊大于利。诸位都做过这种计算吗？
+既是商人，应当擅长此道吧。」</p>
+<p>壬氏故意挑衅般地说。这里完全是玉莺的地盘，壬氏也不想打会输的仗。这时若有人声援就好了。</p>
+<p>「若攻打砂欧，北亚连不会坐视不理。」</p>
+<p>「您是说惧怕北方蛮族？」</p>
+<p>「是啊，北亚连能获取的赤鹿帮了大忙。鹿角是极好的壮阳药，后宫中每晚都在为主上和妃子们准备，可是好药呢。」</p>
+<p>壬氏带着自嘲回应。化解挑衅于他而言轻而易举。</p>
+<p>「还有虎。北方之地有大型虎，其骨可泡酒。」</p>
+<p>即虎骨酒，据说有强身健体之效。</p>
+<p>壬氏为何对药如此了解，自不必说。</p>
+<p>「是精通药材的医官教我的，效用极强。」</p>
+<p>虽然那人不算真正的医官，但这话应该传达到了想传达的人耳中。至于功效是否真如此，他也不知道。那种药膳一向是交给后宫厨师的。</p>
+<p>「药和酒吗……」</p>
+<p>嘀咕的是罗汉。</p>
+<p>「喂，音操。若开战了，那种药还能弄到吗？」</p>
+<p>「倒也不是弄不到，但恐怕会贵得离谱。况且一旦开战，药品整体都会短缺。医生和药师想必很为难吧。」</p>
+<p>「是吗。」</p>
+<p>罗汉把摆好的将棋棋子收回袋中，站了起来。</p>
+<p>「罗汉大人，您怎么了？」</p>
+<p>「抱歉，老夫先回了。」</p>
+<p>罗汉说着便转过身去。</p>
+<p>「罗汉大人，请留步。」</p>
+<p>那个被唤作音操的副官追着罗汉而去。</p>
+<p>壬氏看着西都众人茫然的表情，也站起身来。</p>
+<p>「军师大人似乎没有心情谈战事。我也该回去了，可以吧？」</p>
+<p>玉莺没有回答。</p>
+<p>壬氏便径直离去。</p>
+<p>「他好像很不甘心呢。」</p>
+<p>雀小声说道。</p>
+<p>不巧的是，壬氏对罗汉的性格要比旁人熟悉得多。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-163.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-165.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

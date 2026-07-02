@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">168</h1>
+</header>
+<p>**四十二、慰问　后篇**</p>
+<p>正如李医官所说，忙得恨不得有三头六臂。能够免费接受医疗诊治，似乎是非常难得的机会。而且，工作的武官们也会顺道光顾，连休息的时间都没有。</p>
+<p>猫猫等人按照李医官的指示行动。</p>
+<p>主要的诊疗由李医官负责。猫猫则根据患者的情况，处理伤口或分发药物。</p>
+<p>马闪虽然显得有些不自在，但还是会慰问患者，并把分装好的药递给他们。等他稍微习惯了一些，猫猫便试着把纸和剪刀递给他，请他帮忙裁切药包纸，结果他也能利落地完成。大概是觉得与其在大家忙碌时闲着没事干，不如找点事做。不过，让他干杂活实在不太好看，所以便让他在患者看不到的地方做。</p>
+<p>（他并非做不到。）</p>
+<p>马闪的能力大致相当于普通文官。只是，作为壬氏的副官，能胜任三倍的工作才算理所当然，与他相比反而显得可怜。即便是武官本分，作为皇弟直属部下，这种能力也被视为理所应当。</p>
+<p>雀虽然动作古怪且浪费体力，但干活却出奇地快。堆积如山的绷带清洗和消毒，她在午前就全部完成了，之后便开始用现有材料辅助猫猫，甚至做起了饭。</p>
+<p>最闲的大概是李白了。他作为护卫，只是守在入口处。其余两名护卫偶尔会被雀使唤，但李白真的只是站着。</p>
+<p>“我简直就是个摆设啊。”</p>
+<p>他笑着说，但实际上作用非常大。李医官虽然略带粗犷，但比起西都居民还是瘦削很多。据说有不少地痞流氓是来凑热闹看诊的。入口处只要有一个六尺三寸（约190厘米）高的彪形大汉，就能起到相当的威慑作用。若有患者想找麻烦，李白会一言不发地在房间里走动，这也有很大帮助。</p>
+<p>如果对方只是冲着李医官或猫猫来，倒还好，但若盯上马闪就麻烦了。他毕竟是作为壬氏的代表来的，惹他发火可不好，更何况，硬要找茬反被他收拾的只会是对方自己。</p>
+<p>说到打架，马闪恐怕不会输，断一两根骨头都算是轻伤了。再者，虽然不太清楚西都的刑罚，但若是冒犯了皇族的代表，脑袋都可能不保，这一点希望对方能够明白。</p>
+<p>就在这期间，杨医官和天祐回来了。</p>
+<p>“我回来了！”</p>
+<p>回来时就像回到自己家一样随意。晒得黝黑的皮肤果然有当地人气质，身后的天祐则显得有些疲惫。</p>
+<p>“欢迎回来，老爷们。是先看诊呢？还是先吃饭呢？还是先看诊呢？”</p>
+<p>不知疲倦的雀第一个应声。看似慰劳，实则还想让他们干活。</p>
+<p>“虽然想吃饭，但李医官还没吃吧？”</p>
+<p>“诶——不吃顿饭吗？”</p>
+<p>天祐看起来很累。右手拿着诊疗器具，左手抱着一个布包。</p>
+<p>“那就先吃饭吧。限时从现在起半个时辰。”</p>
+<p>啪啪地拍了拍手，雀不知何时已经掌控了局面。</p>
+<p>“好嘞，菜是什么？”</p>
+<p>“哪有什么菜啊？是把现有的所有东西都扔进去的雀小姐特制炒饭。秘密调料是留着当下酒菜的秘藏干贝柱。”</p>
+<p>她利落地拿起锅铲和盘子，摆好了姿势。说是剩菜拼凑，但里面也炒进了药味和鸡蛋，看着就很好吃。</p>
+<p>“另外，饮料有葡萄水和山羊奶二选一。水有点浑浊，还是别喝为好。”</p>
+<p>毕竟井里漂过飞蝗，这也是没办法的事。雀曾用漏勺过滤井水来洗衣服。</p>
+<p>（或许饮用水也该配发一下。）</p>
+<p>喝了腐坏的生水会拉肚子。止泻药之所以不够用，也许就是因为水的问题。</p>
+<p>（如果能过滤水，最好再煮沸一下就好了。）</p>
+<p>事实上，在西都清洗并煮沸绷带已经相当奢侈了。无论是水还是燃料，都比中央贵重大。水自不必说，燃料也几乎不是木柴就是木炭，大多是牲畜的粪便。</p>
+<p>（石炭啊……）</p>
+<p>即便中央只把它当作木柴或木炭的替代品，但它的价值或许与戌西州的认知有着很大的不同。</p>
+<p>（需要特意挖山开采才能使用的优点。）</p>
+<p>金和银无可替代，只能开采。但中央不会为了开采与随地可得的木头同价值的东西而去挖山。而戌西州则希望获得光靠牲畜粪便无法满足的燃料需求。</p>
+<p>确实有优势，但——</p>
+<p>（要发动战争的话，似乎还缺点什么。）</p>
+<p>猫猫正沉吟着，有人拍了拍她的肩膀。</p>
+<p>“猫猫小姐，猫猫小姐。您思考时走神的样子是不是太多了？”</p>
+<p>“雀小姐，雀小姐。我真有那么出神吗？”</p>
+<p>“与其说是出神，不如说您经常把想法说漏嘴了。”</p>
+<p>“……”</p>
+<p>猫猫轻轻用手捂住了嘴。</p>
+<p>“好了，猫猫小姐也吃饭吧。好像杨医官有话想跟马闪先生说，看起来很有意思呢。”</p>
+<p>“哦，听起来好像挺麻烦的。”</p>
+<p>“是的，是很有趣的事。”</p>
+<p>雀和猫猫的解释总有出入。</p>
+<p>摆好了炒饭的餐桌旁，坐着笑容满面的杨医官和一脸不悦的马闪。天祐虽然满脸写着“想快点吃饭”，但两人都没动筷，他也只能干等着。看来天祐也至少还懂点礼节。</p>
+<p>“哈哈哈，马闪大人当代表啊。”</p>
+<p>“有什么问题吗？”</p>
+<p>从一开始气氛就很紧张的杨医官和马闪。</p>
+<p>猫猫用胳膊肘捅了捅雀。</p>
+<p>“怎么了？”</p>
+<p>“那两人认识吗？”</p>
+<p>“据我所知，应该是初次见面。”</p>
+<p>两人小声交谈着。</p>
+<p>“杨医官是怎样的人？”</p>
+<p>“哎呀，雀小姐很想知道吗？”</p>
+<p>“别卖关子了，告诉我吧。下次我提议上街逛逛。”</p>
+<p>“哦，那敢情好——”</p>
+<p>雀喜欢在外闲逛，所以猫猫觉得这提议应该能勾起她的兴趣。</p>
+<p>“杨医官非常开朗活泼，但对待工作很认真，表里如一，跟谁都能很快打成一片。不过说实话，他跟我们家那位老爷怕是一辈子也合不来。”</p>
+<p>雀的丈夫——马闪的兄长，至今仍未在猫猫面前露过面。要是被这种直来直去的人靠近，恐怕会发疯吧。</p>
+<p>“表里如一的话——”</p>
+<p>“正如李医官所说，他对政治似乎不感兴趣。既熟悉西都的气候地理，又有医术，还不关心政治——没有比这更合适的人选了。”</p>
+<p>用“了”这个过去式，说明其中存在变数。</p>
+<p>“谁想到会突然发生蝗灾，月之君又不拘泥于评价，更别说还有一位在当地人气极高的玉袁大人家的长子呢——就是这么回事。”</p>
+<p>“所以杨医官他？”</p>
+<p>“是的，他绝不是那种会背叛月之君的人。”</p>
+<p>听了雀的话，猫猫不知为何松了口气。但即便猫猫放心了，也有人无法接受。</p>
+<p>“您到底是什么意思？”</p>
+<p>“意思？”</p>
+<p>马闪故作平静，但鼻孔微微翕张。</p>
+<p>杨医官则是一副完全不明白对方在说什么的表情。</p>
+<p>“您是奉月之君之命来到西都的。但月之君在西都的声誉如何呢？无论是施粥的材料，还是在这里开设诊疗所，不都是月之君的意思吗？”</p>
+<p>“是啊。真可谓慧眼如炬。如此大规模的蝗灾之下，西都还能如此安定，我也深感仰仗月之君之力。”</p>
+<p>杨医官坦率地称赞着壬氏。而且，还轻描淡写地说出了重要的话。</p>
+<p>“听您的口气，简直像是亲身经历过蝗灾一样。”</p>
+<p>好！猫猫在心里为马闪鼓掌。</p>
+<p>“经历谈不上，但确实遇到过几次。”</p>
+<p>“几次？蝗灾不是最近几十年都没发生过吗？”</p>
+<p>“发生过。只不过规模没有大到需要向中央报告而已。”</p>
+<p>确实，杨医官的话并非不可能。</p>
+<p>“这难道不是怠慢吗？”</p>
+<p>“怠慢？马闪大人，我想确认一下，究竟要损失多少粮食，才能被称为蝗灾？”</p>
+<p>“……至少是让人吃不饱的程度吧？”</p>
+<p>“吃不饱是指什么？只要自己吃的小麦够就行了吗？如果有其他可卖的东西来弥补就可以了吗？那么，如果耕作面积翻倍，却遭遇蝗灾，结果收成只和往年持平，那又怎么说？”</p>
+<p>“呃，这……”</p>
+<p>马闪语塞了。</p>
+<p>杨医官不愧为上级医官，头脑相当灵活。</p>
+<p>杨医官虽以举例的方式来说，但这恐怕是真实发生过的事。</p>
+<p>即便收成不变，若耕作面积扩大，劳动力与成本也会增加。但若税收依然照旧，没有任何减免，生活自然就会变得困苦。</p>
+<p>“荔国幅员辽阔。但正因如此，西边一角便难以顾及。若只着眼于数字上的收成，即便报告蝗灾也会被驳回。那么，就只能由戌西州内部自行处理——我想这是不言自明的道理。”</p>
+<p>杨医官表里如一，因此对马闪也能直言不讳。</p>
+<p>（连杨医官都这么想。）</p>
+<p>壬氏在西都评价不高，很大程度上也是因为根深蒂固的“中央什么都没做”的认识。</p>
+<p>“不过，月之君的行动确实正确。让我想起了戌之一族。”</p>
+<p>“戌之一族？”</p>
+<p>猫猫忍不住反问。</p>
+<p>“是啊，你知道？”</p>
+<p>杨医官并不介意猫猫插话。马闪似乎需要先放松一下紧绷的神经才能重新加入对话，于是猫猫便代他说话。</p>
+<p>“好，坐下吧。嗯，边吃边聊也行吧？来，开吃吧。”</p>
+<p>“饭！”</p>
+<p>天祐终于露出了能吃饭的表情。他刚才一直沉默，大概是因为累得没力气了吧。</p>
+<p>“戌之一族，每次蝗灾都会站在前头指挥。”</p>
+<p>“……恕我冒昧，他们不是逆贼吗？”</p>
+<p>“逆贼？哼，嗯，就算他们做了什么，大概也是为了戌西州吧。至少据我所知，没有那样的人。”</p>
+<p>杨医官用勺子舀起炒饭吃着。</p>
+<p>“戌之一族的人，都是些怎样的人呢？”</p>
+<p>猫猫也吃了一口。松散的米饭和鸡蛋调味得当。药味和干贝柱的味道恰到好处。她偷偷向雀竖起大拇指表示称赞。</p>
+<p>“都是美人啊。靠近了还有香味。”</p>
+<p>“香味？”</p>
+<p>“哦，你不知道吗？戌之一族是母系氏族。荔国的建国传说里也有王母的故事吧。那么厉害的女豪杰，心腹中有同性的女豪杰也不奇怪吧。戌之一族就是她的后裔。”</p>
+<p>猫猫吃了一惊。但马闪和雀都没有惊讶。天祐则只顾埋头吃饭。</p>
+<p>“您不知道吗？”</p>
+<p>“不知道啊。”</p>
+<p>这大概是在皇族身边侍奉的人们的常识，但对猫猫来说，治理遥远西地的领主与她毫无关系。更何况，既然已经灭亡了，就更不关心了。</p>
+<p>“正因为是女性，才能如此顽强地守护边境吧。戌之一族不招女婿，却总是生出漂亮的、带有异国风情的孩子。据说女孩会继任领主，男孩则会被送去旅行。”</p>
+<p>通过不断混血而生出美人，并通过混血来牵制他国，是这样吗？</p>
+<p>“与巫女之国沙欧相性也很好。不过，同样是女人，却与女帝合不来吧。”</p>
+<p>“关于女人之间的纷争，我拒绝发表意见。”</p>
+<p>不过，竟然听到了如此意外的消息。壬氏也从未提起过，或许真的只有猫猫不知道。</p>
+<p>在猫猫与杨医官交谈时，马闪似乎已经吃完了炒饭。他用力放下勺子。大概是吃饭期间，他那僵硬的头脑也放松了些吧。</p>
+<p>“我明白杨医官的意思了。我会理解为月之君是在替中央弥补欠账。不过，现在月之君的功绩全都流向了玉莺大人这一点，我有些想法。而杨医官也在助长此事。”</p>
+<p>“助长？我吗？”</p>
+<p>“您这位出身西都的杨姓之人所做的工作，都成了玉莺大人的功劳。”</p>
+<p>“真的吗？”</p>
+<p>杨医官向天祐确认。</p>
+<p>“诶——李医官也说过。首先，要在治疗开始前加上‘来自中央’这个词。我之前还以为那是指我们是奉月之君之命在工作呢。”</p>
+<p>“说‘来自中央’不是很奇怪吗？这里可是我的出生地，而且来的很多都是熟人啊。”</p>
+<p>“那就说‘奉皇弟之命’不就行了？”</p>
+<p>“那样的话，总觉得……不害臊吗？”</p>
+<p>这位大叔到底在说什么啊？意思就是，他在首都出人头地后回乡，被熟人追捧觉得难为情吧。</p>
+<p>“猫猫小姐，猫猫小姐。杨医官可以归入和庸医先生同一类吗？”</p>
+<p>“那倒不太一样，请另归一类吧。”</p>
+<p>“明白了。”</p>
+<p>猫猫大致能想象雀所说的“类别”是什么。</p>
+<p>“再说了，本地人的话，总该知道老杨家和杨家新来的区别吧？”</p>
+<p>“老杨？新杨？”</p>
+<p>猫猫歪着头。</p>
+<p>“医生杨氏家就是老杨家。玉袁大人一家则是新搬来的杨家。现在虽然子孙满堂，成了一大家族，但刚来的时候只有玉袁大人、他夫人，和还很小的长子。雇了不少下人就是了。”</p>
+<p>“不，就算是本地人，大概也得四十岁以上才知道吧。”</p>
+<p>平民百姓到了五十岁左右就会迎来死亡，四十岁以上的人口并不多。</p>
+<p>更何况，西都的面孔早已被玉袁一族占据。对年轻人来说，提到“杨”字，要么指玉袁，要么指玉莺。</p>
+<p>“是吗，原来如此啊。”</p>
+<p>“没想到还挺新的，我还以为是从古就世居于此呢。”</p>
+<p>“以前似乎是作为商路据点临时歇脚，但真正定居下来是在那个时候。查户籍的话应该能知道确切时间。”</p>
+<p>“户籍怕是查不到了。已经被烧毁了。”</p>
+<p>雀喝着羊奶答道。</p>
+<p>“那可真遗憾。”</p>
+<p>“所以，请务必向患者明确传达，你们是月之君的属下。”</p>
+<p>雀替马闪把重点明确传达了过去。</p>
+<p>“……非说不可吗？”</p>
+<p>这位大叔耷拉下了眉毛。</p>
+<p>“杨医官明明天不怕地不怕，为什么偏偏在这事儿上害羞呢，真搞不懂。”</p>
+<p>“闭嘴，天祐。”</p>
+<p>明明有实力，却不好意思宣传自己。也许正因为他是在实力主义的刘医官手下，才能成为上级医官吧。</p>
+<p>“那个——”</p>
+<p>一道幽怨的目光投向猫猫等人。</p>
+<p>“吃完了的话，能不能快点来换班？”</p>
+<p>李医官从门缝里探出头来，一脸幽怨。</p>
+<p>∧_∧</p>
+<p>(`・ω・)　 。・゜・⌒)</p>
+<p>/　　ｏ━ヽニニフ))</p>
+<p>しーＪ</p>
+<p>没人可以看到这里吧嘻嘻2026.7.2.14.10</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-167.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-169.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

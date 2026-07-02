@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">132</h1>
+</header>
+<p>**六、草原　后篇**</p>
+<p>此后，猫猫一行人的旅途十分平静。</p>
+<p>（本以为会有更多虫子。）</p>
+<p>毕竟是草原，还是有一些的。但并没有大量爆发，偶尔能看到几只跳来跳去而已。</p>
+<p>（难道是杞人忧天了吗？）</p>
+<p>西都并没有发生蝗灾。既然如此，猫猫也松了口气。</p>
+<p>到达下一个休息点时，他们与先行出发的罗半兄一行汇合了。</p>
+<p>“诶，居然有这种事？”</p>
+<p>罗半兄脸色煞白地听着。</p>
+<p>（这才是正常的反应啊。）</p>
+<p>看到对遭遇盗贼一脸平静的雀，猫猫深有感触。那是一种见惯不惊、或者说早已预料到的反应。</p>
+<p>先行队伍有一辆马车，除了罗半兄，还有两名看似护卫的武官、三名像是帮手的农夫，以及两名当地向导。</p>
+<p>猫猫虽然不清楚合理的人员配置该是多少，但她觉得向导有两人似乎太多了。</p>
+<p>（原本应该是安排一人随行的吧？）</p>
+<p>说起来，关于向导的事，她不知什么时候就忘了问了。</p>
+<p>第二次休息结束后，很快就到了农村。以流淌的河流为中心，建有固定的房屋，周围是田地和树林。后面可以看到平缓的山脉。与猫猫所熟知的山不同，更像是草原直接隆起的丘陵。</p>
+<p>那些星星点点的白色，大概是羊吧。黑色的可能是牛。</p>
+<p>从房屋数量来看，人口最多也就三百人左右。</p>
+<p>走近时，羊群“咩——”地叫着迎了上来。有毛茸茸的羊，也有刚剪完毛显得很寒碜的羊。大概正是剪羊毛的季节吧。</p>
+<p>孩子们也作为重要的劳动力，捡拾着羊粪放进篮子里。</p>
+<p>“那些是干什么的？”</p>
+<p>“羊粪据说可以当燃料。铺在地上也很暖和。”</p>
+<p>见马闪投来诧异的目光，猫猫稍作补充。</p>
+<p>“用粪便吗？！”</p>
+<p>“哎呀，这您不知道吗？义弟大人真是的——”</p>
+<p>雀不忘揶揄马闪。顺便一提，揶揄时使用“义弟”似乎是她的标配。</p>
+<p>村子被壕沟和砖墙环绕着。考虑到刚才有盗贼出没，大概是时不时会有袭击吧。</p>
+<p>马闪在村口与人交谈。似乎早已有传令兵来过，他们被顺利放行。</p>
+<p>——不过。</p>
+<p>两位向导中的一人似乎被雀叫了出去。雀笑容可掬，而向导的脸色则越来越难看。</p>
+<p>不安的气氛也传到了周围。雀身后站着先行队伍的护卫武官。雀笑容满面，向导也老老实实，但怎么看都像是在被押送。</p>
+<p>（原来如此啊——）</p>
+<p>猫猫双臂交叉，观察着向导将被带到哪里去。</p>
+<p>“喂，那是在干什么？”</p>
+<p>吐槽担当——罗半兄眼尖地发现了。</p>
+<p>“大概是想讨价还价吧。我们问了安全的道路，却还是遇到了盗贼。”</p>
+<p>“啊——但那不算是无理取闹吗？”</p>
+<p>“也许算是无理取闹吧，不过他们好像是以‘绝对安全’为由特别指路，还额外收了费用。”</p>
+<p>“不是吧？再说了，这草原上哪有什么路可走啊！被骗的一方也太好骗了吧！”</p>
+<p>说得没错。当然，这些都是猫猫随口说的，纯属胡诌。</p>
+<p>正说着，脚步声靠近了。</p>
+<p>“村长说会带我们去住处。”</p>
+<p>马闪回来了。</p>
+<p>“明白了。”</p>
+<p>“有劳了。”</p>
+<p>罗半兄礼貌地回应。虽然被随意使唤，但毕竟曾是名门长子，礼仪还是懂的。</p>
+<p>“知道了。不过——”</p>
+<p>马闪看向罗半兄。</p>
+<p>“该怎么称呼您呢？”</p>
+<p>看来马闪也不知道罗半兄的名字。</p>
+<p>“哦！”</p>
+<p>罗半兄满脸期待。</p>
+<p>“叫罗半兄就好。”</p>
+<p>猫猫立刻答道。</p>
+<p>“喂！”</p>
+<p>罗半兄啪地拍了一下猫猫的肩膀。</p>
+<p>“明白了，就叫罗半兄是吧。”</p>
+<p>“等、等等！”</p>
+<p>罗半兄失礼地朝马闪喊道。</p>
+<p>“是的。正如其名，他是罗半的兄长。想必您知道罗半，但他没那么多怪癖，是个普通人，不会有害的。作为芋农是个行家，可以放心交给他。”</p>
+<p>“谁是普通人！谁是农民！”</p>
+<p>如果不是农民，那又是什么呢。他曾帮忙打理那么大一片芋田，多自豪一下也没关系吧。</p>
+<p>“明白了。既然是罗汉大人的亲属，自然该以礼相待。”</p>
+<p>（这一点倒是值得称赞。）</p>
+<p>若问指什么，大概是指马闪对猫猫的态度相当随意这件事吧。</p>
+<p>“那个——”</p>
+<p>村长怯生生地开口。</p>
+<p>“可以带路了吗？”</p>
+<p>“啊，抱歉。有劳了。”</p>
+<p>村长松了口气，将她们带到了村子中央的广场。</p>
+<p>“那么，请使用这顶帐篷。”</p>
+<p>那是放牧民族使用的那种移动式帐篷。</p>
+<p>“这是几年前移居到本村的人用过的帐篷，还很结实，里面也很暖和。女性请使用旁边那顶小帐篷。”</p>
+<p>探头往里一看，确实很暖和。网状骨架覆盖着羊毛毡。里面铺着地毯，中央设有火炉。虽然没有窗户，空气似乎容易变差，但火炉上方有一根筒状柱子，用来排气。火炉旁堆着的，大概是刚才孩子们捡的羊粪吧。</p>
+<p>地毯是精心编织的华丽之物，可以看出是村子对客人的一番心意。</p>
+<p>“正好在收起来之前，真是帮了大忙了。”</p>
+<p>村长低声说道。</p>
+<p>（大概是在说陆孙吧。）</p>
+<p>他应该就是前几天才来的。他到底是来做什么的呢？</p>
+<p>肤色黝黑的村长，看起来虽像老人，但腰腿却很结实。在日照强烈的地方，外表可能更容易显老。又或者，即便定居下来，放牧民族本身腰腿就很强健。</p>
+<p>“今天天色已晚，先用饭，然后休息。帐篷前会安排护卫，应该没问题吧？”</p>
+<p>“是，没问题。”</p>
+<p>猫猫拿起自己的行李，移到了小帐篷里。脱鞋进去后，脚下软绵绵的。地毯下似乎还叠了好几层羊毛毡。脱下外套，她不由得在地毯上摊成了一个大字。</p>
+<p>（啊，不行。）</p>
+<p>帐篷里很暖和，地面也温暖。差点昏昏欲睡，她赶紧跳起来，啪啪拍了拍脸颊。</p>
+<p>猛地坐起身时，正好雀回来了。</p>
+<p>“猫猫小姐，看起来很舒服呢。雀小姐也要滚一滚。”</p>
+<p>雀猛地倒下去，眯起了眼睛。</p>
+<p>“雀小姐，我能确认几件事吗？”</p>
+<p>猫猫把今天一天在意的事在脑中整理了一遍。一边整理，一边下意识地正坐好。雀也跟着正坐，与她对视。</p>
+<p>“好好好，什么事呀，猫猫小姐。”</p>
+<p>雀一如既往地回应道。</p>
+<p>“是雀小姐您吧——唆使盗贼的。”</p>
+<p>面对猫猫的提问，雀的表情毫无变化。</p>
+<p>“这话怎么说呢，猫猫小姐？”</p>
+<p>“我措辞不当。换个说法就是，你预料到盗贼会来，为了减少实际损害，将贼人引向了我们后面的队伍。”</p>
+<p>雀的表情依旧不变。</p>
+<p>“您这么说的根据是什么呢？”</p>
+<p>并非想为难猫猫，但雀似乎饶有兴趣地想听她的答案。</p>
+<p>“第一点，为什么要把队伍分成先发和后发。或许是为了照顾我，想尽量缩短移动时间，这一点从月之君为我准备了舒适的鞍具也能看出来。但是，即便分头行动，既然有两位向导，却一个都不带，这很不自然。”</p>
+<p>“哦哦。”</p>
+<p>雀似乎擅长看地图，但初次踏足的土地，有向导总归更好。她像是故意没带向导。</p>
+<p>“第二点，是这件外套。”</p>
+<p>“您不喜欢这件外套吗？”</p>
+<p>“非常暖和，很实用。但有一点让我在意——会不会太华丽了？”</p>
+<p>“华丽？”</p>
+<p>猫猫看着雀身上穿的外套。</p>
+<p>“雀小姐喜欢华丽的东西，所以如果有两件外套，应该会选择更花哨的那件。但雀小姐选的，却是相对朴素的那件。”</p>
+<p>“话虽如此，雀小姐也懂得分场合呀。”</p>
+<p>雀用戏谑的语气说道。</p>
+<p>“是的。如果雀小姐要把更好的那件给我，我想那应该是月之君赐给您的吧。因为您提到了舒适的鞍具，我还以为这件外套也是月之君赠予的。但事实并非如此。”</p>
+<p>猫猫收到的是一件触感极佳的外套。精细的刺绣表明它品质上乘。</p>
+<p>“穿着这么好的东西，无异于向盗贼宣告‘这里有个肥羊’。雀小姐穿得相对朴素，是为了让你看起来像是侍女之类的小角色吧。”</p>
+<p>“呵呵呵。雀小姐的立场本来就像是猫猫小姐的侍女呢。那么，您是说，我故意让您穿上好外套，又分开队伍，是为了让您被袭击吗？”</p>
+<p>“与其说是为了让我被盯上，不如说是为了减少实际损害，把目标集中在一个点上。”</p>
+<p>雀的眼睛眨了眨。</p>
+<p>“如果连同往农村的马车一起袭击，需要大规模行动。虽然有武官在场，战力会增加，但队伍里也有不习惯这种场面的人。若吓到他们，恐怕会影响今后的工作，而且被劫持人质的可能性也不小。”</p>
+<p>那个看起来很普通的罗半兄，虽然健康，却不像习惯打斗的样子。应该会像普通人一样胆小吧。</p>
+<p>“如果把队伍分成先发和后发两队，并让人觉得人数较少的那队里有值钱的目标，盗贼自然会对那边下手。两名女子，一名男子。马闪大人实力固然是怪物级别，但长相童颜，作为武官身材也不算特别高大。”</p>
+<p>盗贼们恐怕做梦也想不到，揭开盖子，里面竟是一头披着人皮的熊。</p>
+<p>“但是猫猫小姐，就算您的假设成立，雀小姐又是怎么把盗贼引来的呢？就算猫猫小姐穿着好外套，他们难道会像事先埋伏好一样恰好出现吗？”</p>
+<p>“问题就在这里。刚才您和其中一位向导说话，就是为了这个。第三点，雀小姐到了村子后，只和其中一位向导说了话。”</p>
+<p>猫猫想起了那位脸色苍白的向导。</p>
+<p>“在先行队伍出发前，雀小姐对两位向导分别说了不同的事吧——关于后发队伍会在哪个水边休息。只要装作确认地图，告诉他们在哪里休息就好，这样就能让对方知道休息地点。”</p>
+<p>虽然不清楚向导用了什么联络手段，但向盗贼传递信息的途径应该很多。</p>
+<p>“是的。本来我们就是故意雇用了可能与盗贼有勾结的嫌疑向导。雀小姐分别告诉他们不同的休息地点，以此确认会在哪里遇袭，也是为了让向导的身份水落石出。当然，也可能两个都是黑的。”</p>
+<p>“只有一个是黑的。另一位向导身份明确。”</p>
+<p>雀没有否认猫猫的话。</p>
+<p>“这是月之君的命令吗？”</p>
+<p>猫猫曾对壬氏说过，尽管把她当工具用。所以，并非没有预料到这种用法。</p>
+<p>“不是哦，准备外套的是我。”</p>
+<p>“是吗。”</p>
+<p>那应该就不是了。</p>
+<p>“猫猫小姐太聪明了，雀小姐很为难呢。”</p>
+<p>“雀小姐让人捉摸不透，我也很为难。”</p>
+<p>两人各自叹了口气。</p>
+<p>“猫猫小姐，我有个请求。”</p>
+<p>“什么？”</p>
+<p>“雀小姐是开朗快乐的雀小姐，所以请像往常一样对待雀小姐。”</p>
+<p>说着，她哗啦一声变出了一面小旗子。</p>
+<p>“……虽然不太明白，但我答应了。”</p>
+<p>猫猫接过旗子，用指尖晃着，不知该如何是好。</p>
+<p>“猫猫小姐，雀小姐还有一个请求。可以问个问题吗？”</p>
+<p>“什么？”</p>
+<p>“为什么您会觉得，那件华丽的高级外套不是月之君赐予的呢？”</p>
+<p>雀似乎是真的感到好奇。</p>
+<p>“那位大人若赠我东西，大概会是合身份、穿着舒适但装饰简朴的实用之物吧。我只是这么想而已。”</p>
+<p>“是这样吗？”</p>
+<p>“不知不觉就变成这样了。”</p>
+<p>雀露出一副难以形容的表情看着猫猫，但视线忽然抬了起来。</p>
+<p>“打扰了。”</p>
+<p>帐篷外传来女性的声音。</p>
+<p>“请进。”</p>
+<p>猫猫应道，入口的羊毛毡被掀开了。</p>
+<p>“打扰了。”</p>
+<p>探进头来的是位中年女性。她手里拿着缰绳。</p>
+<p>“按吩咐准备了三头山羊，您看如何？”</p>
+<p>“好好好，多谢。那么，这是酬劳。”</p>
+<p>雀把一把钱塞给那女人。看来她是在回帐篷前就安排好了。</p>
+<p>（山羊，是要带回去吗？）</p>
+<p>如果是为了吃，处理成肉再带走更便宜，而且也不需要三头。</p>
+<p>雀牵着山羊的缰绳，一边翻找着行李。她拿出一个看起来很重的袋子。</p>
+<p>“那是什么？”</p>
+<p>“是盐哦。这附近没有海，也采不到岩盐，所以盐很珍贵。山羊也很喜欢盐。”</p>
+<p>“那您打算做什么？”</p>
+<p>猫猫隐约猜不到她的意图。</p>
+<p>雀咧嘴一笑。</p>
+<p>“去谈判。雀小姐是和平主义者，会尽量以温和的方式解决。猫猫小姐您就好好休息，缓解旅途疲劳吧。”</p>
+<p>雀转过身，牵着山羊们走了出去。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-131.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-133.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

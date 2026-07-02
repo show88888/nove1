@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">140</h1>
+</header>
+<p>十四、盛宴</p>
+<p>帐篷入口传来沙沙的摩擦声。</p>
+<p>猫猫睁开眼，雀端着食物回来了。</p>
+<p>“这是猫猫小姐的份。”</p>
+<p>“谢谢。”</p>
+<p>雀把兽脂烛台放在地毯上。飘来一阵格外诱人的香气，材料大概是牛或羊吧。</p>
+<p>做好的料理每样都是双份，还多加了一道汤。它们被摆放在烛台周围。虽然只是用芋头和手边的材料凑合做的，但看起来竟颇为丰盛。</p>
+<p>猫猫摸了摸肚子。小睡了一会儿，肚子有点饿了。</p>
+<p>“大家都说很好吃呢。”</p>
+<p>“那就好。”</p>
+<p>“嗯，现在他们正吃得开心，喝得尽兴，就像那样——”</p>
+<p>帐篷外传来弦乐声和歌声。虽然整体上有些敷衍了事，但能作为祭典顺利运作起来，总归是好事。</p>
+<p>“我来逐一说说每道菜的反馈吧。”</p>
+<p>“拜托了。”</p>
+<p>猫猫和雀不约而同地正襟危坐，看着摆好的菜肴。</p>
+<p>“首先是烤芋，顾名思义，就是烤过的芋头。”</p>
+<p>“嗯。”</p>
+<p>红薯和马铃薯都烤了。不过，由于是在芋头专家的监制下烤制的，比雀随便切一切扔进炉子里烤出来的更加湿润美味。</p>
+<p>“颜色烤得恰到好处，透着蜜色呢。”</p>
+<p>“马铃薯还保留了松软的口感。”</p>
+<p>“红薯很受女性和孩子欢迎。马铃薯嘛，男人们蘸着黄油在吃。”</p>
+<p>“黄油我准备了加盐的那种。”</p>
+<p>那肯定很开胃吧。</p>
+<p>“这个是怎么做的？”</p>
+<p>“啊，那个——”</p>
+<p>雀感到好奇的是那团粘稠的块状物。</p>
+<p>“一开始大家都觉得恶心，没人敢吃。是雀小姐把它抹在面包片上吃了之后，大家才跟着学的。”</p>
+<p>“我也是头一次见这种料理。是罗半兄做的。”</p>
+<p>马铃薯蒸熟去皮捣碎，在捣碎的芋泥里混入奶酪和熏肉碎，用盐调味。</p>
+<p>“要是有胡椒就更好了。”</p>
+<p>“胡椒对老百姓来说还是太贵了。”</p>
+<p>一边吃着，一边端起汤碗。</p>
+<p>“这是谁做的？”</p>
+<p>“罗半兄看没有汤，就即兴做了一锅。用家里的剩汤，加上剩下的蒸芋头捣碎放进去，再加牛奶和盐调味。还放了些叶子，那是什么呀？”</p>
+<p>“啊，那是香草。赶路的时候路边零零星星长着的。”</p>
+<p>猫猫哼了一声。雀投来温和的目光。</p>
+<p>“我怎么记得前几天还有人嚷嚷着缺药呢。”</p>
+<p>“香草与其说是药，不如说是调味料。”</p>
+<p>猫猫对半眯着眼的雀如此说道。总之，先尝尝汤的味道。</p>
+<p>“即兴做成这样，已经很不错了。”</p>
+<p>“嗯，以后我也想在家试试。”</p>
+<p>（罗半兄，真是多才多艺得过分了。）</p>
+<p>大概正是因为样样通却样样不精，才没有哪个方面显得特别突出吧。实际上他是个非常有用的人。</p>
+<p>“他要是在普通家庭出生就好了。”</p>
+<p>“是啊，真是个不幸的人呢。”</p>
+<p>两人喝着汤，虽然没有指名道姓，但都知道在说谁。</p>
+<p>另外还做了一道菜：把红薯烤熟捣碎，和黄油揉在一起再烤一遍。表面刷了蛋黄，烤出了漂亮的金黄色。</p>
+<p>“红薯特别受孩子们欢迎。”</p>
+<p>“拔丝红薯要是也有麦芽糖的话也能做。”</p>
+<p>可惜，做麦芽糖太耗时间了。</p>
+<p>（麦芽糖也没有吧。）</p>
+<p>用麦芽做的饴糖需要糯米作为原料。在这个不产米的地方，大概做不出来吧。</p>
+<p>还有一道是把马铃薯切片，和熏肉及其他蔬菜一起炒。调味除了盐还加了些香草。咸口的菜似乎很受男性欢迎。</p>
+<p>“啊，这个特别受主妇们欢迎。她们都在向罗半兄请教做法呢。”</p>
+<p>雀用筷子夹起的是芋头饼。把马铃薯蒸熟捣碎，混入小麦粉，加盐，中间包入奶酪再烤。用黄油代替油来煎，散发着焦香的香气。</p>
+<p>“大家似乎很喜欢那种独特的口感，刚烤好时奶酪拉丝的效果也很受欢迎。”</p>
+<p>雀一口咬下芋头饼，里面的奶酪拉出长长的丝。</p>
+<p>“这里奶制品和肉……可以随便用，这是很大的优势啊。在华央州，这可得算是奢侈了。而且马铃薯跟这些材料搭配……很合适呢。”</p>
+<p>雀一边吃一边说着。</p>
+<p>“没想到什么东西都能搭配，挺好的。不过，鱼好像不行。”</p>
+<p>指的是宗教上的原因。虽然不是所有人都这样，但最终还是没有上鱼。</p>
+<p>（明明附近就有河。）</p>
+<p>虽然可惜，但也无可奈何。</p>
+<p>差不多吃完所有菜肴后，猫猫向雀确认道。</p>
+<p>既然是祭典、神明之类的名头，不能指望所有人都听猫猫他们的话。从一开始，模仿祭典就只是场戏罢了。</p>
+<p>而真正的目的则是——</p>
+<p>“村民们有产生欲望吗？”</p>
+<p>“嗯，胃口倒是被勾起来了。”</p>
+<p>雀喝着奶茶笑了。</p>
+<p>这个村子最大的问题就是太质朴了。说白了就是没有欲望。只要生活过得去就满足了。既然收成不好生活也有最低限度的保障，那就干脆不干活了。</p>
+<p>因为没有物欲，所以也不会追求更多，只满足于被给予的那一份。</p>
+<p>于是，她们决定用村民们从没见过的陌生料理来款待他们。</p>
+<p>尽量用村里现有的材料，尽量做得简单。因为不确定合不合口味，所以尽量多做几种花样。</p>
+<p>（只要备齐了材料，随时都能做出来。）</p>
+<p>那就是红薯和马铃薯。</p>
+<p>反过来说，只要有这两样，今天准备的所有盛宴都能重现。</p>
+<p>“村长问要花多少钱才能买到。”</p>
+<p>“罗半兄怎么说的？”</p>
+<p>“那个人在算账方面好像不太在行，所以我连运费一起告诉他了。”</p>
+<p>“这方面他倒是没随弟弟啊。”</p>
+<p>恍惚间似乎听到“明明是我先出生的！”的声音，大概是错觉吧。</p>
+<p>“听到价格后，他们先是一惊，然后目瞪口呆，最后变得很失望。”</p>
+<p>“是吧。”</p>
+<p>“于是，雀小姐便以精湛的演技，投以仙女般慈悲的目光，说道——”</p>
+<p>——“至少能把种芋便宜一点分给他们吗？”</p>
+<p>（雀小姐真是深谙此道。）</p>
+<p>如果免费送芋头，村民们又会变成接受施舍的一方，说不定还会期待以后也能白拿。收一点钱是很重要的。</p>
+<p>“然后，芋头要是多了就拿到市场上去卖，这样连盐都能换到了。”</p>
+<p>菜里多放盐也是好评的原因之一吧。调味料用得丰富，饭菜的质量自然也会提升。</p>
+<p>“他们没有嫌麻烦不想种吧？”</p>
+<p>“罗半兄说，芋头只要种下去，之后几乎不怎么费工夫。”</p>
+<p>“那剩下的问题就是开垦了。”</p>
+<p>“是啊。”</p>
+<p>雀笑容满面。</p>
+<p>“念真一直在开垦的那块地，好像就要用来种了。”</p>
+<p>把祭典和芋头联系在了一起。</p>
+<p>“那块地原本好像是其他农奴种过的。现在没有余力种麦子，就只做秋耕。不过条件是要帮忙处理蝗虫。”</p>
+<p>“不愧是雀小姐。”</p>
+<p>猫猫啪啪地拍手。</p>
+<p>“罗半兄已经在教他们怎么处理种芋了。他说需要草木灰，用这里的灰没问题吧？”</p>
+<p>“应该没问题。”</p>
+<p>炉灰烧的是羊粪。羊粪的原料是草，大概可以吧。</p>
+<p>到这一步还算顺利。接下来就看村民的干劲了，还有——</p>
+<p>（芋头能不能扎根。）</p>
+<p>马铃薯应该没问题。之所以做了那么多道马铃薯料理，也是为了这个。</p>
+<p>红薯则大概五五开吧。就算能收成，也可能减产。不过，如果几乎不用照料也能种活的话，那还是有价值的。</p>
+<p>（甜味可是奢侈品。）</p>
+<p>期待一下那些大口吃红薯的孩子们吧。</p>
+<p>就算红薯没能扎根，只要马铃薯扎下了根，其种植面积也能弥补红薯那份。</p>
+<p>（但愿一切顺利。）</p>
+<p>猫猫喝干了奶茶。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-139.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-141.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

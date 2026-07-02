@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">152</h1>
+</header>
+<p>二十六、林小人 后篇</p>
+<p>“有将棋盘和棋子吗？”</p>
+<p>猫猫从音操手中接过将棋盘和棋子。总之，想不通的时候就先动动手。</p>
+<p>啪嗒一声，将棋子排列开来。</p>
+<p>“嗯——五九银……”</p>
+<p>她按照笔记上的记录摆放，但这果然还是毫无意义吗？正要摆步兵时，手停了下来。</p>
+<p>“……真奇怪啊。”</p>
+<p>雀凑过来看着将棋盘，插嘴道：</p>
+<p>“有‘二步’哦。”</p>
+<p>“啊——那个我也懂。是不能这么走的吧。”</p>
+<p>李白也加入了。不过语气听起来他对将棋似乎没什么兴趣。</p>
+<p>“龙也有三个呢。也许说的并不是同一份棋谱吧。”</p>
+<p>音操也凑过来看。</p>
+<p>“这种时候，要是更懂将棋的话就能明白了吗？”</p>
+<p>音操歪着头。</p>
+<p>“您不太懂将棋吗？”</p>
+<p>“倒也不是不会下，但您看看我的岗位。我可不想连兴趣爱好都变成工作。”</p>
+<p>音操目光悠远。</p>
+<p>“这个我也懂——”</p>
+<p>李白也表示赞同。</p>
+<p>“李白大人为什么也懂？您跟那边应该没什么关系吧。”</p>
+<p>李白虽是武官，但不像音操那样跟怪人军师有那么多牵扯。</p>
+<p>“你看，这个形状。不觉得像都城的城地图吗？”</p>
+<p>“都城的地图？”</p>
+<p>“整齐划分的街区，上面是王座——简直一模一样。”</p>
+<p>“原来如此。”</p>
+<p>也就是说，棋盘上的格子看起来像街道。</p>
+<p>（虽说将棋盘严格来说不太一样。）</p>
+<p>但她们想表达的意思，猫猫也不是不明白。</p>
+<p>“总之，先把笔记上的记录全部摆出来试试。”</p>
+<p>啪嗒啪嗒地摆下去，棋子的配置出现明显偏重。</p>
+<p>“作为将棋棋谱来看怎么样？”</p>
+<p>“完全看不出来。”</p>
+<p>林小人也加入了讨论。</p>
+<p>在林大人和怪人军师都睡着的当下，这里最懂行的就是这位林小人了。</p>
+<p>“如果不是棋谱的话，那它表示的是什么呢？”</p>
+<p>毫无头绪——猫猫举起双手。</p>
+<p>“也是啊——王将的棋子动得太离谱了。”</p>
+<p>“雀小姐也这么觉得。这位王将可真是爱出风头呢。”</p>
+<p>猫猫也同意李白和雀的看法。玉将都跑到正中央附近去了。</p>
+<p>“……玉。”</p>
+<p>猫猫盯着棋盘。另一个王将的位置在正北中央。其他棋子也是零零散散地偏向某些位置。</p>
+<p>“李白大人。”</p>
+<p>“怎么了？”</p>
+<p>“如果把这将棋盘比作都城，看起来像什么样子？”</p>
+<p>猫猫把将棋盘转向李白。</p>
+<p>“嗯——那这个王将对应的就是王座吧。这么一想的话——”</p>
+<p>他伸出手指。</p>
+<p>“这些棋子集中的地方，大概就是繁华街、商店街，或者住宅区吧。”</p>
+<p>“那这个玉将呢？”</p>
+<p>“嗯——算是敌人吧，或者说政敌？又或者是有权有势的高官的宅邸？”</p>
+<p>李白说得没什么把握。</p>
+<p>（原来如此，是这样啊。）</p>
+<p>猫猫睁大了眼睛，看向雀。</p>
+<p>“雀小姐，你有西都的地图吗？”</p>
+<p>“哈哈，突然说什么呢。那种东西怎么可能——”</p>
+<p>“有，我带着。”</p>
+<p>无视李白的笑声，雀利落地掏出了地图。是一张画在厚羊皮纸上的地图。</p>
+<p>“你怎么会带着！”</p>
+<p>“因为是雀小姐嘛。”</p>
+<p>雀挺起胸膛。</p>
+<p>正因为是雀，猫猫才试着问了一下，没想到还真有。</p>
+<p>猫猫接过地图展开，与将棋盘对照着看。</p>
+<p>“这个玉将的位置，如果配合西都的布局来看，不正好就是这座别邸的位置吗？”</p>
+<p>‘！？’</p>
+<p>大家纷纷对比将棋盘和地图。</p>
+<p>西都也是用棋盘格状规划的城市。只是不像都城划分得那么规整，所以之前没注意到。</p>
+<p>“那这个王将——”</p>
+<p>“现在被用作公所，但对应的是戌族曾经居住的宅邸位置。”</p>
+<p>林小人解释道。有当地人在就是方便，立刻就能明白。</p>
+<p>“这样的话，龙棋多的意义也清楚了。确实有家店名带‘龙’字。”</p>
+<p>龙的纹样只有皇族能用，但店名里用“龙”字的倒不少。</p>
+<p>“那步兵呢？”</p>
+<p>雀指着并排的两个步兵。</p>
+<p>“从位置来看，是在大路沿线。”</p>
+<p>“会不会是书店或纸店？意思是常去买小物件的地方。”</p>
+<p>“……嗯——好像没什么像那样的店。”</p>
+<p>李白沉吟道。</p>
+<p>猫猫确认其他棋子指示的是什么位置。</p>
+<p>“雀小姐注意到了一件事——如果用现在的地图来对照，是不是不行啊？”</p>
+<p>说得没错。过了十七年，有的店可能倒闭了，有的地方可能新盖了建筑。</p>
+<p>“抱歉，我去取旧地图来！能麻烦你们先照看我祖父吗？”</p>
+<p>林小人站了起来。</p>
+<p>“明白了。”</p>
+<p>猫猫她们正忙着对照将棋盘和现代地图。</p>
+<p>---</p>
+<p>所以，谁都没有注意到。</p>
+<p>---</p>
+<p>“能对上号的地方大致都填上了。”</p>
+<p>猫猫确认着与地图重叠对照的地方。</p>
+<p>“不过，好慢啊。”</p>
+<p>李白掀开帐子看向外面，大概是在看日头落到了什么位置。</p>
+<p>“已经过了半个时辰了。”</p>
+<p>“十七年前的地图也不是那么容易找到的吧。”</p>
+<p>正这么想着，猫猫忽然涌起一阵不祥的预感——自己的判断可能有点偏差。</p>
+<p>“啊——啊——”</p>
+<p>仿佛在印证她的不祥预感，那个被灌了酒、打瞌睡的独眼龙大叔醒了过来。</p>
+<p>“早上好。我还在做梦吧——看见猫猫了。”</p>
+<p>怪人军师迷迷糊糊地说着梦话。音操递上一杯醒神的饮料，里面大概是果汁。</p>
+<p>“……嗯！果然是猫猫！”</p>
+<p>“啊——吵死了。”</p>
+<p>猫猫忍不住说出了声。</p>
+<p>虽然想无视他，但话没法继续推进，她只好在怪人军师面前把菜盘摆成一排。</p>
+<p>“请不要越过这条线。”</p>
+<p>“哇哦——跟麻美大姐似的。”</p>
+<p>据说雀的义姐对高顺也做过类似的事。</p>
+<p>让人把将棋盘摆在怪人军师面前。</p>
+<p>“虽然问了也不一定有用，但我还是问一下。关于十七年前的西都——假设这里是原戌族宅邸，它的斜下方是玉袁大人的宅邸，那其他棋子的位置您知道吗？……算了，您肯定不知道。”</p>
+<p>“姑娘，这大叔还没回答呢。”</p>
+<p>李白在本人面前也叫他“大叔”。</p>
+<p>“这个步兵是将棋道场。下面那个步兵是卖将棋和围棋的店。”</p>
+<p>“罗汉大人对自己的爱好倒是记得很清楚呢。”</p>
+<p>“哦——原来如此啊。”</p>
+<p>猫猫对音操的解释流露出毫不掩饰的无趣。</p>
+<p>“这个龙是饭馆。跟老板下将棋赢了就能免单。”</p>
+<p>怪人军师流利地一一作答。如果是将棋相关的设施，那确实和林大人指示的位置能对上。</p>
+<p>（要是这家伙从一开始就这么清醒的话——）</p>
+<p>猫猫自顾自地想着这些任性的事。</p>
+<p>雀也抱着胳膊说：“失算了啊。”</p>
+<p>“这个桂马我不太清楚。还有这个成金。”</p>
+<p>怪人军师说有两处没有印象。</p>
+<p>“一处好像是庙。另一处似乎是在住宅区里，说不定就是最初发现棋谱的地方。”</p>
+<p>雀在地图上画了圈。</p>
+<p>“那剩下的庙就很可疑了。”</p>
+<p>眼看就要找到答案时，怪人军师忽然开始东张西望。</p>
+<p>“怎么了？”</p>
+<p>音操问道。</p>
+<p>“林小人呢？”</p>
+<p>“去取旧地图了。”</p>
+<p>“哦——”</p>
+<p>怪人军师会对别人产生兴趣，倒是少见。</p>
+<p>（林大人也就罢了，小人那边——）</p>
+<p>猫猫在心里又咀嚼了一遍。</p>
+<p>（“小人那边”——）</p>
+<p>猫猫猛地拍了一下将棋盘。</p>
+<p>众人都吃惊地看着猫猫。</p>
+<p>“怎么了？”</p>
+<p>李白战战兢兢地问。</p>
+<p>猫猫扭曲着脸，看向怪人军师。</p>
+<p>这世上有些人，明明拥有稀世才华，却在白白浪费。</p>
+<p>“林小人的‘小人’——”</p>
+<p>猫猫仍然紧盯着怪人军师。</p>
+<p>“——是‘恶人’的意思吧？”</p>
+<p>“是啊，猫猫。是个坏男人吧，总觉得他挺会说谎的。”</p>
+<p>“……”</p>
+<p>猫猫扭曲着脸，就这样跪了下去。</p>
+<p>“您为什么不早说？”</p>
+<p>“因为——跟咱们没关系吧？”</p>
+<p>没错，怪人军师就是这样的人。</p>
+<p>---</p>
+<p>之后，她们匆忙赶往那座可疑的庙宇，但什么也没发现。只留下有人翻找过、拿走了什么东西的痕迹。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-151.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-153.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

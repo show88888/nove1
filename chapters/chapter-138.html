@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">138</h1>
+</header>
+<p>**十二、耕作**</p>
+<p>之后两天，猫猫她们都在帮念真干活。</p>
+<p>念真的工作，与猫猫所寻求的答案相当接近。</p>
+<p>将锄头插入泥土。翻开潮湿的地面，除了蚯蚓、蚂蚁、小甲虫之外，还能发现细长的块状物。仔细一看，上面还连着更细的卵。</p>
+<p>原本在啄蚯蚓的鸡，随即开始啄食那团卵。</p>
+<p>（是飞蝗的卵。）</p>
+<p>她想计算每反（约991.7平方米）土地里有多少，但没有那个闲工夫。猫猫发现鸡没啄到的卵，便将其捏起放入壶中。</p>
+<p>（这算是多的了。）</p>
+<p>对怕虫的人来说，这大概是足以让人发疯的量。猫猫壶里的还算是少的。即便是习惯了解剖飞蝗的猫猫，也不想多看这种景象。</p>
+<p>专业农民罗半兄拿锄头的姿势从一开始就不同，而马闪那蛮力更是惊人。翻起的土量完全不是一个级别。</p>
+<p>（马闪能好好干活真是太好了。）</p>
+<p>她原本还担心他会以“武人不是干这个的”为由拒绝，但壬氏对飞蝗非常在意这件事似乎起了作用。他老老实实地帮忙了。</p>
+<p>多亏如此，同行的护卫和农夫们也来帮忙。今天之内应该能把地翻完。</p>
+<p>顺便一提，不知何时加入的雀，就在那两人附近蹦蹦跳跳地收集飞蝗卵。她身后还跟着两个孩子——是那对吃了烤红薯的兄妹。他们大概觉得帮忙的话又能得到红薯。</p>
+<p>“猫猫小姐猫猫小姐，好多呢，您要看吗？”</p>
+<p>“雀小姐雀小姐，我不想看。如果是螳螂的卵鞘，我倒很乐意。”</p>
+<p>螳螂的卵鞘可以入药，名为桑螵蛸。因为采集量少，算是比较贵重的。</p>
+<p>“这里的卵，快要孵化了。已经有小虫子出来了。”</p>
+<p>“毕竟已经是春天了。”</p>
+<p>飞蝗一代大约三个月。据说一次能产下约百颗卵。这是猫猫在子家一族的堡垒里看过的典籍上写的。春天出生的个体，会在夏天产下新的卵。</p>
+<p>它们并非全年繁殖，现在这个时期，是秋天产下的卵正在孵化。俗话说秋耕好，那些藏在地下的卵一旦暴露，就会成为鸟类和小动物的饵食。</p>
+<p>（罗半以前好像说过？）</p>
+<p>好像是叫“鼠算”吧。</p>
+<p>一对老鼠生十二只幼崽，变成十四只。这十二只幼崽中，六只雌鼠加上母鼠共七只，每只再生十二只。</p>
+<p>当然，这只是纸面上的计算。老鼠不可能全都不死。</p>
+<p>但是，如果蝗灾的增长方式也像这鼠算一样成倍增加，那么尽早减少初始数量就显得尤为重要。</p>
+<p>（一块飞蝗卵有一百颗，十块就是一千，一百块就是一万。）</p>
+<p>在这里处理掉，就能减少之后数倍的飞蝗。</p>
+<p>飞蝗似乎倾向于在有一定湿气的土地产卵。</p>
+<p>（靠近河流，又有作为食物的丰茂草地，这一带正是绝佳的产卵地。）</p>
+<p>故意不在这里开辟农田，大概也是为了引诱飞蝗。</p>
+<p>像这样的村落构造，在戌西州应该还有几处，不知现在起了多大作用呢。</p>
+<p>念真提着装满飞蝗卵的壶走了过来。</p>
+<p>“剩下的烧掉就完事了。”</p>
+<p>“那太好了。”</p>
+<p>“是啊。去年因为这事晚了，放跑了不少飞蝗。”</p>
+<p>确实，这个村的农民去年也说过虫害很严重。</p>
+<p>“收成减少了很多吗？”</p>
+<p>念真点了点头。</p>
+<p>“只够留下自己吃的，完全没有储备。交了税就得挨饿。也没余钱从行商那里买日用品，只能卖牲畜了吧。”</p>
+<p>“但听说领主不仅免了税，还给了援助。”</p>
+<p>“是啊，真是一位体贴的好领主。”</p>
+<p>念真再次露出一副唾弃的表情。</p>
+<p>“您有什么不满意的呢？看起来您好像带着刺似的。”</p>
+<p>猫猫决定单刀直入地问。</p>
+<p>“虽然我一个前盗贼没资格说，但那些人是什么都想要。那些贪得无厌的家伙，在我看来也跟蝗虫一样。不想挨饿，那就自己种地好了。可他们呢，不好好种地也能拿到钱，因为歉收就有钱拿。要是比老老实实种地还能拿到更多好处，你会怎么选？”</p>
+<p>“所以这个村的田地才疏于管理吗？”</p>
+<p>“没错。去年的虫害也是这样。他们眼睁睁看着自己的田地被蝗虫啃食。村长满脑子只想着怎么博取领主的同情，净想些哭穷卖惨的说辞。看着他们，我觉得自己一只只扯下蝗虫捏死的举动简直像个傻子。”</p>
+<p>是过去蝗灾的恐惧改变了念真吗？这不像一个无恶不作的前盗贼会有的行为。</p>
+<p>（不，也许不是这样。）</p>
+<p>念真本来大概就是个认真的人。只是生于盗贼之家，学了弓箭，照着吩咐杀人而已。</p>
+<p>道德并非天生就有的。</p>
+<p>“而且，看现在这个村的气氛，他们似乎拿到了不少钱。”</p>
+<p>“是啊。这十几年来，一直如此。就算歉收，领主也会救助。对大家来说，是个好领主。”</p>
+<p>（好领主吗……）</p>
+<p>那些支援的钱又是从哪来的呢？是从贸易收入中挤出来的吗？西都那么繁荣，把钱拨给农村应该没问题吧。</p>
+<p>“既然要拨款，不如修条水渠更好。”</p>
+<p>如果能减少运水的劳力，就能去做别的工作，也能开垦新的田地。</p>
+<p>“那个叫陆孙的男人也这么说过。”</p>
+<p>“是吗。”</p>
+<p>回到西都后，得确认一下陆孙是如何知道前农奴的存在。</p>
+<p>“话说回来，你们帮我干活是挺好，不过你们来这个村，是有什么事吧？”</p>
+<p>“事……”</p>
+<p>猫猫把下巴搁在锄头柄上，闭上眼睛。</p>
+<p>“啊！”</p>
+<p>猫猫环顾四周。她走到正在翻土堆垄的罗半兄身边。</p>
+<p>“这里不种任何东西哦。”</p>
+<p>“？！”</p>
+<p>（糟了，老毛病又犯了……他露出那表情了。）</p>
+<p>虽然她否定了，但罗半兄已经完全是个农民的做派了。</p>
+<p>“话说回来，不推广马铃薯吗？您不是带了种芋来吗？”</p>
+<p>“……说到这个啊。”</p>
+<p>罗半兄似乎有话要说。</p>
+<p>“这儿的家伙，根本没心思种地吧？就算给了他们马铃薯，你觉得他们会好好种吗？他们大概不会在新作物上用原来的耕地，也没那个心气去开垦新地。”</p>
+<p>“确实。”</p>
+<p>猫猫也表示认同。</p>
+<p>“所以我才想见见唯一那个正经种地的人。”</p>
+<p>“原来如此。”</p>
+<p>“不过，那个老爷子恐怕不行了。”</p>
+<p>“恐怕不行吧。”</p>
+<p>这个村里最后的前农奴。除了自己的田地，他还得做名为祭祀的秋耕。本该在秋天完成的活计，却一直持续到春天，怎么看都是人手不足。</p>
+<p>“不能留一个人下来帮忙吗？”</p>
+<p>猫猫看了看其他农民。</p>
+<p>“……跟我一起来的这些人，是因为有我在这儿才肯跟来的。把他们随便丢在陌生的地方可不行。”</p>
+<p>似乎是罗半兄特地从华央州带来的人。</p>
+<p>“说得也是呢——”</p>
+<p>罗半兄在奇怪的地方倒是有个兄长样。若生在普通人家，大概会是个好长男吧。</p>
+<p>“幸好老爹不在这儿。他肯定会说什么‘要让你们见识马铃薯的好处’，天知道会干出什么事来。”</p>
+<p>“抱歉，我实在想象不出罗半父会有那么积极的一面。”</p>
+<p>在猫猫印象里，他是个慢悠悠、气质很像罗门的大叔。</p>
+<p>“马铃薯的好处啊……”</p>
+<p>“比如花很美啊，叶子形状好看啊，藤蔓很柔韧啊之类的。”</p>
+<p>“至少也说说味道好啊……马铃薯……”</p>
+<p>猫猫看着跟在雀身后的那两个孩子。她放下锄头，走近他们。</p>
+<p>“喂，我还想吃上次那个芋头。”</p>
+<p>“想吃！”</p>
+<p>“想吃想吃！”</p>
+<p>兄妹俩眼睛闪闪发光。</p>
+<p>“我还是第一次吃到那么甜的东西。像葡萄干一样甜。”</p>
+<p>“葡萄干？”</p>
+<p>“这附近甜食可是很珍贵的。蜂蜜也没有，砂糖也是奢侈品。”</p>
+<p>雀把大壶顶在头上，转了一圈。</p>
+<p>“……这个，能用上吗？”</p>
+<p>猫猫咧嘴一笑，转身回到了罗半兄那里。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-137.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-139.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

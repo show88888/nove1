@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">139</h1>
+</header>
+<p>十三、祭典</p>
+<p>念真家后面挖了一个大坑。平时大概是用来烧垃圾的吧，还残留着黑色的焦痕。</p>
+<p>“平时就是在这里烧飞蝗的卵吗？”</p>
+<p>猫猫向念真确认。</p>
+<p>“是啊。不容易烧着，所以会浇上燃料。”</p>
+<p>说到燃料，大概就是油或羊粪吧。猫猫他们司空见惯的木柴和炭，在这一带可算是奢侈品。</p>
+<p>“……难得有机会，偶尔也想用不同的方法来烧呢……”</p>
+<p>面对猫猫的提议，念真露出疑惑的表情。</p>
+<p>“倒也无所谓，你打算怎么做？”</p>
+<p>“先把那边那口锅借我用一下。”</p>
+<p>猫猫伸手碰了碰那口大锅。虽然老旧，但做工扎实，把锈去掉应该还能用。似乎被搁置了相当久，里面还积着枯草和死虫。</p>
+<p>她把锅翻过来，用草刷子使劲刷洗。</p>
+<p>“给，猫猫小姐。”</p>
+<p>雀从河里打来了水，猫猫便毫不客气地用了。</p>
+<p>“好大的锅啊。感觉一次能做三十人份的青椒肉丝呢。”</p>
+<p>“以前是拿来施粥用的吧？”</p>
+<p>猫猫和雀面对面洗着锅。跟雀在一起，说话口吻不知不觉就被带跑了。</p>
+<p>“那是给农奴做饭的锅。一天的饭都用它来做。”</p>
+<p>“哦哦，看来以前有很多农奴呢。”</p>
+<p>雀大致听猫猫讲了从念真那里听来的事。这位古怪的侍女，似乎不管对方是前盗贼、杀人犯还是前农奴，都毫不在意。</p>
+<p>（村民们到底知道多少呢？）</p>
+<p>虽然被当作怪人，但念真似乎并没有被大家特别厌恶。包括对蝗灾也不太担心的态度在内，也许村里人性格本就比较悠哉吧。</p>
+<p>“这个村子，要是被盗贼袭击了，没问题吗？”</p>
+<p>猫猫不小心嘀咕了一句。</p>
+<p>“这点应该没问题哦——”</p>
+<p>她本是自言自语，雀却回了话。</p>
+<p>“虽然现在是定居了，但他们原本是游牧民族，仓库里可是有保养得很好的弓箭和刀剑的。加上地利优势，战力很强，盗贼要袭击也得有胆量才行呢。”</p>
+<p>论治安的话，似乎还是都城更好一些。</p>
+<p>“所以才会盯上旅人啊。”</p>
+<p>猫猫恍然大悟。</p>
+<p>（那个向导后来怎么样了呢？）</p>
+<p>虽然觉得不该去想，但有件事猫猫想确认一下。</p>
+<p>“雀小姐为什么要故意当诱饵呢？马闪大人似乎不知情，月君也不像是会做这种事的人。”</p>
+<p>壬氏眼下应该对猫猫的安全非常敏感才对。把马闪派来当护卫，猫猫也认为是壬氏的一份心意。</p>
+<p>雀眯起她的小眼睛。</p>
+<p>“我的命脉在于如何减少风险。比起不知道什么时候会被袭击，能指定什么时候被袭击，不是更安全吗？”</p>
+<p>这大概是雀自己的安全策略吧。</p>
+<p>“一般人都会选择让人安心、不暴露危险的方式吧。”</p>
+<p>“因为猫猫小姐胆子大嘛，我想你会更喜欢合理的方法。”</p>
+<p>“容我说一句，我可是挨了打就会死的那种人。”</p>
+<p>“嗯，我知道。至于耐毒性，我可是很期待的。”</p>
+<p>真是个想得开的大姐啊。</p>
+<p>闲聊之间，锅已经刷干净了。</p>
+<p>“这锅要用来做什么？”</p>
+<p>“把刚才那些飞蝗的卵放进去。”</p>
+<p>“⁉”</p>
+<p>雀猛地后退了一大步。</p>
+<p>“……猫猫小姐。”</p>
+<p>“雀小姐，放心。不吃，我不会吃的。”</p>
+<p>“真的吗？”</p>
+<p>满是怀疑的眼神。</p>
+<p>“真的。看起来就不好吃，而且虽然是收集起来的，但确实很恶心吧。”</p>
+<p>成虫倒是吃过，但卵就实在有点难以接受了。</p>
+<p>“这个浇上油——”</p>
+<p>“要炒吗？”</p>
+<p>“是烧。”</p>
+<p>“烧？”</p>
+<p>猫猫端着锅朝庙走去。那座朴素的砖砌小庙。</p>
+<p>“在这里生火的话，不就有祭典的样子了吗？”</p>
+<p>“哦哦。”</p>
+<p>“而且，祭典怎么能没有好吃的呢？”</p>
+<p>猫猫瞥了一眼还在附近晃悠的孩子们。</p>
+<p>雀的脸上浮现出狡黠的笑容。看来她明白了猫猫的意图。</p>
+<p>“原来如此。那装饰就交给我吧。”</p>
+<p>她从衣领里哗啦啦地抽出了红色的饰带。</p>
+<p>“放锅的台子也需要，让义弟和罗半兄也来帮忙吧。”</p>
+<p>雀已经管罗半兄叫“罗半兄”了。</p>
+<p>---</p>
+<p>雀主动张罗布置舞台，猫猫要做的就是准备吃食。</p>
+<p>燕燕的手艺堪比专业厨师，显得猫猫有些黯然失色，但猫猫其实也挺擅长做饭的。</p>
+<p>（料理跟配药是一样的。）</p>
+<p>取决于材料的搭配，效果会有所不同。</p>
+<p>“你要做什么？”</p>
+<p>念真眯起仅存的那只眼睛。</p>
+<p>“祭典嘛，总得开开心心的吧。这些就是用来助兴的好吃的。”</p>
+<p>“……话是这么说。”</p>
+<p>念真不安地移动视线，落在了罗半兄身上。</p>
+<p>“喂！别全用光啊！带来的量是有限的！”</p>
+<p>“我知道我知道。你倒是快点蒸啊。”</p>
+<p>“使唤人倒是不客气！”</p>
+<p>罗半兄一边嘟嘟囔囔，一边往灶里添燃料。虽然干了，但用手抓羊粪似乎还是有些抵触，他用木棒夹着往里放。</p>
+<p>“家里的东西随便用。要动粮食的话，事后能付钱就感激不尽了。我们这日子也是紧巴巴的。”</p>
+<p>“多谢了。”</p>
+<p>“那我睡去了。”</p>
+<p>念真躺到了简陋的床上。看起来精神不错，但毕竟上了年纪，连日下田干活想必也很累吧。</p>
+<p>“甘薯慢慢加热会更甜吧？”</p>
+<p>“对啊。所以不是用猛火烤就行的。”</p>
+<p>（不光懂农活，对薯类的做法也熟悉。）</p>
+<p>肯定是罗半那家伙在考虑甘薯用途时，把这个哥哥也拉来帮忙了。虽说对弟弟态度强硬，但罗半兄骨子里到底是个老好人。而且他表面上还要装作反抗的样子，看起来就像是个极其普通的、来得太晚的叛逆期。</p>
+<p>“我不太懂料理的种类，您知道用这里的材料能做什么菜吗？”</p>
+<p>“为什么问我！”</p>
+<p>“雀小姐说她基本上是只管吃的，马闪大人又不靠谱。”</p>
+<p>雀似乎只会熬粥之类的，复杂的菜她更想专心吃。</p>
+<p>“……不知道。”</p>
+<p>罗半兄撒了个明显的谎。</p>
+<p>“是吗……那真可惜，我还想让大家多吃点好吃的呢。”</p>
+<p>猫猫回头看了一眼。家门缝隙里，孩子们正朝里张望。不只是那对兄妹，人数似乎还多了些。</p>
+<p>“还带了朋友来啊。想吃好吃又稀奇的东西吧。”</p>
+<p>猫猫觉得这不太像自己会说的话，但还是向孩子们开了口。</p>
+<p>“诶，吃不到红薯吗？”</p>
+<p>妹妹的声音带着失落。</p>
+<p>“能吃是能吃，但抱歉啊。我做不出什么好吃的东西。”</p>
+<p>“你做饭很笨吗？”</p>
+<p>另一个孩子歪着头。</p>
+<p>“好想吃红薯啊。我们家的都没有……”</p>
+<p>孩子们的声音透着失落。</p>
+<p>“……”</p>
+<p>罗半兄露出尴尬的表情。</p>
+<p>他板着脸转过身去，随即又长长地叹了口气。然后回过头来，竖起一根手指，厉声说道：</p>
+<p>“喂，小崽子们。想吃就得帮忙。我保证让你们吃到最好吃的东西！”</p>
+<p>孩子们欢呼起来。</p>
+<p>罗半兄果然很有长子的风范。</p>
+<p>（真好哄。）</p>
+<p>猫猫这么想着，打开蒸笼盖，用筷子戳了戳甘薯，看看蒸软了没有。</p>
+<p>---</p>
+<p>猫猫他们做好饭菜时，庙的装饰也完成了。</p>
+<p>庙中央放着盛满飞蝗卵的大锅。巧妙地用砖块搭了个临时台座。</p>
+<p>那座简陋的砖庙各处挂满了红旗，兽脂灯火闪闪发光。风一吹，用金属片串成的鸣子发出沙啦沙啦的声响，红旗也随之翩翩飘动。</p>
+<p>用木桶蒙上羊毛布做成的简陋椅子排成一排，充当桌子。猫猫他们把做好的菜肴摆了上去。</p>
+<p>太阳已经落到了地平线附近。</p>
+<p>“这、这是在干什么？”</p>
+<p>来的不只是孩子，大人们也赶来了。</p>
+<p>等人都聚齐了，猫猫往大锅里倒了油。用枯草做引火物，点起了火。</p>
+<p>轰的一声，一股说不清是香还是怪异的味道弥漫开来。暮色中，那口大锅看起来不像锅，更像一簇熊熊燃烧的篝火。</p>
+<p>“客人们，你们这是在做什么？”</p>
+<p>村长歪着头问道。</p>
+<p>“这事由我来解释。”</p>
+<p>上前一步的是马闪。他身旁的雀正偷偷给他看纸条。</p>
+<p>（是提词用的抄稿。）</p>
+<p>“这个村子，在很久以前是为了举行某项祭典而建立的。”</p>
+<p>“……是的，我有所耳闻。就是那个不停地翻地的、莫名其妙的东西吧？”</p>
+<p>一个村民答道。</p>
+<p>“没错，确实莫名其妙。我们这次前来，是为了把只传下来残缺形式的祭典，恢复成它应有的模样。”</p>
+<p>（滔滔不绝地——）</p>
+<p>马闪虽然念得毫无感情，但篝火在他身后映出光晕，反而显得格外神秘。雀也准备周全，从多张写好的纸条中，根据村民的反应挑选出合适的让马闪念。</p>
+<p>（真是会调教义弟。）</p>
+<p>罗半兄捅了捅猫猫。</p>
+<p>“喂，那是真的吗？”</p>
+<p>他小声问猫猫。舞台效果太好，这里又有个被骗的人。</p>
+<p>“就是这么设定的。您配合一下。”</p>
+<p>“诶，骗人的吧。”</p>
+<p>罗半兄露出一副“你认真的吗”的表情。</p>
+<p>“……原来如此。在这里举行祭典，我们明白了。但有一点能确认一下吗？”</p>
+<p>“什么？”</p>
+<p>“负责这个祭典的，只有念真一个人吧？我们可没听说过这事，当年是被当时的领主大人叫来移民的。”</p>
+<p>啪的一声，锅里的火炸了一下。</p>
+<p>意思就是：你们要搞祭典没问题，但我们可没打算参与。</p>
+<p>雀稍微停下动作，略作思考后，给马闪递了张纸条。</p>
+<p>“我知道。不一定非要你们来办祭典。”</p>
+<p>马闪看向猫猫。雀则在马闪身后眨了眨眼。</p>
+<p>（被扔过来了。）</p>
+<p>剩下的就交给她了。</p>
+<p>猫猫只好走上前去。</p>
+<p>她一步一步慢慢走，接近大锅。</p>
+<p>（要怎么说？怎么说才好？）</p>
+<p>她一边慢慢走，一边临时构思说辞。站在大锅前，她低下头。</p>
+<p>“这火是向神明献上供物的火。古时曾有以活人献祭的时代，但据说神明降下神谕，说不再需要那样的祭品了。”</p>
+<p>她借用了后宮流行小说里的台词。</p>
+<p>“土地神是鸟的化身，于是便改用祂所喜好的东西作为供品。”</p>
+<p>她瞥见了在小屋里沉睡的鸡。</p>
+<p>“就算您说土地神是鸟，我们信奉的是游牧之神——”</p>
+<p>“哎呀——明明已经定居下来了，却还在信奉以前的神明吗？”</p>
+<p>雀故意大声说道。</p>
+<p>“所以这一带的麦子才长不好吧？不是一年比一年差了吗？是不是因为没有信仰土地神却还赖在这里的缘故呢？”</p>
+<p>村民们开始窃窃私语。</p>
+<p>麦子收成减少应该是真的。那样偷懒地种，收成自然会变差。与稻米不同，麦子不认真养土的话，地力会越来越贫瘠。</p>
+<p>（效果怎么样？）</p>
+<p>然而——</p>
+<p>“不就是地力贫瘠了吗？说什么神啊鬼的，真有那种东西吗？”</p>
+<p>一个年轻村民反驳道。</p>
+<p>（你们倒是更虔诚一点啊！）</p>
+<p>猫猫自己也没资格说别人，却还是这么想。</p>
+<p>“事到如今说什么神明啊……”</p>
+<p>“就是，反正收成不好领主大人也会宽宏大量地对待我们。”</p>
+<p>“没错。比起不知道存不存在的神，还是仁慈的领主大人更好。”</p>
+<p>就是就是——附和声此起彼伏。</p>
+<p>（嗯，也是。只相信自己看得见的东西嘛。）</p>
+<p>早料到会这样，也没办法。</p>
+<p>“呵呵。”</p>
+<p>猫猫笑了。</p>
+<p>“有什么好笑的？”</p>
+<p>“没有。刚才您好像误会了什么，所以我再说一遍——‘不一定非要你们来办祭典。’”</p>
+<p>她重复了马闪的台词。</p>
+<p>猫猫背对着村民，在怀里摸索着。</p>
+<p>（嗯，在这里。）</p>
+<p>然后高高举起手来。</p>
+<p>轰——大锅中的火焰猛地腾起。</p>
+<p>“火、火！”</p>
+<p>“什么，颜色变了！”</p>
+<p>（真是怀旧的小把戏啊。）</p>
+<p>猫猫怀里随身带着消毒用的酒精。还有刚才做菜时用的盐粒。雀说过盐是奢侈品，所以她姑且带了一些。</p>
+<p>（要是有铜就好了。）</p>
+<p>火焰会变成绿色，那样会更让人吃惊吧。</p>
+<p>猫猫转过身，露出营业式的微笑。</p>
+<p>“那么，既然你们说不参加祭典——”</p>
+<p>她看向摆在木桶椅上的菜肴。</p>
+<p>“今晚我好像做多了些。趁还没凉，大家一起吃了吧？”</p>
+<p>“太好啦！”</p>
+<p>最先举起手欢呼的是孩子们。既然让人帮了忙，不给人吃可不行。</p>
+<p>等所有人的注意力都转向饭菜时，猫猫捅了捅雀。</p>
+<p>“别给我出难题啊。”</p>
+<p>猫猫长舒一口气。说实话，她可是捏了一把冷汗。</p>
+<p>“我就知道猫猫小姐一定能搞定。”</p>
+<p>雀若无其事地说完，咧嘴一笑，便冲进了抢美食的战局里。</p>
+<p>（希望能顺利吧。）</p>
+<p>猫猫累得不行，决定先回帐篷休息了。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-138.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-140.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

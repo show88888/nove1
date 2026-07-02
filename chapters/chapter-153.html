@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">153</h1>
+</header>
+<p>**二十七、消化不良**</p>
+<p>“实在非常抱歉。”</p>
+<p>猫猫等人只能向壬氏深深低头谢罪。雀甚至做出身穿白衣、准备自刃的模样。</p>
+<p>“啊——在这里倒也不必做到那个地步。”</p>
+<p>雀这才松了口气，飞快地换回了衣服。</p>
+<p>结论是，并不存在“林小人”这个人。林大人虽然有孙子，但和那个人长得完全不像。</p>
+<p>据真正的孙子说，这几天照顾林大人的，是一个自称弟子的人。从几年前开始，那人就偶尔会来，连祖父的护理都做得很周到，所以他们才信任了他。</p>
+<p>现在，真正的孙子正陪着林大人。不过，接近护理的工作是由他带来的另一位女性在做。大概是媳妇或女儿吧。</p>
+<p>林大人还在和怪人军师下棋。</p>
+<p>（又在下了……）</p>
+<p>猫猫只能目瞪口呆。不过，若是贸然插嘴，反而可能把话题扯远，无法进行正经的谈话。他们打算先向壬氏详细说明，然后再听怪人军师的说法。</p>
+<p>（话说回来，那个大叔从一开始——）</p>
+<p>猫猫也曾这样想过，但那大叔的所作所为根本无法预测。且不说别的，光是解释他为何会认为对方是“小人”，就够困难的了。</p>
+<p>正因如此，林小人才显得是个无害的男人。</p>
+<p>猫猫也从林大人的孙子那里简单打听过，但似乎问不出太多。那男人就像空气一样，既无害又便利。</p>
+<p>（也难怪，能那样殷勤地照顾别人，就算是家人也未必做得到吧。）</p>
+<p>若不是如此，也不会被骗得这么彻底。</p>
+<p>猫猫和李白暂且不论，没想到连雀都被骗了。</p>
+<p>壬氏似乎也没预料到这一点。</p>
+<p>“没想到连雀也会中招。”</p>
+<p>“惭愧至极。这是足以让娘家动用家法的大错。”</p>
+<p>雀哭哭啼啼地假哭道。</p>
+<p>“不，事已至此也无可奈何。不过，那到底是个什么样的人？”</p>
+<p>壬氏问道。</p>
+<p>“壬氏大人没看到吗？”</p>
+<p>“我很快就走了。只是瞥了一眼。军师殿下的副官从中介入了。”</p>
+<p>确实，普通人不可能会突然直接跟皇弟说话。</p>
+<p>“请简要说明一下那是个怎样的男人。”</p>
+<p>壬氏没有问猫猫，而是问向雀。</p>
+<p>“是，是个极其普通的男性。没有接受过任何特别训练之类的迹象。气质上，有点像罗半兄，您能明白吗？”</p>
+<p>（啊——）</p>
+<p>猫猫恍然大悟。难怪他能那么自然地融入其中。他虽然不像罗半兄那样会引人注目，但那种既不出错也不显眼的行事风格，十分相似。</p>
+<p>“总之我先画张肖像画。”</p>
+<p>雀迅速拿出笔和纸开始画。一幅抓住要点的肖像画很快就完成了。之后应该也会拿给林大人的亲孙子看。</p>
+<p>“说出你们的看法就好。你们觉得他是什么样的人？”</p>
+<p>这次，壬氏的目光在猫猫和李白之间来回移动。</p>
+<p>“那我先说。基本上和雀小姐意见一致。是个非常普通的男人。不过，感觉他对照顾林大人相当熟练。”</p>
+<p>“熟练？他不是从几年前开始偶尔会来吗？”</p>
+<p>“是啊。不过，一般人会对外人的老人家照顾得那么细致入微吗？男人嘛，基本上都会觉得照顾年迈父母是妻子或姐妹的事，而不是自己该做的吧。”</p>
+<p>猫猫对李白的话表示赞同。在荔国，男性地位高于女性是基本。在戌西州，这种风气更为显著，女性常常只被视为嫁人的工具。实际上，现在在照顾林大人的也不是孙子本人，而是同行的女性。</p>
+<p>猫猫之所以会一开始就想到林小人可能是为了照顾父母而被抚养长大的人，也是基于这一点。</p>
+<p>“猫猫怎么看？”</p>
+<p>“基本同意。不过，我很在意‘从几年前开始’这一点。”</p>
+<p>也就是说，他一直在监视林大人。</p>
+<p>“他是不是和我们一样，在寻找古老资料的下落？”</p>
+<p>“这么想应该比较合理。”</p>
+<p>（与其说是积极寻找，不如说是在监视有没有被发现。）</p>
+<p>只要没被发现就好。但绝不能让其被发现。</p>
+<p>“可以认为，他是为了取走那些被发现就糟糕的东西，才将其带走的吗？”</p>
+<p>壬氏点了点头。</p>
+<p>（被发现就糟糕的东西……）</p>
+<p>猫猫陷入沉思，那到底是什么呢。</p>
+<p>“被发现就糟糕的东西啊……到底是什么危险的东西呢？”</p>
+<p>“会不会是和戌之一族的谋反有关的东西呢？”</p>
+<p>李白和雀交谈道。</p>
+<p>（既然特意烧毁了书库，那肯定是有暴露了就会很麻烦的东西吧。）</p>
+<p>如果林小人是为了此事而监视林大人，那就产生了矛盾。</p>
+<p>（既然要偷，烧掉不就好了。）</p>
+<p>如果当场烧掉，猫猫她们也不会想去找，但正因为是被带走了，反而更让人想追查。</p>
+<p>（不，等等。）</p>
+<p>会不会是因为那东西从“不能被发现的东西”变成了“有利用价值的东西”，所以才被带走了呢？</p>
+<p>想着想着，猫猫的脑袋开始打转。</p>
+<p>就在这时，对局似乎终于结束了，怪人军师走了过来。</p>
+<p>猫猫避开想坐到她身边的怪人军师，挪到了雀身旁。</p>
+<p>“猫猫，我赢了！”</p>
+<p>“啊——好好好。”</p>
+<p>归根到底，要是这家伙能好好注意林小人的话——事到如今说这些也晚了。</p>
+<p>“您是怎么发现那个男人是假冒的？”</p>
+<p>猫猫觉得，这大概就像在问鱼为什么能游泳、鸟为什么能飞一样愚蠢。</p>
+<p>“感觉像是在看一出有趣的戏。”</p>
+<p>“……”</p>
+<p>果然还是不明白。再说，就算看戏，对他来说大概也像在看棋盘上的棋子排列吧。</p>
+<p>“罗半说过，有些演员很擅长撒谎。舞台上所有人都在撒谎，但谎言越自然，戏就越有趣。”</p>
+<p>“谎言自然、有趣……”</p>
+<p>也就是说，演员在演戏——即撒谎，而撒谎高明就意味着演技好。演技好，所以有趣——猫猫如此理解。</p>
+<p>能因为觉得像在看一出有趣的戏就判断对方是骗子、是“小人”，这大概也只有怪人军师能做到吧。</p>
+<p>“啊——我大概明白了。”</p>
+<p>反倒是雀先理解了。</p>
+<p>“雀小姐，请解释一下。”</p>
+<p>“好的好的，雀小姐来说明。那人不是在进行表演，而是彻底成为了角色本身。这种人偶尔会有，比如骗子或间谍之类的。”</p>
+<p>“间谍？”</p>
+<p>“是的，比如潜入他国时，为了不引起怀疑，会和当地人结婚。然后对丈夫或妻子就像对待真正的伴侣一样。对对方来说是真正的夫妻。唯一不同的是，他们心中有比伴侣更重要的东西——有时候，也会生下孩子吧。只要不暴露间谍身份，那夫妻关系就不会改变，伴侣和孩子也会对此一无所知地活下去。”</p>
+<p>所谓“不知者无罪”吧。</p>
+<p>不过，雀说得未免也太具体了。</p>
+<p>“话说回来猫猫，一起吃晚饭吗？”</p>
+<p>怪人军师一脸放松地说道。</p>
+<p>在他身后，林大人的孙子正犹豫着能不能回去。</p>
+<p>“罗汉大人。今晚您和玉莺大人有约共进晚餐，还请免了。另外，林大人的马车已经备好，请您稍候。”</p>
+<p>音操行动了起来。</p>
+<p>猫猫无奈地看着被音操带走的怪人军师。</p>
+<p>“我能问一个问题吗？”</p>
+<p>“什么事？对爸爸我尽管说？”</p>
+<p>猫猫真想把他的眼镜砸碎，但她忍住了。</p>
+<p>“您怎么看玉莺大人？”</p>
+<p>她感觉这个问题的答案，能解释一切。</p>
+<p>壬氏也屏息凝神地等着。</p>
+<p>然而——</p>
+<p>“玉鸟？”</p>
+<p>“就是今晚要和您一起用餐的那位！您不是总在喝他给的果汁水吗！”</p>
+<p>“啊，那家伙啊。”</p>
+<p>怪人军师拍了拍手。</p>
+<p>“是个想成为演员的人吧。感觉像是在追逐武生梦想的过程中。”</p>
+<p>“哈？”</p>
+<p>猫猫觉得问了也是白问。所谓武生，是指戏剧中扮演武将或侠客的男性角色。</p>
+<p>疑问只增不减，猫猫感到消化不良，一阵恶心。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-152.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-154.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

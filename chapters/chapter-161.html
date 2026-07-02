@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">161</h1>
+</header>
+<p>三十五、兄长归来</p>
+<p>「看样子事情变得挺有趣了嘛。」</p>
+<p>（这语气……总觉得好久没听到了，真是讽刺。）</p>
+<p>猫猫在让庸医回去后，被留下来参加定期检查后的附加环节。表面上是对水莲和桃美的健康检查，实际上就是和壬氏的一问一答。</p>
+<p>「你和陆孙，关系似乎挺亲近的？」</p>
+<p>「并没有多亲近。」</p>
+<p>「真的吗？」</p>
+<p>（真的啦。）</p>
+<p>壬氏定定地看着猫猫。雀吐了吐舌头，用右手轻轻敲了敲额头。</p>
+<p>（嗯，你真是让人火大。）</p>
+<p>猫猫明白雀只是在做她的工作，但即便如此。</p>
+<p>「你还特意要陪他去农村？」</p>
+<p>「因为平民坐合乘马车更便宜。」</p>
+<p>「嗯。」</p>
+<p>壬氏露出一副不满意的表情。</p>
+<p>「那我可以回去了吗？」</p>
+<p>在那之后，杨医官让猫猫追加制作止血药和擦伤软膏，她正在赶工呢。</p>
+<p>忽然，一面高墙出现在她面前。原本坐着的壬氏已经站到了她眼前。</p>
+<p>「什么事？」</p>
+<p>果然，他不高兴。</p>
+<p>「明明不算亲近，最近还被人求婚了？」</p>
+<p>他直接了当地说。</p>
+<p>「听说那是开玩笑的。」</p>
+<p>「那是能开玩笑的事吗？」</p>
+<p>「和李白的簪子一样，应该只是社交辞令吧。」</p>
+<p>猫猫想起上次李白的事也被纠缠了很久。她相信只要堂堂正正说清楚就没事。</p>
+<p>「……」</p>
+<p>壬氏环顾四周。</p>
+<p>雀、水莲、桃美都在同一个房间里。虽然看不见，但马良也在附近，马闪作为护卫应该也没走远。</p>
+<p>他似乎有话说，但旁边观众太多。看他那表情，像是在后悔没把人都支开。不过现在的情况下，他也做不到。</p>
+<p>（和亜南不同，这里一出去就暴露了。）</p>
+<p>不能把他叫出去，也不能把人赶走。</p>
+<p>「……」</p>
+<p>沉默持续着。壬氏似乎也在思考该怎么应对。</p>
+<p>「那个……」</p>
+<p>猫猫正想问能不能回去的时候，忽然感觉左手被触碰——是壬氏的手。猫猫的左手被壬氏的右手抬起，十指交握。修长的手指紧紧按住猫猫的手背，掌心与掌心紧密贴合。</p>
+<p>她能感受到血液的搏动。指甲修剪得很整齐，但掌心有硬茧。手指尖沾着一点墨迹，微微有些汗湿。</p>
+<p>（时间挺长的啊。）</p>
+<p>猫猫也开始手心冒汗了。她想要在之前抽开手，便开口道：</p>
+<p>「你在干什么？」</p>
+<p>「……补充一下又不会怎样。」</p>
+<p>壬氏像是闹别扭般地说着，终于松开了手。手背上留下淡淡的红痕。</p>
+<p>「补充？」</p>
+<p>「没错。你作为客人也有很多事要操心，也会累的。」</p>
+<p>猫猫看向壬氏的桌子。那里有未写完的信，废纸堆满了纸篓。指尖也沾着墨迹，想必写了相当多。</p>
+<p>（是给中央的信吗？）</p>
+<p>传达情况、报告损失程度、需要多少救援物资。即使西都的主人是玉莺，由壬氏去联络有时也更顺利。而且，功劳也可能被别人抢走。</p>
+<p>「壬氏大人不觉得自己的功劳被抢走很可惜吗？西都的百姓应该会认为物资是玉莺大人给的吧。」</p>
+<p>听了猫猫的话，水莲只是安静地微笑着，桃美和雀则点头「嗯嗯」地表示赞同。看来作为侍女她们也有自己的想法。</p>
+<p>「我在西都被怎么看都无所谓。不管以什么形式，交给玉莺大人去处理，物资分发会更顺畅。而且——」</p>
+<p>「而且？」</p>
+<p>壬氏果然不想出风头，似乎只要百姓得救就好。</p>
+<p>「比起被多少人认可，被谁认可更重要。」</p>
+<p>壬氏看着猫猫。</p>
+<p>（被谁认可……吗。）</p>
+<p>不过，话说回来。</p>
+<p>「我可以走了吗？」</p>
+<p>「随你便！」</p>
+<p>猫猫说了声「明白了」，便离开了房间。侍女们的目光出奇地温暖。</p>
+<p>走出房间后，猫猫背靠着门，看了看自己的手掌。</p>
+<p>「……不，这有点……」</p>
+<p>就算旁边有人看着，也该有其他方式吧。</p>
+<p>（不不不不。）</p>
+<p>她不知该如何形容，顺着门滑坐下去。</p>
+<p>「这样反而更丢人吧？」</p>
+<p>猫猫忍不住脱口而出——</p>
+<p>「什么更丢人？」</p>
+<p>「⁉」</p>
+<p>在外面担任护卫的马闪叫了她一声，猫猫差点跳起来。</p>
+<p>蝗灾第一波过后第十天。</p>
+<p>第二波蝗虫群似乎来了。数量比第一次少，看起来应对得还不错。</p>
+<p>第十三天。</p>
+<p>发生了一起可疑纵火事件。据说是为了抢夺粮食，纵火犯很快就被抓住了。</p>
+<p>第十五天。</p>
+<p>粮食问题显现。各地出现囤积行为，居民之间的小冲突在各处爆发。</p>
+<p>第十六天。</p>
+<p>其他受灾地区的人涌入西都。其中甚至有人喊着要见皇弟。</p>
+<p>第十八天。</p>
+<p>「您还活着啊。」</p>
+<p>猫猫呆呆地看着那个流浪汉。说流浪汉不太好听，但怎么看都只能是那副模样。</p>
+<p>「活着呢！」</p>
+<p>胡子拉碴、头发蓬乱、衣服破破烂烂的男人。虽然印象大变，但那正是远行归来的罗半兄。</p>
+<p>因为有一名难民提到了猫猫的名字，她被官员叫了过去。到了之后一看，正是狼狈不堪的罗半兄。他似乎闹过一点事，虽然不是牢房，但被关在了一间狭小的单间里。最近暴徒很多，官员们也绷紧了神经。</p>
+<p>因为他实在太寒碜了，猫猫让雀去准备换洗衣物。趁这期间，她决定听听他经历了什么。</p>
+<p>雀现在基本每次猫猫出门都会跟着。护卫则由李白担任。</p>
+<p>「不过，您平安无事真是太好了。大家都很担心您。」</p>
+<p>「啊——嗯，担心来着。」</p>
+<p>猫猫和李白一起说了些客套话。毕竟罗半兄看起来就是个很顽强的人，说大家其实没怎么担心他，这种话实在说不出口。不如说大家一直在拿他当谈资，这事打死也不能说。</p>
+<p>「什么嘛，可恶！比我预想的快多了！那个蝗灾！我可是拼命赶回来的啊！」</p>
+<p>「是的。大家都说进展很顺利。不愧是专业人士。」</p>
+<p>「别说什么专业人士了！啊——真的以为自己要死了，也确实快死了，说不定其实已经死了。」</p>
+<p>「您还活着，没问题的。」</p>
+<p>猫猫轻轻拍了拍罗半兄。确实有实体在。</p>
+<p>「脑袋也被啃了不少嘛。」</p>
+<p>李白正用梳子梳理他那乱糟糟的头发。虽然这不是护卫该干的活，但大概是对罗半兄有些过意不去吧。不过，大男人的手劲儿太大又不太细致，罗半兄的脸都僵了。</p>
+<p>「好痛好痛。」</p>
+<p>「咦，这是什么？」</p>
+<p>猫猫在触碰他的时候，感觉背后有什么东西。</p>
+<p>「啊，这个啊。」</p>
+<p>罗半兄脱掉像破布一样的外衣。背上紧贴着一个手帕包。打开一看，里面是麦穗。</p>
+<p>「是麦子呢。」</p>
+<p>「是麦子。」</p>
+<p>猫猫和李白探头看着。</p>
+<p>「没错。」</p>
+<p>「您为什么这么宝贝这些麦子？」</p>
+<p>就算是为了保护麦子不被蝗虫吃掉，猫猫也想不出他为什么要贴身带着这么一点麦子。</p>
+<p>「事情是这样的，就在蝗灾发生之前——」</p>
+<p>罗半兄开始讲起那个村子的事。那是个盛产小麦的村子，村长跟他说了一件事。</p>
+<p>「有一户人家的小麦，收成总比其他人家多。」</p>
+<p>「哦。」</p>
+<p>「所以村长托我去看看那家的种植方法和田地情况。」</p>
+<p>据说那户人家并没有用什么特别的种植方法，田地和日照条件也和其他人家没什么不同。</p>
+<p>唯一不同的是——</p>
+<p>「小麦是用上一季留下的麦子作种来种的，但那户人家的麦子里，碰巧某一种特别多。」</p>
+<p>「某一种？」</p>
+<p>猫猫仔细看了看麦子。似乎没什么特别之处。</p>
+<p>雀带着换洗衣物回来了，罗半兄就随手扔掉破外衣，开始换衣服。</p>
+<p>「哦，身材不错嘛。」</p>
+<p>雀打趣道。</p>
+<p>「被这么盯着看怪不自在的。」</p>
+<p>罗半兄像赶苍蝇一样赶走雀。</p>
+<p>「不，身材确实不错，都能当武官了。」</p>
+<p>「武官？是吗？」</p>
+<p>被说像武官，罗半兄似乎并不讨厌。大概是因为平时总被当成农民，难得有新鲜感吧。</p>
+<p>「不好意思，请继续说吧。」</p>
+<p>「……好吧。」</p>
+<p>罗半兄略带遗憾地继续说明。</p>
+<p>「那种小麦比其他小麦矮很多。大概是在田里反复种植的过程中，矮秆小麦出现并不断繁衍吧。」</p>
+<p>「矮了会怎样呢？」</p>
+<p>雀问道。</p>
+<p>「不光是麦子，水稻也是，秆高了容易被风吹倒。倒了之后茎折断或腐烂就完了。」</p>
+<p>「哦哦。」</p>
+<p>原来如此，所以那家田里偶然长出了矮秆小麦，然后就这么繁衍开了。</p>
+<p>「还有一个假设。」</p>
+<p>罗半兄换好衣服后稍微像样了些。他向雀借了发绳，开始扎起乱蓬蓬的头发。</p>
+<p>「这种麦子的籽粒似乎比其他小麦更牢固地附着在穗上。」</p>
+<p>「更牢固？」</p>
+<p>「收割时，穗上能留住多少籽粒，这对产量影响很大。如果在收割前麦粒就从穗上掉落，农民忙碌起来可没空去捡地上的粒。掉一成少一成，掉两成少两成。」</p>
+<p>就是简单的道理。</p>
+<p>「没错。这种麦子留下的粒很多。如果能用这种种子培育出矮秆且不易落粒的小麦，收成有望增加。」</p>
+<p>「所以您才特意带回来的啊。」</p>
+<p>不仅猫猫，连雀和李白都露出了佩服的表情。</p>
+<p>她们俩肯定和猫猫想的一样。</p>
+<p>（真是个天生的农民。）</p>
+<p>顺便说一句，最早报告蝗灾的也是罗半兄的信。</p>
+<p>（作为功臣，得好好犒劳他一下才行啊。）</p>
+<p>虽然粮食不足，但猫猫想着今天怎么也得弄点好吃的给他。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-160.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-162.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

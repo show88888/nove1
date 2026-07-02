@@ -1,0 +1,528 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">174</h1>
+</header>
+<p>**四十八、军师的号令**</p>
+<p>三姐妹和姨妈决定留在那个红发女子身边。那位从不出头露面、不似母亲或姐姐的姨妈，判断她们不会被认出是戌之一族的人。</p>
+<p>“哥哥，你要走了吗？”</p>
+<p>三姐妹中的长女白羽，拉住了陆孙的袖子。</p>
+<p>“我要去稍远一点的地方。”</p>
+<p>陆孙已经不能再待在西都了。若继续留在西都，他定会忘记母亲和姐姐的嘱托。定会伤害到西都的百姓。他依依不舍地背对三姐妹。</p>
+<p>马车摇晃着驶向港口。</p>
+<p>虽然心有不甘，但也只能依靠玉袁的照顾了。一个年仅十三的孩子，没有独自生存的本事。据说，在中央有一户原本属于戌之一族的家族。他们刚好失去了一个与陆孙同岁的孩子。体型也相似，对方也表示愿意收养他。</p>
+<p>“户籍应该不会有问题。名字就直接沿用吧。”</p>
+<p>他似乎在说，不会重蹈覆辙。</p>
+<p>陆孙依然无法原谅玉袁。这个男人曾说原因在于自己。陆孙认为自己有权知道理由。</p>
+<p>“为什么偏偏是你不在的时候，杨家有人惹出这种事？”</p>
+<p>玉袁露出为难的表情，低声说道。</p>
+<p>“大概是儿子吧。莺不是我的孩子。”</p>
+<p>“……我知道。”</p>
+<p>想起户籍的事，陆孙也曾暗自琢磨。所谓莺，大概就是与母亲说话的那个孩子吧。</p>
+<p>“就因为不是亲生的，所以想推卸责任吗？”</p>
+<p>“岂止如此，其他孩子也都不是我的。”</p>
+<p>“诶？”</p>
+<p>陆孙慌了。这个男人明明拥有那么多妻儿。</p>
+<p>“我大概是天生无法生育吧。第一个妻子生了莺，但与我在一起的六年里，她再未怀孕。很抱歉，我也试过跟别人，同样不行。于是我放弃了，开始寻找怀有他人孩子的寡妇。贤能而坚强的母亲们同意将孩子作为我的孩子来养育。我们交换了文书，作为商人订立了绝对的契约。作为养育孩子、保障其将来的代价，她们要保守秘密，并提供才智。现在户籍上也写着是我的孩子了。一个商人若是无后，颜面上也过不去。”</p>
+<p>“那么……”</p>
+<p>“我一直以为，所有人都是当作亲生孩子来养育的，也都视我为亲生父亲。可是，有人知道最初那位夫人是从沙欧买来的奴隶。那家伙便以此来要挟，说儿子也是奴隶之子，父亲并非是我。”</p>
+<p>陆孙眼中看到的，只是一个抱着头、微胖的男人。</p>
+<p>“幸好他没到处乱说，但确实是来威胁了。我用契约的形式让他闭了嘴。对方也没有确凿证据，便就此作罢了。但既然跟一个人签了有利的契约，就不能不对其他人一视同仁。我大概就是那个‘好说话的新来者杨先生’吧。”</p>
+<p>杨这个姓氏，大概是在离开戌之一族后才取的。是个随处可见的姓氏。</p>
+<p>“我本打算一直隐瞒下去的。本打算带进棺材里的。”</p>
+<p>但看来还是不行。</p>
+<p>“莺在到处寻找与我无关的各种商品。其中之一就是那种黑石。没想到，他竟会在那里遇到读风之族的幸存者。”</p>
+<p>莺由此得知母亲曾是奴隶，对自己的出身产生了怀疑。他大概也一直隐隐觉得，自己长得不像玉袁。</p>
+<p>黑石产量被瞒报一事，大概也是因为在那里听到了消息吧。</p>
+<p>“那么——”</p>
+<p>“是的。他真正的父亲……大概是沙欧的什么人吧。不过他继承的是荔国的气质，所以不太明显。近几年，他对沙欧和异民族的态度变了，我就知道事情败露了。”</p>
+<p>玉袁详细地讲述着。不知是为了照顾陆孙的感受，还是只想把积压已久的秘密倾诉于人。</p>
+<p>“那么，陷害戌之一族的，就是——”</p>
+<p>“是的。其一，是作为读风之族的复仇。”</p>
+<p>“其一？”</p>
+<p>“另一个是——”</p>
+<p>玉袁看着陆孙。</p>
+<p>“他以为戌的孩子是我的亲生骨肉。”</p>
+<p>『真是个聪明的孩子。可以给我当儿子吗？』</p>
+<p>他回想起与母亲的那番对话。玉袁那时有一半是在说真的吧。若是无后，就从亲戚那里过继养子——这是理所当然的事。</p>
+<p>因此，他编造了皇族血统之类的谎言，企图除掉陆孙。</p>
+<p>姐姐真是愚蠢。若论活下去的价值，姐姐远比陆孙重要得多。</p>
+<p>为何，偏偏留下了陆孙。</p>
+<p>而玉袁又为何，偏偏选择现在说出这一切。</p>
+<p>陆孙拼命压制住想要挥拳的冲动。这马车据说隔音极好，即使大喊大叫车夫也听不见，但动手可不行。把玉袁推下马车也不行。陆孙脚踝上被咬的伤还在隐隐作痛。虽然想趁机下手，但即便这个男人，也还有他的用处。</p>
+<p>『你要守护西边的土地。那是戌之男儿的使命。可以不择手段，无论对方是谁，能用之物皆要善用。』</p>
+<p>他回想起姐姐的话。陆孙不能死在这里。为了不伤害这片西土，他要去中央。</p>
+<p>“是那愚蠢的敕令——从中央来的吧。”</p>
+<p>“据说中央并非本意。”</p>
+<p>“哈？”</p>
+<p>什么意思？是说敕令是误发的吗？</p>
+<p>“虽然盖了皇帝的印，但没有女帝——也就是皇太后的印。”</p>
+<p>也就是说，问题不在于傀儡，而在于操纵傀儡之人并未批准？</p>
+<p>“中央那边，几年前皇帝就身体欠佳，皇太后也年事已高了。”</p>
+<p>“就凭这么离谱的……”</p>
+<p>“是啊。冒充皇族一事虽被证明是个误会，但矿山的案子却是掩盖不了的。”</p>
+<p>“……那倒是。”</p>
+<p>戌之一族也并非没有过错。</p>
+<p>“所以，我打算夺取矿山的所有权。”</p>
+<p>“诶？”</p>
+<p>那个微胖、看似懦弱的男人，眼中燃起了火焰。</p>
+<p>“中央并不了解石炭的价值。至少那边的价格恐怕只有这边的几十分之一。我要反过来利用这一点。”</p>
+<p>“那是——”</p>
+<p>“交涉的筹码就是那道离谱的敕令。他们灭绝了治理西土的家族。这可是严重的问题。”</p>
+<p>玉袁的眼中闪烁着商人的狡黠。</p>
+<p>“我带你回中央的同时，会以原戌之一族的身份向宫廷直接交涉。毕竟这事因我的印章而起，我也有责任。”</p>
+<p>“不，那你自己，你的家人怎么办？”</p>
+<p>那个叫莺的蠢货儿子暂且不论，可还有收留了堂姐妹们的夫人们呢。就算没有血缘关系，难道就能抛弃她们吗？</p>
+<p>“你看这个。”</p>
+<p>玉袁从脚边取出一个笼子。里面装着几只鸽子。</p>
+<p>“这就是我生意做大的理由。掌控信息者，便能掌控市场。就算我被处绞刑，全家被抄斩，也没关系。鸽子会先一步报信，况且我那些媳妇们，没有一个是会轻易死掉的软骨头。”</p>
+<p>他拍了拍自己那像鼓一样的肚子。</p>
+<p>“你还是不信吗？”</p>
+<p>“……还不信。”</p>
+<p>陆孙毕竟还是个孩子，还无法理清这些思绪。他分不清大人说的是真是假。</p>
+<p>“那不如，我跟你签个文书吧？”</p>
+<p>“什么文书？”</p>
+<p>“我是个商人。我会把让西都最繁荣的孩子立为继承人。”</p>
+<p>“这也包括莺吗？”</p>
+<p>“是啊。因为我对所有妻子都写了同样的文书——把家业交给最能振兴西都的人。”</p>
+<p>真是个商人风格的成果主义。</p>
+<p>“但同时也伴随着风险。我的寿命总归比孩子短。所以，贪心的孩子可能会在我不在后做出什么事来。”</p>
+<p>陆孙觉得，那个叫莺的男人完全做得出来。实际上他已经做出来了。</p>
+<p>“到那时候，我会清除那个孩子。然后，由你来守护西都。”</p>
+<p>“什么意思嘛。”</p>
+<p>这不就等于说，最终要由陆孙来做玉袁的继承人吗？</p>
+<p>“事到如今，还想让我来收拾残局吗？”</p>
+<p>“不是收拾残局。这是成为了‘风之男’的宿命。”</p>
+<p>“风之男……吗。”</p>
+<p>陆孙觉得，无论以何种形式，玉袁就是母亲和姐姐所说的“风之男”。</p>
+<p>这是狡猾而肮脏的手段。如此一来，陆孙只能接受了。</p>
+<p>他只能去领悟那温和笑容背后的精明与狡猾了。</p>
+<p>把那如尖石般的心，用磨刀石细细研磨，打磨得光滑而美丽。然后，当需要之时，便能化作斩断一切的锋利刀刃——</p>
+<p>“好像到了。”</p>
+<p>下了马车，便是港口。</p>
+<p>在那里，他看到了一个举止古怪的男人。</p>
+<p>“船，不，不行。我不想坐！”</p>
+<p>一个年纪不小的大叔，像个孩子一样在闹脾气。</p>
+<p>“不坐船就回不去了。好不容易才有船坐。”</p>
+<p>“可是……船，不行。”</p>
+<p>那是罗汉。</p>
+<p>“大叔你在干什么？”</p>
+<p>陆孙忍不住上前搭话。</p>
+<p>“嗯？你是谁？小矮子步兵。”</p>
+<p>他已经完全忘了陆孙。</p>
+<p>“你不是要回都城吗？我觉得坐船比走陆路轻松多了。”</p>
+<p>陆孙觉得，无论是坐马车还是坐船都差不多，选时间短的更好。</p>
+<p>“唔……”</p>
+<p>罗汉不情愿地上了船。</p>
+<p>“大叔，你根本不记人脸，真的没问题吗？”</p>
+<p>“唔——。要是混出头了，或许会有点麻烦。”</p>
+<p>陆孙心想他真能出人头地吗，但商人总归要尽量多拉关系。</p>
+<p>“那你出人头地了雇我吧。我可是绝对不会忘记别人脸的，能替大叔你分忧哦。”</p>
+<p>“嗯——，那行，雇你。”</p>
+<p>虽是随口的玩笑，但陆孙做梦也没想到，十年后这话竟会成真。而那个后来被人称为“怪人军师”的人，早就把这事忘得一干二净了。</p>
+<p>最终，戌之一族消失了。皇族虽未承认敕令有误，但想必提出了妥协方案。</p>
+<p>其一，关于戌之一族的幸存者，不再追究。</p>
+<p>其一，至今仍称此地为戌西州。</p>
+<p>其一，由非戌之一族的前戌之一族——玉袁，来治理西都。</p>
+<p>其一，石炭矿山以“封口费”的形式，免于缴纳。不过这始终是非正式的。</p>
+<p>戌之一族终究还是在名誉受损的情况下消失了。但玉袁选择了戌西州的发展而非名誉。这个男人比任何人都更追求西土的利益，虽令人不甘，却也比任何人都更像是陆孙的榜样。</p>
+<p>---</p>
+<p>陆孙倒在血泊中，回忆着往事。</p>
+<p>现在的公所，原本是戌之一族的宅邸。而玉莺，竟将陆孙母亲曾使用的房间当作公务室。</p>
+<p>十七年前，在自己行凶的地方被刺身亡的男人。这因果未免也太巧了。</p>
+<p>若在答应玉袁的提议时，就知道杀害母亲和姐姐的元凶是玉莺，陆孙绝不会接受。当他抵达西都，得知那个直属上司比任何人都更清晰地留在自己记忆中时，他几乎要发疯了。</p>
+<p>但他为了遵守姐姐的遗言，忍了下来。</p>
+<p>当被问到是否与罗之一族有血缘关系时，陆孙的愤怒已化作笑意。对他来说无法忘怀的那个男人，却对陆孙的存在毫无所知。</p>
+<p>虽非亲生，但好歹是玉袁养大的男人。即便没有血缘，他也有振兴西土的才能。可惜的是，他自卑感太重了。</p>
+<p>他不是要振兴西土，不是要守护西土，而是要利用西土去攻打沙欧。他大概是想借此斩断自己血统的根源吧。</p>
+<p>这一点，绝不能容忍。</p>
+<p>更何况，眼前这一切，都仿佛被安排好了一般，舞台过于完美。</p>
+<p>陆孙将小刀塞进农民手中，自己则拿起了玉莺的剑。</p>
+<p>“怎么回事？怎么回事？”</p>
+<p>赶来的人们，看到了独自立于血泊中的陆孙。</p>
+<p>“这、这是怎么回事？！陆孙大人！”</p>
+<p>玉莺的副官问道。其他人也纷纷赶来。有侍女发出了尖叫。</p>
+<p>“如您所见。我进来时，已经被杀了。我只能趁隙从背后刺杀了贼人。”</p>
+<p>“真的吗？”</p>
+<p>副官凑近细看。所有人都向陆孙投来怀疑的目光。</p>
+<p>没错，陆孙被怀疑是理所当然的。所有人都应该知道陆孙一直受到冷遇。他们都知道陆孙可疑。</p>
+<p>这里必须好好糊弄过去——</p>
+<p>不，还是说，干脆与母亲和姐姐葬于同一处，反而更好——</p>
+<p>正当他如此想着时。</p>
+<p>“你进房间时，已经被杀了。然后你杀了贼人——这样没错吧？”</p>
+<p>此人不是别人，正是罗汉。他睡眼惺忪，连单片眼镜都没戴。似乎刚睡醒。明明平时一睡就很难叫醒。</p>
+<p>啊，完了——陆孙心想。</p>
+<p>瞒不过罗汉的。他以为对方早该睡下了。</p>
+<p>“是的。”</p>
+<p>“——她说是这样。”</p>
+<p>罗汉对周围的人说道。</p>
+<p>“这、这是什么意思？汉太尉？”</p>
+<p>“嗯？那小子没说谎。他杀了贼人。这有什么不对？反倒是你们警备不力，才是问题吧。”</p>
+<p>“诶？”</p>
+<p>被突然这么一说，副官愣住了。</p>
+<p>“老子困了，睡觉去。”</p>
+<p>在周围的骚动中，“既然是汉太尉说的”，众人纷纷退下。对陆孙的怀疑瞬间烟消云散。</p>
+<p>这样真的好吗——他心中也有一丝疑问。</p>
+<p>但同时，也为能遵守与姐姐的约定而松了口气。</p>
+<p>“详情稍后再问，请您先换身衣服。”</p>
+<p>副官对陆孙说道。</p>
+<p>刚才尖叫的侍女战战兢兢地递给陆孙一条手巾。陆孙曾见过这位身材高挑的侍女几次。</p>
+<p>“在工作吗，雀小姐？”</p>
+<p>“……哎呀，您是怎么发现的？”</p>
+<p>脸完全不同，但那声音却是快活的侍女的声音。</p>
+<p>“这舞台像是被人精心布置过，我猜想是有人在幕后操纵。”</p>
+<p>“是这样吗。太可疑了吗？”</p>
+<p>雀没有否认。</p>
+<p>“您是怎么认出我的？我可是连发色和眼睛大小都变了呢。”</p>
+<p>“是耳朵的形状。雀小姐的耳朵非常漂亮。”</p>
+<p>“哎呀，真讨厌，您盯着有夫之妇的耳朵看呢？”</p>
+<p>声音是雀，但那怯生生的侍女模样却完全是另一个人。她一边害怕陆孙身上的血迹，一边还是拿着衣服跟了上来。</p>
+<p>“若医官介入，我会被处置吗？”</p>
+<p>陆孙试探性地问道。</p>
+<p>“这边的负责人是杨医官。杨医官对工作认真，但想法灵活，而且想必比任何人都更盼望西都的安定。猫猫小姐或许会因为好奇去调查吧。剩下两位医官也似乎各有怪癖，真是万幸。”</p>
+<p>“是吗。那我今后会避开他们。”</p>
+<p>“是啊。顺便，也请您对我的事保密。”</p>
+<p>雀顺便堵住了他的嘴。</p>
+<p>“我会保密，但能请您答应我一件事吗？”</p>
+<p>“什么事？”</p>
+<p>那独特的声音清晰地传入陆孙耳中，但在旁人看来，她恐怕连嘴都没动。若不是曾在农村共处数日，陆孙也绝不会察觉到这精巧的变装。实际上，他在公所见过她几次。</p>
+<p>“能否请您尽快处理掉您所获取的那份户籍？”</p>
+<p>“若被您知道到那种程度，雀小姐的脑袋可真要搬家了。”</p>
+<p>“对双方都有利吧。关于销毁一事。”</p>
+<p>当听到林小人的特征时，陆孙已猜到了几个人选。他知道其中一人，正与现在这副变装的雀交谈。</p>
+<p>所以，对上了。</p>
+<p>“毕竟，若不知道皇后的父亲是哪里冒出来的无名小卒，会很麻烦吧？”</p>
+<p>“是啊。会很麻烦呢。”</p>
+<p>语气毫无紧张感，但表情却紧绷着。看来她是个相当能干的间谍。</p>
+<p>陆孙想过，或许她会就此悄然抹去自己的存在，但他宁愿相信事实并非如此。</p>
+<p>玉叶后真正的父亲，若去查户籍，是有可能查出来的。只要去查她母亲的上一任丈夫，即使那人已故，再去查他的亲属，就会很麻烦。</p>
+<p>“我明白雀小姐的难处，但为什么陆孙先生会想销毁那份户籍呢？”</p>
+<p>“没什么特别理由。只是，若契约对象的秘密暴露，契约的价值不就消失了吗？”</p>
+<p>并非为了玉莺。那个愚蠢地企图将西土置于危险之中的男人——他那对玉袁的自卑感，不过如此。</p>
+<p>陆孙想销毁户籍，仅仅是为了报答玉袁的情义。</p>
+<p>“明白了。我会跟上司商量一下。”</p>
+<p>变装的雀将衣服递给陆孙后，便不知去了何处。</p>
+<p>“看来不是月之君的直属部下啊。”</p>
+<p>陆孙不再深究。更何况，他自己也已是带伤之身。</p>
+<p>他回到房间。关上门，蹲了下来。</p>
+<p>“为什么呢……明明已经结束了。”</p>
+<p>泪水簌簌落下。</p>
+<p>“不对。或许这才刚刚开始。”</p>
+<p>他吸了吸鼻子，像个孩子一样。</p>
+<p>虽然一个成年人这样很丢人，但他觉得，今天母亲和姐姐仿佛在守护着他。</p>
+<p>而且，无论出于何种意图，罗汉还是庇护了他。</p>
+<p>“虽然我没说谎，但他应该知道真相才对啊。”</p>
+<p>陆孙心想，这位前上司竟会做出如此不像他的举动。</p>
+<p>然后——</p>
+<p>为了守护西土，他今后也必须作为“风”继续活下去。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-173.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-175.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

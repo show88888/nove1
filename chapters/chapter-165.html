@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">165</h1>
+</header>
+<p>**三十九、黄金比例**</p>
+<p>第四十五天。</p>
+<p>追加的药草送到了，但还是不够。</p>
+<p>第四十八天。</p>
+<p>收到了消毒绷带的工作。</p>
+<p>第五十二天。</p>
+<p>“怎么办才好呢——”</p>
+<p>罗半兄正发愁。医务室的桌上摊着一张大地图。</p>
+<p>“怎么办呢——”</p>
+<p>庸医也在发愁。但总得让他干活，猫猫把研杵和药草放在了一旁。</p>
+<p>“为什么罗半兄会在这里？”</p>
+<p>一般来说，医务室有外人不太合适。大概是因为这里是周围气氛最不紧张的地方，所以他才来的吧。</p>
+<p>“不，是大叔说可以待在这儿。”</p>
+<p>“小姑娘，罗半兄他累坏了。你得好好体谅他一下。”</p>
+<p>庸医大概把罗半兄的名字错当成罗半了，但纠正起来也麻烦。</p>
+<p>至于罗半兄，或许是连日疲惫懒得纠正，又或许是没注意到，也可能是已经习惯了。</p>
+<p>（他可是最大的功臣啊。）</p>
+<p>若按正常损失来算，他可能救了几万人的性命，但本人却浑然不觉。</p>
+<p>“话说，您在看什么呢？”</p>
+<p>猫猫凑近地图。仔细一看，上面标注得相当细致。各地土壤种类、气候等都写得清清楚楚。</p>
+<p>“这是在灭蝗之旅途中标注的地图。反正顺便就把田地的特征也写了上去，但只填了一半。”</p>
+<p>（怎么办，这个人真有用。）</p>
+<p>而且是个只被人利用、功劳却被抢走的吃亏角色。</p>
+<p>猫猫心想，至少这次的事得让他得到应有的评价。</p>
+<p>“那您看地图，是在为什么事发愁？”</p>
+<p>“作物。总不能一直靠中央送粮吧？我在考虑储备，想找些能尽快收获的东西。”</p>
+<p>“芋头呢？”</p>
+<p>“不能把不确定能否种成的东西拿出来。需要几年试验。”</p>
+<p>“普通的小麦呢？把没能收获的田地赶紧收割了再种上不就行了？”</p>
+<p>“小麦会种。但那只是原本计划要种的田。小麦连作会减产。”</p>
+<p>“啊。”</p>
+<p>原来如此，猫猫点了点头。</p>
+<p>“连作？收获？”</p>
+<p>庸医一如既往地不明白，但好歹在场。</p>
+<p>“豆类倒可以，但问题是收获期太晚。这点只能将就了。”</p>
+<p>罗半兄脑子里似乎装着一套农作物栽培历。</p>
+<p>“最大的问题是种子。”</p>
+<p>“种子？是指作物的种子吗？”</p>
+<p>“对。要是没东西吃了，谁还会留明年的种子？要是到那地步，就全完了。”</p>
+<p>确实，如果连培育的基础都没有了，就什么也做不了。</p>
+<p>“所以我在考虑能尽早收获的作物，以及用来培育麦种的田地。”</p>
+<p>虽然这已是个相当宏大的计划，但可怕的是，他本人只抱着改革附近田地的气势在思考。</p>
+<p>“毕竟还得考虑产量、人口和土壤质量。我其实不太喜欢计算。”</p>
+<p>“要是罗半在的话，他算得倒是很快。”</p>
+<p>“别提那个戴烦人眼镜的家伙。”</p>
+<p>罗半兄冷淡地回了一句。比起机灵的弟弟，兄长总是吃亏，这也是没办法的事。</p>
+<p>“您是说弟弟吗？”</p>
+<p>“那你不就是妹妹吗？”</p>
+<p>眼看要陷入无谓的争吵，猫猫便默不作声地当作没发生过。</p>
+<p>“说起来，那家伙没来信啊。”</p>
+<p>“信？前几天不是来了吗？”</p>
+<p>“来的是老爹的。罗半那家伙还挺勤于写信的，我还以为他会多写几封。”</p>
+<p>既然会寄给猫猫，那没理由不寄给罗半兄。</p>
+<p>顺便一提，庸医似乎终于意识到罗半兄不是罗半，而是罗半的哥哥了。但他并没有问名字。</p>
+<p>“……”</p>
+<p>“怎么了？”</p>
+<p>“没什么。”</p>
+<p>猫猫忽然想起几天前收到的那封信。当时她并没有多想就放下了——</p>
+<p>“请稍等。”</p>
+<p>“嗯？啊。”</p>
+<p>猫猫上了二楼，回到自己房间。房里插着一朵小花。那些小姑娘风格的家具虽然全撤了，但庸医偶尔会像这样插上一枝花。</p>
+<p>“就是这个。”</p>
+<p>猫猫拿来了装信件的箱子。</p>
+<p>“这是什么？”</p>
+<p>“是罗半寄来的信。”</p>
+<p>“……那家伙，用的是不是好纸啊？”</p>
+<p>“大概是为了经得起长途运输吧。”</p>
+<p>猫猫仔细看着罗半的信。纸的背面贴了油纸加固。同来的姚和燕燕的信也是用同样的纸。</p>
+<p>“喂，这封信是什么意思？”</p>
+<p>罗半兄的脸色变得有些凝重。</p>
+<p>他指的是那句『姚姑娘她们还住在我家，我该怎么办才好？』。</p>
+<p>“事情是这样的。”</p>
+<p>猫猫简要地说明了姚她们的情况。</p>
+<p>这时，罗半兄的表情可谓精彩。他眉毛倒竖，瞪大双眼，鼻翼翕动，像野兽一样龇着牙。头发也几乎冲天而立。</p>
+<p>“咿——”</p>
+<p>庸医缩成一团。</p>
+<p>猫猫也着实吃了一惊。没想到一向普通的罗半兄会气成这样。若把这个样子雕成木像，绝对能成个鬼面。</p>
+<p>“……那个混蛋，把我、把我赶到这种偏远地方，自己却跟年轻未婚的姑娘，而且还是两个……”</p>
+<p>有燕燕在，根本不可能出什么乱子，但跟现在的罗半兄说这些也是白费口舌。</p>
+<p>“不过，这信上的措辞有点奇怪。”</p>
+<p>“哦——哪里奇怪了——”</p>
+<p>罗半兄连语气都变了。作为罗家出身的人，他本来相貌还算端正，但现在却扭曲得让人说不出话来。</p>
+<p>“如果是‘又’而不是‘还’倒还能理解。她们俩之前回宿舍去了。”</p>
+<p>“但现在——不是在吗——”</p>
+<p>“罗半兄，您别靠那么近。”</p>
+<p>“不许提罗半那个名字！”</p>
+<p>“啊——好好好。”</p>
+<p>看来弟弟的女性关系是他的逆鳞。</p>
+<p>假设姚她们因为姚叔叔的事又回到了罗半家，这倒是有可能。但罗半会把“又”和“还”搞混吗？</p>
+<p>（总觉得不对劲。）</p>
+<p>猫猫仔细端详着罗半的信。信纸和油纸粘得很牢，看不出有拆开的痕迹。不——</p>
+<p>（有人试图撕开过？）</p>
+<p>油纸的四角有轻微被掀过的痕迹。</p>
+<p>（是撕开后又贴回去了？）</p>
+<p>猫猫也检查了另外两封信。</p>
+<p>如果罗半的信被动过手脚，另外两封也很可能被做了同样的处理。</p>
+<p>仔细看信上的字迹，有些地方洇开了。大概是因为后来才贴上油纸，导致表面的字也渗墨了吧。</p>
+<p>三封信，她总觉得以前也发生过类似的事。</p>
+<p>如果是姚和燕燕出的主意，那其中必定有关联。</p>
+<p>（比如用火烤显字……不。）</p>
+<p>因为贴了油纸，点火会烧掉。故意贴上油纸，大概是为了让对方确认内容后，误以为安全吧。既然如此，油纸就只是个幌子。</p>
+<p>猫猫盯着信看。</p>
+<p>罗半兄也看着。</p>
+<p>庸医也至少想掺和进来，便装作思考的样子。</p>
+<p>“……这真的是罗半寄的吗？”</p>
+<p>“为什么这么问？虽然确实是罗半的字，但请您正视这个悲伤的现实。”</p>
+<p>“不是！我是说，你知道那家伙对数字有多执着吧。”</p>
+<p>“知道。”</p>
+<p>这她再清楚不过了。</p>
+<p>“这封信，不觉得比例很奇怪吗？”</p>
+<p>罗半兄摊开罗半的信。</p>
+<p>“我没看出有什么奇怪的地方。”</p>
+<p>“不，很怪。那家伙写信的时候，基本只用纵向五、横向八的纸。”</p>
+<p>“这我哪知道啊。”</p>
+<p>大概是罗半所说的“完美比例”吧。</p>
+<p>可惜，猫猫对罗半的信没那么大兴趣。</p>
+<p>“是不是纸不够了？”</p>
+<p>“不，你根本不懂那家伙对数字的异常执着。我以前只是刘海剪短了一点，根本没在意，结果睡着的时候被那家伙擅自剪齐了。就因为差了那么一根头发丝的误差，他差点把我的头发全剃光，你能明白我的心情吗？那时他才五岁！”</p>
+<p>“您在弟弟的事情上真没遇到过好事啊。”</p>
+<p>与其说是弟弟，不如说是整个家族吧。</p>
+<p>“既然是罗半做的事，肯定有他的理由。”</p>
+<p>罗半兄紧盯着信。</p>
+<p>猫猫也看了另外两封信。姚的信比罗半的长得多，但比起燕燕的还算好。燕燕的信不仅长，字还小得像米粒，实在不想读。</p>
+<p>不过，罗半和姚的字大小适中，很好辨认。</p>
+<p>猫猫忽然将罗半和姚的信叠在一起。纵向长度吻合。横向长度正好是三倍。</p>
+<p>两人的字都很均匀，叠起来基本能对齐。只有偶尔姚情绪激动的地方，字会稍微大一点。</p>
+<p>“这是……”</p>
+<p>“怎么了？”</p>
+<p>花街的绿青馆常有科举考生和合格者光顾。据说他们最头疼的，就是在狭小如穴仓的考室里连续写几天的字。猫猫想起了那种必须按字帖一样均匀工整书写的文字。</p>
+<p>“纵与横。”</p>
+<p>不仅字的大小，连纵向的字数也完全一致。于是，猫猫找到了她在意的那个“还”字的位置。</p>
+<p>“石、炭、找、找。”</p>
+<p>她在与罗信中“还”字重叠的姚的信的位置上寻找。姚的信是罗的三倍长，所以要错位比对。文字随之浮现出来。</p>
+<p>“石炭？”</p>
+<p>“是石炭。也就是能燃烧的石头。根据用法可以入药，但据说危害也很大。”</p>
+<p>猫猫的养父罗门深知，药即是毒。他尽量使用无害的药材，所以猫猫对此并不熟悉。</p>
+<p>“那石炭又怎么了？”</p>
+<p>“这我就不太清楚了。不过，先报告一下比较好吧？”</p>
+<p>猫猫想着但愿只是巧合，一边把信收进了箱子里。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-164.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-166.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
