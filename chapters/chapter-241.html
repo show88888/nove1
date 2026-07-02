@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">241</h1>
+</header>
+<p>二十、响彻心间的铜锣</p>
+<p>俗话说，火事和打架在哪儿都能引来围观。</p>
+<p>于是，观众聚集也并非什么稀罕事。</p>
+<p>「哎呀，真意外。这次是辰家和罗家对阵吗？」</p>
+<p>「罗家虽然常出些奇才，可那个年轻人难道有武艺之才吗？」</p>
+<p>周围的声音听得清清楚楚。比起那些提心吊胆的年轻人，年长者们倒像在赏花似的。看来别家之间的冲突也不是什么稀罕事。</p>
+<p>「罗半兄，你用哪种武器？锄头要多长的比较好？」</p>
+<p>猫猫问罗半兄。</p>
+<p>「什么锄头啊⁉」</p>
+<p>「比试用的木剑或木棍。刀剑是禁止的。」</p>
+<p>罗半拿来了练习用的木剑和木棍。</p>
+<p>「前端裹着布呢。」</p>
+<p>「毕竟好歹是名门望族中有前途的年轻人嘛。就算只是练习，该死的时候还是会死的。」</p>
+<p>「哦——那这东西应该死不了人。」</p>
+<p>罗半兄倒是很镇定。</p>
+<p>「没问题吗？您学过剑术吗？」</p>
+<p>「剑术嘛……以前净被祖父揍了。虽说是练习，其实更像是体罚。」</p>
+<p>「祖父大人的剑术也算小有名气，但教人的水平实在不怎么样。」</p>
+<p>罗半摊开双手叹了口气。</p>
+<p>「是啊，没办法。总之先告诉我规则吧？」</p>
+<p>「规则就是，对方丧失战斗力、喊停，或者放下武器就算结束。另外，不能打要害、不能戳眼睛。」</p>
+<p>「那就是说，只要被砍了还不倒地，就能继续打？」</p>
+<p>「理论上是这样，不过一般都会点到为止，让对方明白实力差距吧。」</p>
+<p>罗半说得像是事不关己。</p>
+<p>「那要是输了怎么办？」</p>
+<p>「输了也没关系吧？这事本来就跟我们没关系。」</p>
+<p>罗半兄爽快地回答了猫猫的提问。</p>
+<p>那音量足以让姚和燕燕也听见。</p>
+<p>「姚小姐、燕燕小姐。我跟你们不熟，但我看不惯那家伙说的话。所以我才来搞这场决斗。当然我没打算输，但就像这样，我既不是武官也不是剑豪。这点希望你们明白。」</p>
+<p>「我们明白。」</p>
+<p>姚扭扭捏捏的。</p>
+<p>「不过，刚才马闪不是来了吗？那个人——马家应该不会允许这种蛮横行径吧。就算我们不保护你们，他们也会主动接手吧？」</p>
+<p>「为什么您会这么想？」</p>
+<p>燕燕问道。</p>
+<p>「因为我和马闪他哥偶尔会聊几句。虽然跟他弟弟没什么交流，但如你所见，他应该是个讨厌歪门邪道的人。」</p>
+<p>罗半兄在西都待过。和马良合得来这一点倒是挺意外。</p>
+<p>「是啊。就算我们抽手，应该也没什么问题。另外，我会事先跟辰家的老夫人说一声的。」</p>
+<p>「哦——我还以为你完全没干劲呢。」</p>
+<p>猫猫毫无来由地揶揄罗半。</p>
+<p>「既然答应了，就该把事情做完——这才叫大人吧。」</p>
+<p>「大人啊……」</p>
+<p>猫猫把视线转向怪人军师。他已经在作为决斗场地的中庭里，占好了特等席。</p>
+<p>「猫猫，到这边来看吧。」</p>
+<p>二番被特意搬来桌子和椅子，正叹着气。</p>
+<p>「就是这样。我不管输赢都不会太在意，你们也别放在心上。」</p>
+<p>罗半兄拿起一根和锄头差不多长的木棍，走向中庭。</p>
+<p>猫猫她们坐到了二番准备好的椅子上。</p>
+<p>担任见证人的，似乎是马家的一位男子。看起来三十五六岁，从没见过。麻美正笑眯眯地挥着手。</p>
+<p>马闪和几个男人围住了罗半兄和那个跟班男。大概是准备一有情况就立刻把人制住。</p>
+<p>罗半兄用的是棍，跟班男用的是木剑。</p>
+<p>「辰家一般都练剑术。」</p>
+<p>罗半正小口吃着水果。</p>
+<p>「看起来长度上有利啊。」</p>
+<p>姚看得认真。</p>
+<p>「要开始了。」</p>
+<p>见证人举起手。罗半兄也摆出了他自己的架势，看起来倒也有模有样。</p>
+<p>跟班男毕竟出身武家，又是武官，架势看起来中规中矩。</p>
+<p>「开始！」</p>
+<p>见证人一挥手，率先砍上去的是跟班男。铛的一声，罗半兄的棍子挡住了木剑。他把棍子斜着滑开木剑，向后退了一步。</p>
+<p>猫猫对剑术之类一窍不通。只是看起来，罗半兄一直被压制着。</p>
+<p>「他没事吧？」</p>
+<p>姚担心地问罗半。</p>
+<p>「谁知道呢。你问我武术的事也没用啊。」</p>
+<p>罗半的回答很冷淡。</p>
+<p>「你问得不对。喂，圆眼镜，你能看出什么数字？」</p>
+<p>猫猫用粗鲁的语气问罗半。</p>
+<p>「我觉得哥哥挺有武艺天赋的。虽然看起来被压制，但动作里没有多余的成分。相对的，对手的动作很规范。数字很稳定，大概因为出身武家，基础打得扎实吧。」</p>
+<p>「那就是说，哥要输了。」</p>
+<p>「猫猫！别说这种不吉利的话！」</p>
+<p>姚生气了。</p>
+<p>但罗半兄一直处于守势，无法反击。若不进攻，迟早会被击中。</p>
+<p>「啊！」</p>
+<p>罗半兄的腹部挨了一记木剑。他的身体横向飞出，在地上留下划痕，拼命稳住了身形。</p>
+<p>「哈哈哈，毕竟只是个农民嘛。连战斗的章法都不懂。认清自己的身份吧。」</p>
+<p>「农民怎么了？」</p>
+<p>罗半兄又重新举起了棍子。</p>
+<p>「别嘴硬了。」</p>
+<p>「抱歉啊。我这人就是活得不太体面。」</p>
+<p>罗半兄的声音一如既往地平静。</p>
+<p>「哼。倒是有点意思。」</p>
+<p>怪人军师一边洒着点心碎屑，一边嘀咕。那双狐狸般的眼睛隔着沾满手垢的单片镜，正追踪着两人的动作。</p>
+<p>类似的攻防还在继续。罗半兄被压制，跟班男持续进攻。周围传来了「太无聊了，早点解决吧」的起哄声。</p>
+<p>尽管一直被压制，被击中多次，罗半兄仍一次次站起来。跟班男则不停地猛攻。</p>
+<p>即便如此，怪人军师仍在凝视着。罗半也在凝视。</p>
+<p>「难道说我哥是个危险的人？」</p>
+<p>「不危险，但我觉得他是个经历过不少危险事的人。怎么说呢，哪里危险？」</p>
+<p>猫猫回答。</p>
+<p>「他的动作数值一直没变过。而对方的数据却在不断下降。」</p>
+<p>「说起来，那个丑男的势头确实不如刚才了。」</p>
+<p>燕燕说道。跟班男倒也没丑到那种地步，但燕燕大概觉得他比恶鬼还难看吧。</p>
+<p>然后，攻守骤然逆转。</p>
+<p>跟班男开始焦躁了。因为焦躁，攻击变得粗乱。罗半兄没有放过这个机会，弹开木剑，然后猛地向前刺出棍子。</p>
+<p>「唔噗！」</p>
+<p>跟班男的身体弯折了。侧腹被木棍击中，口水飞溅出来。他瞪大了眼睛，整个人被击飞了出去。</p>
+<p>说“飞”可能有点夸张，但那动作之大，足以让人感受到罗半兄那一击有多重。</p>
+<p>倒在地上的跟班男嘴里吐着带泡沫的口水，但意识还在。</p>
+<p>「要继续比吗？」</p>
+<p>见证人问跟班男。</p>
+<p>「我、我还没输……」</p>
+<p>跟班男还握着武器，一边咳嗽一边吐着唾沫。</p>
+<p>猫猫对他稍微刮目相看——看来他还有点骨气。</p>
+<p>「嗯，那就继续吧。」</p>
+<p>罗半兄又摆出了他那个农民式的架势。</p>
+<p>「喂，农民！别以为打中一下就得寸进尺。我会打到你倒下为止，二十下、三十下，打到你服！」</p>
+<p>「不用手下留情。你要是全力打的话，一百下我扛不住，但三十下左右还能撑。那期间我大概能打中你五下左右。幸好这不是真刀真枪。」</p>
+<p>罗半兄一脸若无其事地说。</p>
+<p>「哥，你不觉得哪里不对劲吗？」</p>
+<p>罗半略带退缩地看着猫猫。</p>
+<p>「我本来知道他抗压能力强，但这怎么看都超出正常范畴了。不，数值本身是正常的，可偏偏在非常时期却保持正常，这本身就不正常啊。」</p>
+<p>罗半说着莫名其妙的话。</p>
+<p>「罗半兄是被蝗虫和盗贼一路追杀过来的嘛。」</p>
+<p>现在想来，他就像猫猫在盗贼村时做的那样，把那当作家常便饭，九死一生地回到西都的。</p>
+<p>「那就继续吧。」</p>
+<p>罗半兄呼吸都没乱。体力方面，就算开垦一整天地，他也一如既往地平静。那种“平常”本身才可怕。</p>
+<p>跟班男揉着侧腹站了起来，但面对罗半兄的镇定态度，他手中的木剑竟不自觉地滑落了——脸上写满了“这家伙到底是什么人”。</p>
+<p>「胜负已分！」</p>
+<p>跟班男没有再逞强。</p>
+<p>「哥！」</p>
+<p>罗半带头，众人都围向罗半兄。</p>
+<p>姚也眼眶含泪，燕燕则一脸歉疚。</p>
+<p>「非常感谢您。」</p>
+<p>姚向罗半兄低下了头，眼眶半湿。</p>
+<p>（毕竟这实际上算是“请不要为我而战”嘛。）</p>
+<p>要是在后宫的小说里，这时候就该萌生恋情了。</p>
+<p>猫猫觉得正好。比起罗半，罗半兄更适合做姚的对象。毕竟是个年轻姑娘，变心也不奇怪。</p>
+<p>对罗半来说，这样大概也更好。</p>
+<p>然而现实并不如意。</p>
+<p>「罗半兄，让我看看你的伤，请把上衣脱了吧。」</p>
+<p>被打了那么多次，肯定有淤青了。</p>
+<p>「没事吧。不过赢了就好。虽然想着对手不会像盗贼那样杀人，但输了也挺丢脸的嘛。」</p>
+<p>罗半兄在女性面前脱上衣还是有些不好意思。不过，他曾在猫猫面前只穿一条内裤就在庭院里耕地。</p>
+<p>「一点都不丢人。当然，您能获胜，我们万分感激。」</p>
+<p>燕燕深深鞠了一躬。</p>
+<p>「没想到您能为姚大小姐做到这一步。真的非常感谢。俊杰大人。」</p>
+<p>罗半兄的脸瞬间涨得通红。</p>
+<p>「哈？」</p>
+<p>「怎么了？俊杰大人。」</p>
+<p>「不、不，抱歉。呃……你能再说一遍吗？」</p>
+<p>「好的，无论多少次我都愿意道谢。非常感谢您。」</p>
+<p>「不，不是那个！我是说俊杰这个名字！」</p>
+<p>「是和宅邸里那个少年同名吧。确实容易混淆，但总不能连恩人的名字都不说就道谢吧。还是说，您讨厌自己的名字？」</p>
+<p>「原来是同名同姓啊。」</p>
+<p>姚像是第一次听说似的。</p>
+<p>刚才还在姚和罗半兄之间飘扬的旗帜，就这么轻易地倒塌了。</p>
+<p>取而代之的，是罗半兄内心不断敲响的巨大铜锣声。</p>
+<p>猫猫愣住了，看向罗半。</p>
+<p>「我怎么感觉，又变得复杂了？」</p>
+<p>「你倒是对别人的感情事特别敏锐啊。」</p>
+<p>猫猫没有读心术。但她能理解，罗半此刻和她有着同样的心情。</p>
+<p>（偏偏是燕燕吗？）</p>
+<p>就是这样。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-240.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-242.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

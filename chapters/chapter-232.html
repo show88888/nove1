@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">232</h1>
+</header>
+<p>十一、两人关系很好</p>
+<p>马闪的职责是担任壬氏的护卫。按理说，他本该待在壬氏的办公室里，但今天却不在。</p>
+<p>（记得他隔几天就会安排一次训练。）</p>
+<p>既然上午就把对手打伤了，今天应该是整天的训练日。</p>
+<p>（除非被上司叫去。）</p>
+<p>训练场上挤满了汗臭的男人们。大概是休息时间，他们正用手巾擦汗，用竹筒喝水。有人上半身裸露，也有人只穿了一件内衣。这也不是什么稀罕景象，猫猫并没特别在意，径直走过。</p>
+<p>李医官听说猫猫要去训练场时，露出一副“要不要我陪你？”的表情，但猫猫婉拒了。两人都离开的话，医务室就没人留守了，而且那些武官们应该也不会对猫猫怎样。虽然不想被认为是怪人军师的亲戚，但猫猫承认这身份多少还是有点好处的。因此，大多数粗犷的武官对猫猫都还算客气。只要不是特别不知天高地厚的家伙，应该不会来找茬。</p>
+<p>（说狡猾也算狡猾。）</p>
+<p>但猫猫身材矮小又体弱。不利用能利用的东西，就没法活下去。</p>
+<p>武官们瞥了猫猫一眼，有的伸长脖子看了看，然后露出失望的表情，或者像碰了毒疮一样的神情。</p>
+<p>（毕竟是归那个怪人军师管的地方嘛。）</p>
+<p>说实话，李医官派她来倒是正合猫猫的意。因为午过后，怪人军师会姗姗来迟地上班，而且很可能会顺路到医务室打发时间。与其跟那个大叔碰面，还不如被派到这种汗臭的地方跑腿。</p>
+<p>正当大家都在休息时，还有人在激烈交手。</p>
+<p>一个身材高大的武官和一个相对矮小的武官。</p>
+<p>是李白和马闪。</p>
+<p>李白和马闪正用木剑和小盾过招。从满头大汗来看，他们已经打了很久。这么热的天还穿着皮甲，大概是为了避免受伤。</p>
+<p>（怎么看都是马闪吃亏。）</p>
+<p>即使是对武艺一窍不通的猫猫也知道。体格差是决定性的因素。</p>
+<p>李白身高大约六尺四寸，而马闪大概只有五尺七寸左右。</p>
+<p>然而——</p>
+<p>（居然打了个平手？）</p>
+<p>马闪漂亮地格开了李白的剑。他巧妙利用小盾接住攻击，卸开刀刃，然后趁李白挥剑的空档反击。</p>
+<p>李白也不甘示弱，用小盾挡开。</p>
+<p>（我知道李白很强，但……）</p>
+<p>这个披着人皮的熊——不，这个像熊一样的男人正打得难解难分。大概确实很强吧。虽然跟不上细微的动作，但他不仅用手，还用脚来牵制，甚至利用身体核心来翻弄对手。李白看起来是个肌肉脑，但脑子并不差。他并没有只靠体格，而是也磨练了技巧。</p>
+<p>但马闪能把本应压倒性不利的体格差化为乌有，实在可怕。</p>
+<p>（一般来说，矮个子不是应该走技巧派的吗？）</p>
+<p>反而是李白走技巧路线，马闪是力量压制型。当然，马闪并非没有技术。只是他就像个用力量弥补体格差距的怪物。不是天生有特殊的肌肉构造，恐怕达不到这种程度。</p>
+<p>（哇——看来会打很久。）</p>
+<p>猫猫走到附近的阴凉处坐下。旁边的武官们远远地看着她。</p>
+<p>「有什么事吗？」</p>
+<p>一个大概见过几次面的武官问道。当然，猫猫不记得他的名字。</p>
+<p>「不用管我。」</p>
+<p>猫猫喝了一口自带的茶，以备长时间等待。她还带了煎饼。</p>
+<p>（看那样子，可能会中暑啊。）</p>
+<p>最好准备些水和咸味食物。水应该有了，煎饼可以分一些给他们。</p>
+<p>猫猫正想悠闲观战，有人走了过来。</p>
+<p>「宫女来这种地方干什么？」</p>
+<p>一个年轻的武官走近了。周围的官员们显得很慌张。</p>
+<p>（看来有个真正不知天高地厚的家伙。）</p>
+<p>猫猫轻轻抬起头。那是三个武官，正用狐疑的目光看着她。</p>
+<p>「这不是女人随随便便来的地方。还是说，你长这样是来钓男人的？」</p>
+<p>中间的男人说完，另外两人笑了。</p>
+<p>从周围武官们不知所措的样子来看，这个年轻武官地位似乎不低。</p>
+<p>猫猫站起身，拍了拍屁股上的灰。</p>
+<p>「抱歉。我是奉医官之命来跑腿的。如果碍事的话，我换个地方。」</p>
+<p>猫猫正要离开，年轻武官抓住了她的肩膀。</p>
+<p>「站住。」</p>
+<p>「有什么事吗？」</p>
+<p>猫猫做好了被找茬的准备。</p>
+<p>就在这时——</p>
+<p>木剑高高飞起，在空中划出一道抛物线，砰地砸在地上。</p>
+<p>「啊——输了输了。」</p>
+<p>举起双手的是李白。他擦了擦满脸的汗，大口喘着气。</p>
+<p>「今天就到此为止吧。马闪大人。」</p>
+<p>「……」</p>
+<p>马闪露出一副意犹未尽的表情。</p>
+<p>李白注意到了猫猫，朝她挥了挥手。</p>
+<p>（是真输了，还是因为看到我了，还是给马闪留了面子？）</p>
+<p>不管哪种都无所谓。</p>
+<p>李白和马闪汗流浃背地朝猫猫走来。</p>
+<p>「哟，小姑娘。你来这儿干什么？你爹汉太尉可不在这儿哦。」</p>
+<p>「汉、汉太尉⁉」</p>
+<p>年轻武官畏缩了。</p>
+<p>猫猫虽然心情不悦，但还是挤出一个假笑。平时李白提到那个怪人军师都会叫「那个大叔」。他故意用正式名称，大概是为了让那个年轻武官明白。</p>
+<p>「喂。你跟那个宫女说完事了吗？」</p>
+<p>马闪开口了。他满身是汗，解开缠住的绳子，脱下铠甲。因为是皮甲，隔得远也能闻到强烈的气味。</p>
+<p>「不，没什么特别的事。」</p>
+<p>那三人组离开了。</p>
+<p>「喂，小姑娘。你来这种臭烘烘的地方干嘛？」</p>
+<p>李白一脸困惑地问道。</p>
+<p>「我是来向马闪大人了解今早那件事的。」</p>
+<p>「了解？这位大人干了什么吗？」</p>
+<p>「您不知道吗？」</p>
+<p>「上午我一直在伏案工作。升职之后，有些事就不得不做。」</p>
+<p>原来如此，猫猫点了点头。</p>
+<p>「不是什么大事。」</p>
+<p>「和马闪大人交手的武官被送到了医务室。他的肋骨因严重挫伤而出现了裂痕。最近武官之间因派系斗争延伸出的决斗事件屡见不鲜。医务室的同僚们对此非常困扰，因此决定向伤者及施伤者确认事故经过。就是这样，请配合我们的调查。」</p>
+<p>「哇——真麻烦。」</p>
+<p>李白擦着汗，一脸无奈。猫猫递过煎饼，他便津津有味地吃了起来。</p>
+<p>「其实没什么大不了的。我只是给一个仗着家世混了个官位的家伙上了一课而已。」</p>
+<p>「您的课可够狠的。连我都打得气喘吁吁的。对一个还没见识过世面的公子哥儿突然下这么重的手，不太好吧？」</p>
+<p>「我已经手下留情了。」</p>
+<p>「熊的手下留情，对人类来说就是即死啊。」</p>
+<p>「是吗？」</p>
+<p>（这两人关系还挺好的。）</p>
+<p>不知是因为同属体育会系，还是李白擅长笼络人心。</p>
+<p>虽然打扰他们和好有点过意不去，但猫猫还是得继续工作。</p>
+<p>「据说是因有人侮辱里树大人，才引发了打斗。」</p>
+<p>「⁉」</p>
+<p>马闪明显动摇了，移开了视线。</p>
+<p>「哦——」</p>
+<p>李白笑嘻嘻地打量着马闪。</p>
+<p>「这是真的吗，大人？」</p>
+<p>「没、没错。有什么问题吗？里树大人是卯之一族的直系千金，而且曾经还是正一品的妃子。可她凭什么要被说成是‘因不贞而被逐出后宫的泼妇’？」</p>
+<p>「原来有人这么说啊。」</p>
+<p>看来患者和卯纯说的内容，是被大大美化了的。</p>
+<p>「里树大人的错不是她自己的错。她只是被周围人摆布而已，为什么要被说那些无中生有的话！？」</p>
+<p>马闪重重地跺着脚。</p>
+<p>「所以最后发展成口角，然后动手了，是这样吧。」</p>
+<p>「没错。如果非要说我有错的话，那就是没让对手穿铁甲，而只穿了皮甲。」</p>
+<p>「穿着皮甲还被打断肋骨啊。」</p>
+<p>果然是怪物——猫猫由衷感叹。</p>
+<p>一边听着，三人移到了凉亭里。要记录的话，总得有个桌子。</p>
+<p>「最让我生气的，是那个叫卯纯的家伙。他明明是里树大人的亲戚，却还笑着在一旁看热闹！」</p>
+<p>马闪坐在石椅上，怒火仍未平息。</p>
+<p>「好了好了，吃点这个吧。」</p>
+<p>李白把一块煎饼扔进马闪嘴里。马闪虽然一瞬间露出难以言喻的表情，但并没有吐出来，而是开始嚼了。</p>
+<p>（果然关系很好。）</p>
+<p>李白本来没什么事，却还是跟了过来。只有马闪的话不太好应付，有他在帮了大忙。</p>
+<p>「当时卯纯应该什么都说不了才对。」</p>
+<p>「你是在袒护那个软骨头吗？」</p>
+<p>马闪瞪着李白。但那与其说是瞪，不如说是闹别扭的表情，并非真正生气。</p>
+<p>「您认识卯纯大人吗？」</p>
+<p>「他姑且算是我的部下。他本来是文官，因为家里的事被调过来的。」</p>
+<p>「难怪看起来那么文弱。」</p>
+<p>「对吧。在武官中间，那种人一旦被扔进来，准没好下场。严重的话甚至会被逼到自杀。所以他才被安排到我手下。虽然给我添了不少麻烦。」</p>
+<p>李白很会照顾人，至少会保护部下。</p>
+<p>「卯纯虽然姓‘卯’，但不被承认为卯之一族的本家。他父亲卯柳做的事太出格了。他把本家的女儿逼成了隐士，玷污了家族的名声。那种男人的庶子，怎么可能让他继承家业。」</p>
+<p>「您真了解啊。」</p>
+<p>「对部下的事总得记在心上。那个叫卯柳的，似乎趁着岳父年迈隐居，为所欲为了一通。」</p>
+<p>李白和猫猫不同，做事很可靠。能打，脑子也不差。要是没人说他是为了妓女才去花街的话，那就完美了。不过，为了白铃小姐，他还是别戒掉去妓楼的习惯为好。</p>
+<p>「卯之一族——里树大人的祖父，据说从亲戚那里收养了一个男孩。他拖着年迈的身体，但大概觉得不能再把一族交给女婿了吧。」</p>
+<p>「男孩吗？」</p>
+<p>「是男孩，不是女孩。」</p>
+<p>马闪喝着水，像是在说什么理所当然的事。</p>
+<p>「不。如果是个适龄男子，我倒是在想，他们会不会想办法把里树大人叫回来结婚呢。」</p>
+<p>「噗⁉」</p>
+<p>马闪呛到了，咳嗽起来。他没有像猫猫那样从嘴里喷出来，但看起来非常痛苦。李白帮他拍了拍背。</p>
+<p>「你、你在说什么⁉」</p>
+<p>「因为即便是现任妃子，只要得到主上的许可，也是可以被下赐的呀。听说主上和里树大人并未同房，主上是把她当女儿看待的。」</p>
+<p>「未、未通……」</p>
+<p>马闪的脸涨得通红。</p>
+<p>「等家里的风波平息些，悄悄把里树大人接回娘家招个女婿，这种事也不是不可能吧——」</p>
+<p>「那、那是⁉」</p>
+<p>马闪猛地拍了一下石桌，脸色发青。</p>
+<p>「听说收养的那个男孩，还不到十岁呢。」</p>
+<p>「那从年龄差来看，让她当女婿回去的可能性就很低了吧？」</p>
+<p>马闪的脸色从红到青，又恢复了原色。</p>
+<p>「不，卯之一族似乎因为一直觉得孙女可怜，想方设法想让她幸福。好像正在谈能否把她嫁到一个好人家去。」</p>
+<p>「我怎么从来没听说过！」</p>
+<p>「嗯，我也是最近才听说的。」</p>
+<p>李白舔了舔沾了盐的手指。猫猫心想，早知道多带些煎饼来就好了。</p>
+<p>「名主一族那边没听说有什么动静吗？」</p>
+<p>「名主一族……说起来，好像最近名主们要聚在一起开会讨论什么。」</p>
+<p>马闪像是刚想起来似的说道。</p>
+<p>「哦？那时候会不会提到里树大人的事呢？」</p>
+<p>「有可能。」</p>
+<p>「唔——」</p>
+<p>马闪抱住了头。</p>
+<p>「要是那么在意，大人您也去参加不就行了？说不定能听到真相呢。」</p>
+<p>李白说得轻松。</p>
+<p>「可是，不……但是……」</p>
+<p>马闪纠结着，哼着，开始在地上打滚。猫猫觉得看着有趣，一边写报告一边观察。结果写错了好几个字。</p>
+<p>「……好吧。」</p>
+<p>「哦！」</p>
+<p>「您决定什么了？」</p>
+<p>猫猫差点转起笔，又啪地停住了。</p>
+<p>「你也是名主。既然是你怂恿我的，那就陪我去。」</p>
+<p>「哈？」</p>
+<p>猫猫把墨水滴在了报告书上。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-231.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-233.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>

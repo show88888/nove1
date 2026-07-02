@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第 - 我的小说</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #fdf6ec;
+      color: #3e3232;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 2.2;
+      font-size: 18px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #4a3728;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px dotted #c9b99a;
+    }
+    p { text-indent: 2em; margin-bottom: 12px; }
+    .top-section {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #fffaf2;
+      border-radius: 10px;
+      border: 1px solid #e5d9c5;
+    }
+    .top-section p {
+      text-indent: 0;
+      color: #8b6b4a;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    @keyframes rainbow {
+      0% { color: #ff0000; }
+      14% { color: #ff7f00; }
+      28% { color: #ffff00; }
+      42% { color: #00ff00; }
+      57% { color: #0000ff; }
+      71% { color: #4b0082; }
+      85% { color: #9400d3; }
+      100% { color: #ff0000; }
+    }
+    .rainbow-btn {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 20px;
+      border: 2px solid;
+      border-radius: 25px;
+      animation: rainbow 3s linear infinite;
+      background: transparent;
+    }
+    .rainbow-btn:hover {
+      color: white !important;
+      background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+      background-size: 400% 400%;
+      animation: rainbow 3s linear infinite, pulse 0.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .nav a {
+      background: #8b6b4a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .qr {
+      text-align: center;
+      margin: 0;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e0d3bf;
+    }
+    .qr p {
+      text-indent: 0;
+      margin-bottom: 6px;
+      color: #8b7a6b;
+      font-size: 14px;
+    }
+    .qr img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10px;
+      border: 2px solid #e0d3bf;
+    }
+    .qr .rainbow-btn {
+      font-size: 16px;
+      padding: 8px 24px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-section">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+
+
+<head>
+  
+  
+  
+  
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+
+<header id="title-block-header">
+<h1 class="title">239</h1>
+</header>
+<p>**十八、兔与龙**</p>
+<p>大夫人点头的瞬间，身旁担任辅佐的男子和孙子难掩惊讶。</p>
+<p>“这是怎么回事？母亲。”</p>
+<p>“祖母大人？”</p>
+<p>“如果说是背叛了辰氏一族，那并非别人，正是我。”</p>
+<p>大夫人低下头。</p>
+<p>“能请您告诉我四十年前到底发生了什么吗？”</p>
+<p>“好的。”</p>
+<p>面对猫猫的提问，大夫人开始讲述。</p>
+<p>“就像前任辰氏之长与前任卯氏之长是挚友一样，我也与卯氏之长的妻子是挚友。我们时常书信往来，她常常为我分忧。我的丈夫是个热血汉子，屡次与女帝派发生冲突；而她的丈夫则属于女帝派。我们彼此都为辰与卯两族因派系不同而渐行渐远感到悲伤。”</p>
+<p>大夫人低着头，又用团扇遮住了脸，看不清表情。</p>
+<p>“我的丈夫性格耿直。他不可能对那位据说暗杀皇族、将亲生儿子扶上帝位的女帝抱有好感。正因为对皇族忠心，他的态度才更加强硬。然而，女帝的政治手腕却被认为是这数代治世中最能干的。我也明白了卯氏为何会追随女帝。”</p>
+<p>正因为双方都能理解，正因为如此，她才无法反对卯与辰两族分道扬镳。</p>
+<p>“女帝在先帝即位后，依然不断惩罚不服从她的人。辰氏一族始于皇族旁系，女帝大概也难以下手。于是，辰氏一族便被视为反女帝派的首领。”</p>
+<p>猫猫她们安静地倾听着。</p>
+<p>“男人们拼命抗争，女人们则担惊受怕。我渴望倾诉不安，忍不住向她求助。”</p>
+<p>“她是指卯氏前任之长的夫人吧。”</p>
+<p>“是的。她没有回信。她也有她的难处。对于已经成为政敌的对方，说想见面就能见面——这当然不可能。就在我快要放弃的时候，她秘密地来见我了。”</p>
+<p>大夫人长长地吐出一口气。</p>
+<p>“她说，女帝命令卯氏一族前来监察，如果找到什么证据，辰氏可能会因此被灭族——”</p>
+<p>“那、那放火烧仓库的是？！”</p>
+<p>孙子逼近祖母。</p>
+<p>“是的。你的祖父把重要的文书藏在了仓库的书库里。即便没有谋反的意图，如果那封邀请信被发现，我们家就完了。我知道他把东西藏在仓库书库里，但不知道具体位置。”</p>
+<p>所以她才会采取放火烧仓库这种极端手段。</p>
+<p>“那、那家宝被盗也是祖母大人……”</p>
+<p>“不，那不是。”</p>
+<p>猫猫替孙子答道。</p>
+<p>“大夫人以为那件家宝摆件已经烧毁了。”</p>
+<p>毕竟怪人军师判断她并没有说谎。</p>
+<p>“那么，家宝到底消失到哪里去了？！”</p>
+<p>孙子似乎还不明白，但大夫人显然早已察觉。</p>
+<p>“为什么卯氏一族会成为女帝派？既然是女帝的密令，她又为什么能把密令告诉我？盗走家宝的动机也与此有关。”</p>
+<p>“卯氏之长是为了从女帝手中保护辰氏一族，才成为女帝派的吧。否则，密令不可能泄露，也不可能带走可能被视作谋反证据的龙形摆件。如果他是彻底的女帝派，应该会把摆件献给女帝才对。”</p>
+<p>“你是说，卯氏之长偷走了它？”</p>
+<p>“某种意义上，卯氏前任之长的做法是对的。他身为族长，却对国家的绝对权力者进行间谍活动，真是了不起。”</p>
+<p>猫猫坦率地松了口气。</p>
+<p>“祖母大人包庇卯氏一族，是因为知道这件事吗……那为什么不告诉祖父大人呢？”</p>
+<p>“……你的祖父很固执，如果贸然说出口，可能会传到女帝耳中。我终于能说出来，是在女帝死后，祖父卧病在床，偶尔怀念往事的时候。”</p>
+<p>大夫人温柔地对孙子说道。</p>
+<p>她说不用再找家宝了，大概是因为前任之长已经知道了真相。</p>
+<p>“我丈夫很悲伤。他本以为自己讨厌‘识时务者为俊杰’那种想法，本以为他是个更有骨气的人。他曾说，没想到他竟然堕落成了女帝的走狗。所以，他说真想好好吵一架，把想说的话都说出来。”</p>
+<p>猫猫觉得那是不可能的。如果是孩子还好，但身为族长的人们如果吵架，那就等于内乱。</p>
+<p>“也许他说卯氏一族偷了家宝，也是为了制造争吵的契机。”</p>
+<p>“但卯氏一族没有回应吧。”</p>
+<p>“是的。”</p>
+<p>比起对立，更像独角戏。辰氏之长为了与挚友再次交谈，不断挑起争执；而卯氏之长则为了守护挚友，始终保持沉默。</p>
+<p>真是何等扭曲而又笨拙的友情。</p>
+<p>“那么，我们……”</p>
+<p>“是的。你们一直在对本该感谢的对象吐口水。”</p>
+<p>孙子无力地靠在椅子上。</p>
+<p>“我们所说的终究只是推测，未必是事实。”</p>
+<p>猫猫明确地补充道。</p>
+<p>说不定卯氏一族的某人是为了钱财偷走了金制摆件，如果那样的话，大概早就被熔成金块了。</p>
+<p>她没法负那个责任。</p>
+<p>“嗯——”</p>
+<p>猫猫身旁传来声音。</p>
+<p>怪人军师正趴在桌上打滚。带来的点心已经吃完了，他正百无聊赖地端详着最后一串山楂果。</p>
+<p>“既然如此在意，确认一下不就行了。”</p>
+<p>罗汉定定地看着房间的墙壁。</p>
+<p>“确认？”</p>
+<p>猫猫心想，这话是什么意思。她掀起墙上挂着的隔音布。</p>
+<p>只见那后面是个小房间，坐着几个人。</p>
+<p>这样的话，谈话岂不是全被听到了。</p>
+<p>“这是怎么回事？”</p>
+<p>辅佐男子瞪着罗半。</p>
+<p>“啊。对了。”</p>
+<p>罗半故意拍了拍手。</p>
+<p>“我还约了卯氏一族见面呢！”</p>
+<p>猫猫瞪着那故意装腔作势的卷发眼镜男。</p>
+<p>“在同一个房间？还故意让他们听到？”</p>
+<p>（这是什么神经？）</p>
+<p>连能否解决辰氏一族的问题都难说，搞不好已经被拒之门外了。</p>
+<p>“那就请他们进来吧。”</p>
+<p>从小房间里偷听的人们走了出来。</p>
+<p>“还以为罗氏一族怎么总也不来，原来是这样的安排。”</p>
+<p>卯氏前任之长——大概就是里树妃的祖父——显得很镇定。猫猫曾听说他体弱多病，果然如此，他身材枯瘦如柴，留着长须。他坐在轮椅上，由一位中年女子推着。</p>
+<p>“抱歉冒昧了。实在是受人所托，必须保守秘密。”</p>
+<p>卯氏前任之长进入了房间。</p>
+<p>“是的。正好借此机会解开多年的心结，也算是用了一剂猛药。”</p>
+<p>罗半露出诡异的笑容，深深低下头。</p>
+<p>辰氏的大夫人也学着罗半的样子从椅子上站起来，低下了头。孙子似乎对被人偷听感到愤怒，但被看似父亲的辅佐男子按住头后，也只能顺从。</p>
+<p>“四十年前承蒙关照了。”</p>
+<p>“……您在说什么？或许是内人多管闲事了吧。”</p>
+<p>卯氏前任之长装糊涂，真是个难缠的人。</p>
+<p>“说起来，四十年前有样寄放的东西，正好来归还。”</p>
+<p>推轮椅的女子从轮椅下方取出一个包裹。看起来相当沉重。</p>
+<p>“请收下。”</p>
+<p>包裹被放在桌上打开。</p>
+<p>里面是一件精美的龙形摆件。</p>
+<p>（哇啊啊啊。）</p>
+<p>猫猫立刻在脑中换算它卖了值多少钱。不，罗半一定也在心里打算盘。根据摆件的大小和形状估算重量。光是金子的重量就已相当可观，再加上精湛的工艺，足以盖起一两座宅邸。</p>
+<p>而卯氏前任之长的眼眶似乎有些湿润。</p>
+<p>“我太过无知了。竟然没有仔细听辰氏如此引以为傲的家宝究竟是什么。所以那天，我只能惊慌失措。”</p>
+<p>卯氏前任之长摊开双手。掌心能看到像是握住滚烫物体留下的烧伤痕迹。</p>
+<p>四爪握丹的龙。如果被其他人发现，报告给女帝，辰氏一族恐怕早已不复存在。他抓住那还带着余温的龙形摆件，将其藏了起来。烧伤大概就是那时留下的。</p>
+<p>“本想在那家伙生前归还的。同时，也担心一旦归还，他会不会又谋划谋反。我明知他厌恶先皇太后，却比任何人都敬重皇族。”</p>
+<p>他接下监察任务，大概也是出于对不会找到那种证据的信任吧。</p>
+<p>“去了那边，说不定会被他骂‘别自作聪明’而挨揍。”</p>
+<p>“不会的。以他的性格，说不定反而会下跪道歉。我大概会被他狠狠骂一顿吧。呵呵，毕竟是我烧了家宝嘛。”</p>
+<p>大夫人笑着，却落下一滴泪。</p>
+<p>“这、这就是我们家的家宝吗？”</p>
+<p>孙子看着龙形摆件。他既感动，脸上也流露出“这下被怀疑谋反也难怪”的神情。</p>
+<p>“就算家宝回来了，恐怕也不能公开展示了。”</p>
+<p>“是啊。虽然留下了关于得到摆件的记载，里面也有关于爪数的记录，但烧掉了。”</p>
+<p>大夫人有些尴尬地说道。</p>
+<p>“光是龙倒还好，但爪数和玉必须想办法处理。”</p>
+<p>“处理掉不就行了。”</p>
+<p>怪人军师突然插了进来。</p>
+<p>“您有什么想法吗？”</p>
+<p>卯氏的人也稍稍与怪人军师拉开了距离。这人到底给多少人添过麻烦啊。</p>
+<p>“只要没有爪和玉不就行了？”</p>
+<p>怪人军师拿起那串山楂果，把最后剩下的一个山楂摘下来。然后，咔嚓一声将竹签插进了龙爪之间。</p>
+<p>“……”</p>
+<p>突如其来的举动让所有人都反应慢了半拍。结果，怪人军师用力一撬，发出一声清脆的断裂声。</p>
+<p>精细的爪尖比别处脆弱，一枚爪尖崩落下来。同时，黄丹色的玉也滚落在地。</p>
+<p>“这样就行了。”</p>
+<p>怪人军师将剩下的红色山楂果放在断爪上。他的指尖拉出了黏稠的糖丝。</p>
+<p>时间仿佛凝固了。</p>
+<p>方才还是感人的氛围，大夫人的目光却瞬间冷了下来。辅佐男子和孙子惊讶得下巴都快掉了。</p>
+<p>卯氏的人也瞪大了眼睛。</p>
+<p>至于罗半，原本按计划步步推进，却在最后关头出了岔子，仿佛燃烧殆尽一般。</p>
+<p>护卫们也动弹不得。谁也想不到在此时会有人突然破坏家宝。</p>
+<p>因此，第一个动起来的，是猫猫。</p>
+<p>“你——在干什么啊，这个蠢货！”</p>
+<p>猫猫毫不顾忌地一脚踢向怪人军师。运动能力一塌糊涂的大叔被漂亮地从椅子上踹飞了出去。</p>
+<p>这本是极度无礼的举动，却没有人责怪猫猫。</p>
+<p>罗半计算失误了。怪人军师是不能纳入计划之中的。</p>
+
+
+
+
+  <div class="nav">
+    <a href="chapter-238.html">← 上一章</a>
+    <a href="../index.html">📋 目录</a>
+    <a href="chapter-240.html">下一章 →</a>
+  </div>
+
+  <div class="qr">
+    <p>做了一星期多了各位义父📱 扫码支持义子吧会继续更新的，在这跪下了😭</p>
+    <img src="https://show88888.github.io/nove1/qrcode.png" alt="义子二维码，b站：这有个毛线">
+    <a class="rainbow-btn" href="https://show88888.github.io/nove1/qrcode.png" target="_blank">💰 点击支持义子吧...</a>
+  </div>
+
+</body>
+</html>
