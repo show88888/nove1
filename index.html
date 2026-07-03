@@ -69,23 +69,26 @@
       text-align: center;
       column-span: all;
     }
-    .toc a {
-      display: block;
+    /* 每条目录项的容器 */
+    .toc-item {
+      break-inside: avoid;
       padding: 6px 0;
+      border-bottom: 1px dashed #e0d3bf;
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+    .toc-item a {
       color: #8b6b4a;
       text-decoration: none;
-      border-bottom: 1px dashed #e0d3bf;
       transition: 0.2s;
-      break-inside: avoid;
+      margin-right: 6px;
     }
-    .toc a:hover { color: #c0392b; }
+    .toc-item a:hover { color: #c0392b; }
     .arc-label {
-      display: block;
-      padding: 4px 0;
       color: #3e3232;
-      font-weight: normal;
       font-size: 13px;
-      break-inside: avoid;
+      white-space: nowrap;
     }
     .chapter-content {
       max-width: 700px;
@@ -139,11 +142,10 @@
   </div>
 
   <div class="stats">
-  📚 共 <strong>293</strong> 章 · 持续更新中<br>
-7月1日 00:36 更103章到壬氏編2<br>
-7月2日 19:28 更210章到西都編２完<br>
+    📚 共 <strong>293</strong> 章 · 持续更新中<br>
+    7月1日 00:36 更103章到壬氏編2<br>
+    7月2日 19:28 更210章到西都編２完<br>
     7月4日 02:32 更293章完
-    
     <br>
     <span style="color: #8b7a6b; font-size: 13px;">有问题找b站：这有个毛线</span>
   </div>
@@ -184,26 +186,36 @@
     const toc = document.getElementById('toc');
     for (let i = 1; i <= totalChapters; i++) {
       const num = String(i).padStart(3, '0');
+      
+      // 创建条目容器
+      const item = document.createElement('div');
+      item.className = 'toc-item';
+      
+      // 章节链接
       const a = document.createElement('a');
       a.href = `chapters/chapter-${num}.html`;
       a.textContent = `第${i}章`;
       a.setAttribute('data-chapter', `第${i}章`);
-      toc.appendChild(a);
-
+      item.appendChild(a);
+      
+      // 如果有篇章标签，放在同一行右边
       if (arcs[i]) {
         const label = document.createElement('span');
         label.className = 'arc-label';
-        label.textContent = '▶ ' + arcs[i];
-        toc.appendChild(label);
+        label.textContent = arcs[i];
+        item.appendChild(label);
       }
+      
+      toc.appendChild(item);
     }
 
     function filterChapters() {
       const keyword = document.getElementById('searchInput').value.toLowerCase();
-      const links = toc.querySelectorAll('a');
-      links.forEach(link => {
-        const text = link.getAttribute('data-chapter').toLowerCase();
-        link.style.display = text.includes(keyword) ? 'block' : 'none';
+      const items = toc.querySelectorAll('.toc-item');
+      items.forEach(item => {
+        const a = item.querySelector('a');
+        const text = a.getAttribute('data-chapter').toLowerCase();
+        item.style.display = text.includes(keyword) ? 'flex' : 'none';
       });
     }
   </script>
