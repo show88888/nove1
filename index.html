@@ -69,7 +69,6 @@
       text-align: center;
       column-span: all;
     }
-    /* 每条目录项的容器 */
     .toc-item {
       break-inside: avoid;
       padding: 6px 0;
@@ -151,7 +150,7 @@
   </div>
 
   <div class="search-box">
-    <input type="text" id="searchInput" placeholder="🔍 搜索章节标题..." oninput="filterChapters()">
+    <input type="text" id="searchInput" placeholder="🔍 搜索章节或篇章名..." oninput="filterChapters()">
   </div>
 
   <div class="toc" id="toc">
@@ -186,19 +185,15 @@
     const toc = document.getElementById('toc');
     for (let i = 1; i <= totalChapters; i++) {
       const num = String(i).padStart(3, '0');
-      
-      // 创建条目容器
       const item = document.createElement('div');
       item.className = 'toc-item';
       
-      // 章节链接
       const a = document.createElement('a');
       a.href = `chapters/chapter-${num}.html`;
       a.textContent = `第${i}章`;
       a.setAttribute('data-chapter', `第${i}章`);
       item.appendChild(a);
       
-      // 如果有篇章标签，放在同一行右边
       if (arcs[i]) {
         const label = document.createElement('span');
         label.className = 'arc-label';
@@ -213,9 +208,8 @@
       const keyword = document.getElementById('searchInput').value.toLowerCase();
       const items = toc.querySelectorAll('.toc-item');
       items.forEach(item => {
-        const a = item.querySelector('a');
-        const text = a.getAttribute('data-chapter').toLowerCase();
-        item.style.display = text.includes(keyword) ? 'flex' : 'none';
+        const fullText = item.textContent.toLowerCase();
+        item.style.display = fullText.includes(keyword) ? 'flex' : 'none';
       });
     }
   </script>
