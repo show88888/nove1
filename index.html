@@ -79,6 +79,14 @@
       break-inside: avoid;
     }
     .toc a:hover { color: #c0392b; }
+    .arc-label {
+      display: block;
+      padding: 4px 0;
+      color: #3e3232;
+      font-weight: normal;
+      font-size: 13px;
+      break-inside: avoid;
+    }
     .chapter-content {
       max-width: 700px;
       margin: 0 auto;
@@ -150,14 +158,27 @@
     © 2026 我的小说站 · 由 GitHub Pages 驱动 喜欢就支持一下吧
   </div>
 
-  <!-- 隐藏的首页浏览量计数器（读者不可见） -->
   <span id="busuanzi_value_page_pv" style="display:none;"></span>
-
-  <!-- 不蒜子统计脚本 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   <script>
     const totalChapters = 293;
+
+    const arcs = {
+      1: '市井編',
+      28: '市井編２',
+      48: '砂欧編',
+      78: '壬氏編',
+      104: '壬氏編2',
+      127: '西都編',
+      176: '西都編２',
+      211: '日常篇',
+      222: '华佗篇',
+      246: '华佗篇2',
+      262: '天花篇',
+      286: '后事篇'
+    };
+
     const toc = document.getElementById('toc');
     for (let i = 1; i <= totalChapters; i++) {
       const num = String(i).padStart(3, '0');
@@ -166,6 +187,13 @@
       a.textContent = `第${i}章`;
       a.setAttribute('data-chapter', `第${i}章`);
       toc.appendChild(a);
+
+      if (arcs[i]) {
+        const label = document.createElement('span');
+        label.className = 'arc-label';
+        label.textContent = '▶ ' + arcs[i];
+        toc.appendChild(label);
+      }
     }
 
     function filterChapters() {
